@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Float</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            /*默认是8px*/
+            padding: 0;
+        }
+
+        .main{
+            width: 100%;
+            /*高度一般不写，由里面内容决定,但是用float会高度塌陷*/
+            /*height: 250px;*/
+            background-color: antiquewhite;
+            /*解决高度塌陷*/
+            overflow: hidden;
+        }
+
+        .main1{
+            width: 25%;
+            /*设置最小宽度，可以配合float来适应屏幕*/
+            min-width: 200px;
+            height: 250px;
+            background-color: blue;
+            float: left;
+        }
+
+        .main2{
+            width: 25%;
+            height: 250px;
+            background-color: olivedrab;
+            float: left;
+        }
+
+        .main3{
+            width: 25%;
+            height: 250px;
+            background-color: darkslateblue;
+            float: left;
+            /*将边框嵌进去，不影响整体宽度*/
+            box-sizing:border-box ;
+            /*左右不允许有内容，自己会下来*/
+            clear: both;
+        }
+
+        .main4{
+            width: 25%;
+            height: 250px;
+            background-color: powderblue;
+            float: left;
+        }
+
+        .footer{
+            width: 100%;
+            height: 250px;
+            background-color:aquamarine;
+            float: left;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+
+        </div>
+
+        <div class="main">
+            <div class="main1"></div>
+            <div class="main2"></div>
+            <div class="main3"></div>
+            <div class="main4"></div>
+        </div>
+        <div class="footer">
+
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+</html>
