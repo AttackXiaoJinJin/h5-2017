@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit1/homework.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/float.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/image/360logo.PNG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/css/homework.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/homework.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit2/display.html" afterPath="$PROJECT_DIR$/S1-html/unit2/display.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,28 +22,36 @@
     <favorites_list name="h5-2017" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="homework.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit1/homework.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo02.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit1/demo02.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2277">
-              <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+          <file leaf-file-name="homework.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/S1-html/unit2/homework.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="231">
+                  <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="homework.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/S1-html/unit2/css/homework.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +86,8 @@
         <option value="$PROJECT_DIR$/S1-html/unit2/float.html" />
         <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/index.html" />
         <option value="$PROJECT_DIR$/S1-html/unit1/homework.html" />
+        <option value="$PROJECT_DIR$/S1-html/unit2/homework.html" />
+        <option value="$PROJECT_DIR$/S1-html/unit2/css/homework.css" />
       </list>
     </option>
   </component>
@@ -89,8 +98,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="127" />
-    <option name="y" value="2" />
+    <option name="x" value="-30" />
+    <option name="y" value="8" />
     <option name="width" value="1224" />
     <option name="height" value="1038" />
   </component>
@@ -125,8 +134,22 @@
               <option name="myItemId" value="h5-2017" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="S1-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -144,7 +167,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="unit1" />
+              <option name="myItemId" value="unit2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S1-html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -160,11 +201,12 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\image" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\image" />
+      <recent name="F:\h5-gaobo\h5-2017\S1-html\unit1\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -271,12 +313,12 @@
       <workItem from="1499924479863" duration="12004000" />
       <workItem from="1499991473973" duration="19519000" />
       <workItem from="1500016368152" duration="5921000" />
-      <workItem from="1500037676135" duration="4401000" />
+      <workItem from="1500037676135" duration="7353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41845000" />
+    <option name="totallyTimeSpent" value="44797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,9 +330,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="2" width="1224" height="1038" extended-state="1" />
+    <frame x="-30" y="8" width="1224" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104948804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104948804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -420,13 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit2/css/transparent.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit2/transparent.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -448,24 +484,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit2/css/cs_div.css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit2/backgroundTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="25" column="15" lean-forward="false" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit2/float.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -483,18 +505,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit1/homework.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit1/demo02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2277">
+        <state relative-caret-position="33">
           <caret line="69" column="23" lean-forward="false" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit1/homework.html">
+    <entry file="file://$PROJECT_DIR$/S1-html/unit2/homework.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+        <state relative-caret-position="231">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit2/css/transparent.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit2/css/cs_div.css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit2/float.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="10" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit2/css/homework.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
         </state>
       </provider>
