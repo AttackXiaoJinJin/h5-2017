@@ -1,0 +1,72 @@
+html{
+    font: normal 100% sans-serif;
+}
+
+body{
+    font: normal 100% Arial;
+}
+
+.text-css01{
+    font-size: 20px;
+    color:blue;
+}
+
+/*width只是属性，div的宽度是容器的宽度，不是300px*/
+/*1em默认为16px*/
+/*div01中的font-size设置em相对于body的font,div01中的其他设置em，是相对于div01中的font-size设置*/
+/*rem则表明所有元素设置的都是相对于html根标签来的，不是自己的块中*/
+.div01{
+    width: 300px;
+    height: 200px;
+    background-color: antiquewhite;
+    color: firebrick;
+    text-align: center;
+    font-size: 60px;
+    /*垂直居中，只能是一行*/
+    line-height: 200px;
+    /**/
+    box-sizing: border-box;
+
+}
+
+.div01:hover{
+    background-color: aquamarine;
+}
+
+.div03{
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
+
+    border-left: solid 10px indianred;
+    border-top: solid 10px #8ac6cd;
+    border-right:solid 10px #5a59cd;
+    border-bottom:solid 10px #cdc92d;
+
+}
+
+.div04{
+    /*不设置则不能生成三角形*/
+    width: 0;
+    height: 0;
+    /*font-size: 20px;*/
+    /*line-height: 100px;*/
+    /*text-align: center;*/
+
+    border-left: solid 100px indianred;
+    border-top: solid 100px #8ac6cd;
+    border-right:solid 100px #5a59cd;
+    border-bottom:solid 100px #cdc92d;
+
+}
+
+.loginBtn{
+    width: 200px;
+    height: 50px;
+    border: solid 5px red;
+    background-color: bisque;
+    outline-width: 10px;
+   /* outline: none;*/
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景test</title>
+    <style type="text/css">
+         .div01{
+             width: 200px;
+             height: 200px;
+             border: solid 1px grey;
+             box-sizing: border-box;
+             /*图片超出部分被隐藏*/
+             /*overflow: hidden;*/
+             background-image: url("../unit2/image/4.png");
+             /**/
+             /*background-position:center center;*/
+             /*background-position: 10px 10px;*/
+             background-position: 50% 50%;
+
+
+             /*看到全貌contain*/
+             /*填满cover*/
+             background-size: contain;
+             /*平铺,no-repeat不平铺，round*/
+             background-repeat: no-repeat;
+             /**/
+             background-origin: border-box;
+             background-clip: border-box;
+
+         }
+    </style>
+</head>
+<body>
+<div class="div01">
+    <!--<img src="../unit2/image/4.png" alt="">-->
+</div>
+
+
+</body>
+</html>

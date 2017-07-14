@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display</title>
+    <style type="text/css">
+           .span01{
+
+               width: 200px;
+               height: 200px;
+               /*转换成div*/
+               display: block;
+               font-size: 2em;
+               color: red;
+               background-color: antiquewhite;
+               /*变透明*/
+               /*opacity: 0;*/
+               /*visibility: hidden;*/
+               /*外间距*/
+               /*margin: 10px;*/
+                /*上右下左*/
+               /*居中，使用 0 50% 则是长方形左上点居中*/
+               margin: 0 auto 0 auto;
+               /*内间距•上内边距是 10px
+                •右内边距是 5px
+                •下内边距是 15px
+                •左内边距是 20px
+                */
+               padding:0px 50px;
+
+           }
+           /*display:inline-block,可将div,span放在同一行*/
+        .div01{
+            /*转换成span*/
+            display: inline;
+        }
+
+        .input01{
+            width: 100px;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<!--行内元素没有width,height属性-->
+     <span class="span01">
+     </span>
+    <div class="div01">
+
+    </div>
+
+<input type="text" class="input01">
+
+
+</body>
+</html>

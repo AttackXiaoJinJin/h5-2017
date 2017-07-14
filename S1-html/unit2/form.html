@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<!--表单元素一定要有name属性-->
+<!--action提交的目的地-->
+<!--method提交方式，get为明文，post为密文-->
+<form action="http://www.google.com" method="post" name="login_form" id="loginForm">
+    <!--label获取焦点，点击用户名即可获取焦点-->
+    <label for="loginUserId">用户名：</label>
+    <!--id必须唯一,不能以数字开头-->
+    <!--maxlength字符长度-->
+    <!--value属性，特征-->
+    <!--提交给服务器是根据name来提交的，id不会提交-->
+    <input name="login_userId" id="loginUserId" type="text" maxlength="6" >
+    <br />
+    <label for="loginPasswd">密&nbsp;&nbsp;&nbsp;码：</label>
+    <input name="login_passwd" id="loginPasswd"  type="password" maxlength="6"  >
+    <br />
+
+    <!--单选按钮-->
+    <!--组成一组，即name值要相同-->
+    <!--check设置默认值-->
+    <input type="radio" id="male2" name="sex" checked="checked" value="0">
+    <label for="male2">男</label>
+    <!--只有value会提交到服务器中，必须设置-->
+    <input type="radio" id="female2" name="sex" value="1">
+    <label for="female2">女</label>
+
+    <br />
+    <!--复选框checkbox-->
+    <input id="hobby_read2" type="checkbox" name="hobbyRead2" value="read">
+    <label for="hobby_read">阅读</label>
+    <input id="hobby_music2" type="checkbox" name="hobbyMusic2" value="music">
+    <label for="hobby_music2">音乐</label>
+    <input id="hobby_swim2" type="checkbox" name="hobbySwim2" value="swim">
+    <label for="hobby_swim"2>游泳</label>
+
+    <br />
+
+    <label for="user_province2">省份：</label>
+    <!--下拉列表-->
+    <!--selected设置默认值-->
+    <select name="userProvince2" id="user_province2">
+        <option value="jiangsu" selected="selected">江苏</option>
+        <option value="shanghai">上海</option>
+        <option value="hubei">湖北</option>
+
+    </select>
+    <br />
+
+    <!--文本域-->
+    <!--col列row行-->
+    <!--innerText里面的默认字符-->
+    <textarea name="userIntroduce2" id="user_introduce2" cols="30" rows="10">
+
+
+
+    </textarea>
+    <!--按钮，普通按钮，重置按钮，提交按钮-->
+    <!--一个表单只有一个submit!!-->
+    <input type="button" value="button">
+    <input type="reset" value="clear">
+    <input type="submit" value="login">
+
+</form>
+<br />
+
+<form action="http://www.google.com" method="post" name="login_form2" id="loginForm2">
+<table border="0px">
+    <tr>
+        <td>  <label for="loginUserId2">用户名：</label></td>
+        <td> <input name="login_userId2" id="loginUserId2" type="text" maxlength="6" ></td>
+    </tr>
+    <tr>
+        <td> <label for="loginPasswd2">密&nbsp;&nbsp;&nbsp;码：</label>
+           </td>
+        <td>
+            <input name="login_passwd2" id="loginPasswd2"  type="password" maxlength="6"  >
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="5"></td>
+        <td><input type="radio" id="male" name="sex" checked="checked" value="0">
+            <label for="male">男</label>
+            <!--只有value会提交到服务器中，必须设置-->
+            <input type="radio" id="female" name="sex" value="1">
+            <label for="female">女</label></td>
+    </tr>
+    <tr>
+
+        <td> <input id="hobby_read" type="checkbox" name="hobbyRead" value="read">
+            <label for="hobby_read">阅读</label>
+            <input id="hobby_music" type="checkbox" name="hobbyMusic" value="music">
+            <label for="hobby_music">音乐</label>
+            <input id="hobby_swim" type="checkbox" name="hobbySwim" value="swim">
+            <label for="hobby_swim">游泳</label></td>
+    </tr>
+    <tr>
+
+        <td><label for="user_province">省份：</label>
+            <!--下拉列表-->
+            <!--selected设置默认值-->
+            <select name="userProvince" id="user_province">
+                <option value="jiangsu" selected="selected">江苏</option>
+                <option value="shanghai">上海</option>
+                <option value="hubei">湖北</option>
+
+            </select></td>
+    </tr>
+    <tr>
+
+        <td> <textarea name="userIntroduce" id="user_introduce" cols="30" rows="10">
+
+
+
+    </textarea></td>
+    </tr>
+    <tr>
+
+        <td> <input type="button" value="button">
+            <input type="reset" value="clear">
+            <input type="submit" value="login"></td>
+    </tr>
+
+
+</table>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    font:normal 100% Arial;
+}
+
+/*自定义样式，类样式都是以 . 开头*/
+.p1{
+    /*background-color: firebrick;*/
+    /*font-size: 30px;*/
+   /* color: aqua;*/
+    /**/
+    /*font:lighter 30px 宋体;*/
+    /*text-decoration:none ;*/
+    /*text-underline-position: line-through;*/
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.a:hover{
+    color: firebrick;
+    text-decoration: none;
+}
+
+.p2{
+    font-size: 1em;
+    /*建议使用倍数，如1.4*/
+    line-height: 80px;
+}

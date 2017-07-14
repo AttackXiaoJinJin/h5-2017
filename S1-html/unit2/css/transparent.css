@@ -1,0 +1,18 @@
+.tdiv01{
+    background-color: rgba(255,45,60,0.46);
+    color: bisque;
+    font-size: 3em;
+}
+
+.tdiv02{
+    /*background-color: transparent;等价于background-color: rgba(255,45,60,0.46);*/
+
+    /*background-color: rgba(255,45,60,0.46);*/
+    color: bisque;
+    font-size: 3em;
+}
+
+.tdiv03{
+    /*设置透明方式*/
+    opacity: .1;
+}
