@@ -54,27 +54,49 @@ a:-webkit-any-link{
     cursor: auto;
 }
 
+div{
+    display: block;
+    padding: 0;
+}
+
+.navbar, .nav{
+    float: right;
+}
+
 .navbar{
-    margin-top: 18px;
+    margin-top: 10px;
     /*规定段落中的文本不进行换行
     nowrap文本不会换行，文本会在在同一行上继续，
     直到遇到 <br> 标签为止。*/
     white-space: nowrap;
+    width: 674px;
 }
 
-.div01{
+.nav{
     display:inline ;
     float: right;
+
 }
 
-.ul01{
+.nav ul{
+    overflow: hidden;
+
+}
+
+.clearfix{
     list-style: none;
+
 }
 
-.div01 li{
+.dclearfix li{
     float: left;
     height: 18px;
     line-height: 18px;
     /*上右下左*/
     margin:0 0 0 -1px ;
+}
+
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
 }

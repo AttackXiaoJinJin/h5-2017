@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择器</title>
+    <style type="text/css">
+        /*<!-- 标签选择器 -->*/
+        html{
+
+
+        }
+
+        body{
+
+        }
+
+        div{
+            width: 100px;
+            height: 50px;
+            background-color: #8ac6cd;
+            margin-top: 10px;
+
+
+        }
+        /*类选择器*/
+        .divvss{
+            background-color: #5a59cd;
+        }
+
+        /*id选择器,精确控制，唯一性*/
+        /*,并列*/
+        #div_04, #div_03{
+            /*background-color: #53a16f;*/
+        }
+        /*内部*/
+        #div_03 div, #div_04 div{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="divvss"></div>
+    <div></div>
+    <div id="div_03">
+        <div>aaaa</div>
+    </div>
+    <div id="div_04">
+        <div>bbbb</div>
+    </div>
+
+
+
+</body>
+</html>
