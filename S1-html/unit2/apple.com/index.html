@@ -41,6 +41,27 @@
             cursor: hand;
         }
 
+        .adv{
+            width: 100%;
+            height:400px;
+            background-color: #0068b7;
+        }
+
+        .select-div{
+            width: 200px;
+            height: 300px;
+            background-color: rebeccapurple;
+            position: relative;
+            left: -100px;
+            visibility: hidden;
+        }
+
+        .li-lock:hover div{
+            display: list-item;
+            visibility: visible;
+
+        }
+
 
     </style>
 
@@ -59,12 +80,23 @@
                 <li>Music</li>
                 <li>Support</li>
                 <li>Search</li>
-                <li>Lock</li>
+                <li class="li-lock">Lock
+
+                    <div class="select-div">
+
+
+                    </div>
+                </li>
 
             </ul>
 
+        </div>
+
+
+        <div class="adv">
 
         </div>
+
 
     </div>
 </body>

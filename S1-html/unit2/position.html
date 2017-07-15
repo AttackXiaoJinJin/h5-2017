@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Position</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding:0;
+            height: 2000px;
+        }
+
+        .div-static{
+            /*可以不写，是默认值*/
+            position: static;
+            width: 600px;
+            height: 100px;
+            background-color: #8ac6cd;
+            margin: 0 auto;
+
+
+        }
+
+        .div-absolute-container{
+            width: 1000px;
+            height: 300px;
+            background-color: gray;
+            /*margin: 0 auto;*/
+            /*若不设置absolute，则子absolute不认它*/
+            position: absolute;
+
+            margin-left: 50%;
+            margin-right: 50%;
+            /*根据width来设置*/
+            left: -500px;
+
+        }
+
+        .div-absolute{
+            /*主要用来确定元素的位置*/
+            /*脱离文档流，无法居中,有飘的能力，但不会动*/
+            /*坐标原点是非static父容器的左上角*/
+            /*非static父容器*/
+            position: absolute;
+            width: 600px;
+            height: 100px;
+            background-color: #b5cd2d;
+            margin: 0 auto;
+            /*设置坐标原点*/
+            left: 0px;
+            top: 0px;
+
+
+        }
+
+        .div-relative{
+            width: 600px;
+            height: 200px;
+            background-color: brown;
+            /*relative自己可以实现居中*/
+             /*相对于自己在文档流中的位置*/
+            position: relative;
+            /*margin: 0 auto;*/
+
+            left: 100px;
+            top: 0px;
+        }
+
+        /*多用在1.固定导航栏,
+                2.返回顶部*/
+        .div-fixed{
+            width: 44px;
+            height: 44px;
+            background-color: black;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <div class="div-static">
+
+    </div>
+
+    <div class="div-absolute-container">
+<div class="div-absolute">
+
+</div>
+    </div>
+
+<div class="div-relative"></div>
+
+<div class="div-fixed">
+
+
+</div>
+
+</body>
+</html>

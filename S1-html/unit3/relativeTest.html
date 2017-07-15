@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>relativeTest</title>
+    <style type="text/css">
+        .bottom{
+            width: 300px;
+            height: 300px;
+            background-image:url("4.png") ;
+            background-position: center;
+
+        }
+
+        .top{
+            width: 300px;
+            height: 300px;
+            font-size: 2em;
+            color: white;
+            line-height: 300px;
+            position: relative;
+            top:-300px;
+
+
+
+        }
+
+        .top:hover{
+            background-color: rgba(21, 35, 126, 0.38);
+            color: white;
+            border: solid 3px #c559ff;
+            box-sizing: border-box;
+            transform: rotate(45deg) scale(0.5 , 0.5);
+
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="icon">
+        <div class="bottom"></div>
+        <div class="top">
+            点击查看详情
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>

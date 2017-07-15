@@ -2,11 +2,64 @@ body{
     margin: 0;
     /*默认是8px*/
     padding: 0;
+    background-color: white;
+    color: black;
+}
+
+.header .container{
+    height: 68px;
 }
 
 .header{
     background-color: #3083eb;
     height: 68px;
+}
+
+.container{
+    margin: 0 auto;
+    position:relative;
+    width: 960px;
+}
+
+div{
+    display: block;
+}
+
+.logo{
+    background-image: url("../image/360logo.PNG");
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    float: left;
+    color: white;
+    height: 48px;
+    margin-top: 10px;
+    /*解决高度塌陷*/
+    overflow: hidden;
+    /*text-indent:首行缩进
+    允许使用负值。如果使用负值，那么首行会被缩进到左边。*/
+    text-indent: 68px;
+    width:160px;
+    line-height: 48px;
+    font-size: 24px;
+
+}
+
+a{
+    color: #0068b7;
+    outline:none;
+    text-decoration: none;
+}
+
+a:-webkit-any-link{
+    cursor: auto;
+}
+
+.navbar{
+    margin-top: 18px;
+    /*规定段落中的文本不进行换行
+    nowrap文本不会换行，文本会在在同一行上继续，
+    直到遇到 <br> 标签为止。*/
+    white-space: nowrap;
 }
 
 .div01{
