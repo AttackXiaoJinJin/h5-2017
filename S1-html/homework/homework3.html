@@ -222,7 +222,8 @@
         }
 
         .nextpage{
-            background-color: #0068b7;
+            background-color: #f4645f;
+            color: red;
             width: 130px;
             height: 40px;
             margin-left: 40%;
@@ -240,6 +241,8 @@
             line-height: 40px;
             text-align: center;
         }
+
+
 
         .main1 div{
             /*height: 630px;*/
@@ -418,11 +421,23 @@
 
         }
 
+        .foot_ul{
+
+        }
+
         .foot_ul li{
             border-bottom: dashed 1px #8b898b;
 
             padding-top: 10px;
         }
+
+        .foot_ul li a{
+            color:#8b898b ;
+        }
+
+       .foot_ul li a:hover{
+           color:#f4645f ;
+       }
 
         .time{
             color: #676767;
@@ -508,6 +523,23 @@
             color: white;
         }
 
+       .div-fixed{
+           width: 44px;
+           height: 44px;
+           background-color:  #f4645f;
+           color: white;
+           position: fixed;
+           bottom: 0;
+           right: 0;
+
+       }
+
+        .div-fixed a{
+            color: white;
+            height: 30px;
+            line-height: 30px;
+            padding:15px 5px;
+        }
 
 
 
@@ -622,11 +654,11 @@
             </div>
 
 
-            <div class="nextpage">
+            <div class="nextpage" style="background-color:  #f4645f;color: white">
                 第 1 页 / 共 7 页
             </div>
-            <div class="go">
-                >
+            <div class="go" style="background-color:  #f4645f; display: block; ">
+                <a href="http://www.golaravel.com/page/2/" style="color: white;padding: 15px">></a>
             </div>
 
 
@@ -707,12 +739,12 @@
 
                    <li >
 
-                       Laravel 5.5 将是下一个 LTS 版本，预计 7/8 月份发布<br /><span class="time">2017年02月20日</span></li>
-                   <li>Laravel 5.4 版本正式发布<br />2017年01月24日</li>
+                       <a href="http://www.golaravel.com/post/laravel-5-5-will-be-the-next-lts-release/"> Laravel 5.5 将是下一个 LTS 版本，预计 7/8 月份发布</a><br /><span class="time">2017年02月20日</span></li>
+                   <li><a href="http://www.golaravel.com/post/laravel-5-4-is-now-released/">Laravel 5.4 版本正式发布</a><br />2017年01月24日</li>
 
 
 
-                   <li >Laravel 之父：让 Laravel、Symfony、 Zend 来一场公平的性能测试<br /><span class="time">2017年01月12日</span></li>
+                   <li ><a href="http://www.golaravel.com/post/benchmarking-laravel-symfony-zend/">Laravel 之父：让 Laravel、Symfony、 Zend 来一场公平的性能测试</a><br /><span class="time">2017年01月12日</span></li>
 
 
                </ul>
@@ -783,7 +815,10 @@
 
     </div>
 
+    <div class="div-fixed">
+        <a href="#" target="_top">TOP</a>
 
+    </div>
 
 
 </body>
