@@ -11,6 +11,11 @@
 
         }
 
+        hr{
+            color: red;
+            background-color: red;
+        }
+
         .header{
             background-color: #5a59cd;
             width: 100%;
@@ -26,9 +31,9 @@
             width: 1060px;
             height: 150px;
             margin: 0 auto;
-            line-height: 170px;
+            line-height: 150px;
             text-align: center;
-            font-size: xx-large;
+
 
             
 
@@ -37,6 +42,8 @@
 
         .header01 h1{
             margin: 0 auto;
+            font-size: 3em;
+            font-weight: 400;
         }
 
         .header02{
@@ -72,7 +79,7 @@
             width: 120px;
             line-height: 40px;
             text-align: center;
-            margin-left: 2px;
+            margin-left: 3px;
 
         }
 
@@ -98,10 +105,11 @@
 
         .main{
             width: 100%;
-            height: 1500px;
+            /*height: 1500px;*/
             background-color: #ebebeb;
             /*margin: 0 auto;*/
             margin-top: 20px;
+            padding-top: 40px;
         }
 
         .main1{
@@ -110,6 +118,14 @@
             min-height: 1500px;
             float: left;
             margin-left: 10%;
+            /*overflow: hidden;*/
+        }
+
+        .main1 h3{
+            font-size: 1.9em;
+            font-weight: 300;
+          text-align: center;
+            margin-bottom: 0;
         }
 
         .main2{
@@ -118,16 +134,56 @@
             background-color: aqua;
             float: left;
             margin-left: 40px;
-
+            /*overflow: hidden;*/
 
         }
 
+        a{
+            color: #f4645f;
+            text-decoration: none;
+        }
 
+        p{
+            margin: 0 auto;
+            font-size: 1.2em;
+            font-weight: inherit;
+            text-align: left;
+        }
+
+        input{
+            margin-left: 0;
+            /*padding: 3px;*/
+            height: 40px;
+            width: 90px;
+            background-color:#f4645f ;
+            color:white;
+            border: 0;
+        }
+
+        .nextpage{
+            background-color: #0068b7;
+            width: 130px;
+            height: 40px;
+            margin-left: 40%;
+            line-height: 40px;
+            text-align: center;
+            float: left;
+        }
+
+        .go{
+            float: left;
+            background-color: #0068b7;
+            width: 40px;
+            height: 40px;
+            margin-left: 1%;
+            line-height: 40px;
+            text-align: center;
+        }
 
         .main1 div{
-            height: 630px;
+            /*height: 630px;*/
             background-color: blanchedalmond;
-            margin-bottom: 20px;
+            margin-bottom: 40px;
         }
 
         .main1 div table{
@@ -141,59 +197,128 @@
             border:1px solid red;
 
         }
+
+        .main1 div table tr td{
+            padding-bottom: 20px;
+            text-align: center;
+        }
+
+        .tr1{
+            color:#959595;
+        }
+
         .main2 div{
             background-color:white;
             margin-bottom: 20px;
             /*height: 50px;*/
             margin-left: 20px;
             margin-right: 20px;
+            padding-bottom: 5px;
 
         }
 
         .main2 div ul{
-            border:1px solid red;
+            /*border:1px solid red;*/
             /*border:1px;*/
-            margin-left: 20px;
-            width: 300px;
-
+            margin-left: 30px;
+            width: 250px;
+            list-style: none;
+           padding-left: 0;
             /*width:200px;*/
             /*margin: 0 auto;*/
+            text-align: center;
+            display: block;
         }
+
+        .main2 div ul:first-child{
+            /*text-align: left;*/
+        }
+
+        .li1{
+            text-align: left;
+        }
+
+        #li11{
+            color: red;
+        }
+
+        #li12{
+            color:black;
+        }
+
+
 
         .main2 div .main2table1 li{
-            text-align: left;
+
 
         }
-
-        .main2 div ul li h4{
+        /*.main2 div ul li */
+        h4{
             font-size: 1.5em;
             font-weight: 400;
             color: #303030;
-            text-align: left;
+            /*text-align: left;*/
             /*上右下左*/
             /*上下 右左*/
             margin: 10px 0 auto auto;
         }
 
         .main2 div ul li{
-            text-align: center;
+            /*text-align: center;*/
             height: 36px;
+            margin-bottom: 10px;
+            /*border: solid 1px red;*/
+            line-height: 36px;
+            color: white;
+
+
 
 
         }
 
 
 
-        .main2 div ul li hr{
-            color: rgba(255, 65, 45, 0.84);
-            background-color: rgba(255, 65, 45, 0.84);
-        }
+        .main2table2 li{
 
-        .main2 ul:not(.main2table1){
-            background-color:red;
+            text-align: center;
+            background-color:#f4645f;
             /*1px solid red*/
+            margin-bottom: 5px;
 
         }
+
+        .footer{
+            width: 100%;
+            height: 600px;
+            background-color: rgba(0, 0, 0, 0.05);
+            overflow: hidden;
+        }
+
+        .foot_content{
+            width: 100%;
+            background-color: #8bedff;
+            height: 400px;
+        }
+
+        .foot_content div{
+            float: left;
+            margin-left: 30px;
+            margin-top: 25px;
+        }
+
+        .foot_content div ul{
+            border:1px solid red;
+            /*border:1px;*/
+            margin-left: 30px;
+            width: 315px;
+            list-style: none;
+            padding-left: 0;
+            /*width:200px;*/
+            /*margin: 0 auto;*/
+            text-align: center;
+            display: block;
+        }
+
 
 
     </style>
@@ -241,11 +366,11 @@
             <div >
                  <table >
                     <tr>
-                        <td>Laravel将是下一个LTS版本，预计7/8月份发布</td>
+                        <td><h3>Laravel5.5将是下一个LTS版本，预计7/8月份发布</h3></td>
                     </tr>
 
-                     <tr>
-                         <td>作者：王赛 · 2017年02月20日</td>
+                     <tr class="tr1">
+                         <td>作者：<a href="https://www.bootcss.com/" >王赛</a> · 2017年02月20日</td>
                      </tr>
 
                      <tr>
@@ -253,9 +378,9 @@
                      </tr>
 
                      <tr>
-                         <td>Laravel的上一个LTS（长期支持）版本是Laravel5.1，发布于2015年6月，
+                         <td><p>Laravel的上一个LTS（长期支持）版本是Laravel5.1，发布于2015年6月，
                              按照对LTS版本的约定，两年的bug修复支持到今年中旬就结束了，所以今年
-                             中旬必然要出一个LTS后继版本，就是Laravel5.5。</td>
+                             中旬必然要出一个LTS后继版本，就是Laravel5.5。</p></td>
                      </tr>
 
                      <tr>
@@ -276,11 +401,11 @@
             <div >
                 <table>
                     <tr>
-                        <td>Laravel5.4版本正式发布</td>
+                        <td><h3>Laravel5.4版本正式发布</h3></td>
                     </tr>
 
-                    <tr>
-                        <td>作者：王赛 · 2017年01月24日</td>
+                    <tr class="tr1">
+                        <td>作者：<a href="https://www.bootcss.com/" >王赛</a> · 2017年01月24日</td>
                     </tr>
 
                     <tr>
@@ -288,8 +413,7 @@
                     </tr>
 
                     <tr>
-                        <td>Laravel 5.4版本正式发布了！这一版本带来了许多新特性以及对原有
-                            功能的提升。</td>
+                        <td><p>Laravel 5.4版本正式发布了！这一版本带来了许多新特性以及对原有功能的提升。</p></td>
                     </tr>
 
                     <tr>
@@ -306,7 +430,17 @@
 
                 </table>
 
+
             </div>
+
+
+            <div class="nextpage">
+                第 1 页 / 共 7 页
+            </div>
+            <div class="go">
+                >
+            </div>
+
 
 
         </div>
@@ -315,17 +449,19 @@
 
         <div class="main2">
             <div>
+                <ul>
+                    <li class="li1"><h4>社区</h4><hr></li>
+                </ul>
 
                 <ul  class="main2table1">
-                    <li><h4>社区</h4><hr></li>
 
-                        <li>
+                        <li class="li1" id="li12">
 
                             QQ群：462694081</li>
 
 
 
-                        <li>问答社区</li>
+                        <li class="li1" id="li11">问答社区</li>
 
 
                 </ul>
@@ -334,7 +470,10 @@
 
             <div>
                 <ul>
-                    <li>下载</li>
+                    <li class="li1"><h4>下载</h4><hr></li>
+                </ul>
+                <ul class="main2table2">
+
 
                         <li>Laravel & Lumen 一键安装包下载</li>
 
@@ -346,7 +485,10 @@
 
             <div>
                 <ul>
-                    <li>文档</li>
+                    <li class="li1"><h4>文档</h4><hr></li>
+                </ul>
+                <ul class="main2table2" >
+
 
                         <li><span>5.4中文文档</span></li>
 
@@ -375,6 +517,73 @@
             </div>
 
         </div>
+
+    </div>
+
+    <div class="footer">
+       <div class="foot_content">
+           <div>
+               <ul>
+                   <li class="li1"><h4>社区</h4><hr></li>
+               </ul>
+
+               <ul  class="main2table1">
+
+                   <li class="li1" >
+
+                       QQ群：462694081</li>
+
+
+
+                   <li class="li1" >问答社区</li>
+
+
+               </ul>
+
+           </div>
+
+           <div>
+               <ul>
+                   <li class="li1"><h4>社区</h4><hr></li>
+               </ul>
+
+               <ul  class="main2table1">
+
+                   <li class="li1" >
+
+                       QQ群：462694081</li>
+
+
+
+                   <li class="li1" >问答社区</li>
+
+
+               </ul>
+
+           </div>
+
+           <div>
+               <ul>
+                   <li class="li1"><h4>社区</h4><hr></li>
+               </ul>
+
+               <ul  class="main2table1">
+
+                   <li class="li1" >
+
+                       QQ群：462694081</li>
+
+
+
+                   <li class="li1" >问答社区</li>
+
+
+               </ul>
+
+           </div>
+
+
+       </div>
 
     </div>
 
