@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <title>Laravel-简洁、优雅的PHP开发框架(PHP Web Framework)。- Laravel中文网（Laravel中国社区）</title>
     <style type="text/css">
+       /* *{
+            margin:0;
+            padding: 0;
+        }*/
+
         body{
+            background-color: #ebebeb;
             margin: 0;
             padding: 0;
             font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","WenQuanYi Micro Hei","Microsoft YaHei UI","Microsoft YaHei",sans-serif;
@@ -53,6 +59,11 @@
             margin: 0 auto;
         }
 
+        .header_list1{
+            width: 100%;
+            background-color: white;
+            height: 48px;
+        }
         .header_list{
             height: 42px;
             width: 1107px;
@@ -92,6 +103,7 @@
         .header02 a:hover{
 
             background-color: black;
+            border: black;
         }
 
         .main2table2 a:hover{
@@ -124,7 +136,7 @@
             line-height: 40px;
             text-align: center;
             padding: 2px 0;
-            color: white;
+            color: black;
 
 
         }
@@ -132,18 +144,21 @@
         .main{
             width: 100%;
             /*height: 1500px;*/
-            background-color: #ebebeb;
+            /*#ebebeb*/
+            background-color:#ebebeb ;
             /*margin: 0 auto;*/
             margin-top: 20px;
             padding-top: 40px;
+            /*border: 1px solid red;*/
         }
 
         .main1{
             width: 755px;
-            background-color: #c559ff;
+            background-color: #ebebeb;
             min-height: 1500px;
             float: left;
-            margin-left: 10%;
+            /*margin-left: 10%;*/
+            padding-left: 10%;
             /*overflow: hidden;*/
         }
 
@@ -152,15 +167,22 @@
             font-weight: 300;
           text-align: center;
             margin-bottom: 0;
+
+        }
+
+        .main1 h3 a{
+            color: black;
         }
 
         .main2{
             width: 370px;
-            height: 700px;
-            background-color: aqua;
+            /*height: 700px;*/
+            background-color: #ebebeb;
             float: left;
-            margin-left: 40px;
+            /*margin-left: 40px;*/
+            padding-left: 40px;
             /*overflow: hidden;*/
+            /*border: 2px solid red;*/
 
         }
 
@@ -221,8 +243,9 @@
 
         .main1 div{
             /*height: 630px;*/
-            background-color: blanchedalmond;
+            background-color: white;
             margin-bottom: 40px;
+
         }
 
         .main1 div table{
@@ -233,7 +256,7 @@
               •border-style
               •border-color
             */
-            border:1px solid red;
+            /*border:1px solid red;*/
 
         }
 
@@ -251,8 +274,10 @@
             margin-bottom: 20px;
             /*height: 50px;*/
             margin-left: 20px;
-            margin-right: 20px;
+            margin-right: 30px;
             padding-bottom: 5px;
+            overflow: hidden;
+            /*border:1px solid red;*/
 
         }
 
@@ -342,7 +367,7 @@
 
         .footer{
             width: 100%;
-            height: 600px;
+            /*height: 600px;*/
             background-color: rgb(0, 0, 0);
             overflow: hidden;
         }
@@ -360,6 +385,8 @@
             float: left;
             margin-left: 30px;
             margin-top: 25px;
+            /*margin-bottom: 0;*/
+            /*overflow: hidden;*/
         }
 
         .foot_content div:first-child{
@@ -367,7 +394,7 @@
         }
 
         .foot_content div ul{
-            border:1px solid red;
+            /*border:1px solid red;*/
             /*border:1px;*/
             margin-left: 30px;
             width: 315px;
@@ -404,7 +431,85 @@
         .foot_short{
             color: #676767;
             text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
         }
+
+        .foot_short span a{
+            /*color: #959595;*/
+        }
+
+        .footstrap{
+            padding-left: 10%;
+            margin-top:0;
+            /*border: 1px solid red;*/
+            border: 0;
+            /*overflow: hidden;*/
+            display: block;
+
+
+
+        }
+
+        .footstrap li{
+            border-bottom: dashed 1px #8b898b;
+            /*padding-bottom: 10px;*/
+
+            padding-top: 10px;
+            margin-bottom: 40px;
+            padding-bottom: 40px;
+        }
+
+       .footstrap li a{
+           color:#959595;
+           padding-top: 10px;
+          padding-left: 10px;
+           padding-bottom: 10px;
+           padding-right: 10px;
+
+       }
+
+        .footstrap li a:hover{
+           background-color: #f4645f;
+           color: white;
+
+        }
+
+        .biaoqian{
+            display: block;
+            /*width: 22px;*/
+
+            margin-top:0;
+            /*border: 1px solid red;*/
+            border: 0;
+            /*overflow: hidden;*/
+
+            color: #959595;
+        }
+        .biaoqian li{
+            width: 37px;
+            height: 37px;
+            border: 1px solid #959595;
+            padding-top: 10px;
+            box-sizing: border-box;
+
+        }
+
+        .biaoqian li a{
+            color:#959595;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-right: 15px;
+        }
+
+        .biaoqian li a:hover{
+            background-color: #f4645f;
+            color: white;
+        }
+
+
+
 
 
 
@@ -432,7 +537,7 @@
 
         </div>
     </div>
-
+  <div class="header_list1">
     <div class="header_list">
             <a href="#">首页</a>
             <a href="https://docs.golaravel.com/docs/5.4/installation/">Laravel中文文档</a>
@@ -443,13 +548,13 @@
             <a  href="http://wenda.golaravel.com/">问答社区</a>
 
     </div>
-
+  </div>
     <div class="main">
-        <div class="main1">
+        <div class="main1" >
             <div >
                  <table >
                     <tr>
-                        <td><h3>Laravel5.5将是下一个LTS版本，预计7/8月份发布</h3></td>
+                        <td><h3><a href="http://www.golaravel.com/post/laravel-5-5-will-be-the-next-lts-release/">Laravel5.5将是下一个LTS版本，预计7/8月份发布</a></h3></td>
                     </tr>
 
                      <tr class="tr1">
@@ -467,7 +572,7 @@
                      </tr>
 
                      <tr>
-                         <td><input type="button" value="阅读全文"></td>
+                         <td><a href="http://www.golaravel.com/post/laravel-5-5-will-be-the-next-lts-release/"><input type="button" value="阅读全文"></a></td>
                      </tr>
 
                      <tr>
@@ -484,7 +589,7 @@
             <div >
                 <table>
                     <tr>
-                        <td><h3>Laravel5.4版本正式发布</h3></td>
+                        <td><h3><a href="http://www.golaravel.com/post/laravel-5-4-is-now-released/">Laravel5.4版本正式发布</a></h3></td>
                     </tr>
 
                     <tr class="tr1">
@@ -500,7 +605,7 @@
                     </tr>
 
                     <tr>
-                        <td><input type="button" value="阅读全文"></td>
+                        <td><a href="http://www.golaravel.com/post/laravel-5-4-is-now-released/"><input type="button" value="阅读全文"></a></td>
                     </tr>
 
                     <tr>
@@ -619,11 +724,11 @@
                    <li><h4 class="h41">标签云</h4><hr></li>
                </ul>
 
-               <ul>
+               <ul  class="biaoqian">
 
                    <li>
 
-                       ...</li>
+                       <a href="http://www.golaravel.com/tag-cloud/"> ...</a></li>
 
                </ul>
 
@@ -634,16 +739,27 @@
                    <li><h4 class="h41">友情链接</h4><hr></li>
                </ul>
 
+                  <ul class="footstrap">
 
 
-                       <a>Bootstrap中文网</a>&nbsp;<a>开放CDN服务</a><br><a>Grunt中文网</a>&nbsp;<a>Gulp中文网</a>
+                      <li>   <a href="http://www.bootcss.com/">Bootstrap中文网</a>&nbsp;<a href="http://www.bootcdn.cn/">开放CDN服务</a>
+                      </li>
+
+                       <li> <a href="http://www.gruntjs.net/">Grunt中文网</a>&nbsp;<a href="http://www.gulpjs.com.cn/">Gulp中文网</a></li>
 
 
 
-                   <a>Lodash中文文档</a>&nbsp; <a>jQuery中文文档</a>
-                    <a>又拍云</a>&nbsp; <a>乐视云</a>
 
 
+                    <li><a href="http://lodashjs.com/">Lodash中文文档</a>&nbsp; <a href="http://www.jquery123.com/">jQuery中文文档</a>
+                   </li>
+
+
+
+                    <li><a href="https://www.upyun.com/">又拍云</a>&nbsp; <a href="http://www.lecloud.com/zh-cn/">乐视云</a>
+                    </li>
+
+                  </ul>
 
            </div>
 

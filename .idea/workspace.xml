@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit3/aa.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/css/style.css" afterPath="$PROJECT_DIR$/S1-html/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/homework/homework3.html" afterPath="$PROJECT_DIR$/S1-html/homework/homework3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit1/demo02.html" afterPath="$PROJECT_DIR$/S1-html/unit1/demo02.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,16 +25,26 @@
       <file leaf-file-name="homework3.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/S1-html/homework/homework3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="441" column="49" lean-forward="false" selection-start-line="441" selection-start-column="49" selection-end-line="441" selection-end-column="49" />
+            <state relative-caret-position="351">
+              <caret line="489" column="21" lean-forward="false" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#a#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#14553#14559#1" expanded="true" />
-                <element signature="e#14592#14598#1" expanded="true" />
-                <element signature="e#14652#14658#0" expanded="true" />
-                <element signature="e#14707#14713#0" expanded="true" />
-                <element signature="e#14841#14847#0" expanded="true" />
+                <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#17308#17314#1" expanded="true" />
+                <element signature="e#17462#17468#1" expanded="true" />
+                <element signature="e#17595#17601#0" expanded="true" />
+                <element signature="e#17745#17751#0" expanded="true" />
+                <element signature="e#17965#17971#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aa.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S1-html/unit3/aa.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -52,6 +61,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>id</find>
+      <find>h3</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -90,6 +100,7 @@
         <option value="$PROJECT_DIR$/S1-html/homework/homework2.html" />
         <option value="$PROJECT_DIR$/S1-html/css/style.css" />
         <option value="$PROJECT_DIR$/S1-html/unit1/demo02.html" />
+        <option value="$PROJECT_DIR$/S1-html/unit3/aa.html" />
         <option value="$PROJECT_DIR$/S1-html/homework/homework3.html" />
       </list>
     </option>
@@ -135,6 +146,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S1-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,12 +387,12 @@
       <workItem from="1500037676135" duration="7491000" />
       <workItem from="1500077982392" duration="21871000" />
       <workItem from="1500118513117" duration="8646000" />
-      <workItem from="1500170172319" duration="22517000" />
+      <workItem from="1500170172319" duration="30747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97969000" />
+    <option name="totallyTimeSpent" value="106199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -412,12 +441,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#a#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#14553#14559#1" expanded="true" />
-            <element signature="e#14592#14598#1" expanded="true" />
-            <element signature="e#14652#14658#0" expanded="true" />
-            <element signature="e#14707#14713#0" expanded="true" />
-            <element signature="e#14841#14847#0" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#17308#17314#1" expanded="true" />
+            <element signature="e#17462#17468#1" expanded="true" />
+            <element signature="e#17595#17601#0" expanded="true" />
+            <element signature="e#17745#17751#0" expanded="true" />
+            <element signature="e#17965#17971#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -435,12 +464,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#a#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#14553#14559#1" expanded="true" />
-            <element signature="e#14592#14598#1" expanded="true" />
-            <element signature="e#14652#14658#0" expanded="true" />
-            <element signature="e#14707#14713#0" expanded="true" />
-            <element signature="e#14841#14847#0" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#17308#17314#1" expanded="true" />
+            <element signature="e#17462#17468#1" expanded="true" />
+            <element signature="e#17595#17601#0" expanded="true" />
+            <element signature="e#17745#17751#0" expanded="true" />
+            <element signature="e#17965#17971#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -727,17 +756,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit3/aa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/homework/homework3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="441" column="49" lean-forward="false" selection-start-line="441" selection-start-column="49" selection-end-line="441" selection-end-column="49" />
+        <state relative-caret-position="351">
+          <caret line="489" column="21" lean-forward="false" selection-start-line="489" selection-start-column="21" selection-end-line="489" selection-end-column="21" />
           <folding>
-            <element signature="n#style#0;n#a#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#14553#14559#1" expanded="true" />
-            <element signature="e#14592#14598#1" expanded="true" />
-            <element signature="e#14652#14658#0" expanded="true" />
-            <element signature="e#14707#14713#0" expanded="true" />
-            <element signature="e#14841#14847#0" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#17308#17314#1" expanded="true" />
+            <element signature="e#17462#17468#1" expanded="true" />
+            <element signature="e#17595#17601#0" expanded="true" />
+            <element signature="e#17745#17751#0" expanded="true" />
+            <element signature="e#17965#17971#0" expanded="true" />
           </folding>
         </state>
       </provider>
