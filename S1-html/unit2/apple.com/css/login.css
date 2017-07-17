@@ -1,0 +1,161 @@
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.login-main{
+    width: 985px;
+    height: 545px;
+
+    border: solid 1px red;
+    /*box-sizing: border-box;    */
+    margin: 0 auto;
+    /*要放在margin 0 auto下面*/
+    margin-top: 55px;
+    padding: 20px;
+    /*box-sizing: border-box;*/
+    overflow: hidden;
+    /*float: left;*/
+
+}
+
+.login-main .top{
+    background-color: #1e8045;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+.login-main .top .top-left{
+    color: black;
+    background-color: blue;
+    width: 50%;
+    height: 50px;
+    font-size: 1.5em;
+    float: left;
+    line-height: 70px;
+    /*overflow: hidden;*/
+}
+
+.login-main .top .top-right{
+    background-color: aquamarine;
+    width: 50%;
+    height: 50px;
+    font-size: 0.9em;
+    line-height: 70px;
+    float: left;
+
+
+}
+
+
+hr{
+    margin-left: -20px;
+    width: 1025px;
+    margin-top: -8px;
+    /*系统给我们提供的margin默认为8px*/
+}
+
+
+.login-main .middle{
+    width: 100%;
+    height: 415px;
+    background-color: #0068b7;
+}
+
+.login-main .middle>div{
+    width: 50%;
+    height: 415px;
+    float: left;
+    padding: 100px;
+    box-sizing: border-box;
+
+
+}
+
+.login-main .middle .middle-left a{
+    font-size:0.8em;
+    text-decoration: none;
+}
+
+.login-main .middle .middle-left a:hover{
+
+    text-decoration: underline;
+}
+
+.login-main .middle .middle-left .btn-css{
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.login-main .middle .middle-left .btn-css:hover{
+    width: 105px;
+    height: 35px;
+    background-color: cornflowerblue;
+
+}
+
+
+.login-main .middle .middle-left table{
+    width:340px;
+    height:155px;
+    background-color: #cdc92d;
+
+}
+
+.login-main .middle .middle-left table .td-css{
+    text-align: center;
+}
+
+
+.login-main .middle .middle-left table .textinput{
+    width:100%;
+    height: 35px;
+    box-sizing: border-box;
+
+}
+
+
+.login-main .middle .middle-right{
+    border-right: solid 1px gray;
+
+
+}
+
+
+
+.login-main .bottom{
+    width: 100%;
+    height: 70px;
+    background-color: #f4645f;
+}
+
+.login-main .bottom div{
+    width: 50%;
+    height: 70px;
+    float: left;
+    line-height: 70px;
+
+
+}
+
+.login-main .bottom .bottom-left input{
+   width: 100px;
+    height:35px;
+    background-color: white;
+    border: solid 1px gray;
+    color: #f4645f;
+
+
+}
+
+.login-main .bottom .bottom-right{
+    text-align: right;
+}
+
+
+
+
+
+

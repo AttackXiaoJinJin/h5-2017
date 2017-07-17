@@ -1,0 +1,63 @@
+.main{
+    width:100%;
+    /*height: 300px;*/
+    background-color: #53a16f;
+    /*防止高度塌陷，让div可以随浏览器移动*/
+    overflow: hidden;
+
+
+}
+/*直接子元素*/
+.main>div{
+    width: 50%;
+    height: 250px;
+
+    float: left;
+    min-width: 600px;
+
+}
+
+.main .main-left{
+
+    /*background-color: #5a59cd;*/
+
+}
+
+/*left,right代码一样*/
+/*要归纳总结，精简代码*/
+
+.main .main-right{
+    /*background-color: #cd6857;*/
+
+}
+
+/*代码简写，以div-img开头*/
+/*.main .main-left div , .main .main-right div*/
+.main div[class^='div-img']{
+    width:50%;
+    height:250px;
+    background-color: blanchedalmond;
+    border: solid 1px red;
+    /*不让掉下来*/
+    box-sizing: border-box;
+    float: left;
+
+    min-width: 280px;
+    text-align: center;
+}
+
+
+.main .main-left img , .main .main-right img{
+    width: 250px;
+    height: 250px;
+
+}
+
+.footer{
+
+
+}
+
+
+
+
