@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/images/apple1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/images/apple2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/images/apple3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/images/apple4.PNG" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/S1-html/unit2/apple.com/login.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/images/lock-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/images/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/images/united_states_of_america.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit2/apple.com/css/index.css" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit2/apple.com/css/login.css" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit2/apple.com/index.html" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit2/apple.com/css/main.css" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit2/apple.com/page/login.html" afterPath="$PROJECT_DIR$/S1-html/unit2/apple.com/page/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,12 +29,47 @@
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/page/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="585">
+              <caret line="134" column="117" lean-forward="false" selection-start-line="134" selection-start-column="117" selection-end-line="134" selection-end-column="117" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4765#4771#0" expanded="true" />
+                <element signature="e#4772#4778#0" expanded="true" />
+                <element signature="e#4778#4784#0" expanded="true" />
+                <element signature="e#4784#4790#0" expanded="true" />
+                <element signature="e#4790#4796#0" expanded="true" />
+                <element signature="e#4796#4802#0" expanded="true" />
+                <element signature="e#4802#4808#0" expanded="true" />
+                <element signature="e#4905#4911#0" expanded="true" />
+                <element signature="e#4911#4917#0" expanded="true" />
+                <element signature="e#4917#4923#0" expanded="true" />
+                <element signature="e#4924#4930#0" expanded="true" />
+                <element signature="e#4930#4936#0" expanded="true" />
+                <element signature="e#4936#4942#0" expanded="true" />
+                <element signature="e#5068#5074#0" expanded="true" />
+                <element signature="e#5074#5080#0" expanded="true" />
+                <element signature="e#5080#5086#0" expanded="true" />
+                <element signature="e#5089#5095#0" expanded="true" />
+                <element signature="e#5095#5101#0" expanded="true" />
+                <element signature="e#5101#5107#0" expanded="true" />
+                <element signature="e#5234#5240#0" expanded="true" />
+                <element signature="e#5240#5246#0" expanded="true" />
+                <element signature="e#5246#5252#0" expanded="true" />
+                <element signature="e#5253#5259#0" expanded="true" />
+                <element signature="e#5259#5265#0" expanded="true" />
+                <element signature="e#5265#5271#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -45,8 +77,8 @@
       <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="2" selection-end-line="151" selection-end-column="3" />
+            <state relative-caret-position="148">
+              <caret line="212" column="15" lean-forward="false" selection-start-line="212" selection-start-column="15" selection-end-line="212" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -105,10 +137,10 @@
         <option value="$PROJECT_DIR$/S1-html/unit3/aa.html" />
         <option value="$PROJECT_DIR$/S1-html/homework/homework3.html" />
         <option value="$PROJECT_DIR$/S1-html/unit2/form.html" />
-        <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/css/main.css" />
         <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/homework1_new.html" />
         <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/index.html" />
         <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/css/index.css" />
+        <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/css/main.css" />
         <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/page/login.html" />
         <option value="$PROJECT_DIR$/S1-html/unit2/apple.com/css/login.css" />
       </list>
@@ -121,9 +153,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1033" />
-    <option name="height" value="1038" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,6 +200,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="S1-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S1-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S1-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unit2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apple.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="h5-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="S1-html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homework" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -303,12 +394,12 @@
       <workItem from="1500077982392" duration="21871000" />
       <workItem from="1500118513117" duration="8646000" />
       <workItem from="1500170172319" duration="33222000" />
-      <workItem from="1500250176874" duration="15193000" />
+      <workItem from="1500250176874" duration="21401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123867000" />
+    <option name="totallyTimeSpent" value="130075000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,10 +411,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1033" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17635067" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09172852" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -580,24 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/homework/homework3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="540" column="22" lean-forward="false" selection-start-line="540" selection-start-column="22" selection-end-line="540" selection-end-column="22" />
-          <folding>
-            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#18272#18278#1" expanded="true" />
-            <element signature="e#18426#18432#1" expanded="true" />
-            <element signature="e#18559#18565#0" expanded="true" />
-            <element signature="e#18709#18715#0" expanded="true" />
-            <element signature="e#18929#18935#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit2/form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1633">
@@ -703,26 +776,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="3" lean-forward="false" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="39" column="3" lean-forward="true" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -735,21 +792,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="64" column="35" lean-forward="true" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="42" column="12" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/homework/homework3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="549" column="26" lean-forward="true" selection-start-line="549" selection-start-column="2" selection-end-line="549" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#18272#18278#1" expanded="true" />
+            <element signature="e#18426#18432#1" expanded="true" />
+            <element signature="e#18559#18565#0" expanded="true" />
+            <element signature="e#18709#18715#0" expanded="true" />
+            <element signature="e#18929#18935#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/page/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="585">
+          <caret line="134" column="117" lean-forward="false" selection-start-line="134" selection-start-column="117" selection-end-line="134" selection-end-column="117" />
           <folding>
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#table#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4765#4771#0" expanded="true" />
+            <element signature="e#4772#4778#0" expanded="true" />
+            <element signature="e#4778#4784#0" expanded="true" />
+            <element signature="e#4784#4790#0" expanded="true" />
+            <element signature="e#4790#4796#0" expanded="true" />
+            <element signature="e#4796#4802#0" expanded="true" />
+            <element signature="e#4802#4808#0" expanded="true" />
+            <element signature="e#4905#4911#0" expanded="true" />
+            <element signature="e#4911#4917#0" expanded="true" />
+            <element signature="e#4917#4923#0" expanded="true" />
+            <element signature="e#4924#4930#0" expanded="true" />
+            <element signature="e#4930#4936#0" expanded="true" />
+            <element signature="e#4936#4942#0" expanded="true" />
+            <element signature="e#5068#5074#0" expanded="true" />
+            <element signature="e#5074#5080#0" expanded="true" />
+            <element signature="e#5080#5086#0" expanded="true" />
+            <element signature="e#5089#5095#0" expanded="true" />
+            <element signature="e#5095#5101#0" expanded="true" />
+            <element signature="e#5101#5107#0" expanded="true" />
+            <element signature="e#5234#5240#0" expanded="true" />
+            <element signature="e#5240#5246#0" expanded="true" />
+            <element signature="e#5246#5252#0" expanded="true" />
+            <element signature="e#5253#5259#0" expanded="true" />
+            <element signature="e#5259#5265#0" expanded="true" />
+            <element signature="e#5265#5271#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit2/apple.com/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="148" column="0" lean-forward="false" selection-start-line="148" selection-start-column="2" selection-end-line="151" selection-end-column="3" />
+        <state relative-caret-position="148">
+          <caret line="212" column="15" lean-forward="false" selection-start-line="212" selection-start-column="15" selection-end-line="212" selection-end-column="15" />
           <folding />
         </state>
       </provider>

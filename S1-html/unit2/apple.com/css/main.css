@@ -38,9 +38,10 @@ body{
     /*background-position: center;*/
 }
 
-li:hover{
+.container .nav ul li:hover{
     color: rgba(255,255,255,0.80);
     /*鼠标形状*/
+    /*color: #cdc92d;*/
     cursor: hand;
     opacity: 0.7;
 }
