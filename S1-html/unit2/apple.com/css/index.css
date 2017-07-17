@@ -17,7 +17,7 @@
 
 }
 
-.main .main-left{
+.main .mainLeft{
 
     /*background-color: #5a59cd;*/
 
@@ -26,18 +26,18 @@
 /*left,right代码一样*/
 /*要归纳总结，精简代码*/
 
-.main .main-right{
+.main .mainRight{
     /*background-color: #cd6857;*/
 
 }
 
 /*代码简写，以div-img开头*/
 /*.main .main-left div , .main .main-right div*/
-.main div[class^='div-img']{
+.main div[class^='Img']{
     width:50%;
     height:250px;
-    background-color: blanchedalmond;
-    border: solid 1px red;
+    /*background-color: blanchedalmond;*/
+    /*border: solid 1px red;*/
     /*不让掉下来*/
     box-sizing: border-box;
     float: left;
@@ -46,11 +46,38 @@
     text-align: center;
 }
 
+/*.main .mainLeft .LeftImg1{*/
+    /*width: 50%;*/
+    /**/
+/*}*/
 
-.main .main-left img , .main .main-right img{
-    width: 250px;
-    height: 250px;
 
+h4{
+    margin-top: 10px ;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.main .mainLeft img , .main .mainRight img{
+    width: 280px;
+    height: 215px;
+
+}
+.main .mainLeft .Img1Left{
+    background-color: #e4bed7;
+}
+
+.main .mainLeft .Img2Left{
+    background-color: white;
+}
+
+
+.main .mainRight .Img3Right{
+    background-color: #fafafa;
+}
+
+.main .mainRight .Img4Right{
+    background-color: #f4cbc7;
 }
 
 .footer{
