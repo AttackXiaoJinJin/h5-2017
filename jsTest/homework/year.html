@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>year</title>
+    <script>
+//        通过对话框接受一个年份，判断该年份是否是闰年
+        var year=prompt("请输入一个年份");
+
+        if( ((year%4==0) && (year%100!=0 ))|| (year%400==0)){
+            alert("您输入的是闰年！");
+        }else {
+            alert("您输入的不是闰年！");
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

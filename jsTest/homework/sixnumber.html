@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sixnumber</title>
+    <script>
+        var num=prompt("请输入一个六位数的整数");
+        var shiwan=parseInt(num/100000);
+        var wan=parseInt(num/10000)%10;
+        var qian=parseInt(num/1000)%10;
+        var bai=parseInt(num/100)%10;
+        var shi=parseInt((num%100)/10);
+        var ge=num%10;
+
+        document.write("原六位数的十万位是："+shiwan+" , 万位是："+wan+" , 千位是："+qian+" , 百位是："+bai+" , 十位是："+shi+" , 个位是："+ge+'<br>'
+        +"倒序输出为："+ge+""+shi+""+bai+""+qian+""+wan+""+shiwan+""
+
+        );
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

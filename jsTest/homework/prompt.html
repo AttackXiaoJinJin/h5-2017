@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prompt</title>
+    <script>
+        /*通过prompt对话框输入5个数字，
+        然后计算平均值、最小值、最大值和总和*/
+        var num1,num2,num3,num4,num5;
+        num1=prompt("请输入第一个数字");
+//        if(typeof num1!="number"){
+//            alert("请输入数字！");
+//            num1=+prompt("请输入第一个数字");
+//        }
+        num2=prompt("请输入第二个数字");
+//        if(typeof num2!="number"){
+//            alert("请输入数字！");
+//            num2=+prompt("请输入第二个数字");
+//        }
+        num3=+prompt("请输入第三个数字");
+//        if(typeof num3!="number"){
+//            alert("请输入数字！");
+//            num3=+prompt("请输入第三个数字");
+//        }
+        num4=+prompt("请输入第四个数字");
+//        if(typeof num4!="number"){
+//            alert("请输入数字！");
+//            num4=+prompt("请输入第四个数字");
+//        }
+        num5=+prompt("请输入第五个数字");
+//        if(typeof num5!="number"){
+//            alert("请输入数字！");
+//            num5=+prompt("请输入第五个数字");
+//        }
+
+        var avg,max,min,all,m1,m2,mm1,x1,x2,xx1;
+        avg=(num1+num2+num3+num4+num5)/5;
+        all=num1+num2+num3+num4+num5;
+        if(num1>num2){
+            m1=num1;
+        }else {
+            m1=num2;
+        }
+        if(num3>num4)
+        {
+            m2=num3;
+        }else {
+            m2=num4;
+        }
+        if(m1>m2){
+            mm1=m1;
+        }else {
+            mm1=m2;
+        }
+        if(mm1>num5){
+            max=mm1;
+        }else {
+            max=num5;
+        }
+
+        if(num1>num2){
+            x1=num2;
+        }else {
+            x1=num1;
+        }
+        if(num3>num4)
+        {
+            x2=num4;
+        }else {
+            x2=num3;
+        }
+        if(x1>x2){
+            xx1=x2;
+        }else {
+            xx1=x1;
+        }
+        if(xx1>num5){
+            min=num5;
+        }else {
+            min=xx1;
+        }
+
+     document.write("五个数分别是："+num1+", "+num2+", "+num3+", "+num4+", "+num5+"<br>"
+                        +"总和为："+all+", "+"平均值为："+avg+','+"最大值为："+max+", "+"最小值为："+min
+     )
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
