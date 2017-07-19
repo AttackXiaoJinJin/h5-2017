@@ -12,9 +12,12 @@
 //          alert(num2);
           var upp=100,dpp=1;
           while (true)
-          {     num1=+prompt("请从1-100中输入您要猜的数字");
+          {     num1=+prompt("请从1-100的正整数中输入您要猜的数字");
+              var str = num1+"";
               if(isNaN(num1) || num1<=0 || num1>100){
                   alert("请按规定输入数字！");
+              }else if(str.indexOf(".")!=-1){
+                  alert("您输入的是小数！请输入1-100的正整数");
               }
                   else if(num1>num2){
 

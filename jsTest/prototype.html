@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>prototype</title>
+    <script>
+        function Person() {
+
+        }
+        Person.prototype.a=123;
+
+        var yu=new Person();
+//        console.log(Person.prototype);
+//        console.log(yu.__proto__);
+//        console.log(yu.a);//值是一样的
+        yu.a="我是yu中的a";
+        console.log(yu.a);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
