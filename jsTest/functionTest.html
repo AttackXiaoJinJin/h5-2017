@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>functionTest</title>
+    <script>
+//        function chen(name,age,book) {
+//            chen.name=name;
+//            chen.age=age;
+//            chen.book=book;
+//
+////            console.log(chen.name);
+//            return chen.name;
+//        }
+
+//        chen("予",21,"红楼梦");
+
+
+//        console.log(chen("予",21,"红楼梦"));
+//        function all(num) {
+////            console.log(num*num);
+//            var result=num*num;
+//            return result;
+//
+//        }
+
+//        console.log(all(10));
+        //用于检查输入字符串是否合法
+//        function isVaild(str) {
+//            if(!isNaN(str) && str>0) {
+//                return !isNaN(str);
+//            }
+//
+//        }
+//
+//        var num= prompt('please enter a number');
+//        if (isVaild(num)){
+//            console.log("yes")
+//        }
+//        else {
+//            console.log("no")
+//        }
+//        function add() {
+////            while (true){
+////                if (isNaN(num1)){
+////                    alert("请输入数字!")
+////                }
+////            }
+//            var num1=+prompt('请输入第一个数');
+//            var num2=+prompt('请输入第二个数');
+//            alert(num1+num2);
+//        }
+//function minus(num1,num2) {
+////    return num1-num2
+//    alert(num1-num2);
+//}
+
+//function ride(num1,num2) {
+////    return num1*num2;
+//    alert(num1*num2);
+//
+//}
+//function chu(num1,num2) {
+////    return num1/num2
+//    alert(num1/num2);
+//        }
+
+        function aaa(option) {
+            var num1=+prompt('请输入第一个数');
+            var num2=+prompt('请输入第二个数');
+            switch (option){
+                case '+': alert(num1+num2);break;
+                case '-': alert(num1-num2);break;
+                case '*': alert(num1*num2);break;
+                case '/':alert(num1/num2);break;
+                default:alert("no")
+            }
+        }
+
+
+
+    </script>
+</head>
+<body>
+<form action="#">
+<input type="button" value="加" onclick="add()">
+<input type="button" value="减" onclick="minus(+prompt('请输入第一个数'),+prompt('请输入第二个数'))">
+<input type="button" value="乘" onclick="aaa('*')">
+<input type="button" value="除" onclick="aaa('/')">
+</form>
+</body>
+</html>

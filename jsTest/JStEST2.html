@@ -8,8 +8,8 @@
 //        console.log(c);
             var flag=true;
             var all=0;
-            var grade=0;
-var num= prompt("请输入考试科目的数量");
+            var grade;
+            var num= prompt("请输入考试科目的数量");
         if(isNaN(num)){
             alert("您输入的不是数字！");
             flag=false;
@@ -19,30 +19,24 @@ var num= prompt("请输入考试科目的数量");
                 flag=false;
             }
             else {
+//            //转换为数字
+//            grade= +grade;
+
+
             for(var i=0;i<num;i++){
                 //验证条件是否成立，不成立则是死循环，直到用户输入正确
                 for(;;){
-
-                    if (grade>0)break;
-//                    alert("请输入正数！");
-                    grade=prompt("请输入第"+i+"科的考试成绩");
+                    grade= +prompt("请输入第"+(i+1)+"科的考试成绩");
+                    if (grade>0)
+                    {break;}
+                    else {
+                        alert("请输入正数！");
+                    }
                 }
-            grade=prompt("请输入该科的考试成绩");
-            if(isNaN(grade)){
-                alert("您输入的不是数字！");
-                grade=prompt("请输入该科的考试成绩");
 
-                 }
-//                 else {
-//                grade= +grade;
-//                if(grade<= 0){
-//                    alert("请输入正数！");
-//                    grade=prompt("请输入该科的考试成绩");
-//                }
-
-
+                all=all+grade;
             }
-            all=all+grade;
+
 
 
              }
