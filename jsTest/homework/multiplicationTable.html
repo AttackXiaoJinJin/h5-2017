@@ -7,17 +7,29 @@
 
         var k=+prompt("请输入第一个数字");
          var n=+prompt("请输入第二个数字");
-        var i,j;
+//        var i,j;
         document.write("从"+k+"-"+n+"的乘法表如下<br>");
-         for(i=k;i<n+1;i++){
-           for(j=k;j<=i;j++){
+        console.time("begin");
+         for(var i=k;i<n+1;i++){
+           for(var j=k;j<=i;j++){
 
-             document.write(j+'*'+i+'='+i*j + '&nbsp;&nbsp;&nbsp;');
+             document.write('<span>'+j+'*'+i+'='+i*j + '&nbsp;&nbsp;&nbsp;'+'</span>');
            }
               document.write("<br>");
          }
 
+         console.timeEnd("begin");
+
     </script>
+    <style type="text/css">
+
+
+        span{
+            width: 80px;
+            /*行内块元素,不加没效果*/
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
 

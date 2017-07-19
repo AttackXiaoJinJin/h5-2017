@@ -4,34 +4,44 @@
     <meta charset="UTF-8">
     <title>prompt</title>
     <script>
+        console.time("begin");
         /*通过prompt对话框输入5个数字，
         然后计算平均值、最小值、最大值和总和*/
         var num1,num2,num3,num4,num5;
+
         num1=prompt("请输入第一个数字");
-//        if(typeof num1!="number"){
-//            alert("请输入数字！");
-//            num1=+prompt("请输入第一个数字");
-//        }
+//
         num2=prompt("请输入第二个数字");
-//        if(typeof num2!="number"){
-//            alert("请输入数字！");
-//            num2=+prompt("请输入第二个数字");
-//        }
+//
         num3=+prompt("请输入第三个数字");
-//        if(typeof num3!="number"){
-//            alert("请输入数字！");
-//            num3=+prompt("请输入第三个数字");
-//        }
+//
         num4=+prompt("请输入第四个数字");
-//        if(typeof num4!="number"){
-//            alert("请输入数字！");
-//            num4=+prompt("请输入第四个数字");
-//        }
+//
         num5=+prompt("请输入第五个数字");
-//        if(typeof num5!="number"){
-//            alert("请输入数字！");
-//            num5=+prompt("请输入第五个数字");
+//
+
+//        for(var i=0;i<5;i++){
+//            var num=prompt("Input number");
+//            sum=sum+num;
+        // 最大值
+//        if(num>max)
+//        {
+//            max=num;
 //        }
+        //最小值
+//        if(i==0)
+//        {min=num;}
+//        if(num<min){
+//            min=num;
+//        }
+//        sum
+//        sum/5
+//        max
+//        min
+//        }
+
+
+
 
         var avg,max,min,all,m1,m2,mm1,x1,x2,xx1;
         avg=(num1+num2+num3+num4+num5)/5;
@@ -83,6 +93,8 @@
      document.write("五个数分别是："+num1+", "+num2+", "+num3+", "+num4+", "+num5+"<br>"
                         +"总和为："+all+", "+"平均值为："+avg+','+"最大值为："+max+", "+"最小值为："+min
      )
+
+        console.timeEnd("begin");
 
     </script>
 </head>
