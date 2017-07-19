@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>toString</title>
+    <script>
+        function Person(name,age,sex) {
+            this.name=name;
+            this.age=age;
+            this.sex=sex;
+
+        }
+        //创建一个Person()的实例
+        var yuer = new Person("予儿",17,"女");
+        var chen = new Person("陈",18,"男");
+
+//        yuer.toString=function () {
+////          return "李锦是猪";
+//            return "姓名："+this.name+" 年龄："+this.age+" 性别："+this.sex;
+//
+//        };
+
+        Person.prototype.toString=function () {
+//          return "李锦是猪";
+            return "姓名："+this.name+" 年龄："+this.age+" 性别："+this.sex;
+
+        };
+
+
+
+
+        //相当于var result = per.toString();
+        console.log("result = "+ yuer);
+        console.log("result = "+ chen);
+
+
+    </script>
+</head>
+<body>
+
+
+
+
+
+
+</body>
+</html>
