@@ -6,15 +6,18 @@
     <script>
       function guessNumber() {
 
-          var num2=parseInt(Math.random()*100);
+          var num2=parseInt(Math.random()*100)+1;
+          var num1=0;
           var count=0;
-          alert(num2);
+//          alert(num2);
           var upp=100,dpp=1;
           while (true)
-          {     var num1=+prompt("请从1-100中输入您要猜的数字");
-              if(isNaN(num1)){
+          {     num1=+prompt("请从1-100中输入您要猜的数字");
+              if(isNaN(num1) || num1<=0 || num1>100){
                   alert("请按规定输入数字！");
-              }else if(num1>num2){
+              }
+                  else if(num1>num2){
+
               upp=num1;
               count++;
               alert("输入的数字过大，其范围是"+dpp+"-"+upp);
