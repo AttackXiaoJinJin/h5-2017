@@ -8,10 +8,10 @@
         /*通过prompt对话框输入5个数字，
         然后计算平均值、最小值、最大值和总和*/
         var num1,num2,num3,num4,num5;
-
-        num1=prompt("请输入第一个数字");
+//      +隐式转换为数字类型,而不是string类型
+        num1=+prompt("请输入第一个数字");
 //
-        num2=prompt("请输入第二个数字");
+        num2=+prompt("请输入第二个数字");
 //
         num3=+prompt("请输入第三个数字");
 //

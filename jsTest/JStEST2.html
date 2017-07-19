@@ -4,8 +4,63 @@
     <meta charset="UTF-8">
     <title>JSTest</title>
     <script>
-        var a,b;
-        console.log(c);
+//        var a,b;
+//        console.log(c);
+            var flag=true;
+            var all=0;
+            var grade=0;
+var num= prompt("请输入考试科目的数量");
+        if(isNaN(num)){
+            alert("您输入的不是数字！");
+            flag=false;
+        }else if(num<= 0){
+
+                alert("请输入正整数！");
+                flag=false;
+            }
+            else {
+            for(var i=0;i<num;i++){
+                //验证条件是否成立，不成立则是死循环，直到用户输入正确
+                for(;;){
+
+                    if (grade>0)break;
+//                    alert("请输入正数！");
+                    grade=prompt("请输入第"+i+"科的考试成绩");
+                }
+            grade=prompt("请输入该科的考试成绩");
+            if(isNaN(grade)){
+                alert("您输入的不是数字！");
+                grade=prompt("请输入该科的考试成绩");
+
+                 }
+//                 else {
+//                grade= +grade;
+//                if(grade<= 0){
+//                    alert("请输入正数！");
+//                    grade=prompt("请输入该科的考试成绩");
+//                }
+
+
+            }
+            all=all+grade;
+
+
+             }
+
+
+
+
+
+
+
+        if (flag)
+        {
+            alert("总成绩为："+all);
+        }else {
+            alert("您没有满足条件！")
+        }
+
+
 
     </script>
 </head>
