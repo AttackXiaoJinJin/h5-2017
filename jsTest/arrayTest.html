@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arrayTest</title>
+    <script type="text/javascript">
+        function Person(name,age) {
+            this.name = name;
+            this.age = age;
+        }
+
+        //重点
+        //修改person原型的toString
+        Person.prototype.toString = function() {
+            return   "姓名："+this.name+""+"年龄："+this.age+"";
+        };
+
+
+
+        //创建一个person对象
+        var per1=new Person("陈",18);
+        var per2=new Person("沈",17);
+        var per3=new Person("许",16);
+        var per4=new Person("李",15);
+        var per5=new Person("薛",14);
+        /*将这些person放入一个数组中*/
+        var perArray=[per1,per2,per3,per4,per5];
+//        console.log(per1);
+
+        /*创建一个函数，将perArray中的满16岁的age提取
+        * 出来，封装到一个新的数组并返回*/
+
+        var array2=[];
+        function tryAge() {
+
+            for(var i=0;i<perArray.length;i++){
+                if(perArray[i].age>=16){
+                    array2.push(perArray[i]);
+                    console.log(perArray[i]);
+                }
+
+            }
+//            console.log(array2);
+//            return array2;
+
+        }
+
+
+        tryAge();
+
+
+
+
+
+
+    </script>
+
+
+
+</head>
+<body>
+
+</body>
+</html>
