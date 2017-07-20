@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> packagingFunction</title>
+    <script>
+        var num2=parseInt(Math.random()*100)+1;
+        var num1=0;
+        var count=0;
+
+        var upp=100,dpp=1;
+        var str = num1+"";
+
+        function checkNum(num) {
+            if(isNaN(num1) || num1<=0 || num1>100){
+//                alert("请按规定输入数字！");
+                return "请按规定输入数字！";
+            }else if(str.indexOf(".")!=-1){
+//                alert("您输入的是小数！请输入1-100的正整数");
+                return "您输入的是小数！请输入1-100的正整数";
+
+
+            }else if(num1>upp || num1<dpp){
+//                alert("请在规定范围内输入数字！");
+                return "请在规定范围内输入数字！";
+            }
+            else if(num1>num2){
+
+                upp=num1;
+                count++;
+//                alert("输入的数字过大，其范围是"+dpp+"-"+upp);
+                return "bigger" ;
+            }else if(num1<num2){
+                dpp=num1;
+                count++;
+//                alert("输入的数字过小，其范围是"+dpp+"-"+upp);
+                return "smaller" ;
+
+            }else if(num1=num2){
+                count++;
+//                alert("您猜对了！答案是"+num2+'\n'+"您猜的次数是："+count);
+                return "ok" ;
+            }
+
+        }
+
+        while (true){
+            num1=+prompt("请从"+dpp+"-"+upp+"的正整数中输入您要猜的数字");
+            var result =checkNum(num1) ;
+            if(result == "ok"){
+                alert("您猜对了！答案是"+num2+'\n'+"您猜的次数是："+count);
+                break;
+
+            }
+            if(result=="bigger"){
+                alert("输入的数字过大，其范围是"+dpp+"-"+upp);
+            }
+            if(result=="smaller"){
+                alert("输入的数字过小，其范围是"+dpp+"-"+upp);
+            }
+            if(result=="请按规定输入数字！"){
+                alert("请按规定输入数字！");
+            }
+            if(result=="您输入的是小数！请输入1-100的正整数"){
+                alert("您输入的是小数！请输入1-100的正整数");
+            }
+            if(result=="请在规定范围内输入数字！"){
+                alert("请在规定范围内输入数字！") ;
+            }
+
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
