@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>apply&&call</title>
+    <script>
+        function fun() {
+            alert(this.name);
+        }
+        var obj = {
+            name:"obj",
+            sayName:function () {
+                //访问的是this对象的age属性
+             alert(this.age);
+            }
+        };
+        var obj2 = {
+            name:"obj2",
+            age:18
+        };
+//        fun.apply(obj2);
+        //this是obj2，访问的是obj2的age属性
+//        obj.sayName.apply(obj2);
+        fun.call(obj,2,3);
+        fun.apply(obj,[2,3]);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
