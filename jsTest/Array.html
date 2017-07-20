@@ -49,11 +49,62 @@
 //
 //        console.log(array[1].name);
 
-        var array=["李锦","刘婷婷","薛玥"];
-        //push()
-        array.push("吴绘");
-        array.push("陈","沈");
-        console.log(array.push());
+//        var array=["李锦","刘婷婷","薛玥"];
+//        //push()
+//        array.push("吴绘");
+//        array.push("陈","沈");
+//        console.log(array.push());
+
+//        var arr=["aaa","aaabbb",1231,34,332,9879,"wfdwdasf"];
+//        console.log(arr[3]);//访问第四个元素
+//        console.log(arr);
+//        for(var i=0;i<arr.length;i++){
+//            if(arr[i] == 'aaabbb'){
+//                console.log(i+1);
+//            }
+//        }
+
+//        console.log(arr.join("----"));
+//        console.log(arr);
+//        console.log(arr.splice(1,1));
+        var arr=["12","112","21","201","311","31"];
+        var false_result = arr.sort();
+        console.log(false_result);
+        var true_result=arr.sort(function (a,b) {
+            if(a>b){
+                return 1;
+            }else {
+                return 0;
+            }
+        });
+        console.log(true_result);
+
+
+//        console.log(arr.pop());
+//        var array=[];
+//        console.log("入栈前："+array);
+//        //入栈
+//        for(var i=1;i<6;i++){
+//            array.push(i);
+//
+//            console.log("入栈后："+array[i-1]);
+//        }
+//        //出栈
+//        console.log("出栈的元素："+array.pop());
+//        console.log("出栈后："+array.join("-"));
+//
+//        array.length=0;
+//        console.log("入队列前："+array);
+//        //入队列后
+//        for(i=1;i<6;i++){
+//        array.push(i);
+//        console.log("入队列后："+array[i-1]);
+//        }
+//        //出队列后
+//        console.log("出队列的元素："+array.shift());
+//        console.log("出队列后："+array);
+
+
 
 
 

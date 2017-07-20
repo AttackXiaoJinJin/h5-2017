@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/homework/packagingFunction.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/Queue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/StringObject.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/homework/lunch7.20.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/forEach.html" afterPath="$PROJECT_DIR$/forEach.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/homework/guessNumber.html" afterPath="$PROJECT_DIR$/jsTest/homework/guessNumber.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/Array.html" afterPath="$PROJECT_DIR$/jsTest/Array.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,21 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="guessNumber.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/homework/guessNumber.html">
+      <file leaf-file-name="Queue.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/Queue.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-594">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="packagingFunction.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsTest/homework/packagingFunction.html">
+      <file leaf-file-name="StringObject.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/StringObject.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lunch7.20.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/homework/lunch7.20.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-33">
+              <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/Array.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2442">
+              <caret line="74" column="11" lean-forward="false" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -65,9 +86,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/S1-html/unit2/transparent.html" />
-        <option value="$PROJECT_DIR$/S1-html/unit2/css/transparent.css" />
-        <option value="$PROJECT_DIR$/S1-html/unit2/cs_div.html" />
         <option value="$PROJECT_DIR$/S1-html/unit2/css/cs_div.css.css" />
         <option value="$PROJECT_DIR$/S1-html/unit2/backgroundTest.html" />
         <option value="$PROJECT_DIR$/S1-html/unit2/display.html" />
@@ -109,13 +127,16 @@
         <option value="$PROJECT_DIR$/jsTest/Anonymous.html" />
         <option value="$PROJECT_DIR$/jsTest/prototype.html" />
         <option value="$PROJECT_DIR$/jsTest/toString.html" />
-        <option value="$PROJECT_DIR$/jsTest/Array.html" />
         <option value="$PROJECT_DIR$/jsTest/functionTest1.html" />
         <option value="$PROJECT_DIR$/jsTest/gg.html" />
         <option value="$PROJECT_DIR$/jsTest/arrayTest.html" />
         <option value="$PROJECT_DIR$/forEach.html" />
         <option value="$PROJECT_DIR$/jsTest/homework/guessNumber.html" />
         <option value="$PROJECT_DIR$/jsTest/homework/packagingFunction.html" />
+        <option value="$PROJECT_DIR$/jsTest/Queue.html" />
+        <option value="$PROJECT_DIR$/jsTest/Array.html" />
+        <option value="$PROJECT_DIR$/jsTest/StringObject.html" />
+        <option value="$PROJECT_DIR$/jsTest/homework/lunch7.20.html" />
       </list>
     </option>
   </component>
@@ -132,9 +153,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-5" />
-    <option name="y" value="16" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-6" />
+    <option name="y" value="4" />
     <option name="width" value="1061" />
     <option name="height" value="1027" />
   </component>
@@ -178,6 +199,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Default">
           <expand>
@@ -194,7 +216,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,15 +227,15 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\S1-html\unit1" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\h5-gaobo\h5-2017\show_image" />
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\apple.com\images" />
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\apple.com\page" />
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\apple.com" />
       <recent name="F:\h5-gaobo\h5-2017\S1-html\homework\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\S1-html\unit1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -324,12 +345,13 @@
       <workItem from="1500336686585" duration="32820000" />
       <workItem from="1500422846804" duration="36535000" />
       <workItem from="1500472636182" duration="124000" />
-      <workItem from="1500508587327" duration="3599000" />
+      <workItem from="1500508587327" duration="15656000" />
+      <workItem from="1500528466039" duration="2174000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="208570000" />
+    <option name="totallyTimeSpent" value="222801000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -341,10 +363,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="16" width="1061" height="1027" extended-state="0" />
+    <frame x="-6" y="4" width="1061" height="1027" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25470763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.135778" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -373,27 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/S1-html/unit3/选择器的优先级.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit3/Z-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="19" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit3/homework2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="52" column="54" lean-forward="false" selection-start-line="52" selection-start-column="54" selection-end-line="52" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit1/Timetable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -678,15 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/Array.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -694,7 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -702,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="39" column="8" lean-forward="false" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,14 +700,45 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-594">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/homework/packagingFunction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
+        <state relative-caret-position="990">
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/Queue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="26" lean-forward="false" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/Array.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2442">
+          <caret line="74" column="11" lean-forward="false" selection-start-line="74" selection-start-column="11" selection-end-line="74" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/StringObject.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/homework/lunch7.20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="32" column="62" lean-forward="false" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
           <folding />
         </state>
       </provider>

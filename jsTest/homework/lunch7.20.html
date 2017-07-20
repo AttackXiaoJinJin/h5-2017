@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lunch7.20</title>
+</head>
+<script>
+   //判断一个文件名是否含有jpg
+
+//    var str1 = prompt("请输入文件名（包括后缀）");
+////   console.log(str1.lastIndexOf('.jpg'));
+//
+//   if(str1.substr(str1.length-4 , 4) == ".jpg"){
+//       alert("该文件是图片。");
+//   }else {
+//       alert("该文件不是图片。");
+//   }
+
+
+//    var str2= "pnjsdhj,jpg";
+//   console.log(str2.lastIndexOf('.jpg'));
+//    var str3="hello.jpg";
+//   console.log(str3.lastIndexOf('.jpg'));
+
+    //判断一个字符串是否是email
+   //必须包含@
+    //必须包含一个或多个'.'
+    //@必须在.前面
+    //@和.之间还有字符
+   //@不能放在第一个
+//    var inputEmail = prompt("请输入一个规范的邮箱地址");
+//   //-1表示不存在，0表示存在
+//   if((inputEmail.indexOf("@") == -1) || (inputEmail.indexOf("@") != inputEmail.lastIndexOf("@")) || (inputEmail.indexOf('.')==-1) ||
+//       (inputEmail.indexOf("@")>inputEmail.indexOf('.')) || ((inputEmail.indexOf(".")-inputEmail.indexOf('@'))<=1) ||
+//       (inputEmail.indexOf(" ")!=-1) || (inputEmail.indexOf("@") == 0)) {
+//       alert("请输入@字符！该字符只能有一个！"+'\n'+"请输入'.'字符!\n字符@必须在字符'.'前面!\n不能输入空字符！\n@不能放在第一个");
+//   }else{
+//       alert("输入正确!");
+//
+//   }
+
+    //获取3-99的随机正整数
+//   alert("获取任意值-任意值的随机正整数");
+//   var min =prompt("请输入期望的最小值");
+//   var max=prompt("请输入期望的最大值");
+//   parseInt(Math.random()*(max-min+1)+min)
+   while(true)
+   {    result=parseInt(Math.random()*(99-3+1)+3);
+       alert("获取3-99的随机正整数\n"+result);
+   }
+
+</script>
+<body>
+
+</body>
+</html>

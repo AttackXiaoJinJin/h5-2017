@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>排队</title>
+    <script>
+        var array=[];
+        var array2=[];
+        //默认有20个顾客
+        for(var i=1;i<21;i++){
+            array.push(i);
+        }
+        console.log("顾客："+array);
+        
+        function quHao() {
+//            array.shift();
+            array2.push(array.shift());
+            console.log("取号的顾客有："+array2);
+        }
+        
+        function jieZhang() {
+            console.log("结账后顾客还剩："+array);
+        }
+
+    </script>
+
+</head>
+<body>
+<form action="#">
+    <input type="button" value="取号" onclick="quHao()">
+    <input type="button" value="结账" onclick="jieZhang()">
+</form>
+
+</body>
+</html>
