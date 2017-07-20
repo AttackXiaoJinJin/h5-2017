@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>冒泡和选择和递归</title>
+    <script>
+        var arrs=[10,20,3,4,55,34,8];
+        var temp;
+//        for(var i=0;i<arrs.length;i++){
+//            for(var j=0;j<arrs.length-i;j++){
+//                if(arrs[j]>arrs[j+1]){
+//                    temp=arrs[j];
+//                    arrs[j]=arrs[j+1];
+//                    arrs[j+1]=temp;
+//                }
+//            }
+//
+//        }
+//        console.log(arrs);
+
+//        for(var i=0;i<arrs.length;i++){
+//            
+//
+//
+//        }
+
+        //递归算法,性能差
+        function  Recursion (num) {
+            //注意添加条件终止语句！！return 1;就不再循环
+            if(num == 1)
+                return 1;
+            //自我调用,参数变更
+            return num+Recursion(num-1);
+        }
+
+        console.log(Recursion(5));
+        
+        
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <title>排队</title>
     <script>
+        var i;
         var array=[];
         var array2=[];
-        //默认有20个顾客
-        for(var i=1;i<21;i++){
+        //默认有10个顾客
+        for(i=1;i<11;i++){
             array.push(i);
         }
         console.log("顾客："+array);
         
         function quHao() {
 //            array.shift();
-            array2.push(array.shift());
-            console.log("取号的顾客有："+array2);
+
+            i++;
+            array.push(i);
+            console.log("你是第"+array.push()+"号,前面有"+(array.push()-1)+"人：");
         }
         
         function jieZhang() {
-            console.log("结账后顾客还剩："+array);
+
+            array.shift();
+            if(array.push() == 0)
+            {
+               alert("没有顾客了！");
+            }
+            console.log("还剩"+array.push()+"人");
         }
 
     </script>
