@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <title>Date</title>
     <script>
-        //获取当前系统时间
-        var currentTime=new Date();
-//        alert(currentTime);
-        //有参是指定的时间
-        var you = new Date(2017,10,11,0,0,0,0);
-//        alert(you);
-        //秒
-        var cha=(you-currentTime)/1000;
-//        alert(cha);
-        var tian=parseInt(cha/(24*3600));
-//        alert("剩余"+tian+"天") ;
-         var xiaoshi =parseInt((cha%(24*3600))/3600);
-//       alert("剩余"+xiaoshi+"小时");
-       var fenzhong= parseInt(((cha%(24*3600))%3600)/60);
-//        alert("剩余"+fenzhong+"分");
-        var miao=parseInt(((cha%(24*3600))%3600)%60) ;
-//        alert("剩余"+miao+"秒");
+//        //获取当前系统时间
+//        var currentTime=new Date();
+////        alert(currentTime);
+//        //有参是指定的时间
+//        var you = new Date(2017,10,11,0,0,0,0);
+////        alert(you);
+//        //秒
+//        var cha=(you-currentTime)/1000;
+////        alert(cha);
+//        var tian=parseInt(cha/(24*3600));
+////        alert("剩余"+tian+"天") ;
+//         var xiaoshi =parseInt((cha%(24*3600))/3600);
+////       alert("剩余"+xiaoshi+"小时");
+//       var fenzhong= parseInt(((cha%(24*3600))%3600)/60);
+////        alert("剩余"+fenzhong+"分");
+//        var miao=parseInt(((cha%(24*3600))%3600)%60) ;
+////        alert("剩余"+miao+"秒");
+//
+//
+//        alert("剩余"+tian+"天"+xiaoshi+"小时"+fenzhong+"分"+miao+"秒");
 
-
-        alert("剩余"+tian+"天"+xiaoshi+"小时"+fenzhong+"分"+miao+"秒");
-
+       var d5=new Date("7/20/2017 18:17:12" );
+//       var d5=new Date("7/20/2017" );
+       console.log(d5);
 
     </script>
 </head>

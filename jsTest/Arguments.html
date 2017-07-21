@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arguments</title>
+    <script>
+
+
+        //普通方式有缺陷，无法应对参数变化
+        function add(a,b) {
+            alert(a+b);
+        }
+
+        //arguments,包含所有的参数
+        function addYou(a,b) {
+//            var sum=0;
+//            for (var i=0;i<arguments.length;i++){
+//                sum+=arguments[i];
+//            }
+//            alert(sum);
+            console.log(arguments.length);
+            console.log(arguments[1]);
+            console.log(arguments.callee);
+        }
+
+        addYou("aa",121)
+
+
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
