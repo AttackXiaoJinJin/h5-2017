@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOMtest</title>
+    <script>
+        function show2() {
+            alert("show2");
+        }
+        function show4() {
+            alert("show4");
+        }
+
+        //读取整个页面后，才去执行
+        window.onload=function () {
+            //事件监控,不会覆盖
+            //有兼容问题
+            document.getElementById("btnMe").addEventListener("click", show2);
+            document.getElementById("btnMe").addEventListener("click", function () {
+                alert("show3");
+            });
+            //该方法会覆盖其他方法
+            document.getElementById("btnMe").onclick=show2;
+            //将上面的语句覆盖了
+            document.getElementById("btnMe").onclick=show4;
+
+        };
+
+</script>
+</head>
+<body>
+<form action="#">
+    <input id="btnMe" type="button" value="me" name="btnMe" >
+</form>
+
+
+
+</body>
+</html>

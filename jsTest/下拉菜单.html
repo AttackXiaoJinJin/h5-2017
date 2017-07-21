@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            font-size: 16px;
+            color: #8ac6cd;
+        }
+
+        ul,ol{
+            list-style: none;
+
+        }
+        a{
+            text-decoration: none;
+        }
+
+        .menu>li{
+            float: left;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            background-color: #53a16f;
+            /*不写的话下拉菜单和列表不能对齐*/
+            text-align: center;
+        }
+
+        .menu>li .innerMenu{
+            border: 1px solid red ;
+            text-align: center;
+            /*隐藏*/
+            display: none;
+
+        }
+
+        /*注意这种写法！*/
+        /*.menu .dropdown:hover .innerMenu{*/
+            /*display: block;*/
+
+        /*}*/
+
+    </style>
+
+    <script>
+        window.onload=function () {
+            var dropdown=document.getElementById("drop-down");
+            var innermenu = document.getElementById("inner-menu");
+            dropdown.addEventListener("mouseover",function () {
+               innermenu.style.display="block";
+            });
+
+            dropdown.addEventListener("mouseout",function () {
+                innermenu.style.display="none";
+            });
+
+        };
+
+    </script>
+
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#">首页</a></li>
+        <li class="dropdown" id="drop-down"><a href="#">商品</a>
+            <ul class="innerMenu" id="inner-menu">
+                <li>手机</li>
+                <li>服装</li>
+                <li>饰品</li>
+                <li>鞋子</li>
+            </ul>
+
+        </li>
+        <li><a href="#">购物车</a></li>
+        <li><a href="#">用户</a></li>
+        <li><a href="#">联系我们</a></li>
+
+    </ul>
+
+</body>
+</html>
