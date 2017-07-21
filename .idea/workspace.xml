@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/img3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/S1-html/7.21test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/BOMtest3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/DOMtest4.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/dateTest1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/homework/浏览器宽度适配.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/windows的定时函数.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/图片轮播.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/屏幕竖直滚动.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/img3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/img4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/img5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/图片切换.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsTest/imgs/img3.PNG" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/imgs/img1.jpg" afterPath="$PROJECT_DIR$/jsTest/imgs/img1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/imgs/img2.jpg" afterPath="$PROJECT_DIR$/jsTest/imgs/img2.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/css/style.css" afterPath="$PROJECT_DIR$/S1-html/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit1/demo02.html" afterPath="$PROJECT_DIR$/S1-html/unit1/demo02.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/S1-html/unit3/样式分类.html" afterPath="$PROJECT_DIR$/S1-html/unit3/样式分类.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,101 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="aa.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit3/aa.html">
+      <file leaf-file-name="图片切换.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/图片切换.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="homework2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit3/homework2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="relativeTest.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit3/relativeTest.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Z-index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit3/Z-index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="样式分类.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit3/样式分类.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="选择器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit3/选择器.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="选择器的优先级.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit3/选择器的优先级.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7.21test.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/7.21test.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo01.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit1/demo01.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="demo02.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/S1-html/unit1/demo02.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="87" column="0" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="89" selection-end-column="29" />
+            <state relative-caret-position="337">
+              <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -154,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/homework/day.html" />
         <option value="$PROJECT_DIR$/jsTest/homework/sixnumber.html" />
         <option value="$PROJECT_DIR$/jsTest/homework/stars.html" />
         <option value="$PROJECT_DIR$/jsTest/homework/multiplicationTable.html" />
@@ -205,6 +109,7 @@
         <option value="$PROJECT_DIR$/S1-html/unit3/样式分类.html" />
         <option value="$PROJECT_DIR$/S1-html/7.21test.html" />
         <option value="$PROJECT_DIR$/jsTest/dateTest1.html" />
+        <option value="$PROJECT_DIR$/jsTest/图片切换.html" />
       </list>
     </option>
   </component>
@@ -221,7 +126,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="5" />
     <option name="y" value="11" />
     <option name="width" value="953" />
@@ -272,25 +177,13 @@
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="S1-html" type="462c0819:PsiDirectoryNode" />
+              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="S1-html" type="462c0819:PsiDirectoryNode" />
-              <item name="unit1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="S1-html" type="462c0819:PsiDirectoryNode" />
-              <item name="unit2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="S1-html" type="462c0819:PsiDirectoryNode" />
-              <item name="unit3" type="462c0819:PsiDirectoryNode" />
+              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,17 +200,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\homework" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest" />
+      <recent name="F:\h5-gaobo\h5-2017\S1-html\unit1" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\h5-gaobo\h5-2017\jsTest\imgs" />
       <recent name="F:\h5-gaobo\h5-2017\show_image" />
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\apple.com\images" />
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\apple.com\page" />
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit2\apple.com" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\homework" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest" />
-      <recent name="F:\h5-gaobo\h5-2017\S1-html\unit1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -431,12 +324,12 @@
       <workItem from="1500528466039" duration="22412000" />
       <workItem from="1500595216645" duration="22847000" />
       <workItem from="1500630755336" duration="4026000" />
-      <workItem from="1500637675458" duration="599000" />
+      <workItem from="1500637675458" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270511000" />
+    <option name="totallyTimeSpent" value="271145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,7 +341,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="11" width="953" height="1027" extended-state="1" />
+    <frame x="5" y="11" width="953" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25416204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -480,38 +373,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/homework/排队取餐.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/数组去重.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="38" column="9" lean-forward="true" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/选择和冒泡.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/匿名函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/apply和Call方法.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="24" column="24" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="24" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -578,28 +443,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/DOMtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/BOMtest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="19" column="16" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="28" selection-end-column="9" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/imgs/img1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/imgs/img2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/菜单选择和隐藏.html">
@@ -623,31 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/BOMtest3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/DOMtest4.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/homework/浏览器宽度适配.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/windows的定时函数.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -662,13 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/图片轮播.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -763,14 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit3/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit3/homework2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -837,8 +649,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit1/demo02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="87" column="0" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="89" selection-end-column="29" />
+        <state relative-caret-position="495">
+          <caret line="83" column="16" lean-forward="true" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/unit3/aa.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/apply和Call方法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/BOMtest3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="20" column="78" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/DOMtest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" column="29" lean-forward="true" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/DOMtest4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="17" column="24" lean-forward="false" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/JStEST2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/windows的定时函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="818">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/图片轮播.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/imgs/img1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/imgs/img2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/imgs/img3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/图片切换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="27" column="8" lean-forward="false" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding />
         </state>
       </provider>
