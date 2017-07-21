@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>浏览器宽度</title>
+</head>
+    <style>
+        /*#bd{*/
+            /*background-color: yellow;*/
+        /*}*/
+        body{
+            background-color: yellow;
+        }
+
+
+    </style>
+    <script>
+        window.onload=function () {
+            window.onresize=function () {
+                var windowWidth=window.innerWidth;
+//                var bd=document.getElementById("bd");
+                var bd1=document.getElementsByTagName("body")[0];
+//                var bd2=document.body;
+
+                if(windowWidth>1280){
+                    bd1.style.backgroundColor="yellow" ;
+                }else if(windowWidth<=1280 && windowWidth>=1024){
+                    bd1.style.backgroundColor="green" ;
+                }else if(windowWidth>=800 && windowWidth <=1024){
+                    bd1.style.backgroundColor="blue" ;
+                }else if(windowWidth<800) {
+                    bd1.style.backgroundColor="red" ;
+                }
+
+
+            }
+        }
+    </script>
+<!--<body id="bd">-->
+<body>
+
+</body>
+</html>

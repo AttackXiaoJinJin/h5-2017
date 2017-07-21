@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>windows定时函数</title>
+    <script>
+//        function jump() {
+            //5秒后调用jump函数
+//        window.open("https://www.baidu.com","page1","");
+//    }
+
+        function showTime() {
+            var cuTime=document.getElementById("currentTime");
+
+            cuTime.innerHTML=new Date().toLocaleString();
+
+            //死循环
+//            showTime();
+
+        }
+
+        window.onload=function () {
+//           setTimeout(jump,5000);
+
+//            setInterval(showTime,1000);
+//            setTimeout(showTime,1000);
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <!--<p>5秒跳转</p>-->
+    <div id="currentTime">
+
+
+    </div>
+</body>
+</html>

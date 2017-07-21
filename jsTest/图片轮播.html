@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片轮播</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        div{
+            width: 200px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+    </style>
+    <script>
+        var arrPic=['img1.jpg','img2.jpg',"img3.png"];
+        var index=0;
+        function showPic() {
+            var img=document.getElementById("loopImg");
+            img.src="imgs/"+arrPic[index];
+            index++;
+            if (index===3){
+                index=0;
+            }
+        }
+
+        window.onload=function () {
+            setInterval(showPic,1000);
+        }
+
+    </script>
+
+</head>
+<body>
+<div>
+    <img id="loopImg" src="imgs/img1.jpg" alt="" />
+</div>
+</body>
+</html>

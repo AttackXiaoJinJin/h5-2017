@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BOMtest3</title>
+    <script>
+//        做屏幕适配
+//        function show() {
+//            var width=window.innerWidth;
+//            var height=window.innerHeight;
+//            alert(width+'\n'+ height);
+//        }
+
+        function comfirmC() {
+           var result = confirm("Are you sure?");
+           //相当于if...else
+           result?alert("经过确认，删除成功"):alert("未删除") ;
+        }
+
+  function comfirmCH() {
+    open("https://www.apple.com/",'','width=300,height=300,left=300,top=300');
+
+
+}
+
+    </script>
+</head>
+<body>
+<!--<input type="button" value="显示窗口尺寸" onclick="show()">-->
+<table border="1" width="50%" align="center">
+    <tr>
+        <td>stu01</td>
+        <td>沈</td>
+        <td><input type="button" value="点我" onclick="comfirmCH()"></td>
+    </tr>
+    <tr>
+        <td>stu02</td>
+        <td>陈</td>
+        <td><input type="button" value="删除"  onclick="comfirmC()"></td>
+    </tr>
+    <tr>
+        <td>stu03</td>
+        <td>薛</td>
+        <td><input type="button" value="删除"  onclick="comfirmC()"></td>
+    </tr>
+</table>
+
+
+</body>
+</html>

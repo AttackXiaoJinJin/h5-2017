@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>移动</title>
+    <script>
+
+        function move() {
+            //移动窗口指定的距离,横着10px，竖着0px
+            window.moveBy(10,0);
+            //移动窗口到指定的位置
+            window.moveTo(300,0);
+
+
+        }
+
+        function scroll() {
+            //一直竖直方向10px滚动
+           window.scrollBy(0,10);
+
+
+        }
+        
+    </script>
+</head>
+<body>
+<input type="button" value="移动" onclick="move()">
+
+</body>
+</html>
