@@ -5,31 +5,92 @@
     <title>商场购物倒计时</title>
 </head>
 <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     #div01{
         background-color: #8ac6cd;
-        height: 50px;
-        width: 200px;
+        width: 300px;
+        /*text-align: center;*/
+        margin: 50px auto;
     }
+
+    .div02{
+        background-color: #cdb735;
+        float: left;
+        width: 100px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    .div02 .div021{
+        color: #ff4e1c;
+    }
+
+    .div02 .div022{
+        color: #ff4d00;
+        font-weight: 600;
+    }
+
+
+    .div03{
+        background-color: #cdb735;
+        float: left;
+        width: 150px;
+        height: 50px;
+
+    }
+    span{
+        color: white;
+        background-color: black;
+    }
+
+
+
 </style>
 <script>
-
+    function p (n){
+        return n < 10 ? '0'+ n : n;
+    }
     setInterval(function () {
+        var span=document.getElementById("span");
         var now=new Date();
         var you = new Date(2017,6,23,20,0,0,0);
         var cha=(you-now)/1000;
-        var tian=parseInt(cha/(24*3600));
-        var xiaoshi =parseInt((cha%(24*3600))/3600);
-        var fenzhong= parseInt(((cha%(24*3600))%3600)/60);
-        var miao=parseInt(cha%60) ;
-        var div01=document.getElementById("div01");
-        div01.innerHTML="剩余"+tian+"天"+xiaoshi+"小时"+fenzhong+"分"+miao+"秒";
 
+        if(cha>0) {
+            var tian = parseInt(cha / (24 * 3600));
+            var xiaoshi = parseInt((cha % (24 * 3600)) / 3600);
+            var fenzhong = parseInt(((cha % (24 * 3600)) % 3600) / 60);
+            var miao = parseInt(cha % 60);
+        }
+        var div01=document.getElementById("div01");
+//        div01.innerHTML="剩余"+tian+"天"+xiaoshi+"小时"+fenzhong+"分"+miao+"秒";
+
+        document.getElementById("t_d").innerHTML = p(tian) ;
+        document.getElementById("t_h").innerHTML = p(xiaoshi) ;
+        document.getElementById("t_m").innerHTML = p(fenzhong);
+        document.getElementById("t_s").innerHTML = p(miao);
 
     },0)
 </script>
 <body>
     <div id="div01">
-        aaa
+        <div class="div02">
+            <div class="div021">全场不用挑</div>
+            <div class="div022">家装一站购物</div>
+        </div>
+        <div class="div03">
+            <div>距离开始还剩
+
+            </div>
+            <div><span id="t_d">00</span>：
+                <span id="t_h">00</span>：
+                <span id="t_m">00</span>：
+                <span id="t_s">00</span>
+            </div>
+        </div>
     </div>
 
 </body>
