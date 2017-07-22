@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>大小图片轮播</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .div00{
+        text-align: center;
+        width: 750px;
+        height: 220px;
+
+        margin: 50px auto;
+    }
+    #div01{
+        width: 613px;
+        height: 180px;
+
+        float: left;
+    }
+    #div02{
+        width: 127px;
+        height: 150px;
+
+        float: left;
+    }
+
+    #div02 div{
+        width: 127px;
+        height: 50px;
+    }
+
+    #img01 ,#img02,#img03{
+        padding: 4px 0 4px 6px;
+    }
+
+    #img01{
+        background-image: url("imgs/border.png") ;
+    }
+
+    #img02{
+        background-image: url("imgs/greyborder.png");
+    }
+    #img03{
+        background-image: url("imgs/greyborder.png");
+    }
+
+
+</style>
+<script>
+
+window.onload=function () {
+    var bigg=document.getElementById("imgBig");
+
+    var arrBig=['bigpic1.JPG','bigpic2.jpg','bigpic3.JPG'];
+    var arrSmall=['url(imgs/border.png)','url(imgs/greyborder.png)'];
+    var small01=document.getElementById("div02").getElementsByTagName("img")[0];
+    var small02=document.getElementById("div02").getElementsByTagName("img")[1];
+    var small03=document.getElementById("div02").getElementsByTagName("img")[2];
+    var bigIndex=0;
+    function changeBig() {
+        bigIndex++;
+        if (bigIndex===arrBig.length){
+            bigIndex=0;
+        }
+        bigg.src="imgs/"+arrBig[bigIndex];
+        if(bigIndex===0)
+        { small01.style.backgroundImage=arrSmall[0];
+         small02.style.backgroundImage=arrSmall[1];
+         small03.style.backgroundImage=arrSmall[1];
+
+        }else if(bigIndex===1){
+            small01.style.backgroundImage=arrSmall[1];
+            small02.style.backgroundImage=arrSmall[0];
+            small03.style.backgroundImage=arrSmall[1];
+        }else if(bigIndex===2){
+            small01.style.backgroundImage=arrSmall[1];
+            small02.style.backgroundImage=arrSmall[1];
+            small03.style.backgroundImage=arrSmall[0];
+        }
+
+
+    }
+
+    setInterval(changeBig,2000);
+};
+
+
+</script>
+<body>
+<div class="div00">
+    <div id="div01"><img src="imgs/bigpic1.JPG" alt="bigpic1" id="imgBig">
+    </div>
+    <div id="div02">
+      <img src="imgs/smallpic1.JPG" alt="small01" id="img01"><img src="imgs/smallpic2.jpg" alt="small02" id="img02"><img src="imgs/smallpic3.JPG" alt="small03" id="img03">
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商场购物倒计时</title>
+</head>
+<style>
+    #div01{
+        background-color: #8ac6cd;
+        height: 50px;
+        width: 200px;
+    }
+</style>
+<script>
+
+    setInterval(function () {
+        var now=new Date();
+        var you = new Date(2017,6,23,20,0,0,0);
+        var cha=(you-now)/1000;
+        var tian=parseInt(cha/(24*3600));
+        var xiaoshi =parseInt((cha%(24*3600))/3600);
+        var fenzhong= parseInt(((cha%(24*3600))%3600)/60);
+        var miao=parseInt(cha%60) ;
+        var div01=document.getElementById("div01");
+        div01.innerHTML="剩余"+tian+"天"+xiaoshi+"小时"+fenzhong+"分"+miao+"秒";
+
+
+    },0)
+</script>
+<body>
+    <div id="div01">
+        aaa
+    </div>
+
+</body>
+</html>

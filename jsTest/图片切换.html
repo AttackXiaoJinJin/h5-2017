@@ -15,15 +15,58 @@
             width: 500px;
             margin: 30px auto;
             padding: 10px;
+            /*设置文本居中*/
+            text-align: center;
         }
 
     </style>
     <script>
+        var arrList=["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg"];
+        var i=0;
+
+        window.onload=function () {
+            var img1 = document.getElementsByTagName("img")[0];
+            var pre = document.getElementById("prev");
+            var nex = document.getElementById("next");
+            var ppp=document.getElementsByTagName("p")[0];
+            ppp.innerHTML="总共"+arrList.length+"张，当前是第"+(i+1)+"张"  ;
+
+
+            pre.addEventListener("click", function () {
+//                不能用循环，否则点击一次就循环到底！
+//                for (var i = arrList.length - 1; i >= 0; i--) {
+//                    if (i === -1) {
+//                        i = arrList.length - 1;
+////                       img1.src="imgs/"+arrList[i];
+//                    }
+                i--;
+
+                   if(i<0){
+                      i=arrList.length-1;
+                   }
+                    img1.src = "imgs/" + arrList[i];
+                ppp.innerHTML="总共"+arrList.length+"张，当前是第"+(i+1)+"张"  ;
+            });
+            nex.addEventListener("click",function () {
+
+                i++;
+                if(i===arrList.length){
+                    i=0;
+                }
+                img1.src = "imgs/" + arrList[i];
+
+                ppp.innerHTML="总共"+arrList.length+"张，当前是第"+ (i+1)+"张"  ;
+            });
+
+
+
+        }
 
     </script>
 </head>
 <body>
 <div id="all">
+    <p>总共 张，当前是第 张</p>
 <img src="imgs/img1.jpg" alt="a" />
     <br>
 

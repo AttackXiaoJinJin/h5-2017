@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>全选练习</title>
+    <script>
+        window.onload=function () {
+            var items=document.getElementsByName("items");
+            //checkedAllBtn
+            var addAllBtn=document.getElementById("checkedAllBox");
+            addAllBtn.addEventListener("click",function () {
+                //可以用this==addAllBtn来判断this所代表的对象
+                //为true可用this代替之
+                    //getElementsByName获取的是数组
+                    //所以先遍历数组，再一个个改变状态
+                    for(var i=0;i<items.length;i++)
+                    {
+                        // if(addAllBtn.checked){
+//                            items[i].checked=true;
+//                        }
+//                        else {
+//                        items[i].checked=false;
+//                        }
+                        //n从右往左赋值，不能从左往右
+//                        items[i].checked=addAllBtn.checked;
+                        items[i].checked=this.checked;
+                    }
+
+            });
+
+            //完善对全选/全不选的判断
+            for(var i=0;i<items.length;i++)
+            {
+                if(!items[i].checked){
+                    addAllBtn.checked=false;
+                }
+            }
+
+
+
+            var checkedAllBtn = document.getElementById("checkedAllBtn");
+
+            checkedAllBtn.addEventListener("click",function () {
+                //getElementsByName获取的是数组
+                //所以先遍历数组，再一个个改变状态
+                for(var i=0;i<items.length;i++)
+                {
+                    items[i].checked=true;
+
+                }
+                addAllBtn.checked=true;
+            });
+
+            var checkedNoBtn=document.getElementById("checkedNoBtn");
+            checkedNoBtn.addEventListener("click",function () {
+                //getElementsByName获取的是数组
+                //所以先遍历数组，再一个个改变状态
+                for(var i=0;i<items.length;i++)
+                {
+                    items[i].checked=false;
+
+                }
+                addAllBtn.checked=false;
+            });
+
+            var checkedRevBtn=document.getElementById("checkedRevBtn");
+            checkedRevBtn.addEventListener("click",function () {
+                addAllBtn.checked=true;
+                //getElementsByName获取的是数组
+                //所以先遍历数组，再一个个改变状态
+                for(var i=0;i<items.length;i++)
+                {
+                    // if (items[i].checked)
+//                    {
+//                        items[i].checked=false;
+//                    }
+//                    else {
+//                    items[i].checked=true;
+//                    }
+                    //代码优化
+                    items[i].checked= !items[i].checked;
+
+                    //只要有一个没选就不是全选
+                    if(!items[i].checked){
+                        //一旦进入判断，就证明不是全选状态
+                        //如果j=0即第一个就不满足条件时，就没有必要判断后面的情况了
+                        addAllBtn.checked=false;
+//                        break;
+                    }
+
+                }
+
+//                //如果一直没有进入下面的判断
+//                // 则证明items全部选上了即
+//                addAllBtn.checked=true;
+//
+//                for(var j=0;j<items.length;j++){
+//                    //只要有一个没选就不是全选
+//                    if(!items[j].checked){
+//                        //一旦进入判断，就证明不是全选状态
+//                        //如果j=0即第一个就不满足条件时，就没有必要判断后面的情况了
+//                        addAllBtn.checked=false;
+//                        break;
+//                    }
+//                }
+
+
+            });
+
+            var sendBtn=document.getElementById("sendBtn");
+            sendBtn.addEventListener("click",function () {
+                for(var i=0;i<items.length;i++)
+                {
+                   if(items[i].checked){
+
+                     alert(items[i].value);
+                   }
+                }
+            });
+            
+            //为四个items绑定响应函数 
+            for(i=0;i<items.length;i++)
+            {
+                items[i].onclick=function () {
+
+
+                    //如果一直没有进入下面的判断
+                    // 则证明items全部选上了即
+                    addAllBtn.checked=true;
+
+                    for(var j=0;j<items.length;j++){
+                        //只要有一个没选就不是全选
+                        if(!items[j].checked){
+                            //一旦进入判断，就证明不是全选状态
+                            //如果j=0即第一个就不满足条件时，就没有必要判断后面的情况了
+                            addAllBtn.checked=false;
+                            break;
+                        }
+                    }
+
+
+                }
+            }
+            
+            
+            
+            
+        }
+    </script>
+
+</head>
+<body>
+    <form action="#" method="post">
+        您爱好的运动是？<input type="checkbox" id="checkedAllBox" />全选/全部选
+        <br />
+        <input type="checkbox" name="items" value="足球"/>足球
+        <input type="checkbox" name="items" value="篮球"/>篮球
+        <input type="checkbox" name="items" value="羽毛球"/>羽毛球
+        <input type="checkbox" name="items" value="乒乓球"/>乒乓球
+        <br/>
+        <input type="button"  value="全 选" id="checkedAllBtn" />
+        <input type="button"  value="全不选" id="checkedNoBtn"/>
+        <input type="button"  value="反 选" id="checkedRevBtn"/>
+        <input type="button"  value="提 交" id="sendBtn"/>
+
+    </form>
+</body>
+</html>

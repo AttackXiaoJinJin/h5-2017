@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOMtest5</title>
+    <script>
+        //函数也是对象，是对象就可以作为参数
+        //为单击按钮封装函数
+        //btnId为按钮的id值，fun是回调函数
+        function BtnClick(btnId,fun) {
+            var btn=document.getElementById(btnId);
+            btn.onclick=fun;
+        }
+
+       window.onload=function () {
+           BtnClick("btn01",function () {
+               var loginID=document.getElementById("loginUserId");
+
+               loginID.value="请输入您的用户名" ;
+           });
+       };
+
+
+    </script>
+</head>
+<body>
+<!--label获取焦点，点击用户名即可获取焦点-->
+<label for="loginUserId">用户名：</label>
+<!--id必须唯一,不能以数字开头-->
+<!--maxlength字符长度-->
+<!--value属性，特征-->
+<!--提交给服务器是根据name来提交的，id不会提交-->
+<input name="login_userId" id="loginUserId" type="text" maxlength="6" value="abdsfs">
+<button id="btn01">点我改变</button>
+</body>
+</html>
