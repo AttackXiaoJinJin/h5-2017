@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用DOM操作内联样式(CSS)</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #box1{
+            width: 200px;
+            height: 200px;
+            background-color: #8ac6cd;
+        }
+    </style>
+    <script>
+        window.onload=function () {
+            //点击按钮后修改box大小
+            var box1=document.getElementById("box1");
+            var btn01=document.getElementById("btn01");
+            
+            btn01.onclick=function () {
+//                box1.style.width="300px";
+//                box1.style.height="300px";
+//                box1.style.backgroundColor="red";
+//                var obj=getComputedStyle(box1,null);
+//                alert(obj.width);
+            };
+
+            function getStyle(obj,name) {
+                //如果写成.name形式，则是调用的name方法
+                //而不是参数name，故使用[name],不用.而是[]代替
+//                getComputedStyle(obj,null).name；
+
+                //正常浏览器
+//                if (window.getComputedStyle) {
+//                    return getComputedStyle(obj, null)[name];
+//                } else {
+//                    //IE8及其以下
+//                    return obj.currentStyle[name];
+//                }
+
+                return window.getComputedStyle?getComputedStyle(obj, null)[name]:obj.currentStyle[name];
+
+
+                //第二种方法,由于IE9，10,11两种方法都有，所以
+                //会优先使用getComputedStyle，所以不太推荐用
+                //currentStyle这个IE一直有的属性来判断，而是版本中没有的
+                //属性来判断
+//                if(obj.currentStyle){
+//                    return obj.currentStyle[name];
+//                }else {
+//                    return getComputedStyle(obj,null)[name];
+//                }
+            }
+
+
+
+
+
+        }
+
+    </script>
+</head>
+<body>
+    <button id="btn01">点我一下</button>
+    <br>
+    <br>
+    <div id="box1"></div>
+</body>
+</html>

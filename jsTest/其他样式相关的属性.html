@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>其他样式相关的属性</title>
+    <style>
+        #box1{
+            width: 300px;
+            height: 300px;
+            background-color: #8ac6cd;
+            overflow: auto;
+        }
+
+        #box2{
+            width: 150px;
+            height: 600px;
+            background-color: #cdc92d;
+        }
+
+
+    </style>
+    <script>
+        window.onload=function () {
+            var inputs=document.getElementsByTagName("input")
+
+            //当滚动到底时，使表单可用
+            //onscroll,该事件会在元素滚动时触发
+            var box1=document.getElementById("box1");
+            box1.onscroll=function () {
+//                alert("hi");
+                //检查滚动条是否滚动到底
+                if(box1.scrollHeight-box1.scrollTop==box1.clientHeight){
+                    //true表示禁用,false表示可用
+                    inputs[0].disabled=false;
+                    inputs[1].disabled=false;
+                }
+            }
+
+        }
+    </script>
+</head>
+<body>
+    <div id="box1">
+        <div id="box2">
+
+        </div>
+
+    </div>
+    <input type="checkbox" disabled="disabled"> 我已阅读。
+    <input type="submit" value="注册" disabled="disabled">
+
+</body>
+</html>
