@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>div跟随鼠标移动</title>
+    <style>
+        #box1{
+            width: 100px;
+            height:100px;
+            background-color: #f4645f;
+            position: absolute;
+        }
+        
+    </style>
+
+    <script>
+        window.onload=function () {
+            var box1=document.getElementById("box1");
+            document.onmousemove=function (event) {
+                event= event || window.event;
+                //为兼容IE8
+                //chrome认为浏览器滚动条是body的，可以通过body.scrollTop来获取
+//                var st = document.body.scrollTop;
+                //火狐等浏览器认为滚动条是html的
+//                var str=document.documentElement.scrollTop;
+
+                var st=document.body.scrollTop || document.documentElement.scrollTop;
+                var sl=document.body.scrollLeft || document.documentElement.scrollLeft;
+                //clientX,Y是相对于可见浏览器窗口的左上角
+                //来确定的
+                var left=event.clientX;
+                //获取鼠标相对于当前页面的坐标
+//                var left=event.pageX;
+                var top=event.clientY;
+//                var top=event.pageY;
+                //style.left和top却是相对于整个html页面的
+                // 左上角来确定的，所以两者的标准不一样
+               //设置div的偏移量
+                box1.style.left=left+sl+"px";
+
+                box1.style.top=top+st+"px";
+
+
+            }
+
+        }
+        
+    </script>
+    
+</head>
+<body style="height: 1600px">
+    <div id="box1">
+        
+    </div>
+</body>
+</html>
