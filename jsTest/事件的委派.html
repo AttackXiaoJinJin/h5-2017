@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件的委派</title>
+</head>
+<script>
+    window.onload=function () {
+        var ul=document.getElementById("ul");
+        var btn01=document.getElementById("btn01");
+        btn01.onclick=function () {
+          var li=document.createElement("li");
+          li.innerHTML="<a href='javascript:;' class='link'>超链接1</a>" ;
+            ul.appendChild(li);
+
+        };
+
+        //不推荐使用，因为性能差
+//        var allA=document.getElementsByTagName("a");
+//        for(var i=0;i<allA.length;i++){
+//            allA[i].onclick=function () {
+//
+//            };
+//        }
+
+        //一次绑定，就应用到多个元素上，即使元素是后添加的
+        //即绑定给元素共同的祖先元素
+        ul.onclick=function (event) {
+            //如果触发事件的对象是我们期望的元素，则执行否则不执行
+            event = event || window.event ;
+
+            //event.target,表示是触发事件的
+            if(event.target.className=="link"){
+                alert("nihao");
+            }
+
+        }
+
+    }
+
+
+</script>
+<body>
+    <ul id="ul">
+        <li><a href="javascript:;" class="link">超链接1</a></li>
+        <li><a href="javascript:;" class="link">超链接2</a></li>
+        <li><a href="javascript:;" class="link">超链接3</a></li>
+    </ul>
+
+<button id="btn01">添加一个超链接</button>
+
+</body>
+</html>
