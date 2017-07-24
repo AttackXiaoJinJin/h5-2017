@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/images/list0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/images/list1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/images/list2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/images/list3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/images/list_bg.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/images/list_tool_fav1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/images/online_pic.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/autumn.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/spring.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/summer.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/images/winter.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/check_all.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/history.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/元素节点的查询方法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/autumn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/spring.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/summer.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/winter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/事件的绑定.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.24/document的对象属性.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/document的对象属性.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jsTest/2017.7.24/元素节点的查询方法.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.24/表格的增删改查.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,11 +40,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="元素节点的查询方法.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.24/元素节点的查询方法.html">
+      <file leaf-file-name="表格的增删改查.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.24/表格的增删改查.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="429">
+              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DOM删除和添加员工练习.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/DOM删除和添加员工练习.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1551">
+              <caret line="92" column="52" lean-forward="true" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hi2.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/CSS/hi2.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="30" column="23" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -127,7 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/BOMtest.html" />
         <option value="$PROJECT_DIR$/jsTest/BOMtest2.html" />
         <option value="$PROJECT_DIR$/jsTest/下拉菜单.html" />
         <option value="$PROJECT_DIR$/jsTest/菜单选择和隐藏.html" />
@@ -178,6 +173,7 @@
         <option value="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/summer.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.24/季节切换/winter.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.24/元素节点的查询方法.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.7.24/表格的增删改查.html" />
       </list>
     </option>
   </component>
@@ -194,9 +190,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="8" />
-    <option name="y" value="8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="475" />
+    <option name="y" value="15" />
     <option name="width" value="1069" />
     <option name="height" value="1027" />
   </component>
@@ -234,7 +230,7 @@
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
               <item name="jsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="2017.7.24" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,12 +396,12 @@
       <workItem from="1500739300362" duration="5789000" />
       <workItem from="1500776324260" duration="19875000" />
       <workItem from="1500854272460" duration="12268000" />
-      <workItem from="1500870881269" duration="10680000" />
+      <workItem from="1500870881269" duration="15362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="357870000" />
+    <option name="totallyTimeSpent" value="362552000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,15 +413,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="8" y="8" width="1069" height="1027" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21828909" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.117709436" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30991217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30991217" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -523,13 +520,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/04.dom增删改.html" />
     <entry file="file://$PROJECT_DIR$/jsTest/05.练习.html" />
-    <entry file="file://$PROJECT_DIR$/jsTest/CSS/hi2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/BaiduYunDownload/2-尚硅谷JavaScript视频/源码、课件、笔记、工具/源码/day14/source/day14/ex_2_style/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -541,13 +531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2739">
           <caret line="83" column="30" lean-forward="false" selection-start-line="82" selection-start-column="16" selection-end-line="85" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/DOM删除和添加员工练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="44" column="14" lean-forward="true" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -720,25 +703,25 @@
         <state relative-caret-position="297">
           <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1364#1370#1" expanded="true" />
-            <element signature="e#1384#1390#1" expanded="true" />
-            <element signature="e#1404#1410#1" expanded="true" />
-            <element signature="e#1424#1430#1" expanded="true" />
-            <element signature="n#style#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#1927#1933#0" expanded="true" />
-            <element signature="e#1933#1939#0" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#4;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2378#2384#0" expanded="true" />
-            <element signature="e#2384#2390#0" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#6;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#2804#2810#0" expanded="true" />
-            <element signature="e#2810#2816#0" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#8;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3230#3236#0" expanded="true" />
-            <element signature="e#3236#3242#0" expanded="true" />
-            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#10;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1364#1370#1" expanded="false" />
+            <element signature="e#1384#1390#1" expanded="false" />
+            <element signature="e#1404#1410#1" expanded="false" />
+            <element signature="e#1424#1430#1" expanded="false" />
+            <element signature="n#style#0;n#tr#1;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#2;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1927#1933#0" expanded="false" />
+            <element signature="e#1933#1939#0" expanded="false" />
+            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#4;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2378#2384#0" expanded="false" />
+            <element signature="e#2384#2390#0" expanded="false" />
+            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#6;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#2804#2810#0" expanded="false" />
+            <element signature="e#2810#2816#0" expanded="false" />
+            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#8;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#3230#3236#0" expanded="false" />
+            <element signature="e#3236#3242#0" expanded="false" />
+            <element signature="n#style#0;n#hr#0;n#td#0;n#tr#10;n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -815,10 +798,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.24/元素节点的查询方法.html">
+    <entry file="file://$PROJECT_DIR$/jsTest/CSS/hi2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="297">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="31" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/DOM删除和添加员工练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1551">
+          <caret line="92" column="52" lean-forward="true" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.24/表格的增删改查.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding />
         </state>
       </provider>

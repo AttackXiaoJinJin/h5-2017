@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格的增删改查</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #bookTable{
+           width: 310px;margin: 0 auto;
+        }
+        #divButton{
+            text-align: center;
+
+        }
+        #addBook{
+            margin: 0 auto;
+        }
+
+
+    </style>
+    <script>
+        window.onload=function () {
+            var bookTable=document.getElementById("bookTable");
+            var trAll=document.getElementsByTagName("tr");
+
+            //删除第二行
+            var deleteTwo=document.getElementsByTagName("Button")[1];
+            //为每个超链接绑定单击函数
+            deleteTwo.onclick=function () {
+                //每次点击都需要更新表格
+                var trTwo=document.getElementsByTagName("tr")[2];
+                if(trAll.length<=4){
+                    alert("该表格不满足删除条件！");
+                    return false;
+                }
+                var flag=  confirm("确认删除"+trTwo.children[0].innerHTML+"吗?");
+                if(flag) {
+                    trTwo.parentNode.removeChild(trTwo);
+                }
+            };
+            //增加一行
+            var addOne=document.getElementsByTagName("Button")[0];
+            addOne.onclick=function () {
+                var trOne=document.getElementById("bookName").value;
+                var priceBook=document.getElementById("priceBook").value;
+                var tr=document.createElement("tr");
+                tr.innerHTML="<td>"+trOne+"</td>"+
+                    "<td>"+priceBook+"</td>"
+                ;
+                var tbody= bookTable.getElementsByTagName("tbody")[0];
+                tbody.appendChild(tr);
+            };
+            //修改标题样式
+            var trTheme=document.getElementsByTagName("tr")[0];
+            var buttonTree=document.getElementsByTagName("Button")[2];
+            buttonTree.onclick=function () {
+                trTheme.setAttribute('style','text-align:center;font-weight:900;background-color:#ccc');
+            };
+            //复制最后一行
+
+            var cloneButton=document.getElementsByTagName("Button")[3];
+            cloneButton.onclick=function () {
+                var cloneLine=document.getElementsByTagName("tr")[trAll.length-3];
+                var firstValue=cloneLine.firstChild.innerHTML;
+                var SecondValue=cloneLine.lastChild.innerHTML;
+                var tr=document.createElement("tr");
+                tr.innerHTML="<td>"+firstValue+"</td>"+
+                    "<td>"+SecondValue+"</td>"
+                ;
+                var tbody= bookTable.getElementsByTagName("tbody")[0];
+                tbody.appendChild(tr);
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div>
+<table id="bookTable" border="1px red solid"><tr><td>书名</td><td>价格</td></tr><tr><td>看得见风景的房间</td><td>￥30.00</td></tr><tr><td>幸福从天而降</td><td>￥18.50</td></tr></table>
+<div id="divButton">
+    <button>增加一行</button>
+<button>删除第二行</button>
+<button>修改标题样式</button>
+<button>复制最后一行</button></div>
+    <table id="addBook">
+        <tr>
+            <td>书名</td>
+            <td>价格</td>
+        </tr>
+        <tr>
+            <td> <input type="text" name="bookName" id="bookName" /></td>
+            <td> <input type="text" name="price" id="priceBook" /></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
