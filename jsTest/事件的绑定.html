@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件的绑定</title>
+    <script>
+        window.onload=function () {
+            var btn01=document.getElementById("btn01");
+            btn01.onclick=function () {
+                alert(1);
+            };
+
+            btn01.addEventListener("click",function () {
+               alert(2);
+            },false);
+
+            btn01.attachEvent("onclick",function () {
+
+            });
+
+            //不要on,因为+on这样拼接字符串更简单
+            function bind(obj, eventStr, callback) {
+                //大部分浏览器兼容的方式
+                obj.addEventListener(eventStr,callback,false);
+
+                //IE8
+                obj.attachEvent("on"+eventStr,callback);
+
+            }
+
+
+        }
+    </script>
+</head>
+<body>
+    <button id="btn01">click me</button>
+</body>
+</html>

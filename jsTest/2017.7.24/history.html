@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>history</title>
+</head>
+<script>
+    window.onload=function () {
+        var inputs=document.getElementsByTagName("input");
+        inputs[0].onclick=function () {
+            history.back();
+        };
+
+        inputs[1].onclick=function () {
+            history.forward();
+        };
+
+    }
+</script>
+
+<body>
+<form action="#">
+    <input type="button" value="后退" >后退
+    <input type="button" value="前进" >前进
+
+</form>
+</body>
+</html>

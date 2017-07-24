@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>全选效果</title>
+<style type="text/css">
+.bg{
+	background-image: url(images/list_bg.gif);
+	background-repeat: no-repeat;
+	width: 730px;
+}
+td{text-align:center;
+font-size:13px;
+line-height:25px;
+}
+body{margin:0}
+</style>
+  <script>
+    window.onload=function () {
+        var product=document.getElementsByName("product");
+        var all=document.getElementById("all");
+
+        //全选按钮
+        all.addEventListener("click",function () {
+
+            for(var i=0;i<product.length;i++)
+            {
+                product[i].checked=this.checked;
+
+            }
+
+        });
+
+        //为四个items绑定响应函数
+        for(i=0;i<product.length;i++)
+        {
+            product[i].onclick=function () {
+                //如果一直没有进入下面的判断
+                // 则证明items全部选上了即
+                all.checked=true;
+                for(var j=0;j<product.length;j++){
+                    //只要有一个没选就不是全选
+                    if(!product[j].checked){
+                        //一旦进入判断，就证明不是全选状态
+                        //如果j=0即第一个就不满足条件时，就没有必要判断后面的情况了
+                        all.checked=false;
+                        break;
+                    }
+                }
+            }
+        }
+
+    }
+
+  </script>
+
+</head>
+
+<body><table border="0" cellspacing="0" cellpadding="0" class="bg">
+  <tr>
+    <td style="height:40px;">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr style="font-weight:bold;">
+    <td><input id="all" type="checkbox" value="È«Ñ¡"  />全选</td>
+    <td>商品图片</td>
+    <td>商品名称/出售者/练习方式</td>
+    <td>价格</td>
+  </tr>
+  <tr>
+	<td colspan="4"><hr style="border:1px  #CCCCCC dashed" /></td>
+    </tr>
+  
+  <tr>
+    <td><input name="product" type="checkbox" value="1" /></td>
+    <td><img src="images/list0.jpg" alt="alt" /></td>
+    <td>杜比环绕，家庭影院必备，超真实享受<br />
+     出售者：ling112233<br />
+    <img src="images/online_pic.gif" alt="alt" /> &nbsp;&nbsp;
+	<img src="images/list_tool_fav1.gif" alt="alt" /> 收藏</td>
+    <td>一口价<br />
+    2833.0 </td>
+  </tr>
+  <tr>
+	<td colspan="4"><hr style="border:1px  #CCCCCC dashed" /></td>
+    </tr>
+  <tr>
+    <td><input name="product" type="checkbox" value="2" /></td>
+    <td><img src="images/list1.jpg" alt="alt" /></td>
+    <td>NVDIA 9999GT 512MB 256bit极品显卡，不容错过<br />
+      出售者：aipiaopiao110 <br />
+    <img src="images/online_pic.gif" alt="alt" /> &nbsp;&nbsp;
+	<img src="images/list_tool_fav1.gif" alt="alt" /> 收藏</td>
+    <td>一口价<br />
+    6464.0 </td>
+  </tr>
+  <tr>
+	<td colspan="4"><hr style="border:1px  #CCCCCC dashed" /></td>
+    </tr>
+  <tr>
+    <td><input name="product" type="checkbox" value="3" /></td>
+    <td><img src="images/list2.jpg" alt="alt" /></td>
+    <td>精品热卖：高清晰，30寸等离子电视<br />
+      出售者：阳光的挣扎 <br />
+    <img src="images/online_pic.gif" alt="alt" /> &nbsp;&nbsp;
+	<img src="images/list_tool_fav1.gif" alt="alt" /> 收藏</td>
+    <td>一口价<br />
+    18888.0 </td>
+  </tr>
+  <tr>
+	<td colspan="4"><hr style="border:1px  #CCCCCC dashed" /></td>
+    </tr>
+   <tr>
+    <td><input name="product" type="checkbox" value="4" /></td>
+    <td><img src="images/list3.jpg" alt="alt" /></td>
+    <td>Sony索尼家用最新款笔记本  <br />
+      出售者：疯狂的镜无<br />
+    <img src="images/online_pic.gif" alt="alt" /> &nbsp;&nbsp;
+	<img src="images/list_tool_fav1.gif" alt="alt" /> 收藏</td>
+    <td>一口价<br />
+     5889.0 </td>
+  </tr>
+  <tr>
+	<td colspan="4"><hr style="border:1px  #CCCCCC dashed" /></td>
+    </tr>
+</table>
+
+</body>
+</html>
