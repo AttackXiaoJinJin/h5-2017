@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片轮播</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #div01{
+        width: 520px;
+        height: 333px;
+        margin: 100px auto;
+        background-color: #8ac6cd;
+        padding: 10px 0;
+        position: relative;
+        /*裁剪溢出内容*/
+        overflow: hidden;
+
+    }
+
+    #ul01{
+        /*width: 2600px;*/
+        list-style: none;
+        /*//相对于定义过position的父元素*/
+        position: absolute;
+        /*left: -520px;*/
+    }
+    li{
+        float: left;
+        margin: 0 10px;
+
+    }
+    #div02{
+        position: absolute;
+        bottom: 15px;
+    }
+
+    #div02 a{
+        float: left;
+        width: 15px;
+        height: 15px;
+        background-color: #f4645f;
+        margin: 0 5px;
+        /*设置透明*/
+        opacity: 0.5;
+        /*兼容IE8透明*/
+        filter: alpha(opacity=50);
+    }
+
+        #div02 a:hover{
+            background-color: black;
+        }
+
+
+
+</style>
+<script>
+    window.onload=function () {
+//        var timer=null;
+
+        //图片索引
+        var index=0;
+        var ul01=document.getElementById("ul01");
+        var li=document.getElementsByTagName("li");
+        var a=document.getElementsByTagName("a");
+        var div02=document.getElementById("div02");
+        var div01=document.getElementById("div01");
+        var imgArray=document.getElementsByTagName("img");
+        //动态设置div的宽
+        ul01.style.width=520*imgArray.length+"px";
+        //动态设置按钮的居中
+        div02.style.left=parseInt((div01.offsetWidth-div02.offsetWidth)/2)+"px";
+        //设置默认选中
+        a[0].style.backgroundColor="black";
+//        a[index].style.backgroundColor="black";
+        for(var i=0;i<a.length;i++){
+            //为每个超链接添加一个yu属性，来索引
+            a[i].yuer=i;
+            a[i].onclick=function () {
+                //获取点击超链接的索引，并设为index
+                index=this.yuer;
+                setA();
+//                //点击时销毁定时器，从而避免冲突
+//                clearInterval(timer);
+//                timer=null;
+            }
+        }
+
+          setInterval(function () {
+            if(index===(li.length)){
+                index=0;
+            }
+//            ul01.style.left=(-520)*index+"px";
+            ul01.style.left=(-div01.offsetWidth)*index+"px";
+//            a[i].style.backgroundColor="black";
+            setA();
+            index++;
+
+        },1000);
+
+        //专门为选中的a设置背景色
+        function setA() {
+            for(var i=0;i<a.length;i++){
+                //设置空串，为防止点击a后，悬浮背景色不变化
+                a[i].style.backgroundColor="";
+            }
+            a[index].style.backgroundColor="black";
+        }
+
+    }
+</script>
+<body>
+    <div id="div01">
+        <ul id="ul01">
+            <li><img src="images/img1.jpg" alt=""></li>
+            <li><img src="images/img2.jpg" alt=""></li>
+            <li><img src="images/img3.jpg" alt=""></li>
+            <li><img src="images/img4.jpg" alt=""></li>
+            <li><img src="images/img5.jpg" alt=""></li>
+        </ul>
+        <div id="div02">
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+            <a href="javascript:;"></a>
+
+
+        </div>
+
+    </div>
+
+</body>
+</html>
