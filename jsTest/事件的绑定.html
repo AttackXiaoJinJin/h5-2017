@@ -20,12 +20,20 @@
 
             //不要on,因为+on这样拼接字符串更简单
             function bind(obj, eventStr, callback) {
-                //大部分浏览器兼容的方式
-                obj.addEventListener(eventStr,callback,false);
+                if(obj.addEventListener) {
+                    //大部分浏览器兼容的方式
+                    obj.addEventListener(eventStr, callback, false);
+                }else {
+                //IE8，让浏览器调用匿名函数
+                obj.attachEvent("on"+eventStr,function () {
+                    //在匿名函数中调用回调函数
+                    //此时callback()是由自己调用，而不是浏览器
+//                    callback();
+                    //此时this指的就是obj
+                    callback.call(obj);
 
-                //IE8
-                obj.attachEvent("on"+eventStr,callback);
-
+                });
+                }
             }
 
 
