@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>领奖</title>
+    <script>
+        window.onload=function () {
+            var prevLink = document.referrer;
+            console.log(prevLink);
+
+            //截取上一页面的名称
+            var index = prevLink.lastIndexOf("/");
+
+            var pageName = prevLink.substr(index + 1, 12);
+//            if (!prevLink)
+//            {
+//
+//                window.location.href="nonono.html";
+//            }
+            console.log(pageName);
+            if (pageName != "goAward.html") {
+            //页面跳转
+//            location.replace("nonono.html");
+                window.location.href="nonono.html";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    这是你的小奖品
+</body>
+</html>

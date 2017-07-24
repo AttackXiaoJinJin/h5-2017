@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计时器</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload=function () {
+            var timer;
+            var number=0;
+            var inputs=document.getElementsByTagName("input");
+            var num=document.getElementById("num");
+
+            function add() {
+                num.innerHTML=number;
+                number=number+1;
+
+//                setTimeout(add,1000);
+            }
+
+
+
+            inputs[0].onclick=function () {
+                if (timer== null) {
+                   timer= setInterval(add, 1000);
+                }
+            };
+
+            inputs[1].onclick=function () {
+                window.clearInterval(timer);
+                timer=null;
+            };
+            
+            inputs[2].onclick=function () {
+
+
+                window.clearInterval(timer);
+                timer=null;
+                number=0;
+                add();//里面有显示的方法
+
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <span id="num"></span>
+    </div>
+
+    <form action="#">
+        <input type="button"  value="开始"/>
+        <input type="button"  value="暂停"/>
+        <input type="button"  value="停止"/>
+
+    </form>
+</body>
+</html>

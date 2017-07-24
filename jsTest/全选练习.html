@@ -6,7 +6,7 @@
     <script>
         window.onload=function () {
             var items=document.getElementsByName("items");
-            //checkedAllBtn
+            //checkedAllBtn,全选/全不选
             var addAllBtn=document.getElementById("checkedAllBox");
             addAllBtn.addEventListener("click",function () {
                 //可以用this==addAllBtn来判断this所代表的对象
@@ -29,6 +29,7 @@
             });
 
             //完善对全选/全不选的判断
+            //只要有一个没有选中，全选按钮就失效
             for(var i=0;i<items.length;i++)
             {
                 if(!items[i].checked){
@@ -37,7 +38,7 @@
             }
 
 
-
+                //全选按钮
             var checkedAllBtn = document.getElementById("checkedAllBtn");
 
             checkedAllBtn.addEventListener("click",function () {
@@ -50,7 +51,7 @@
                 }
                 addAllBtn.checked=true;
             });
-
+            //全不选
             var checkedNoBtn=document.getElementById("checkedNoBtn");
             checkedNoBtn.addEventListener("click",function () {
                 //getElementsByName获取的是数组
