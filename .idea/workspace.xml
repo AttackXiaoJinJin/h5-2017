@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/js/reg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/拖拽提取相同函数.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/测试IE8的兼容性.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/类的操作.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/bottom.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/collapsed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/expanded.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/linkarrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/title.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/imgs/toptitle.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/CSS/sdmenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/二级菜单.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/拖拽.html" afterPath="$PROJECT_DIR$/jsTest/拖拽.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/js/reg.js" afterPath="$PROJECT_DIR$/jsTest/js/reg.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,21 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="拖拽提取相同函数.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/拖拽提取相同函数.html">
+      <file leaf-file-name="二级菜单.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/二级菜单.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="26" column="23" lean-forward="false" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="类的操作.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsTest/类的操作.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+            <state relative-caret-position="469">
+              <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -47,18 +41,18 @@
       <file leaf-file-name="reg.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsTest/js/reg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="老师写的图片切换.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.25/老师写的图片切换.html">
+      <file leaf-file-name="sdmenu.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/CSS/sdmenu.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="250">
+              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -70,8 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -87,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/DOMtest5.html" />
-        <option value="$PROJECT_DIR$/S1-html/unit2/display.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.22/大小图片轮播.html" />
         <option value="$PROJECT_DIR$/jsTest/Date方法.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.22/商场购物倒计时.html" />
@@ -136,8 +128,10 @@
         <option value="$PROJECT_DIR$/jsTest/测试IE8的兼容性.html" />
         <option value="$PROJECT_DIR$/jsTest/拖拽.html" />
         <option value="$PROJECT_DIR$/jsTest/拖拽提取相同函数.html" />
-        <option value="$PROJECT_DIR$/jsTest/js/reg.js" />
         <option value="$PROJECT_DIR$/jsTest/类的操作.html" />
+        <option value="$PROJECT_DIR$/jsTest/CSS/sdmenu.css" />
+        <option value="$PROJECT_DIR$/jsTest/js/reg.js" />
+        <option value="$PROJECT_DIR$/jsTest/二级菜单.html" />
       </list>
     </option>
   </component>
@@ -155,8 +149,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="11" />
+    <option name="x" value="-47" />
+    <option name="y" value="2" />
     <option name="width" value="1059" />
     <option name="height" value="1027" />
   </component>
@@ -196,6 +190,12 @@
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
               <item name="jsTest" type="462c0819:PsiDirectoryNode" />
               <item name="2017.7.25" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
@@ -241,11 +241,11 @@
       <recent name="F:\h5-gaobo\h5-2017\S1-html\unit1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\imgs" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\CSS" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.24" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.25" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\js" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.24\按钮点击图片轮播\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -372,12 +372,12 @@
       <workItem from="1500854272460" duration="12268000" />
       <workItem from="1500870881269" duration="27013000" />
       <workItem from="1500940610154" duration="29511000" />
-      <workItem from="1500975792380" duration="7463000" />
+      <workItem from="1500975792380" duration="14605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="411177000" />
+    <option name="totallyTimeSpent" value="418319000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +389,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="11" width="1059" height="1027" extended-state="0" />
+    <frame x="-47" y="2" width="1059" height="1027" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16782522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -398,7 +398,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3069307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30614805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -423,27 +423,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/BOMtest3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/BOMtest2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-792">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/BOMtest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-740">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/DOMtest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="349">
@@ -629,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/js/tools.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/11.轮播图.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -763,18 +735,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/js/reg.js">
+    <entry file="file://$PROJECT_DIR$/jsTest/类的操作.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="594">
+          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/类的操作.html">
+    <entry file="file://$PROJECT_DIR$/jsTest/CSS/sdmenu.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="30" column="10" lean-forward="true" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="250">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/CSS/hi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/js/reg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/js/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/二级菜单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
           <folding />
         </state>
       </provider>
