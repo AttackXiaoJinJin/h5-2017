@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>兼容IE8的兼容性</title>
+</head>
+<style>
+
+</style>
+<script>
+    var btn01=document.getElementById("btn01");
+    var btn02=document.getElementById("btn02");
+
+    btn01.onclick=function () {
+        alert(1);
+    };
+
+    btn02.onclick=function () {
+        alert(2);
+    };
+    //设置btn01对鼠标按下相关的事件进行捕获
+    btn01.setCapture();
+
+
+</script>
+<body>
+
+<button id="btn01"></button>
+<button id="btn02"></button>
+</body>
+</html>

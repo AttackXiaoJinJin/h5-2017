@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>类的操作</title>
+    <style>
+        .boxOne{
+            width: 300px;
+            height: 100px;
+            background-color: #f4645f;
+            border: 1px solid red;
+        }
+
+        .change{
+            width: 200px;
+            height: 200px;
+            background-color: #cdc92d;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var box01=document.getElementById("box01");
+            var btn01=document.getElementById("btn01");
+            btn01.onclick=function () {
+                //类名改变,间接修改样式
+//                box01.className +=" change";
+                addClass(box01,"change");
+//                removeClass(box01,"boxOne");
+            };
+        };
+
+
+
+    </script>
+    <script src="js/reg.js"></script>
+</head>
+<body>
+    <button id="btn01">点击后修改按钮样式</button>
+    <br><br>
+    <div id="box01" class="boxOne"></div>
+
+</body>
+</html>

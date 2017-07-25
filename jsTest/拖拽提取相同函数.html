@@ -2,16 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>拖拽</title>
+    <title>拖拽提取相同的函数</title>
     <style>
         #box1{
             width: 100px;
             height: 100px;
             background-color: #8ac6cd;
             position: absolute;
-
         }
-
         #box2{
             width: 100px;
             height: 100px;
@@ -20,63 +18,41 @@
             left: 200px;
             top: 200px;
         }
-
-
     </style>
     <script>
         window.onload=function () {
             var box1=document.getElementById("box1");
-            box1.onmousedown=function (event) {
-                //拖拽时，设置box1捕获所有鼠标按下的事件
-                //兼容IE8，不兼容chrome
-//                box1.setCapture();
-                //兼容chrome
-//                if(box1.setCapture){
-//                    box1.setCapture();
-//                }
-                box1.setCapture && box1.setCapture() ;
+            var box2=document.getElementById("box2");
+            drag(box1);
+            drag(box2);
 
+
+        };
+        //提取专门拖拽的函数
+        function drag(obj) {
+            obj.onmousedown=function (event) {
+                obj.setCapture && obj.setCapture() ;
                 event=event || window.event;
                 //求div的偏移量
-                var ol=event.clientX - box1.offsetLeft;
-                var ot=event.clientY-box1.offsetTop;
-
-
-
+                var ol=event.clientX - obj.offsetLeft;
+                var ot=event.clientY - obj.offsetTop;
                 document.onmousemove=function (event) {
                     event=event || window.event;
                     var mouseLeft=event.clientX;
                     var mouseTop=event.clientY;
                     var divLeft=mouseLeft-ol;
                     var divTop=mouseTop-ot;
-
-                    box1.style.left=divLeft+"px";
-                    box1.style.top=divTop+"px";
+                    obj.style.left=divLeft+"px";
+                    obj.style.top=divTop+"px";
                 };
-
-                //若给box1绑定，若有其他兄弟div，则会触发其他div的点击
-                //事件，而不是box1的
                 document.onmouseup=function () {
                     document.onmousemove=null;
-                    //当onmousemove销毁后，onmouseup仍然存在，故要销毁
                     document.onmouseup=null;
-
-                    //当鼠标松开取消捕获
-                    //兼容IE8
-                    box1.releaseCapture && box1.releaseCapture();
-
-
+                    obj.releaseCapture && obj.releaseCapture();
                 };
-
-                //拖拽时取消浏览器搜索引擎的行为
                 return false
-
             };
-
-
-
-        }
-        
+        };
         
     </script>
 </head>
