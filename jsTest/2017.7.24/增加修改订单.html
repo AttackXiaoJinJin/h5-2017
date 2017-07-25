@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>增加修改订单</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    div{
+        width: 800px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #bookTable{
+
+        margin: 0 auto;
+    }
+    #functionTable{
+        border: 1px solid red;
+        margin: 0 auto;
+        width: 800px;
+    }
+    #firstTr{
+        text-align:center;
+        font-weight:900;
+        background-color:#ccc
+    }
+    input{
+        border: none;
+        background-color:white;
+        color: black;
+       line-height: 20px;
+        width: 200px;
+        text-align: center;
+    }
+    td{
+        width: 200px;
+        height: 20px;
+    }
+    #addButton{
+        width: 200px;
+    }
+</style>
+<script>
+    window.onload=function () {
+        function del() {
+            var deletetr=this.parentNode.parentNode;
+            var flag=  confirm("确认删除"+deletetr.children[0].firstChild.value+"吗?");
+            if(flag) {
+                deletetr.parentNode.removeChild(deletetr);
+            }
+        }
+        function modi() {
+            var moditd=this.parentNode.parentNode.childNodes;
+            for(var j=0;j<moditd.length-1;j++){
+                moditd[j].firstChild.disabled=!(moditd[j].firstChild.disabled);
+            }
+        }
+        var input01=document.getElementById("input01");
+        var buyTable=document.getElementById("buyTable");
+        var addButton=document.getElementById("addButton");
+        //添加行，删除和修改
+        addButton.onclick=function () {
+            var tr=document.createElement("tr");
+            var deleteBtn=document.createElement("button");
+            var modifiBtn=document.createElement("button");
+            var td4=document.createElement("td");
+            deleteBtn.onclick=del;
+            modifiBtn.onclick=modi;
+            td4.appendChild(deleteBtn);
+            td4.appendChild(modifiBtn);
+            deleteBtn.innerHTML="删除";
+            modifiBtn.innerHTML="修改";
+            tr.innerHTML="<td><input/></td><td><input/></td><td><input/></td>";
+            tr.appendChild(td4);
+            var tbody= buyTable.getElementsByTagName("tbody")[0];
+            tbody.appendChild(tr);
+        };
+        var deleteBtn=document.getElementsByName("deleteBtn");
+        for(var i=0;i<deleteBtn.length;i++){
+            deleteBtn[i].onclick=del;
+        }
+        var modifyBtn=document.getElementsByName("motifyBtn");
+        for(i=0;i<modifyBtn.length;i++){
+            modifyBtn[i].onclick=modi;
+        }
+    }
+</script>
+</head>
+<body>
+<div>
+    <table id="buyTable" border="1px red solid"><tr id="firstTr"><td>商品名称</td><td>数量</td><td>单价</td><td>操作</td></tr><tr><td><input id="input01" type="text" value="玫瑰保湿睡眠面膜" ></td><td><input type="text" value="5" ></td><td><input type="text" value="￥48"></td><td><button name="deleteBtn">删除</button><button name="motifyBtn">修改</button></td></tr></table>
+    <table id="functionTable"><tr><td><button id="addButton">增加订单</button></td></tr></table>
+</div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拽</title>
+    <style>
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color: #8ac6cd;
+            position: absolute;
+
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var box1=document.getElementById("box1");
+            box1.onmousedown=function () {
+                document.onmousemove=function (event) {
+                    event=event || window.event;
+                    var mouseLeft=event.clientX;
+                    var mouseTop=event.clientY;
+
+                    box1.style.left=mouseLeft+"px";
+                    box1.style.top=mouseTop+"px";
+                };
+
+                //若给box1绑定，若有其他兄弟div，则会触发其他div的点击
+                //事件，而不是box1的
+                document.onmouseup=function () {
+                    document.onmousemove=null;
+                    //当onmousemove销毁后，onmouseup仍然存在，故要销毁
+                    document.onmouseup=null;
+                };
+
+
+
+            };
+
+
+
+        }
+        
+        
+    </script>
+</head>
+<body>
+    <div id="box1"></div>
+</body>
+</html>

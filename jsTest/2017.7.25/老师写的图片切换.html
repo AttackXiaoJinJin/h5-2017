@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图片</title>
+    <style>
+        *{margin:0;padding:0}
+        #container{
+            width:790px;
+            height: 340px;
+            margin:0 auto;
+            position: relative;
+        }
+        .square{
+            width:790px;
+            text-align:center;
+            position: absolute;
+            left:0;
+            bottom:30px;
+        }
+        .square span{
+            display: inline-block;
+            color:#fff;
+            border:1px solid red;
+            width: 18px;
+            height: 18px;
+            line-height: 18px;
+            margin-right:3px;
+        }
+        .square span.selected{
+            background: pink;
+            color:#333;
+        }
+    </style>
+    <script>
+        var imgs = ['img1.jpg','img2.jpg','img3.jpg','img4.jpg','img5.jpg'];
+        window.onload = function(){
+            //1.找到父节点
+            var container = document.getElementById('container');
+            //2.创建新节点
+            var square = document.createElement('div');
+            for(var i = 0 ; i < imgs.length ; i++){
+                var span = document.createElement('span');
+                span.innerHTML = i+1;
+                if(i == 0) span.className = 'selected';
+                square.appendChild(span);
+            }
+            //3.新节点的属性设置
+            square.className = 'square';
+            //4.添加新节点
+            container.appendChild(square);
+        }
+    </script>
+</head>
+<body>
+<div id="container">
+    <img src="../2017.7.24/按钮点击图片轮播/images/img1.jpg">
+</div>
+</body>
+</html>

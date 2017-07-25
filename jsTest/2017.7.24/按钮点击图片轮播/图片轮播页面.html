@@ -36,6 +36,7 @@
     #div02{
         position: absolute;
         bottom: 15px;
+
     }
 
     #div02 a{
@@ -48,6 +49,9 @@
         opacity: 0.5;
         /*兼容IE8透明*/
         filter: alpha(opacity=50);
+        text-decoration: none;
+        line-height: 15px;
+        text-align: center;
     }
 
         #div02 a:hover{
@@ -70,7 +74,7 @@
         var div01=document.getElementById("div01");
         var imgArray=document.getElementsByTagName("img");
         //动态设置div的宽
-        ul01.style.width=520*imgArray.length+"px";
+        ul01.style.width=div01.offsetWidth*imgArray.length+"px";
         //动态设置按钮的居中
         div02.style.left=parseInt((div01.offsetWidth-div02.offsetWidth)/2)+"px";
         //设置默认选中
@@ -79,8 +83,17 @@
         for(var i=0;i<a.length;i++){
             //为每个超链接添加一个yu属性，来索引
             a[i].yuer=i;
+            //添加数字索引
+            a[i].innerHTML=i+1;
+
+            console.log(a[i].innerHTML);
+            //把i赋值给超链接的yuer属性，
+            // 从而让超链接与数字相对应
             a[i].onclick=function () {
                 //获取点击超链接的索引，并设为index
+                //当点击时获取a的yuer属性（里面保存了a的索引）
+                //并将其赋值给index，即图片的索引，从而点击a后
+                // 能够找到图片的位置
                 index=this.yuer;
                 setA();
 //                //点击时销毁定时器，从而避免冲突
@@ -106,8 +119,11 @@
             for(var i=0;i<a.length;i++){
                 //设置空串，为防止点击a后，悬浮背景色不变化
                 a[i].style.backgroundColor="";
+
+
             }
             a[index].style.backgroundColor="black";
+
         }
 
     }
@@ -122,7 +138,7 @@
             <li><img src="images/img5.jpg" alt=""></li>
         </ul>
         <div id="div02">
-            <a href="javascript:;"></a>
+            <a href="javascript:;" ></a>
             <a href="javascript:;"></a>
             <a href="javascript:;"></a>
             <a href="javascript:;"></a>

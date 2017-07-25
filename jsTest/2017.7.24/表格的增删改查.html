@@ -64,14 +64,21 @@
             var cloneButton=document.getElementsByTagName("Button")[3];
             cloneButton.onclick=function () {
                 var cloneLine=document.getElementsByTagName("tr")[trAll.length-3];
-                var firstValue=cloneLine.firstChild.innerHTML;
-                var SecondValue=cloneLine.lastChild.innerHTML;
-                var tr=document.createElement("tr");
-                tr.innerHTML="<td>"+firstValue+"</td>"+
-                    "<td>"+SecondValue+"</td>"
-                ;
+//                var firstValue=cloneLine.firstChild.innerHTML;
+//                var SecondValue=cloneLine.lastChild.innerHTML;
+//                var tr=document.createElement("tr");
+//                tr.innerHTML="<td>"+firstValue+"</td>"+
+//                    "<td>"+SecondValue+"</td>"
+//                ;
+//                var tbody= bookTable.getElementsByTagName("tbody")[0];
+//                tbody.appendChild(tr);
+
+                //使用cloneNode方法
+                var tr=cloneLine.cloneNode(true);
                 var tbody= bookTable.getElementsByTagName("tbody")[0];
                 tbody.appendChild(tr);
+
+
             }
         }
 

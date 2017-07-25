@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS对CSS修改,导航菜单</title>
+</head>
+<style>
+    /*.div01{*/
+        /*color: #53a16f;*/
+    /*}*/
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #ul01{
+        list-style: none;
+    }
+
+    #ul01 li{
+        float: left;
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+
+    }
+
+    .selected{
+        background-color: #8b898b;
+        border: solid 1px black;
+    }
+
+    .other{
+        background-color: #f4645f;
+        /*border-radius: inherit;*/
+        border: solid 1px red;
+
+    }
+
+
+</style>
+<script>
+    window.onload=function () {
+//        var div01=document.getElementById("div01");
+//        div01.style.color='red';
+////        div01.className="div01";
+//        div01.style['color']="blue";
+        var ul01=document.getElementById("ul01").children;
+        var length=ul01.length;
+        for(var i=0;i<length;i++){
+            ul01[i].onmouseover=function () {
+              this.className='selected';
+            };
+
+            ul01[i].onmouseout=function () {
+                this.className='other';
+            };
+
+        }
+
+
+
+    }
+
+</script>
+<body>
+<!--<div id="div01">hello</div>-->
+<ul id="ul01">
+    <li class="selected">a</li>
+    <li class="other">b</li>
+    <li>c</li>
+    <li>d</li>
+</ul>
+
+
+</body>
+</html>

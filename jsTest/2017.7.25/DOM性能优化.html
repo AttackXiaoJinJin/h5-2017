@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM性能优化</title>
+    <script>
+        window.onload=function () {
+            var ul01=document.getElementById("ul01");
+//            console.time("begin");
+//
+//            for(var i=0;i<50;i++){
+//
+//                ul01.innerHTML += "<li>bbb</li>";
+//
+//            }
+//            console.timeEnd("begin");
+
+            console.time("end");
+            var strHTML='';
+            for(var j=0;j<50;j++){
+
+                  strHTML += "<li>aa</li>";
+                ul01.innerHTML=strHTML;
+            }
+            console.timeEnd("end");
+        }
+    </script>
+
+</head>
+<body>
+<ul id="ul01"></ul>
+</body>
+</html>
