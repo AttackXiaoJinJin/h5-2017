@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>老师写的修改表单</title>
+</head>
+<script>
+    var td1=document.createElement("td");
+    var td2=document.createElement("td");
+    var td3=document.createElement("td");
+    var td4=document.createElement("td");
+    td1.innerHTML="<input type='text'>";
+    td2.innerHTML="<input type='text'>";
+    td3.innerHTML="<input type='text'>";
+    td4.innerHTML="<input type='button' value='删除' onclick='aa()'><input type='button' value='修改' onclick='bb()'>";
+
+    var index=tbody.children.length;
+
+    function dele() {
+//        1.根据子节点的长度索引删除，缺点，多次删除会导致索引与
+//        行号不对应
+//        var deleNode=tbody.children[index-1];
+//        tbody.removeChild[deleNode];
+
+        var deleNode=document.getElementById(rowId);
+        tbody.removeChild[deleNode];
+
+    }
+
+</script>
+
+<body>
+
+
+</body>
+</html>

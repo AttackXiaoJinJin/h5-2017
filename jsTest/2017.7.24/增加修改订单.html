@@ -13,12 +13,15 @@
         text-align: center;
         margin: 0 auto;
     }
-    #bookTable{
-
+    #buyTable{
+        /*//去除border之间的边距*/
+        border-collapse: collapse;
         margin: 0 auto;
+        border: 1px black solid;
     }
     #functionTable{
-        border: 1px solid red;
+        border-collapse: collapse;
+        border: 1px solid black;
         margin: 0 auto;
         width: 800px;
     }
@@ -26,6 +29,7 @@
         text-align:center;
         font-weight:900;
         background-color:#ccc
+
     }
     input{
         border: none;
@@ -38,6 +42,7 @@
     td{
         width: 200px;
         height: 20px;
+        border: 1px black solid;
     }
     #addButton{
         width: 200px;
@@ -58,7 +63,11 @@
                 moditd[j].firstChild.disabled=!(moditd[j].firstChild.disabled);
             }
         }
-        var input01=document.getElementById("input01");
+        var input=document.getElementsByTagName("input");
+        for(var m=0;m<input.length;m++){
+            input[m].disabled="false";
+        }
+
         var buyTable=document.getElementById("buyTable");
         var addButton=document.getElementById("addButton");
         //添加行，删除和修改
@@ -91,7 +100,7 @@
 </head>
 <body>
 <div>
-    <table id="buyTable" border="1px red solid"><tr id="firstTr"><td>商品名称</td><td>数量</td><td>单价</td><td>操作</td></tr><tr><td><input id="input01" type="text" value="玫瑰保湿睡眠面膜" ></td><td><input type="text" value="5" ></td><td><input type="text" value="￥48"></td><td><button name="deleteBtn">删除</button><button name="motifyBtn">修改</button></td></tr></table>
+    <table id="buyTable" ><tr id="firstTr"><td>商品名称</td><td>数量</td><td>单价</td><td>操作</td></tr><tr><td><input type="text" value="玫瑰保湿睡眠面膜" ></td><td><input type="text" value="5" ></td><td><input type="text" value="￥48"></td><td><button name="deleteBtn">删除</button><button name="motifyBtn">修改</button></td></tr></table>
     <table id="functionTable"><tr><td><button id="addButton">增加订单</button></td></tr></table>
 </div>
 </body>

@@ -12,18 +12,36 @@
 
         }
 
+        #box2{
+            width: 100px;
+            height: 100px;
+            background-color: #e41137;
+            position: absolute;
+            left: 200px;
+            top: 200px;
+        }
+
+
     </style>
     <script>
         window.onload=function () {
             var box1=document.getElementById("box1");
-            box1.onmousedown=function () {
+            box1.onmousedown=function (event) {
+                //求div的偏移量
+                var ol=event.clientX - box1.offsetLeft;
+                var ot=event.clientY-box1.offsetTop;
+
+
+
                 document.onmousemove=function (event) {
                     event=event || window.event;
                     var mouseLeft=event.clientX;
                     var mouseTop=event.clientY;
+                    var divLeft=mouseLeft-ol;
+                    var divTop=mouseTop-ot;
 
-                    box1.style.left=mouseLeft+"px";
-                    box1.style.top=mouseTop+"px";
+                    box1.style.left=divLeft+"px";
+                    box1.style.top=divTop+"px";
                 };
 
                 //若给box1绑定，若有其他兄弟div，则会触发其他div的点击
@@ -47,5 +65,6 @@
 </head>
 <body>
     <div id="box1"></div>
+    <div id="box2"></div>
 </body>
 </html>
