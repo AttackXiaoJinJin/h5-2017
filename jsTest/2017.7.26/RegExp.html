@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp</title>
+    <script>
+        var strLine="hello Javascript,IOS,Java,c#,MySql,PS!";
+        //i忽略大小写,g全局匹配
+        var rg=/Java/ig;
+        var reg=new RegExp('java','ig');
+        //从0开始
+//        console.log(reg.test(strLine));
+//        console.log(reg.exec(strLine));
+//        console.log(strLine.search(rg));
+//        console.log(strLine.match(rg));
+        console.log(strLine.replace(rg,'haha'));
+
+    </script>
+</head>
+
+<body>
+
+
+</body>
+</html>

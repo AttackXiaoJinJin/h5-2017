@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload=function () {
+            function commit() {
+                var textEmail = document.getElementById("textEmail");
+                if (textEmail.value.length === 0) {
+                    alert("not empty");
+                    return false;
+                }
+                else if (textEmail.value.indexOf('@') === -1) {
+                    alert("@");
+                    return false;
+                }
+                else if (textEmail.value.indexOf('.') === -1) {
+                    alert(".");
+                    return false;
+                } else {
+                    //表单提交
+                    document.getElementsByTagName('form')[0].submit();
+                }
+            }
+
+            function subMit() {
+                var textEmail = document.getElementById("textEmail");
+                if (textEmail.value.length === 0) {
+                    alert("not empty");
+                    return false;
+                }
+                else if (textEmail.value.indexOf('@') === -1) {
+                    alert("@");
+                    return false;
+                }
+                else if (textEmail.value.indexOf('.') === -1) {
+                    alert(".");
+                    return false;
+                }else {
+                    //允许提交
+                    return true;
+                }
+            }
+
+
+
+
+        };
+
+
+    </script>
+</head>
+<body>
+<form action="#" onsubmit="return subMit()">
+    <label for="textEmail">Email：</label>
+    <input type="text" id="textEmail">
+    <input type="button" value="登录" onclick="commit()">
+    <input type="submit" value="提交" onclick="return subMit()">
+    <!--return 返回布尔值,true,false-->
+    <input type="submit" value="commit">
+
+
+</form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本框的特性</title>
+    <style>
+        *{
+            /*margin: 0;*/
+            /*padding: 0;*/
+        }
+        .txt{
+            color: #8b898b;
+            padding: 5px;
+            /*当表单元素被选中后，取消外部边框线*/
+            outline: none;
+            /*width: 150px;*/
+            /*height: 20px;*/
+
+        }
+
+        .focusTxt{
+            border: 1px red solid;
+            margin: 1px;
+            color: black;
+
+
+
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var txtEmail=document.getElementById("txtEmail");
+            var txtLogin=document.getElementById("txtLogin");
+            var txtPasswd=document.getElementById("txtPasswd");
+            //获取焦点
+            txtEmail.onfocus=function () {
+                if(this.value==="请输入Email"){
+                    this.value="";
+                }
+                addClass(this, "focusTxt");
+//                this.className="focusTxt txt";
+            };
+
+            //失去焦点
+            txtEmail.onblur=function () {
+                if(this.value.length===0)
+                {this.className="txt";
+                this.value="请输入Email";
+                }
+            };
+
+            txtLogin.onclick=function () {
+                if(txtEmail.value.length===0 || txtEmail.value==="请输入Email"){
+                    alert("a");
+                    txtEmail.focus();
+                }
+            };
+
+            function showKey(event) {
+                //返回键盘按下键的ASCII码
+                console.log(event.keyCode );
+            }
+
+        }
+    </script>
+    <script src="../js/reg.js"></script>
+</head>
+
+<body>
+<form action="#">
+    <input type="text" value="请输入Email" class="txt" id="txtEmail">
+    <br>
+    <input type="password" value="请输入密码" id="txtPasswd">
+    <input type="button" value="登录" id="txtLogin" >
+    <input type="text" onkeypress="showKey(event)">
+
+
+
+</form>
+</body>
+</html>

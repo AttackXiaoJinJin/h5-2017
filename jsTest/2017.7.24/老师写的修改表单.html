@@ -5,16 +5,34 @@
     <title>老师写的修改表单</title>
 </head>
 <script>
-    var td1=document.createElement("td");
-    var td2=document.createElement("td");
-    var td3=document.createElement("td");
-    var td4=document.createElement("td");
-    td1.innerHTML="<input type='text'>";
-    td2.innerHTML="<input type='text'>";
-    td3.innerHTML="<input type='text'>";
-    td4.innerHTML="<input type='button' value='删除' onclick='aa()'><input type='button' value='修改' onclick='bb()'>";
+    window.onload=function () {
+        var td1=document.createElement("td");
+        var td2=document.createElement("td");
+        var td3=document.createElement("td");
+        var td4=document.createElement("td");
+        td1.innerHTML="<input type='text'>";
+        td2.innerHTML="<input type='text'>";
+        td3.innerHTML="<input type='text'>";
+        td4.innerHTML="<input type='button' value='删除' onclick='aa()'><input type='button' value='修改' onclick='bb()'>";
 
-    var index=tbody.children.length;
+        var ll=tbody.children.length;
+        var index=0;
+        //根据id来删除
+        //获取最后一行记录的id,从0开始所以+1
+        if(tbody.children.length ===2){
+            index=1;
+        }
+        else {
+            index=parseInt(tbody.lastElementChild.previousElementSibling.id.substr(3))+1;
+        }
+
+
+
+
+
+
+    };
+
 
     function dele() {
 //        1.根据子节点的长度索引删除，缺点，多次删除会导致索引与
@@ -26,6 +44,39 @@
         tbody.removeChild[deleNode];
 
     }
+
+    //修改
+    function editRow(rowId) {
+        var row=document.getElementById(rowId);
+        var priductName=row.children[0].innerHTML;
+        var priductNum=row.children[1].innerHTML;
+        var priductPrice=row.children[2].innerHTML;
+
+        row.children[0].innerHTML='<input type="text" value="'+priductName+'">';
+        row.children[1].innerHTML='<input type="text" value="'+priductNum+'">';
+        row.children[2].innerHTML='<input type="text" value="'+priductPrice+'">';
+        row.children[3].children[1].value='确定';
+        row.children[3].children[1].setAttribute("onclick","updRow('"+rowId+"')");
+
+
+
+    }
+
+    function updRow(rowId) {
+        //1.获取指定行中前三列单元格文本框的内容
+        var row=document.getElementById(rowId);
+        var priductName=row.children[0].children[0].value;
+        var priductNum=row.children[1].children[0].value;
+        var priductPrice=row.children[2].children[0].value;
+        //2.设置内容
+        row.children[0].innerHTML=priductName;
+        row.children[1].innerHTML=priductNum;
+        row.children[2].innerHTML=priductPrice;
+        row.children[3].children[1].value='修改';
+        row.children[3].children[1].setAttribute("onclick","editRow('"+rowId+"')");
+
+    }
+
 
 </script>
 

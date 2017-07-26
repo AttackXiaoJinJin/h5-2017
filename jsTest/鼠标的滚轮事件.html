@@ -27,8 +27,8 @@
                    box1.style.height=(box1.clientHeight+10)+"px";
                }
 
-
-//               event.preventDefault() && event.preventDefault;
+                //兼容IE8
+               event.preventDefault && event.preventDefault();
                //当滚轮滚动时，若有滚动条，滚动条会随之滚动
                 //取消浏览器默认行为
                 return false;

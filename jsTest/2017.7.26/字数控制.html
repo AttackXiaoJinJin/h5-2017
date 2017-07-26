@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>字数控制</title>
+    <style>
+        #textarea01{
+
+
+        }
+        div{
+            width: 600px;
+
+            margin: 0 auto;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var index=155;
+            var num=document.getElementById("num");
+            var textarea=document.getElementById("textarea01");
+
+
+            textarea.onkeypress=function () {
+                var currLength=this.value.length;
+                num.innerHTML=index-currLength;
+
+            };
+
+
+
+        }
+    </script>
+</head>
+<body>
+    <div>一句话介绍自己 <br>
+    <textarea name="introduce" id="textarea01" cols="60" rows="10" placeholder="一句话介绍自己，告诉我为什么选择你而不是别人">axax哈哈</textarea>
+    <div>还可输入<span id="num">0</span>字</div>
+    </div>
+
+</body>
+</html>
