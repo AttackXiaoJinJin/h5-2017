@@ -4,22 +4,53 @@
     <meta charset="UTF-8">
     <title>RegExp</title>
     <script>
-        var strLine="hello Javascript,IOS,Java,c#,MySql,PS!";
+//        var strLine="hello Javascript,IOS,Java,c#,MySql,PS!";
         //i忽略大小写,g全局匹配
-        var rg=/Java/ig;
-        var reg=new RegExp('java','ig');
+//        var rg=/Java/ig;
+//        var reg=new RegExp('java','ig');
         //从0开始
 //        console.log(reg.test(strLine));
 //        console.log(reg.exec(strLine));
 //        console.log(strLine.search(rg));
 //        console.log(strLine.match(rg));
-        console.log(strLine.replace(rg,'haha'));
+//        console.log(strLine.replace(rg,'haha'));
+//        var strLine="taablae";
+        //+至少一次
+//        var reg=/a+/gi;
+        //? 0或1
+//        console.log(strLine.match(reg));
+//        var strLine1='tom_jack+tom-alex@to99';
+//        var reg1=/(tom)?/i ;
+//        console.log(strLine1.match(reg1));
+        //字符匹配
+//        var str="aaa";
+        //[]限定范围一个字符
+//        var reg = /[A-z]/gi;
+//        var reg=/(\w)\d{3}\1/;
+//        //输出四个完全一样的字母
+//        var reg=/^(\w)\1\1\1$/;
+//        console.log(reg.test(str));
+//        var reg01 =/([0-1]?\d?\d)|2([0-4]\d|5[0-5])/;
+//        var reg01 =/2([0-4]\d|5[0-5])/;
+//        200-255
+        var regIP=/((\d?[1-9]|1\d{2})|2([0-4]\d|5[0-5]))(\.([0-1]?\d?\d)|2([0-4]\d|5[0-5])){3}/;
+        var str = "0.199.82.1" ;
+//        var str=Math.ceil(Math.random()*255);
+//        var reg02=/\d[1-9]/;
+//        var str1="01";
+//        console.log(reg02.test(str1));
+
+        console.log(str);
+        console.log(regIP.test(str));
+
+
+//        var reg02 = // ;
+
 
     </script>
 </head>
 
 <body>
-
 
 </body>
 </html>
