@@ -33,18 +33,26 @@
 //        var reg01 =/([0-1]?\d?\d)|2([0-4]\d|5[0-5])/;
 //        var reg01 =/2([0-4]\d|5[0-5])/;
 //        200-255
-        var regIP=/((\d?[1-9]|1\d{2})|2([0-4]\d|5[0-5]))(\.([0-1]?\d?\d)|2([0-4]\d|5[0-5])){3}/;
-        var str = "0.199.82.1" ;
+//        var regIP=/((\d?[1-9]|1\d{2})|2([0-4]\d|5[0-5]))(\.([0-1]?\d?\d)|2([0-4]\d|5[0-5])){3}/;
+//        var str = "0.199.82.1" ;
 //        var str=Math.ceil(Math.random()*255);
 //        var reg02=/\d[1-9]/;
 //        var str1="01";
 //        console.log(reg02.test(str1));
 
-        console.log(str);
-        console.log(regIP.test(str));
+//        console.log(str);
+//        console.log(regIP.test(str));
 
 
 //        var reg02 = // ;
+
+        //我们在学习<div>Javascript</div><p>你好啊，小可爱</p>
+//        var regTag=/\<(\w+)\>.*\<\/\1\2?\3?\4?\>/ig;
+        var regTag=/\<(\w+)\>+\<\/\1\2?\3?\4?\>/ig;
+        var str="aaa<div>Javascript</div><p>vzsda</p>";
+        console.log(str);
+        console.log(str.match(regTag));
+
 
 
     </script>

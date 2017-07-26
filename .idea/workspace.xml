@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.26/RegExp.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.26/RegExp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.26/基于IP的正则表达式.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.26/基于IP的正则表达式.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,21 +21,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="字数控制.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html">
+      <file leaf-file-name="RegExp.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/RegExp.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="924">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="442">
+              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegExp.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/RegExp.html">
+      <file leaf-file-name="文本框的特性.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/文本框的特性.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            <state relative-caret-position="-363">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="字数控制.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -64,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/CSS/hi2.css" />
         <option value="$PROJECT_DIR$/jsTest/DOM删除员工练习.html" />
         <option value="$PROJECT_DIR$/jsTest/DOM删除和添加员工练习.html" />
         <option value="$PROJECT_DIR$/jsTest/使用DOM操作内联样式.html" />
@@ -113,8 +122,9 @@
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/表单验证.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/表单高级验证.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/文本框的特性.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.7.26/基于IP的正则表达式.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/RegExp.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html" />
       </list>
     </option>
   </component>
@@ -132,7 +142,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-81" />
+    <option name="x" value="81" />
+    <option name="y" value="13" />
     <option name="width" value="1059" />
     <option name="height" value="1027" />
   </component>
@@ -349,12 +360,12 @@
       <workItem from="1500870881269" duration="27013000" />
       <workItem from="1500940610154" duration="29511000" />
       <workItem from="1500975792380" duration="14830000" />
-      <workItem from="1501027334891" duration="23118000" />
+      <workItem from="1501027334891" duration="25749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441662000" />
+    <option name="totallyTimeSpent" value="444293000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,13 +380,13 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.058854718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19247083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30489334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30363864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -400,13 +411,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/functionTest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/windows的定时函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -724,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/文本框的特性.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/js/reg.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -748,18 +744,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html">
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/基于IP的正则表达式.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/RegExp.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="36" column="20" lean-forward="false" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        <state relative-caret-position="442">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/文本框的特性.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-363">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding />
         </state>
       </provider>

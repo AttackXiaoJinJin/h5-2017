@@ -20,10 +20,14 @@
             var index=155;
             var num=document.getElementById("num");
             var textarea=document.getElementById("textarea01");
+            textarea.value.length=155;
 
             textarea.onkeypress=function () {
                 var currLength=this.value.length;
                 num.innerHTML=index-currLength;
+                if(index-currLength<=0){
+                    alert("已达最大字数限制！")
+                }
             };
 
 
@@ -33,8 +37,8 @@
 </head>
 <body>
     <div>一句话介绍自己 <br>
-    <textarea name="introduce" id="textarea01" cols="60" rows="10" placeholder="一句话介绍自己，告诉我为什么选择你而不是别人">axax哈哈</textarea>
-    <div>还可输入<span id="num">0</span>字</div>
+    <textarea name="introduce" id="textarea01" cols="60" rows="10" placeholder="一句话介绍自己，告诉我为什么选择你而不是别人"></textarea>
+    <div>还可输入<span id="num">155</span>字</div>
     </div>
 
 </body>
