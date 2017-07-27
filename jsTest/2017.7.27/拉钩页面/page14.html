@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拉勾网</title>
+    <style>
+        *{margin:0;padding:0}
+        ul{list-style: none;}
+        a{text-decoration: none;color:#333;}
+        .fl{float:left;}
+        .fr{float:right;}
+       li{
+           width: 406px;
+           padding: 28px 32px;
+           height: 234px;
+           border: 1px solid #ededed;
+           margin-bottom: 20px;
+           position: relative;
+       }
+        .item_cont{  }
+        .item_cont dt>a {
+            display: block;
+            width: 130px;
+            height: 130px;
+        }
+        .item_cont dd{
+            width: 250px;
+            height: 130px;
+        }
+        .item_cont h3{
+            font-size: 22px;
+            line-height: 40px;
+            width: 200px;
+            overflow: hidden;
+            font-weight: 400;
+        }
+        .sub_title{
+            font-size: 16px;
+            font-weight: 700;
+            margin: 14px 0 18px;
+            line-height: 18px;
+        }
+        .sub_title a span{
+            color: #00b38a;
+            margin-right: 10px;
+        }
+        .sub_title p+p{
+            margin-top:10px;
+        }
+        .details{
+            clear: both;
+            padding-top: 18px;
+            color: #666;
+        }
+        .company_state{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 0 30px;
+            box-sizing: border-box;
+            height: 54px;
+            line-height: 54px;
+            background-color: #fafafa;
+            color: #999;
+        }
+        .company_state .web{
+            max-width: 208px;
+        }
+        .company_state .web i{
+            background-position: 0 0;
+        }
+        .company_state .place i{
+            margin-left: 14px;
+            background-position: 0 -36px;
+        }
+         .company_state span i {
+            display: inline-block;
+            vertical-align: middle;
+            width: 15px;
+            height: 18px;
+            margin-right: 12px;
+            background-image: url(http://static.lagou.com/www/static/company-list/modules/list/img/icon_95c53f1.png);
+            background-repeat: no-repeat;
+            background-position: 0 -18px;
+         }
+    </style>
+</head>
+<body>
+<ul>
+    <li class="fl">
+        <dl class="item_cont">
+            <dt class="fl">
+                <a href="#"><img src="images/adv1.jpg" width="130px" height="130px" alt=""></a>
+            </dt>
+            <dd class=fr>
+                <h3><a href="#">么么直播</a></h3>
+                <div class="sub_title">
+                    <p><a href=""><span>53</span>条面试评价</a></p>
+                    <p><a href=""><span>16</span>个在招职位</a></p>
+                    <p><p><a href=""><span>100%</span>简历处理率</a></p></p>
+                </div>
+            </dd>
+            <p class="details">在最IN的城市，玩当下最火爆的事业！</p>
+        </dl>
+        <div class="company_state">
+            <span class="fl web">
+                <i></i>移动互联网，社交网络
+            </span>
+            <span class="fr place">
+                 <i></i>上海
+            </span>
+            <span>
+                 <i></i>成长型（A轮）
+            </span>
+        </div>
+    </li>
+</ul>
+</body>
+</html>

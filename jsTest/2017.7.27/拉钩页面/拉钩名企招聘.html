@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拉钩名企招聘</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            color: #302e30;
+        }
+        .fl{
+            float: left;
+        }
+        .fr{
+            float: right;
+        }
+        li{
+            width: 406px;
+            padding: 28px 32px;
+            height: 234px;
+            border: 1px solid #ededed;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .item_count{
+
+        }
+
+        .item_count dt>a{
+            display: block;
+            width: 130px;
+            height: 130px;
+        }
+        .item_count dd{
+            width: 250px;
+            height: 130px;
+        }
+        .item_count h3{
+            font-size: 22px;
+            line-height: 40px;
+            width: 200px;
+            overflow: hidden;
+            font-weight: 400;
+        }
+        .sub_title{
+            font-size: 16px;
+            font-weight: 700;
+            margin: 14px 0 18px;
+            line-height: 18px;
+        }
+        .sub_title a span{
+            color: #45ff35;
+            margin-right: 10px;
+        }
+        /*?*/
+        .sub_title p+p{
+            margin-top: 10px;
+        }
+        .details{
+            clear: both;
+            padding-top: 18px;
+            color: #666;
+        }
+        .company_state{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 0 30px;
+            box-sizing: border-box;
+            height: 54px;
+            line-height: 54px;
+            background-color: #fafafa;
+            color: #999;
+        }
+        .company_state .web{
+            max-width: 208px;
+
+        }
+        .company_state .web i{
+            /*修改背景图片*/
+            background-position: 0 0;
+        }
+
+        .company_state span i{
+            display: inline-block;
+            vertical-align: middle;
+            width: 15px;
+            height: 18px;
+            margin-right: 12px;
+            background-image: url(http://static.lagou.com/www/static/company-list/modules/list/img/icon_95c53f1.png);
+            background-repeat: no-repeat;
+            background-position: 0 -18px;
+        }
+        .company_state .place i{
+            margin-left: 14px;
+            background-position: 0 -36px;
+        }
+
+
+
+
+    </style>
+    <script>
+        var jsonData=[ {
+            "companyName":"壹米滴答",
+            "logopath":"adv1.jpg",
+            "pingjiaCount":"109",
+            "zhiweiCount":"23",
+            "performRate":"91%",
+            "web":"企业服务",
+            "details":"共建中国最强物流网络平台",
+            "place":"上海",
+            "type":"成长型（B轮）"
+        },
+            {
+                "companyName":"惠租车",
+                "logopath":"adv2.jpg",
+                "pingjiaCount":"169",
+                "zhiweiCount":"7",
+                "performRate":"99%",
+                "web":"旅游",
+                "details":"不来惠租车，你怎么知道自己可以更牛B!",
+                "place":"上海",
+                "type":"成长型（B轮）"
+            },
+            {
+                "companyName":"斗象科技",
+                "logopath":"adv3.jpg",
+                "pingjiaCount":"153",
+                "zhiweiCount":"31",
+                "performRate":"97%",
+                "web":"信息安全",
+                "details":"互联网安全领导者（www.tophant.com - FreeBuf，漏洞盒子，网藤风险感知）",
+                "place":"上海",
+                "type":"成长型（B轮）"
+            },
+            {
+                "companyName":"生意专家",
+                "logopath":"adv4.jpg",
+                "pingjiaCount":"45",
+                "zhiweiCount":"18",
+                "performRate":"81%",
+                "web":"移动互联网，O2O",
+                "details":"目光远大 努力奋斗 保持专注",
+                "place":"上海",
+                "type":"成长型（A轮）"
+            },
+            {
+                "companyName":"即刻",
+                "logopath":"adv5.jpg",
+                "pingjiaCount":"6",
+                "zhiweiCount":"2",
+                "performRate":"98%",
+                "web":"移动互联网",
+                "details":"有口皆碑的产品+硅谷氛围+年轻团队+超棒福利，加入我们和「即刻」一起快速成长",
+                "place":"上海",
+                "type":"成长型（B轮）"
+            },
+            {
+                "companyName":"么么直播",
+                "logopath":"adv6.jpg",
+                "pingjiaCount":"52",
+                "zhiweiCount":"19",
+                "performRate":"96%",
+                "web":"移动互联网，社交网络",
+                "details":"在最IN的城市，玩当下最火爆的事业！",
+                "place":"上海",
+                "type":"成长型（A轮）"
+            }
+        ];
+
+
+        window.onload=function () {
+            var pageSize=2;//每页数据量
+            var recodeSize=jsonData.length;  //总记录数
+            var pageCount=Math.ceil(recodeSize/pageSize); //总页数
+            var pageIndex=0; //当前索引
+            var start=0;
+            var end=0;
+
+
+            var ul=document.getElementsByTagName("ul")[0];
+
+            for(var i=0;i<=end;i++) {
+
+                var li = document.createElement('li');
+                li.className = 'fl';
+                li.innerHTML = ' <dl class="item_count">' +
+                    '<dt class="fl"><a href="https://www.lagou.com/gongsi/34331.html" target="_blank"><img src="imgs/' + jsonData[0].logopath + '" width="130px" height="130px" alt=""></a></dt>' +
+                    '<dd class="fr">' +
+                    '<h3><a href="">' + jsonData[0].companyName + '</a></h3>' +
+                    ' <div class="sub_title">' +
+                    '<p><a href=""><span>' + jsonData[0].pingjiaCount + '</span>条面试评价</a></p>' +
+                    ' <p><a href=""><span>' + jsonData[0].zhiweiCount + '</span>个在招职位</a></p>' +
+                    ' <p><a href=""><span>' + jsonData[0].performRate + '</span>简历处理率</a></p>' +
+                    ' </div>' +
+                    ' </dd>' +
+                    ' <p class="details" title="在最IN的城市，玩当下最火爆的事业！">' + jsonData[0].details + '</p>' +
+                    '</dl>' +
+                    ' <div class="company_state">' +
+                    ' <span title="移动互联网，社交网络" class="fl web"><i></i>' + jsonData[0].web + '</span>' +
+                    ' <span title="上海" class="fr place"><i></i>' + jsonData[0].place + '</span>' +
+                    ' <span title="成长型(A轮)"><i></i>' + jsonData[0].type + '</span>' +
+                    ' </div>';
+                ul.appendChild(li);
+            }
+
+        };
+
+
+
+
+    </script>
+</head>
+<body>
+    <div>
+        <ul>
+
+        </ul>
+    </div>
+</body>
+</html>
+
+<!--<li class="fl">-->
+
+<!--</li>-->

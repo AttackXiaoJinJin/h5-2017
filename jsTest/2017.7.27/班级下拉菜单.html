@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>班级下拉菜单</title>
+    <script>
+        window.onload=function () {
+            var option01=document.getElementById("option01")
+            var classW=document.form01.classW;
+            var txtClass=['网络一班','网络二班'];
+                //new Option(LABEL,VALUE);LABEL是显示的文字,VALUE是实际值
+                //相当于键值对
+                for(var i=0;i<txtClass.length;i++) {
+                    var optionClass = new Option(txtClass[i], txtClass[i]);
+                    classW.options.add(optionClass);
+                }
+
+            var txtName=[];
+            var name=document.form01.name;
+            txtName['网络一班']=['孙鑫','杨颖','哈哈'];
+            txtName['网络二班']=['薛','锦','陈'];
+            //设置默认值
+//            for(var nameIndex in txtName[classW.value]){
+//                //添加判断，去除警告
+//                if( txtName[classW.value].hasOwnProperty(nameIndex) ){
+//                    var ourName=txtName[classW.value][nameIndex];
+//                    var optionName=new Option(ourName,ourName);
+//                    name.options.add(optionName);
+//                }
+//            }
+            var isFirst = true;
+            function removeFirst() {
+                if(isFirst)
+                {classW.removeChild(option01);
+                isFirst=false;
+                }
+            }
+
+            classW.onchange=function () {
+                removeFirst();
+                name.length=0;
+                //提取值
+                for(var nameIndex in txtName[classW.value]){
+                    //添加判断，去除警告
+                  if( txtName[classW.value].hasOwnProperty(nameIndex) ){
+                    //
+                      var ourName=txtName[classW.value][nameIndex];
+                      var optionName=new Option(ourName,ourName);
+                    name.options.add(optionName);
+                }
+                }
+            };
+
+
+
+        }
+
+    </script>
+</head>
+<body>
+<form action="#" name="form01">
+    <select name="classW">
+        <option value="0" id="option01">aaaa</option>
+    </select>
+    <select  name="name">
+        <option value="0">bbbb</option>
+    </select>
+
+</form>
+</body>
+</html>

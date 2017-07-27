@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉列表</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload=function () {
+            var selProvince=document.form01.province;
+            var strProvince=['江苏','山东','河南'];
+          //new Option(LABEL,VALUE);LABEL是显示的文字,VALUE是实际值
+            //相当于键值对
+            for(var i=0;i<strProvince.length;i++) {
+                var option = new Option(strProvince[i], strProvince[i]);
+                selProvince.options.add(option);
+            }
+            var strCity=[];
+            var selCity=document.form01.city;
+            selProvince.onchange=function () {
+
+
+                strCity['江苏']=['苏州','无锡','常州'];
+                strCity['山东']=['济南','青岛','大海'];
+                strCity['河南']=['洛阳','开封','郑州'];
+                selCity.options.length=0;
+
+                //提取值
+                for(cityIndex in strCity[selProvince.value]){
+                    var city=strCity[selProvince.value][cityIndex];
+                    var optionC=new Option(city,city);
+                    selCity.options.add(optionC);
+                }
+            };
+
+        };
+
+//        function showCitys() {
+//           var strCity=[
+//           ['苏州','无锡','常州'],
+//           ['济南','青岛','大海'],
+//           ['洛阳','开封','郑州']];
+//            var selProvince=document.form01.province;
+//            var provinceCity=strCity[selProvince.selectedIndex-1];
+//            var selCity=document.form01.city;
+//            selCity.length=1;
+//           for(var i=0;i<provinceCity.length;i++){
+//               selCity[i+1]=new Option(provinceCity[i],provinceCity[i]);
+//           }
+
+
+
+
+//        }
+
+
+    </script>
+</head>
+<body>
+<form action="#" name="form01">
+    <select id="selProvince" name="province"></select>
+    <select id="selCity" name="city"></select>
+
+</form>
+</body>
+</html>

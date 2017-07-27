@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日期选择下拉列表</title>
+    <script>
+        window.onload=function () {
+            var year=document.form01.yeaR;
+            var month=document.form01.montH;
+            var day=document.form01.daY;
+            var monthDayNum=['31','28','31','30','31','30','31','31','30','31','30','31'];
+
+            for(var n=1900;n<=2100;n++) {
+                addOption(year,n,n);
+            }
+
+
+            for(var i=0;i<12;i++) {
+                addOption(month,i+1,i+1);
+            }
+
+
+
+
+            month.onchange=function () {
+
+                var mon = month.options[month.selectedIndex].text;
+                for(var k=0;k<mon;k++){
+                    day.length=0;
+                    var dayLength=monthDayNum[k];
+                    for(var j=0;j<dayLength;j++){
+                        addOption(day,j+1,j+1);
+
+                    }
+                }
+
+            };
+
+
+
+
+
+            function addOption(selectObj,text,value) {
+                var option= document.createElement("option");
+                option.text = text;
+                option.value = value;
+                selectObj.options.add(option);
+            }
+            
+            function checkLeapYear(yea) {
+                return (yea%4===0 || (yea%100 === 0 && yea%400 === 0));
+            }
+            
+            
+
+        }
+
+
+    </script>
+</head>
+<body>
+<form action="#" name="form01">
+    <select id="year" name="yeaR"><option value="0">年</option></select>
+    <select id="month" name="montH"><option value="0">月</option></select>
+    <select id="day" name="daY"><option value="0">日</option></select>
+
+</form>
+</body>
+</html>
