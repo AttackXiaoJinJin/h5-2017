@@ -4,55 +4,82 @@
     <meta charset="UTF-8">
     <title>拉勾网</title>
     <style>
-        *{margin:0;padding:0}
-        ul{list-style: none;}
-        a{text-decoration: none;color:#333;}
-        .fl{float:left;}
-        .fr{float:right;}
-       li{
-           width: 406px;
-           padding: 28px 32px;
-           height: 234px;
-           border: 1px solid #ededed;
-           margin-bottom: 20px;
-           position: relative;
-       }
-        .item_cont{  }
-        .item_cont dt>a {
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        li {
+            width: 406px;
+            padding: 28px 32px;
+            height: 234px;
+            border: 1px solid #ededed;
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .item_cont {
+        }
+
+        .item_cont dt > a {
             display: block;
             width: 130px;
             height: 130px;
         }
-        .item_cont dd{
+
+        .item_cont dd {
             width: 250px;
             height: 130px;
         }
-        .item_cont h3{
+
+        .item_cont h3 {
             font-size: 22px;
             line-height: 40px;
             width: 200px;
             overflow: hidden;
             font-weight: 400;
         }
-        .sub_title{
+
+        .sub_title {
             font-size: 16px;
             font-weight: 700;
             margin: 14px 0 18px;
             line-height: 18px;
         }
-        .sub_title a span{
+
+        .sub_title a span {
             color: #00b38a;
             margin-right: 10px;
         }
-        .sub_title p+p{
-            margin-top:10px;
+
+        .sub_title p + p {
+            margin-top: 10px;
         }
-        .details{
+
+        .details {
             clear: both;
             padding-top: 18px;
             color: #666;
         }
-        .company_state{
+
+        .company_state {
             position: absolute;
             left: 0;
             bottom: 0;
@@ -63,18 +90,32 @@
             line-height: 54px;
             background-color: #fafafa;
             color: #999;
+            font-size: 14px;
         }
-        .company_state .web{
+
+        .company_state .web {
             max-width: 208px;
         }
-        .company_state .web i{
+
+        .company_state .place {
+            max-width: 88px;
+        }
+
+        .company_state .type {
+            text-align: center;
+            display: block;
+        }
+
+        .company_state .web i {
             background-position: 0 0;
         }
-        .company_state .place i{
+
+        .company_state .place i {
             margin-left: 14px;
             background-position: 0 -36px;
         }
-         .company_state span i {
+
+        .company_state span i {
             display: inline-block;
             vertical-align: middle;
             width: 15px;
@@ -83,12 +124,148 @@
             background-image: url(http://static.lagou.com/www/static/company-list/modules/list/img/icon_95c53f1.png);
             background-repeat: no-repeat;
             background-position: 0 -18px;
-         }
+        }
     </style>
+    <script>
+        var jsonData = [{
+            "companyName": "壹米滴答",
+            "logopath": "adv1.jpg",
+            "pingjiaCount": "109",
+            "zhiweiCount": "23",
+            "performRate": "91%",
+            "web": "企业服务",
+            "details": "共建中国最强物流网络平台",
+            "place": "上海",
+            "type": "成长型（B轮）"
+        },
+            {
+                "companyName": "惠租车",
+                "logopath": "adv2.jpg",
+                "pingjiaCount": "169",
+                "zhiweiCount": "7",
+                "performRate": "99%",
+                "web": "旅游",
+                "details": "不来惠租车，你怎么知道自己可以更牛B!",
+                "place": "上海",
+                "type": "成长型（B轮）"
+            },
+            {
+                "companyName": "斗象科技",
+                "logopath": "adv3.jpg",
+                "pingjiaCount": "153",
+                "zhiweiCount": "31",
+                "performRate": "97%",
+                "web": "信息安全",
+                "details": "互联网安全领导者（www.tophant.com - FreeBuf，漏洞盒子，网藤风险感知）",
+                "place": "上海",
+                "type": "成长型（B轮）"
+            },
+            {
+                "companyName": "生意专家",
+                "logopath": "adv4.jpg",
+                "pingjiaCount": "45",
+                "zhiweiCount": "18",
+                "performRate": "81%",
+                "web": "移动互联网，O2O",
+                "details": "目光远大 努力奋斗 保持专注",
+                "place": "上海",
+                "type": "成长型（A轮）"
+            },
+            {
+                "companyName": "即刻",
+                "logopath": "adv5.jpg",
+                "pingjiaCount": "6",
+                "zhiweiCount": "2",
+                "performRate": "98%",
+                "web": "移动互联网",
+                "details": "有口皆碑的产品+硅谷氛围+年轻团队+超棒福利，加入我们和「即刻」一起快速成长",
+                "place": "上海",
+                "type": "成长型（B轮）"
+            },
+            {
+                "companyName": "么么直播",
+                "logopath": "adv6.jpg",
+                "pingjiaCount": "52",
+                "zhiweiCount": "19",
+                "performRate": "96%",
+                "web": "移动互联网，社交网络",
+                "details": "在最IN的城市，玩当下最火爆的事业！",
+                "place": "上海",
+                "type": "成长型（A轮）"
+            }
+        ];
+        var pageSize = 3;   //每页的数据量
+        var recordSize = jsonData.length;  //总记录数
+        var pageCount = Math.ceil(recordSize / pageSize);  //总页数
+        var pageIndex = 0; //当前页索引
+        //第0页 0,1  第1页 2,3  第2页  4,5
+
+        window.onload = function () {
+            //动态添加ul中li
+            showInfo();
+        }
+        function  showInfo(){
+            var start = pageSize * pageIndex;
+            var end = pageSize * pageIndex + (pageSize - 1);
+            var ul = document.getElementsByTagName('ul')[0];
+            document.body.removeChild(ul);          //先清空原有数据
+            ul = document.createElement('ul');      //再新建ul
+            document.body.insertBefore(ul,document.body.firstElementChild);
+            for (var i = start; i <= end; i++) {
+                var li = document.createElement('li');
+                li.className = 'fl';
+                li.innerHTML = '<dl class="item_cont">' +
+                        '<dt class="fl">' +
+                        '<a href="#"><img src="images/' + jsonData[i].logopath + '" width="130px" height="130px" alt=""></a>' +
+                        '</dt>' +
+                        '<dd class=fr>' +
+                        '<h3><a href="#">' + jsonData[i].companyName + '</a></h3>' +
+                        '<div class="sub_title">' +
+                        '<p><a href=""><span>' + jsonData[i].pingjiaCount + '</span>条面试评价</a></p>' +
+                        '<p><a href=""><span>' + jsonData[i].zhiweiCount + '</span>个在招职位</a></p>' +
+                        '<p><p><a href=""><span>' + jsonData[i].performRate + '</span>简历处理率</a></p></p>' +
+                        '</div>' +
+                        '</dd>' +
+                        '<p class="details">' + jsonData[i].details + '</p>' +
+                        '</dl>' +
+                        '<div class="company_state">' +
+                        '<span class="fl web">' +
+                        '<i></i>' + jsonData[i].web +
+                        '</span>' +
+                        '<span class="fr place">' +
+                        '<i></i>' + jsonData[i].place +
+                        '</span>' +
+                        '<span class="type">' +
+                        '<i></i>' + jsonData[i].type +
+                        '</span>' +
+                        '</div>';
+                ul.appendChild(li);
+            }
+        }
+        //显示下一页数据
+        function showNext() {
+            if(pageIndex < pageCount - 1)
+                pageIndex++;
+            showInfo();
+        }
+        function showPrev() {
+            if(pageIndex > 0)
+                pageIndex--;
+            showInfo();
+        }
+    </script>
 </head>
 <body>
 <ul>
-    <li class="fl">
+</ul>
+<form action="#">
+    <input type="button" value="上一页" onclick="showPrev()">
+    <input type="button" value="下一页" onclick="showNext()">
+</form>
+</body>
+</html>
+
+<!-- <li class="fl">
         <dl class="item_cont">
             <dt class="fl">
                 <a href="#"><img src="images/adv1.jpg" width="130px" height="130px" alt=""></a>
@@ -110,11 +287,9 @@
             <span class="fr place">
                  <i></i>上海
             </span>
-            <span>
+            <span class="type">
                  <i></i>成长型（A轮）
             </span>
         </div>
     </li>
-</ul>
-</body>
-</html>
+    -->

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>裤装</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            width: 800px;
+            margin: 50px auto;
+        }
+
+        li{
+            list-style: none;
+            float: left;
+            padding: 5px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: smaller;
+        }
+        span{
+
+        }
+
+        .span01{
+            color: #f4645f;
+
+        }
+        .span02{
+            color: #8b898b;
+            text-decoration: line-through;
+            font-size: smaller;
+        }
+
+    </style>
+    <script>
+        var jsonData = [{
+            "pantsName": "2017夏季九分裤男裤修身",
+            "imgpath": "pant1.jpg",
+            "previousPrice": "￥120",
+            "currentPrice": "￥100"
+        },
+            {
+                "pantsName": "纯棉短裤男夏天韩版",
+                "imgpath": "pant2.jpg",
+                "previousPrice": "￥244",
+                "currentPrice": "￥220"
+            },
+            {
+                "pantsName": "花花公子薄款九分裤",
+                "imgpath": "pant3.jpg",
+                "previousPrice": "￥142",
+                "currentPrice": "￥124"
+            },
+            {
+                "pantsName": "夏季男宽松七分裤大码",
+                "imgpath": "pant4.jpg",
+                "previousPrice": "￥146",
+                "currentPrice": "￥131"
+            },
+            {
+                "pantsName": "夏季运动5分裤男士",
+                "imgpath": "pant5.jpg",
+                "previousPrice": "￥275",
+                "currentPrice": "￥245"
+            },
+            { "pantsName": "运动短裤男五分裤",
+                "imgpath": "pant6.jpg",
+                "previousPrice": "￥320",
+                "currentPrice": "￥288"
+            },
+            { "pantsName": "休闲运动五分大裤",
+                "imgpath": "pant7.jpg",
+            "previousPrice": "￥249",
+            "currentPrice": "￥247"
+        },
+        { "pantsName": "弹力音符高弹力五分中裤",
+            "imgpath": "pant8.jpg",
+            "previousPrice": "￥189",
+            "currentPrice": "￥158"
+        }
+        ];
+
+
+        window.onload=function () {
+            showInfo();
+        };
+
+        function showInfo() {
+            var start=0;
+            var end=8;
+
+            var ul = document.getElementsByTagName("ul")[0];
+            document.body.removeChild(ul);
+            ul=document.createElement("ul");
+            document.body.insertBefore(ul,document.body.firstElementChild);
+            for (var i = start; i <end; i++) {
+
+                var li = document.createElement('li');
+                li.className = 'fl';
+                li.innerHTML = '<a href="#"><img src="images/'+jsonData[i].imgpath+'" alt=""></a><br>'+
+                    '<a href="#"><span>'+jsonData[i].pantsName+'</span></a><br>'+
+                    '<span class="span01">'+jsonData[i].currentPrice+'</span>&nbsp;<span class="span02">'+jsonData[i].previousPrice+'</span>';
+                ul.appendChild(li);
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+   <ul>
+
+
+   </ul>
+
+</body>
+</html>

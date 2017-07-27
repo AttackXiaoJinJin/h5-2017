@@ -178,43 +178,64 @@
             }
         ];
 
+        var pageSize=2;//每页数据量
+        var recodeSize=jsonData.length;  //总记录数
+        var pageCount=Math.ceil(recodeSize/pageSize); //总页数
+        var pageIndex=0; //当前索引
 
         window.onload=function () {
-            var pageSize=2;//每页数据量
-            var recodeSize=jsonData.length;  //总记录数
-            var pageCount=Math.ceil(recodeSize/pageSize); //总页数
-            var pageIndex=0; //当前索引
-            var start=0;
-            var end=0;
+            showInfo();
+
+            };
 
 
-            var ul=document.getElementsByTagName("ul")[0];
+        function showInfo() {
+            var start=pageSize*pageIndex;
+            var end=pageSize*pageIndex+ (pageSize-1);
 
-            for(var i=0;i<=end;i++) {
+            var ul = document.getElementsByTagName("ul")[0];
+            document.body.removeChild(ul);
+            ul=document.createElement("ul");
+            document.body.insertBefore(ul,document.body.firstElementChild);
+            for (var i = start; i <= end; i++) {
 
                 var li = document.createElement('li');
                 li.className = 'fl';
                 li.innerHTML = ' <dl class="item_count">' +
-                    '<dt class="fl"><a href="https://www.lagou.com/gongsi/34331.html" target="_blank"><img src="imgs/' + jsonData[0].logopath + '" width="130px" height="130px" alt=""></a></dt>' +
+                    '<dt class="fl"><a href="https://www.lagou.com/gongsi/34331.html" target="_blank"><img src="imgs/' + jsonData[i].logopath + '" width="130px" height="130px" alt=""></a></dt>' +
                     '<dd class="fr">' +
-                    '<h3><a href="">' + jsonData[0].companyName + '</a></h3>' +
+                    '<h3><a href="">' + jsonData[i].companyName + '</a></h3>' +
                     ' <div class="sub_title">' +
-                    '<p><a href=""><span>' + jsonData[0].pingjiaCount + '</span>条面试评价</a></p>' +
-                    ' <p><a href=""><span>' + jsonData[0].zhiweiCount + '</span>个在招职位</a></p>' +
-                    ' <p><a href=""><span>' + jsonData[0].performRate + '</span>简历处理率</a></p>' +
+                    '<p><a href=""><span>' + jsonData[i].pingjiaCount + '</span>条面试评价</a></p>' +
+                    ' <p><a href=""><span>' + jsonData[i].zhiweiCount + '</span>个在招职位</a></p>' +
+                    ' <p><a href=""><span>' + jsonData[i].performRate + '</span>简历处理率</a></p>' +
                     ' </div>' +
                     ' </dd>' +
-                    ' <p class="details" title="在最IN的城市，玩当下最火爆的事业！">' + jsonData[0].details + '</p>' +
+                    ' <p class="details" title="在最IN的城市，玩当下最火爆的事业！">' + jsonData[i].details + '</p>' +
                     '</dl>' +
                     ' <div class="company_state">' +
-                    ' <span title="移动互联网，社交网络" class="fl web"><i></i>' + jsonData[0].web + '</span>' +
-                    ' <span title="上海" class="fr place"><i></i>' + jsonData[0].place + '</span>' +
-                    ' <span title="成长型(A轮)"><i></i>' + jsonData[0].type + '</span>' +
+                    ' <span title="移动互联网，社交网络" class="fl web"><i></i>' + jsonData[i].web + '</span>' +
+                    ' <span title="上海" class="fr place"><i></i>' + jsonData[i].place + '</span>' +
+                    ' <span title="成长型(A轮)"><i></i>' + jsonData[i].type + '</span>' +
                     ' </div>';
                 ul.appendChild(li);
             }
+        }
 
-        };
+        //            /显示下一页数据
+        function showNext() {
+            if(pageIndex<pageCount-1)
+            {pageIndex++;}
+            showInfo();
+        }
+        //            /显示下一页数据
+        function showPrev() {
+            if(pageIndex>0){
+                pageIndex--;
+            }
+            showInfo();
+        }
+
 
 
 
@@ -222,14 +243,14 @@
     </script>
 </head>
 <body>
-    <div>
+
         <ul>
 
         </ul>
-    </div>
+
+<button onclick="showPrev()">上一页</button>
+<button onclick="showNext()">下一页</button>
+
+
 </body>
 </html>
-
-<!--<li class="fl">-->
-
-<!--</li>-->

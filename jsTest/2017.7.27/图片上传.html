@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片上传</title>
+
+    <script>
+        window.onload=function () {
+            var isPic=/\.(jpg$)|(png$)/i;
+
+            var input=document.form01.input01;
+            var button=document.form01.input02;
+            input.onclick=function () {
+
+            };
+            button.onclick=function () {
+               if(isPic.test(input.value)){
+                  alert("上传成功！")
+               }else {
+                   console.log("您输入的文件格式不正确");
+               }
+            };
+
+
+        }
+    </script>
+
+</head>
+<body>
+<form action="#" enctype="text/plain" name="form01">
+    <p>请上传.jpg或.png为后缀的文件</p>
+    <input type="file" name="input01">
+    <input type="button" name="input02" value="提交">
+
+</form>
+</body>
+</html>

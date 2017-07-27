@@ -14,6 +14,21 @@
                 addOption(year,n,n);
             }
 
+            year.onchange=function () {
+                var yea= year.options[year.selectedIndex].text;
+                var mon = month.options[month.selectedIndex].text;
+                if(checkLeapYear(yea)){
+                        if(mon==2){
+                            addOption(day,29,29);
+                            }
+                        }else  if (day.options.length!=28 ){
+                    var daySele=document.form01.daY;
+                    var last=document.form01.daY.getElementsByTagName("option");
+                    daySele.removeChild(last[last.length-1]);
+                }
+                };
+
+
 
             for(var i=0;i<12;i++) {
                 addOption(month,i+1,i+1);
@@ -21,20 +36,28 @@
 
 
 
-
             month.onchange=function () {
-
                 var mon = month.options[month.selectedIndex].text;
                 for(var k=0;k<mon;k++){
                     day.length=0;
                     var dayLength=monthDayNum[k];
                     for(var j=0;j<dayLength;j++){
                         addOption(day,j+1,j+1);
-
                     }
                 }
-
             };
+
+            day.onchange=function () {
+                var yea= year.options[year.selectedIndex].text;
+                var mon = month.options[month.selectedIndex].text;
+                var daySele=document.form01.daY;
+                var last=document.form01.daY.getElementsByTagName("option");
+                if (mon==2 &&(!checkLeapYear(yea)) && day.options.length!=28 ){
+                   daySele.removeChild(last[last.length-1]);
+                }
+            };
+
+
 
 
 
@@ -48,8 +71,10 @@
             }
             
             function checkLeapYear(yea) {
-                return (yea%4===0 || (yea%100 === 0 && yea%400 === 0));
+                return ((yea%4===0 && yea%100!==0) || yea%400 === 0);
             }
+
+
             
             
 
