@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/images/pant8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/图片上传.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/JSON.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.27/拉钩页面/page14.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/拉钩页面/page14.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.27/拉钩页面/拉钩名企招聘.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/拉钩页面/拉钩名企招聘.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.27/日期选择下拉列表.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/日期选择下拉列表.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html" afterPath="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,12 +21,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="图片上传.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.27/图片上传.html">
+      <file leaf-file-name="JSON.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/JSON.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            <state relative-caret-position="132">
+              <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="裤装.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1432">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding>
+                <marker date="1501155682712" expanded="true" signature="2698:2704" ph=" " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/2017.7.24/不允许用户直接进入页面/nonono.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.24/计时器.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.24/不允许用户直接进入页面/award.html" />
         <option value="$PROJECT_DIR$/jsTest/全选练习.html" />
@@ -113,9 +113,10 @@
         <option value="$PROJECT_DIR$/jsTest/2017.7.27/班级下拉菜单.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.27/拉钩页面/json/hotHire.json" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.27/拉钩页面/拉钩名企招聘.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.27/日期选择下拉列表.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.27/图片上传.html" />
+        <option value="$PROJECT_DIR$/jsTest/JSON.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html" />
       </list>
     </option>
   </component>
@@ -132,7 +133,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-11" />
     <option name="width" value="1014" />
     <option name="height" value="1028" />
@@ -172,13 +173,6 @@
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
               <item name="jsTest" type="462c0819:PsiDirectoryNode" />
               <item name="2017.7.27" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="2017.7.27" type="462c0819:PsiDirectoryNode" />
-              <item name="淘宝局部页面" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,12 +350,12 @@
       <workItem from="1501062573967" duration="13176000" />
       <workItem from="1501113698967" duration="1725000" />
       <workItem from="1501115795845" duration="26698000" />
-      <workItem from="1501144785591" duration="8373000" />
+      <workItem from="1501144785591" duration="10113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="494325000" />
+    <option name="totallyTimeSpent" value="496065000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,16 +367,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="1014" height="1028" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17775467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09066808" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30112922" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30075186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -407,11 +401,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/imgs/img2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://E:/BaiduYunDownload/2-尚硅谷JavaScript视频/源码、课件、笔记、工具/源码/day17/source/day17/js/tools.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1820">
@@ -745,21 +734,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html">
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.27/图片上传.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="109" column="13" lean-forward="true" selection-start-line="109" selection-start-column="13" selection-end-line="109" selection-end-column="13" />
-          <folding>
-            <marker date="1501148248062" expanded="true" signature="2941:2947" ph=" " />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.27/图片上传.html">
+    <entry file="file://$PROJECT_DIR$/jsTest/JSON.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="132">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.27/淘宝局部页面/裤装.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1432">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding>
+            <marker date="1501155682712" expanded="true" signature="2698:2704" ph=" " />
+          </folding>
         </state>
       </provider>
     </entry>
