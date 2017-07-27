@@ -48,10 +48,11 @@
 
         //我们在学习<div>Javascript</div><p>你好啊，小可爱</p>
 //        var regTag=/\<(\w+)\>.*\<\/\1\2?\3?\4?\>/ig;
-        var regTag=/\<(\w+)\>+\<\/\1\2?\3?\4?\>/ig;
-        var str="aaa<div>Javascript</div><p>vzsda</p>";
-        console.log(str);
-        console.log(str.match(regTag));
+        var regTag=/\<(\w+)\>.*\<\/\1\2?\3?\4?\>/ig;
+//        var str="aaa<div>Javascript</div><p>vzsda</p>";
+        var str="我们在学习<div>Javascript</div><p>你好啊，小可爱</p>";
+       alert(str);
+        alert(str.match(regTag));
 
 
 

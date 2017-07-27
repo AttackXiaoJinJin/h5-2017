@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天记录</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+
+        #textarea01{
+            width: 400px;
+            margin: 0 auto;
+            display: block;
+
+        }
+        div{
+            width: 600px;
+            background-color: #8ac6cd;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        ul{
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        li{
+            list-style: none;
+            border:1px black dashed;
+            width: 400px;
+            margin: 0 auto;
+        }
+        #li01{
+            border: none;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var button01=document.getElementById("button01");
+            var textarea01=document.getElementById("textarea01");
+            var li01=document.getElementById("li01");
+            var ul01=document.getElementById("ul01");
+            button01.onclick=function () {
+                var li=document.createElement("li");
+               li.innerHTML +=textarea01.value;
+               ul01.insertBefore(li,ul01.firstElementChild);
+
+            };
+
+            //失去焦点
+            textarea01.onfocus=function () {
+                if(this.value.length!=0)
+                {
+                    this.value="";
+                }
+            };
+
+
+        };
+
+
+    </script>
+</head>
+<body>
+    <div>
+        <textarea name="chat" id="textarea01" cols="60" rows="10" placeholder="输入你的聊天信息"></textarea>
+        <button id="button01">点击发送</button>
+        <br>
+        <ul id="ul01"><li id="li01"></li></ul>
+    </div>
+</body>
+</html>

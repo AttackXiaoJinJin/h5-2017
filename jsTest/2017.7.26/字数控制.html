@@ -5,13 +5,22 @@
     <title>字数控制</title>
     <style>
         #textarea01{
-
+            width: 400px;
+            margin: 0 auto;
+            display: block;
 
         }
         div{
             width: 600px;
-
+            background-color: #8ac6cd;
             margin: 0 auto;
+            text-align: center;
+        }
+
+        .span01{
+            text-align: right;
+            display: block;
+            margin-right: 100px;
         }
 
     </style>
@@ -20,16 +29,20 @@
             var index=155;
             var num=document.getElementById("num");
             var textarea=document.getElementById("textarea01");
-            textarea.value.length=155;
-
-            textarea.onkeypress=function () {
+            textarea.value.maxlength=155;
+            //onkeypress不能动态获取删除的字数
+//            textarea.onkeypress=function () {
+            //onkeyup能动态获取删除的字数
+            textarea.onkeyup=function () {
                 var currLength=this.value.length;
-                num.innerHTML=index-currLength;
+
                 if(index-currLength<=0){
-                    alert("已达最大字数限制！")
+                    alert("已达最大字数限制！");
+                    event.returnValue=false;
+                }else {
+                    num.innerHTML=index-currLength;
                 }
             };
-
 
 
         }
@@ -38,7 +51,7 @@
 <body>
     <div>一句话介绍自己 <br>
     <textarea name="introduce" id="textarea01" cols="60" rows="10" placeholder="一句话介绍自己，告诉我为什么选择你而不是别人"></textarea>
-    <div>还可输入<span id="num">155</span>字</div>
+   <span class="span01">还可输入<span id="num">155</span>字</span>
     </div>
 
 </body>

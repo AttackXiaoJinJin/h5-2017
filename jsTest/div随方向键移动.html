@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DIV随方向键移动</title>
+    <style>
+        #box1{
+            width: 100px;
+            height: 100px;
+            background-color: #f4645f;
+            position: absolute;
+
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var box1=document.getElementById("box1");
+
+
+
+            document.onkeydown=function (event) {
+                event = event || window.event;
+                console.log(box1.style.top);
+                if(event.keyCode===87 || event.keyCode===38){
+                    box1.style.top=(box1.offsetTop-10) + "px";
+                }else if(event.keyCode===83 || event.keyCode===40){
+                    box1.style.top=(box1.offsetTop+10) + "px";
+                }else if(event.keyCode===65 || event.keyCode===37){
+                    box1.style.left=(box1.offsetLeft -10) + "px";
+                }else if(event.keyCode===68 || event.keyCode===39){
+                    box1.style.left =(box1.offsetLeft +10) + "px";
+                }
+
+
+            }
+        };
+
+
+
+
+    </script>
+
+</head>
+<body>
+    <div id="box1"></div>
+</body>
+</html>

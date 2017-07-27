@@ -8,11 +8,25 @@
     </style>
     <script>
         window.onload=function () {
-            
+
+            //按键按下
+            document.onkeydown=function (event) {
+                event = event||window.event;
+//                if(event.keyCode ===)
+                //获取按键的编码
+                console.log(event.keyCode);
+
+            };
+            //按键松开
+            document.onkeyup=function () {
+
+            }
+
+
         }    
     </script>
 </head>
 <body>
-    
+    <div id="div01"></div>
 </body>
 </html>
