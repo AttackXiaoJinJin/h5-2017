@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>解析json</title>
+    <script>
+        window.onload=function () {
+          var jsonArray= {"album_offset":0,"albums":
+              [{"artists":
+                  [{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/20\/11\/71706833.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true}],
+                  "available":true,"company":"","cover":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/14\/25\/71946922.jpg&w=150&h=150&s=100&c=0&o=0&m=","id":2649179,"name":"\u4e00\u9996\u7b80\u5355\u7684\u6b4c(Live)","num_tracks":1,"release_date":"2015-08-15","type":"EP\/\u5355\u66f2"},
+                  {"artists":
+                      [{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/20\/11\/71706833.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true}],
+                      "available":true,"company":"","cover":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/27\/13\/71715613.jpg&w=150&h=150&s=100&c=0&o=0&m=","id":2617791,"name":"\u5357\u90e8\u5c0f\u57ce(Live)","num_tracks":1,"release_date":"2015-04-09","type":"EP\/\u5355\u66f2"},
+                  {"artists":
+                      [{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/20\/11\/71706833.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true}],
+                      "available":true,"company":"","cover":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/09\/22\/71663515.jpg&w=150&h=150&s=100&c=0&o=0&m=","id":2611744,"name":"\u6628\u5929\u7684\u4f60\u7684\u73b0\u5728\u7684\u672a\u6765","num_tracks":1,"release_date":"2015-03-20","type":"EP\/\u5355\u66f2"},
+                  {"artists":
+                      [{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/20\/11\/71706833.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true}],
+                      "available":true,"company":"","cover":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/16\/13\/71500090.jpg&w=150&h=150&s=100&c=0&o=0&m=","id":2595443,"name":"\u5b9d\u8d1d","num_tracks":1,"release_date":"2014-12-12","type":"EP\/\u5355\u66f2"},
+                  {"artists":
+                      [{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/20\/11\/71706833.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true}],
+                      "available":true,"company":"","cover":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/29\/12\/71435871.jpg&w=150&h=150&s=100&c=0&o=0&m=","id":2585423,"name":"\u6613\u70ca\u5343\u73ba\u7ffb\u5531\u96c6\u9526","num_tracks":3,"release_date":"2014-11-28","type":"EP\/\u5355\u66f2"}],
+              "artist_offset":0,"artists":[{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","num_albums":6,"num_tracks":5,"portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/20\/11\/71706833.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true},{"id":60033331,"name":"The Jackson 5","num_albums":42,"num_tracks":204,"portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/13\/15\/70892859.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true},
+                  {"id":51024441,"name":"Michael Jackson","num_albums":31,"num_tracks":59,"portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/29\/27\/70880661.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true},
+                  {"id":60033200,"name":"Taj Jackson","num_albums":0,"num_tracks":0,"portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/28\/13\/70564243.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true},
+                  {"id":51031076,"name":"Joe Jackson","num_albums":22,"num_tracks":100,"portrait":"http:\/\/pic.cdn.duomi.com\/imageproxy2\/dimgm\/scaleImage?url=http:\/\/img.kxting.cn\/\/p1\/26\/19\/71072548.jpg&w=150&h=150&s=100&c=0&o=0&m=","valid":true}],
+              "dm_error":0,"error_msg":"\u64cd\u4f5c\u6210\u529f","recommend":0,"total_albums":240,"total_artists":51,"total_tracks":792,"track_offset":0,"tracks":[{"album":{"cover":"\/p1\/16\/13\/71500090.jpg","id":2595443,"name":"\u5b9d\u8d1d"},
+                  "artists":[{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","num_albums":6,"num_tracks":5,"portrait":"\/p1\/20\/11\/71706833.jpg","valid":true}],
+                  "availability":"1110","dlyric":"","id":27123073,"medias":
+                      [{"bitrate":320,"p2purl":"69662F142B731B74EC050000006615C066000000BE.mp3"}],
+                  "mv":0,"slyric":"","title":"\u5b9d\u8d1d","isdown":"1","isplay":"1"},
+                  {"album":{"cover":"\/p1\/09\/22\/71663515.jpg","id":2611744,"name":"\u6628\u5929\u7684\u4f60\u7684\u73b0\u5728\u7684\u672a\u6765"},"artists":[{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","num_albums":6,"num_tracks":5,"portrait":"\/p1\/20\/11\/71706833.jpg","valid":true}],"availability":"1110","dlyric":"","id":27244470,"medias":[{"bitrate":192,"p2purl":"048676314943A45A39050000005EEAC51A00000011.mp3"}],"mv":0,"slyric":"static\/25\/31\/92939482.txt","title":"\u6628\u5929\u7684\u4f60\u7684\u73b0\u5728\u7684\u672a\u6765(Live)","isdown":"1","isplay":"1"},{"album":{"cover":"\/p1\/10\/10\/70884703.jpg","id":2416129,"name":"\u68a6\u60f3\u6469\u5929\u697c"},"artists":[{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","num_albums":6,"num_tracks":5,"portrait":"\/p1\/20\/11\/71706833.jpg","valid":true}],"availability":"1110","dlyric":"","id":25391759,"medias":[{"bitrate":192,"p2purl":"4BDB46375C04E72AA605000000463734E900000023.mp3"}],"mv":0,"slyric":"static\/20\/14\/92396450.txt","title":"\u68a6\u60f3\u6469\u5929\u697c","isdown":"1","isplay":"1"},{"artists":[{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","num_albums":6,"num_tracks":5,"portrait":"\/p1\/20\/11\/71706833.jpg","valid":true}],"availability":"1110","dlyric":"","id":27017489,"medias":[{"bitrate":128,"p2purl":"E408F19227BEEEAF9005000000396D7F140000003B.mp3"}],"mv":0,"slyric":"","title":"\u7ea2\u8c46","isdown":"1","isplay":"1"},{"artists":[{"id":61701448,"name":"\u6613\u70ca\u5343\u73ba","num_albums":6,"num_tracks":5,"portrait":"\/p1\/20\/11\/71706833.jpg","valid":true}],"availability":"1110","dlyric":"","id":27017516,"medias":[{"bitrate":128,"p2purl":"154EA83353A85AE692050000002FB00ABD000000CF.mp3"}],"mv":0,"slyric":"static\/05\/05\/92938532.txt","title":"\u770b\u6708\u4eae\u722c\u4e0a\u6765","isdown":"1","isplay":"1"}]}
+
+//                  var jsonStr=JSON.parse(jsonArray);
+//                    var tracks=jsonStr[11];
+//
+//                  for(var j=0;j<tracks.length;j++){
+//                      var aaa=tracks[j];
+//                      var artsts=aaa[2];
+//                        var name=artsts[2];
+//                        console.log(name);
+//                  }
+                    var tracks=jsonArray.tracks;
+                    for(var i=0;i<tracks.length;i++){
+//                        0,1,2,3,4
+                        var track=tracks[i];
+//                        01234.artists
+                        var art=track.artists;
+                        for(var j=0;j<art.length;j++){
+                           console.log(art[j].name);
+                        }
+
+                    }
+
+
+
+
+
+        }
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

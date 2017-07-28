@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>老师写的日期选择</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload=function () {
+            for(var i=1900;i<=2100;i++){
+                $('year').options.add(new Option(i,i));
+            }
+//            设置默认索引值
+            $('year').selectedIndex=100;
+            for(i=1;i<=12;i++){
+                $('month').options.add(new Option(i,i));
+            }
+            $('month').selectedIndex=6;
+            for(i=1;i<=31;i++){
+                $('day').options.add(new Option(i,i));
+            }
+            $('day').selectedIndex=27;
+
+            $('year').onchange=function () {
+                setDay();
+            };
+
+            $('month').onchange=function () {
+                setDay();
+            };
+
+
+            function checkLeap(year) {
+                return ((year%4==0 && year%100!=0) || year%400==0);
+
+
+            }
+
+            function setDay(){
+
+                var days=[31,28,31,30,31,30,31,31,30,31,30,31];
+
+                //1.判断闰年
+                //2.判断月份
+                var month=parseInt($("month").value);
+                var day=0;
+//                switch (month){
+//                    case 1:day=31;break;
+//                    case 2:
+//                        if(checkLeap($("year").value)){
+//                            day=29;
+//                        }else {
+//                            day=28;
+//                        };break;
+//                    case 3:day=31;break;
+//                    case 4:day=30;break;
+//                    case 5:day=31;break;
+//                    case 6:day=30;break;
+//                    case 7:day=31;break;
+//                    case 8:day=31;break;
+//                    case 9:day=30;break;
+//                    case 10:day=31;break;
+//                    case 11:day=30;break;
+//                    case 12:day=31;break;
+//                    default:day=0;
+//                }
+
+//                if(checkLeap($('year').value)){
+//                    days[1]=29;
+//                }else {
+//                    days[1]=28;
+//                }
+
+                checkLeap($('year').value)?days[1]=29:days[1]=28;
+
+
+
+                for(var i=1;i<days[month-1];i++){
+//                for(var i=1;i<=day;i++){
+                    $('day').options.add(new Option(i,i));
+                }
+
+
+
+            }
+
+
+        };
+
+        //获取对象Id
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+
+    </script>
+</head>
+<body>
+<form action="#">
+    <select id="year">
+
+    </select>
+    <select id="month">
+
+    </select>
+    <select id="day">
+
+    </select>
+</form>
+</body>
+</html>

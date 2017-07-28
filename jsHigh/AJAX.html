@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJAX</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload=function () {
+            var xmlhttp;
+            if(window.XMLHttpRequest){
+                //主流浏览器
+                xmlhttp=new XMLHttpRequest();
+            }else {
+//                    兼容IE5，6
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+
+            }
+            //当使用 async=true 时，请规定在响应处于 onreadystatechange 事件中的就绪状态时执行的函数：
+            //否则async=false时,不使用下面的函数
+            xmlhttp.onreadystatechange=function()
+            {
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+                }
+            };
+
+            //true异步，false同步
+            xmlhttp.open("GET","test1.txt",true);
+            xmlhttp.send();
+
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

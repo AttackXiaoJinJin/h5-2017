@@ -4,12 +4,51 @@
     <meta charset="UTF-8">
     <title>JSON</title>
     <script>
+        window.onload=function () {
+
+        };
+        var jsonArray=['adasd','erfwf','adad','zxczvc'];
+//        var jsonArray={"0":"adasd","1":"erfwf","2":"adad","3":"zxczvc"};
+        for(index in jsonArray){
+//            alert(index jsonArray[index]);
+        }
+
       var jsonObj={"name":"Tom","age":"18","sex":"man"};
       alert(jsonObj.age);
         //json的遍历
       for(key in jsonObj){
           alert();
       }
+
+      var jsonServer={"code":"404","message":"adsad","data":[
+          {
+              "companyName": "壹米滴答",
+              "logopath": "adv1.jpg",
+              "pingjiaCount": "109",
+              "zhiweiCount": "23",
+              "performRate": "91%",
+              "web": "企业服务",
+              "details": "共建中国最强物流网络平台",
+              "place": "上海",
+              "type": "成长型（B轮）"
+          },
+          {
+              "companyName": "惠租车",
+              "logopath": "adv2.jpg",
+              "pingjiaCount": "169",
+              "zhiweiCount": "7",
+              "performRate": "99%",
+              "web": "旅游",
+              "details": "不来惠租车，你怎么知道自己可以更牛B!",
+              "place": "上海",
+              "type": "成长型（B轮）"
+          }
+      ]};
+
+//        for(i=0;i<jsonServer["data"].length;i++){
+        for(i=0;i<jsonServer.data.length;i++){
+
+        }
 
 
 

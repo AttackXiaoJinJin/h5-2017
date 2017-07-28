@@ -203,18 +203,14 @@
         window.onload = function () {
             //动态添加ul中li
             showInfo();
-        }
+        };
         function  showInfo(){
             var start = pageSize * pageIndex;
             var end = pageSize * pageIndex + (pageSize - 1);
             var ul = document.getElementsByTagName('ul')[0];
-            document.body.removeChild(ul);          //先清空原有数据
-            ul = document.createElement('ul');      //再新建ul
-            document.body.insertBefore(ul,document.body.firstElementChild);
+            ul.innerHTML="";
             for (var i = start; i <= end; i++) {
-                var li = document.createElement('li');
-                li.className = 'fl';
-                li.innerHTML = '<dl class="item_cont">' +
+                ul.innerHTML += '<li class="fl"><dl class="item_cont">' +
                         '<dt class="fl">' +
                         '<a href="#"><img src="images/' + jsonData[i].logopath + '" width="130px" height="130px" alt=""></a>' +
                         '</dt>' +
@@ -238,8 +234,8 @@
                         '<span class="type">' +
                         '<i></i>' + jsonData[i].type +
                         '</span>' +
-                        '</div>';
-                ul.appendChild(li);
+                        '</div></li>';
+
             }
         }
         //显示下一页数据
