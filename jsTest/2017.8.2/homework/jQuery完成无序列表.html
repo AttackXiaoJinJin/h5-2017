@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery完成无序列表</title>
+    <script src="../../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            var ul01= $("<ul id='ul01'/>").css("margin","50px auto").css("width","520px").appendTo($("body"));
+            $("<li>男装</li>").appendTo(ul01);
+           $("<li>女装</li>").appendTo(ul01);
+           $("<li>童装</li>").appendTo(ul01);
+           $("<li>老年款式</li>").appendTo(ul01);
+           $("<li>婴儿专用</li>").appendTo(ul01);
+            $("li").css("float","left").css("background-color","#BBFFFF").css("list-style","none")
+                .css("width","100px").css("height","30px").css("line-height","30px")
+                .css("text-align","center");
+            var length=$('#ul01').children("li").length-1;
+            console.log(length);
+            $("li:lt("+length+")").css("border-right","2px red solid");
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>基本动画制作</title>
+    <style>
+        *{margin: 0px;padding: 0px;}
+        #d1{
+            width: 100px;
+            height: 100px;
+            background: yellow;
+            position: relative;
+        }
+    </style>
+     <script>
+        var timer = null;
+        function startMove(target) {
+            clearInterval(timer);
+            var iSpeed = 0;
+            timer = setInterval(function () {
+                iSpeed = (target - $('d1').offsetLeft)/8;
+                if(iSpeed>0){
+                    iSpeed = Math.ceil((target - $('d1').offsetLeft)/8);
+                }else {
+                    iSpeed = Math.floor((target - $('d1').offsetLeft)/8);
+                }
+                if($('d1').offsetLeft == target){
+                    clearInterval(timer);
+                }else{
+                    $('d1').style.left = $('d1').offsetLeft +iSpeed +'px';
+                }
+            },30);
+        }
+    </script>
+</head>
+<body>
+<div id="d1"></div>
+<button onclick="startMove(500)">移动</button>
+<button onclick="startMove(0)">移回</button>
+</body>
+</html>

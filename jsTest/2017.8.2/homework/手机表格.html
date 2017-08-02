@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手机表格</title>
+    <script src="../../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            var table= $("<table id='table01'/>").css("margin","50px auto").css("width","410px").appendTo($("body"));
+            $("#table01")[0].innerHTML="<tr><td>序号</td><td>名称</td><td>价格</td><td>数量</td></tr>"+
+        "<tr><td>1</td><td>iPhone</td><td>5000</td><td>10</td></tr>"+
+        "<tr><td>2</td><td>HTC</td><td>3000</td><td>11</td></tr>"+
+        "<tr><td>3</td><td>Nokia</td><td>2000</td><td>12</td></tr>"+
+        "<tr><td>4</td><td>SAMSUNG</td><td>2500</td><td>13</td></tr>"+
+        "<tr><td>5</td><td>Blackberry</td><td>3500</td><td>14</td></tr>"
+            ;
+            $("tr").css("width","400px").css("color","white");
+            $("td").css("width","100px").css("height","30px").css("line-height","30px")
+                .css("text-align","center");
+            $("tr:even").css("background-color","blue");
+            $("tr:odd").css("background-color","red");
+        });
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

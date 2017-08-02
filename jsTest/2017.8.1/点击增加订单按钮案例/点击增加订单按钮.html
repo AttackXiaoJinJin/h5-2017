@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品订单页面</title>
+    <script src="js.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    table, tr,  td{
+        border: solid 1px black;
+        border-collapse:collapse ;//表格边框重和
+        padding:5px
+        width: 40%;
+        margin:0 auto ;
+    }
+    .first{
+       background-color: #333;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        color: #cccccc;
+
+    }
+
+</style>
+
+<body>
+<table id="tb">
+    <tr class="first">
+        <td>商品名称</td>
+        <td>数量</td>
+        <td>单价</td>
+        <td>操作</td>
+    </tr><tr>
+        <td>每股宝石睡眠面膜</td>
+        <td>5</td>
+        <td>￥45</td>
+        <td><input type="button" value="删除" onclick="delRow(2)"><input type="button" value="修改" onclick="ediRow(2)">
+        </td></tr><tr>
+        <td colspan="4"><input type="button" value="增加订单" onclick="addRow()"></td>
+    </tr>
+</table>
+</body>
+</html>

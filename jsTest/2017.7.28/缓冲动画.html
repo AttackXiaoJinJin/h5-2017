@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>缓冲动画</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div01{
+            width: 100px;
+            height: 100px;
+            background-color: #99ff99;
+            position: relative;
+
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var timer=null;
+            var input=document.getElementsByTagName("input")[0];
+            var div01=document.getElementById("div01");
+
+            input.onclick= showOp(500);
+
+            function showOp(op) {
+                clearInterval(timer);
+
+                var speed =0;
+                timer = setInterval(function() {
+                    var div01=document.getElementById("div01");
+                    var left=div01.offsetLeft;
+
+                    speed=(op-left)/8;
+                    if(speed>0){
+                      speed=Math.ceil((op-left)/8);
+                    }else {
+                        speed=Math.floor((op-left)/8);
+                    }
+                    if (left == op)
+                    {
+                        clearInterval(timer);
+                    }
+                    else
+                    {
+                        div01.style.left =left+ speed +"px";
+                    }
+
+                },30);
+            }
+        };
+
+    </script>
+</head>
+<body>
+<div id="div01">
+</div>
+<form action="#">
+    <input type="button" value="缓动">
+</form>
+</body>
+</html>

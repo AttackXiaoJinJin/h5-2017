@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>offset</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        #outer{
+            width: 800px;
+            height: 400px;
+            background-color: #99ff99;
+            position: relative;
+        }
+
+        #inner{
+            width: 400px;
+            height: 300px;
+            background-color: #f4645f;
+            margin: 10px;
+        }
+
+
+    </style>
+    <script>
+        window.onload=function () {
+            var outer=document.getElementById("outer");
+            var inner=document.getElementById("inner");
+//            当前元素相对于定位的父元素的左偏移量
+            console.log(inner.offsetLeft);
+//            不包括margin的宽度
+            console.log(inner.offsetWidth);
+        };
+        
+        window.onscroll=function () {
+            document.title=document.body.scrollTop;
+            document.title=document.body.scrollLeft;
+
+        }
+        
+        
+    </script>
+</head>
+<body>
+
+    <div id="outer">
+        <div id="inner"></div>
+    </div>
+</body>
+</html>

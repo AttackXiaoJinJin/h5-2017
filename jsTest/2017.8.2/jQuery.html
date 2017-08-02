@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <style>
+
+    </style>
+    <script>
+//        function Student(name,age,sex) {
+//            this.name=name;
+//            this.age=age;
+//            this.sex=sex;
+//            this.showName=function () {
+//                alert("my name is:"+this.name);
+//            }
+//        }
+//        var student=new Student("cj",22,"man");
+//        console.log(student.showName);
+
+//
+//        function Recruit(workLocation,workExpericence,education,financingPhase,industrySector) {
+//            this.workLocation=workLocation;
+//            this.workExpericence=workExpericence;
+//            this.education=education;
+//            this.financingPhase=financingPhase;
+//            this.industrySector=industrySector;
+//            this.showEmp=function () {
+//                //1.加载json数据
+//                //2.拼写html模板
+//                //3.添加到页面
+//            }
+//        }
+//        //1.
+//        var recruit01=new Recruit("北京·亮马桥","经验3-5年","本科","天使轮","移动互联网");
+//        console.log(recruit01);
+//        //2.
+//        var recruit02={workLocation: "北京·亮马桥", workExpericence: "经验3-5年", education: "本科", financingPhase: "天使轮", industrySector: "移动互联网"};
+//匿名函数的自动调用
+(function (name) {
+    //封装的变量不能访问
+    //1.在内部封装
+    function $() {
+        console.log("here we are"+name);
+    }
+    //2.关键，打开内部和外部的通道
+    window.$=$;
+    })("cj");
+    //基本原理,调用内部的封装函数
+    //3.在外部调用
+    $();
+
+    </script>
+</head>
+<body>
+<!--<form action="#">-->
+    <!--<input type="button" onclick="show()" value="click">-->
+<!---->
+<!--</form>-->
+
+
+
+</body>
+</html>

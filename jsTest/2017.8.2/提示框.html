@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>提示框</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+//        window.onload=function () {
+//
+//        };
+        //简化
+//        jQuery(function () {
+//            alert("aaaa");
+//        });
+//        //弹出提示框
+//        jQuery(document).ready(function () {
+//            alert("aaaa");
+//        });
+//        jQuery(document).ready(function () {
+//            alert("bbb");
+//        });
+//        //next()再在h2上添加CSS样式
+//        $("h2").css("background-color","#CCFFFF")
+//            .next().css("display","block");
+//
+//        $("#d1").css("baground-color","yellow");
+//        //DOM-->jQuery转换$()
+//        $(document.getElementById("d1")).css("baground-color","yellow");
+//
+//        //jQuery-->DOM []或get(index)
+//        $("#d2")[0].style.backgroundColor="yellow";
+//        $("#d3").get(0).style.backgroundColor="yellow";
+
+        $(function () {
+//            $("#d1").css("color","blue");
+//            $("#d1,.p1,h1").css("baground-color","yellow");
+//            $("*").css("margin","0").css("padding","0");
+            //+紧跟着的后一个兄弟元素
+            $("h2+p").css("color","red");
+            //与h2同级的所有p元素
+            $("h2~p").css("color","red");
+
+            $("[id='d3']").css("color","red");
+
+            $('[title="wode"]').css("text-decoration","none");
+
+            $("li:eq(2)").css("color","blue");
+
+            $("div01").addClass("setColor setBg");
+
+
+
+
+
+
+
+
+
+        })
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+
+
+
+
+</body>
+</html>

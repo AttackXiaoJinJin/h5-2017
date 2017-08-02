@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动画</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        #div01{
+            width: 100px;
+            height: 200px;
+            background-color: #99ff99;
+            position: relative;
+            left: -100px;
+
+        }
+        span{
+            width: 30px;
+            height: 88px;
+            background-color: #f4645f;
+            position: absolute;
+            left: 100px;
+            top: 40px;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            var div01 = document.getElementById("div01");
+            var span = document.getElementsByTagName("span")[0];
+            var timer = null;
+
+            span.onmouseover =go(100);
+            span.onmousemove=go(0);
+                function go(target) {
+                    var isSpeed = 0;
+                    timer = setInterval(function () {
+                        if (div01.offsetLeft < target) {
+                            isSpeed = 2;
+                        } else {
+                            isSpeed = -2;
+                        }
+
+                        if (div01.offsetLeft == target) {
+                            clearInterval(timer);
+                        } else {
+                            div01.style.left = div01.offsetLeft + isSpeed + "px";
+                        }
+                    }, 300);
+
+                }
+        }
+    </script>
+</head>
+<body>
+<div id="div01"><span>点我</span></div>
+
+</body>
+</html>
