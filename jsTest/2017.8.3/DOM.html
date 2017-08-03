@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery事件</title>
+    <style>
+        #div01{
+            width: 100px;
+            height: 100px;
+            background-color: #99ff99;
+            
+        }
+    </style>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+//            //单事件注册
+//            $("#btn01").on('click',function () {
+//                console.log("yuer");
+//            });
+//            //多事件注册
+//            $("#div01").on({
+//               mouseover:function () {
+//               } ,
+//                mouseout:function () {
+//                }
+//            });
+
+            //=============委托事件
+//            1.传统
+//            $("li").click=function () {
+//             $(this).css();
+//            };
+
+////            2.委托
+//            $("ul").delegate("li","click",function () {
+//                $(this).css("color","red");
+//            });
+
+//            $("#div01").on("click",function () {
+//                $(this).css("color","red");
+//            });
+//
+//            $("#div02").on("click",function () {
+//                //直接触发
+//                $("#div01").trigger("click");
+//            });
+                //通过data去获取数据
+//                $("btn01").on("click",{name:"aaa",age:20},function (event) {
+//                    console.log(event.data.name);
+//                })
+//            鼠标事件
+            $("#div01").on("mouseover",function (event) {
+                
+            })
+
+
+
+        })
+    </script>
+</head>
+<body>
+<form action="#">
+    <input type="button" id="btn01" value="showInfo">
+    <div id="div01">
+
+    </div>
+    <div id="div02">
+
+    </div>
+</form>
+</body>
+</html>

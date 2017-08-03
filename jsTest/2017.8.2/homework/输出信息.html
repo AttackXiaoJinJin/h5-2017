@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输出信息</title>
+    <script src="../../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+
+            $("<div id='div01'/>").css("height","300px").css("width","350px").css("border","1px solid red").appendTo($("body"));
+            $("#div01")[0].innerHTML ='<span>性别：</span><input type="radio" name="sex" value="公的" checked/>male'+
+                '<input type="radio" name="sex" value="母的"/>female'+
+                '<input type="radio" name="sex" value="不知道"/>shemale<br>'+
+                '<span>爱好：</span><input type="checkbox" name="items" value="足球"/>足球'+
+                '<input type="checkbox" name="items" value="篮球"/>篮球'+
+                '<input type="checkbox" name="items" value="羽毛球"/>羽毛球'+
+                '<input type="checkbox" name="items" value="乒乓球"/>乒乓球<br>'+
+                '<span>教育程度：</span><select >'+
+                '<option value="小学">小学</option>'+
+                '<option value="初中">初中</option>'+
+                '<option value="高中">高中</option>'+
+               ' <option value="大学">大学</option>'+
+                '</select><input type="button" name="button" value="提交"/>'
+            ;
+
+
+//            $('input:radio').each(function(){
+//              console.log("aaa");
+//            })
+            $("input[name='button']").click(function () {
+//                $("input[name='sex']:checked");
+                console.log($('input:radio:checked').val());
+//                console.log($('input:checkbox:checked').val());
+                var text = $("input:checkbox[name='items']:checked").map(function(index,elem) {
+                    return $(elem).val();
+                }).get().join(',');
+                console.log(text);
+                console.log($('option:checked').val());
+
+            });
+
+
+
+
+
+
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

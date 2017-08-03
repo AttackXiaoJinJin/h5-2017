@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电影选座页面</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+
+    </style>
+    <script>
+        $(function () {
+            $("table").css("background-color", "#BBFFFF");
+            $("td").on("mouseover", function () {
+                    $(this).css("font-weight", "900").css("background-color","red");
+                }).on("mouseout", function () {
+                $(this).css("font-weight", "400").css("background-color","#BBFFFF");
+            }).on("click",function () {
+//               if(confirm("您确定吗？")) {
+                $(this).css("font-weight", "900").css("background-color","red");
+                $(this).off();
+//                console.log($(this).html());
+//               }
+            });
+
+
+
+
+        }); //==============================================================
+    </script>
+</head>
+<body>
+    <table>
+        <tr><td>1-1</td><td>1-2</td><td>1-3</td><td>1-4</td><td>1-5</td><td>1-6</td></tr>
+        <tr><td>2-1</td><td>2-2</td><td>2-3</td><td>2-4</td><td>2-5</td><td>2-6</td></tr>
+        <tr><td>3-1</td><td>3-2</td><td>3-3</td><td>3-4</td><td>3-5</td><td>3-6</td></tr>
+        <tr><td>4-1</td><td>4-2</td><td>4-3</td><td>4-4</td><td>4-5</td><td>4-6</td></tr>
+        <tr><td>5-1</td><td>5-2</td><td>5-3</td><td>5-4</td><td>5-5</td><td>5-6</td></tr>
+        <tr><td>6-1</td><td>6-2</td><td>6-3</td><td>6-4</td><td>6-5</td><td>6-6</td></tr>
+    </table>
+</body>
+</html>
