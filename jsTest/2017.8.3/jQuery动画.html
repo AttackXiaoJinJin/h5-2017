@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery动画</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+        #div01{
+            height: 100px;
+            width: 100px;
+            background-color: #cdc92d;
+        }
+    </style>
+    <script>
+        $(function () {
+//animation({变化样式值},时间间隔,动画的样式,回调函数)
+        $("#startBtn").click(function () {
+            //linear匀速动画
+//            $("#div01").animate({width:600,height:600},2000,"linear");
+            $("#div01").animate({width:600},2000,"linear")
+                .animate({height:600},2000,"linear");
+            //swing 缓动
+            $("#div02").animate({width:200},2000,"swing");
+        });
+
+        //结束动画
+            $("#endBtn").click(function () {
+                //stop()一次点击只停止一个animate();
+//                $("#div01").stop();
+                //finish()快速执行完所有animate
+                $("#div01").finish();
+            });
+
+
+
+
+
+        });//===============================================onload
+
+
+    </script>
+</head>
+<body>
+    <div id="div01"></div>
+    <form action="">
+        <input id="startBtn" type="button">
+    </form>
+
+</body>
+</html>

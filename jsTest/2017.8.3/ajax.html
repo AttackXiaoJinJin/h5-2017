@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jaax</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+
+    </style>
+    <script>
+        $(function () {
+            $("#btnCLick").click(function () {
+                //访问student.json文件
+                //异步请求，速度快
+                $.ajax({
+                    url:'student.json',
+                    //result代表访问后返回的数据
+                    success:function (result)
+                    {
+                        //在页面显示
+                        $("#div01").html(result.stuName);
+                        console.log("aaa"+result.stuName);
+                    },
+                    error:function () {
+                        console.log("bbb");
+                    }
+                });
+            });
+
+
+            $("#btn01CLick").click(function () {
+                $.get("student.json",function (result) {
+                   $("#div01").html(result.stuName);
+                });
+            });
+
+            $("#btn02CLick").click(function () {
+                $("#div01").load("student.json");
+                //加载头布局文件
+                $("#div02").load("header.html");
+            });
+
+
+
+
+
+
+        }); //=================================================onload
+
+    </script>
+</head>
+<body>
+<form action="">
+    <input type="button" value="加载文件" id="btnCLick">
+</form>
+</body>
+</html>

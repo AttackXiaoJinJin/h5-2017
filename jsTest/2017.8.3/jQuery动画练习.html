@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery动画练习</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div01{
+            width: 20px;
+            height: 100px;
+            background-color: #99ff99;
+            margin-top: 400px;
+            display: inline-block;
+        }
+        #div02{
+            margin-top: 200px;
+            margin-left: -10px;
+            height: 0;
+            background-color: #c559ff;
+            width:100px;
+            display: inline-block;
+            position: absolute;
+            bottom: 0;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#div01").animate({width:300},2000,"linear",function () {
+                $("#div02").animate({height:300},2000,"linear");
+
+            });
+
+
+        });//============================================
+    </script>
+</head>
+<body><div id="bigDiv">
+    <div id="div01"></div>
+    <div id="div02"></div>
+</div>
+</body>
+</html>

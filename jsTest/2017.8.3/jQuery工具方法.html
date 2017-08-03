@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery工具方法</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+           var num=10;
+           console.log(typeof num);
+           //更详细的告诉其类型
+           console.log($.type(num));
+
+           var str="  aaa   ";
+           //输出8
+           console.log(str.length);
+           //清除左右的空格
+            console.log(str.trim().length);
+           console.log($.trim(str).length)
+
+            //inArray()
+            var arr=[12,43,65,435,678,24,46];
+//           告诉指定字符在数组中的位置，没有则返回-1
+            console.log($.inArray(44,arr));
+
+            var strJSON='{"name":"ca","age":22}';
+            //转换成json
+            $.parseJSON(strJSON.name);
+
+            var all=document.getElementsByClassName("aaa");
+            //将一个集合转换为数组
+            $.makeArray(all);
+
+
+        });
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

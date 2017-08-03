@@ -38,7 +38,7 @@
             }
 
 
-                //全选按钮
+            //全选按钮
             var checkedAllBtn = document.getElementById("checkedAllBtn");
 
             checkedAllBtn.addEventListener("click",function () {
@@ -123,12 +123,9 @@
             for(i=0;i<items.length;i++)
             {
                 items[i].onclick=function () {
-
-
                     //如果一直没有进入下面的判断
                     // 则证明items全部选上了即
                     addAllBtn.checked=true;
-
                     for(var j=0;j<items.length;j++){
                         //只要有一个没选就不是全选
                         if(!items[j].checked){
@@ -138,8 +135,6 @@
                             break;
                         }
                     }
-
-
                 }
             }
             
@@ -152,7 +147,7 @@
 </head>
 <body>
     <form action="#" method="post">
-        您爱好的运动是？<input type="checkbox" id="checkedAllBox" />全选/全部选
+        您爱好的运动是？<input type="checkbox" id="checkedAllBox" />全选/全不选
         <br />
         <input type="checkbox" name="items" value="足球"/>足球
         <input type="checkbox" name="items" value="篮球"/>篮球

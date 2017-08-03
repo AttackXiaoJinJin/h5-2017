@@ -10,11 +10,14 @@
     <script>
         $(function () {
             $("table").css("background-color", "#BBFFFF");
-            $("td").on("mouseover", function () {
+            $("td")
+                .on("mouseover", function () {
                     $(this).css("font-weight", "900").css("background-color","red");
-                }).on("mouseout", function () {
+            })
+                .on("mouseout", function () {
                 $(this).css("font-weight", "400").css("background-color","#BBFFFF");
-            }).on("click",function () {
+            })
+                .on("click",function () {
 //               if(confirm("您确定吗？")) {
                 $(this).css("font-weight", "900").css("background-color","red");
                 $(this).off();
