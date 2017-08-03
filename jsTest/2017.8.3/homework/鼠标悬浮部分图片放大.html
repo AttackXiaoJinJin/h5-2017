@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标悬浮部分图片放大</title>
+    <script src="../../../jquery-3.2.1.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+
+            position: absolute;
+        }
+        #box1{
+            width: 100px;
+            height:100px;
+            background-color: #f4645f;
+            position: absolute;
+            opacity: 0.7;
+        }
+        #box2{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            border: 1px solid red;
+            top: 100px;
+            left: 600px;
+            background: url("400400.jpg") no-repeat 0 0;
+
+
+        }
+      
+
+
+
+    </style>
+    <script>
+        $(function () {
+            var box1=document.getElementById("box1");
+            $(document).mousemove(function (event) {
+//            document.onmousemove=function (event) {
+                event = event || window.event;
+                //为兼容IE8
+                //chrome认为浏览器滚动条是body的，可以通过body.scrollTop来获取
+//                var st = document.body.scrollTop;
+                //火狐等浏览器认为滚动条是html的
+//                var str=document.documentElement.scrollTop;
+                var st = document.body.scrollTop || document.documentElement.scrollTop;
+                var sl = document.body.scrollLeft || document.documentElement.scrollLeft;
+                //clientX,Y是相对于可见浏览器窗口的左上角
+                //来确定的
+                var left = event.clientX;
+                //获取鼠标相对于当前页面的坐标
+//                var left=event.pageX;
+                var top = event.clientY;
+//                var top=event.pageY;
+                //style.left和top却是相对于整个html页面的
+                // 左上角来确定的，所以两者的标准不一样
+                //设置div的偏移量
+                box1.style.left = left + sl-50 + "px";
+                box1.style.top = top + st-50 + "px";
+                console.log(box1.style.left);
+                console.log(box1.style.top);
+
+                var mouseLeft=box1.style.left+"px";
+                var mouseTop=(box1.style.top)+"px";
+                var imgLeft=parseInt(mouseLeft)*(-2)+"px";
+                var imgTop=parseInt(mouseTop)*(-2)+"px";
+//                document.getElementById('box2').style.backgroundPosition = imgLeft+""+" "+imgTop+"";
+                document.getElementById('box2').style.backgroundPosition =imgLeft+" "+imgTop;
+//            $("img")[0].style.clip="rect("+box1.style.top+"px,"+(box1.style.left+50)+"px,"+(box1.style.top+50)+"px,"+box1.style.left+"px)";
+
+            });
+
+
+
+            });
+    </script>
+</head>
+<body style="height: 1600px">
+<img src="200200.jpg" alt="嘿嘿嘿">
+<div id="box1"></div>
+<div id="box2"></div>
+
+</body>
+</html>

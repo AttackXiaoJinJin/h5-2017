@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/jQuery动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/jQuery动画练习.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/jQuery工具方法.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/student.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/增减商品信息.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/扩展工具方法.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/homework/200200.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/homework/400400.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/homework/超链接快速提示.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/homework/鼠标悬浮部分图片放大.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.3/DOM.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/DOM.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.3/电影选座页面.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/电影选座页面.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/全选练习.html" afterPath="$PROJECT_DIR$/jsTest/全选练习.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,29 +26,43 @@
       <file leaf-file-name="jQuery动画练习.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/jQuery动画练习.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
+            <state relative-caret-position="393">
               <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jQuery工具方法.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/jQuery工具方法.html">
+      <file leaf-file-name="超链接快速提示.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/homework/超链接快速提示.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="622">
+              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="扩展工具方法.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/扩展工具方法.html">
+      <file leaf-file-name="鼠标悬浮部分图片放大.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/homework/鼠标悬浮部分图片放大.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="436">
+              <caret line="71" column="81" lean-forward="false" selection-start-line="71" selection-start-column="81" selection-end-line="71" selection-end-column="81" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="div跟随鼠标移动.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/div跟随鼠标移动.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/2017.7.24/老师写的修改表单.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.7.26/表单验证.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/表单高级验证.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/文本框的特性.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/基于IP的正则表达式.html" />
@@ -133,6 +139,8 @@
         <option value="$PROJECT_DIR$/jsTest/2017.8.3/ajax.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.3/jQuery工具方法.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.3/扩展工具方法.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.3/homework/超链接快速提示.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.3/homework/鼠标悬浮部分图片放大.html" />
       </list>
     </option>
   </component>
@@ -149,7 +157,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="width" value="1039" />
     <option name="height" value="1038" />
@@ -216,6 +224,13 @@
               <item name="jsTest" type="462c0819:PsiDirectoryNode" />
               <item name="2017.8.3" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="2017.8.3" type="462c0819:PsiDirectoryNode" />
+              <item name="homework" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -248,19 +263,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\js" />
-      <recent name="F:\h5-gaobo\h5-2017" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.1" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.28" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.27\淘宝局部页面\images" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\h5-gaobo\h5-2017" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.27\拉钩页面" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.24\按钮点击图片轮播" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\homework" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.3\homework" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\js" />
+      <recent name="F:\h5-gaobo\h5-2017" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.1" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.28" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -418,12 +433,12 @@
       <workItem from="1501669708838" duration="5263000" />
       <workItem from="1501680918029" duration="605000" />
       <workItem from="1501719172361" duration="7438000" />
-      <workItem from="1501726821651" duration="17070000" />
+      <workItem from="1501726821651" duration="24892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="595117000" />
+    <option name="totallyTimeSpent" value="602939000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,16 +450,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1039" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2573455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13467656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29950494" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2982885" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -469,20 +484,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/S1-html/unit3/aa.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/S1-html/unit2/cs_div.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/S1-html/unit2/backgroundTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -634,13 +635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/div跟随鼠标移动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -803,14 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/jQuery动画练习.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/student.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -835,6 +821,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/jQuery动画练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/jQuery工具方法.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="381">
@@ -845,9 +839,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/扩展工具方法.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
+        <state relative-caret-position="561">
           <caret line="17" column="44" lean-forward="false" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/div跟随鼠标移动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="51" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/homework/超链接快速提示.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/homework/鼠标悬浮部分图片放大.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="71" column="81" lean-forward="false" selection-start-line="71" selection-start-column="81" selection-end-line="71" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

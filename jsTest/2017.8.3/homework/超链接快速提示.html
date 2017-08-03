@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>超链接快速提示</title>
+    <style>
+        #div01{
+            width: 45px;
+            height: 17px;
+            border: 1px black solid;
+            font-size:0.8em;
+            position: absolute;
+            top:0;
+            left: 0;
+
+        }
+    </style>
+    <script src="../../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            $("#a01").mouseover(function (event) {
+                $("#a01").removeAttr("title");
+                event=event || window.event;
+                var mouseLeft=event.clientX;
+                var mouseTop=event.clientY;
+                var divLeft=(mouseLeft+10)+"";
+                var divTop=(mouseTop+10)+"";
+                $("#div01").css({"top":(divTop+"px"),"left":(divLeft+"px")}).show();
+            }).mouseout(function () {
+                $("#div01").hide();
+            });
+
+        });
+
+
+
+    </script>
+</head>
+<body>
+<a id="a01" href="http://www.dy2018.com/" title="你懂得" target="_blank">点我看片</a>
+<div id="div01" hidden>
+    你懂的
+</div>
+</body>
+</html>
