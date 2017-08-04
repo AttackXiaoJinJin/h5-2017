@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页的左侧栏</title>
+    <style>
+        #contentLeft{
+            background-color: #fafafa;
+            /*border: 1px red solid;*/
+            width: 230px;
+            position: relative;
+
+        }
+
+        .contentLeft01{
+            width: 230px;
+            height: 220px;
+            position: relative;
+            z-index: 300;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+
+        .contentLeft01_change{
+            width: 230px;
+            height: 220px;
+            position: relative;
+            z-index: 300;
+            border-left: 2px solid blue;
+            border-top: 2px solid blue;
+            border-bottom: 2px solid blue;
+            border-right: 2px rgba(255,255,255,0) solid;
+            box-sizing: border-box;
+            background-color: aqua;
+        }
+
+
+
+
+        .contentLeft02{
+            width: 230px;
+           height: 220px;
+            position: relative;
+            z-index: 300;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+
+        .contentLeft02_change{
+            width: 230px;
+            height: 220px;
+            position: relative;
+            z-index: 300;
+            border-left: 2px solid blue;
+            border-top: 2px solid blue;
+            border-bottom: 2px solid blue;
+            border-right: 2px rgba(255,255,255,0) solid;
+            box-sizing: border-box;
+            background-color: aqua;
+        }
+
+
+
+
+        .contentLeft03{
+            width: 230px;
+           height: 220px;
+
+            border: 1px red solid;
+        }
+
+        .showMore01{
+
+        }
+
+        .showMore01_change{
+            width:750px;
+            height:440px;
+            position: relative;
+            z-index: 200;
+            float: left;
+            left: 228px;
+            box-sizing: border-box;
+            top: -220px;
+            background-color: aqua;
+            border: 2px blue solid;
+        }
+
+
+        .showMore02{
+
+        }
+
+        .showMore02_change{
+            width:750px;
+            height:440px;
+            position: relative;
+            border: 2px blue solid;
+            left: 228px;
+            top: -80px;
+            background-color: aqua;
+            z-index: 200;
+
+        }
+
+        .showMore03{
+            /*width:750px;*/
+            /*height:440px;*/
+        }
+
+
+
+        
+    </style>
+    <script>
+        var menuData = [
+            {"typeName":"技术",
+                "major":"Java PHP C++ Android iOS 数据挖掘 测试 前端开发 html5 技术总监 架构师 CTO",
+                "more":[
+                    {"subTypeName":"后端开发","details":"Java Python PHP .NET C# C++ C VB Delphi Perl Ruby Hadoop Node.js 数据挖掘 自然语言处理 搜索算法 精准推荐 全栈工程师 Go ASP Shell 后端开发其他"},
+                    {"subTypeName":"移动开发","details":"HTML5 Android iOS WP 移动开发其他"},
+                    {"subTypeName":"前端开发","details":"web前端 Flash html5 Javascript U3D COCOS2D-X 前端开发其他"}
+                ]},
+            {
+                "typeName":"产品",
+                "major":"产品总监 产品经理 数据产品经理 游戏策划",
+                "more":[
+                    {"subTypeName":"产品经理","details":"产品经理 网页产品经理 移动产品经理 产品助理 数据产品经理 电商产品经理 游戏策划 产品实习生"},
+                    {"subTypeName":"产品设计师","details":"网页产品设计师 无线产品设计师"},
+                    {"subTypeName":"高端职位","details":"产品部经理 产品总监 游戏制作人"}
+                ]
+            },
+            {
+                "typeName":"设计",
+                "major":"UI设计师 交互设计 网页设计师 平面设计师 视觉设计师",
+                "more":[]
+            }
+        ];
+
+        window.onload=function () {
+            var contentLeft01=document.getElementsByClassName("contentLeft01")[0];
+            var showMore01=document.getElementsByClassName("showMore01")[0] ;
+            var contentLeft02=document.getElementsByClassName("contentLeft02")[0];
+            var showMore02=document.getElementsByClassName("showMore02")[0] ;
+            var contentLeft03=document.getElementsByClassName("contentLeft03")[0];
+            var showMore03=document.getElementsByClassName("showMore03")[0] ;
+
+            contentLeft01.onmouseover=function () {
+                contentLeft01.className="contentLeft01_change";
+                showMore01.className="showMore01_change";
+                showMore01.hidden=false;
+
+            };
+            contentLeft01.onmouseout=function () {
+                contentLeft01.className="contentLeft01";
+                showMore01.className="showMore01";
+
+                showMore01.hidden=true;
+
+            };
+            contentLeft02.onmouseover=function () {
+                contentLeft02.className="contentLeft02_change";
+                showMore02.className="showMore02_change";
+                showMore02.hidden=false;
+
+            };
+            contentLeft02.onmouseout=function () {
+                contentLeft02.className="contentLeft02";
+                showMore02.className="showMore02";
+                showMore02.hidden=true;
+
+            }
+            
+        };
+    </script>
+</head>
+<body>
+<div id="contentLeft">
+
+    <div class="contentLeft01">
+        </div>
+    <div class="showMore01" hidden>
+
+</div>
+    <div class="contentLeft02">
+        <div class="showMore02" hidden>
+
+        </div>
+    </div>
+    <div class="contentLeft03">
+        <div class="showMore03">
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

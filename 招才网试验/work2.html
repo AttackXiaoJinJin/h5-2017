@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格的增删改</title>
+    <style type="text/css">
+        table{
+            width: 510px;
+            margin: 0 auto;
+        }
+        th,td{
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+        }
+        th {
+            background-color: #ccc;
+            font-weight: bold;
+        }
+    </style>
+    <script type="text/javascript">
+        var order_table,tbody,orders=1;
+        window.onload = function(){
+            order_table = document.getElementById('order_table');
+            tbody = order_table.firstElementChild;
+        };
+        function orderReviseOrConfirm(order_id) {
+            var tr = document.getElementById(order_id);
+            var btnValue = tr.lastElementChild.lastElementChild.value;
+            //console.log(btnValue);
+            if(btnValue=="修改"){
+                orderRevise(order_id);
+            }else {
+                orderConfirm(order_id);
+            }
+        }
+        function orderRevise(order_id){
+            var tr = document.getElementById(order_id);
+            for(var i=0;i<3;i++){
+                tr.children[i].firstElementChild.hidden=true;
+                tr.children[i].lastElementChild.hidden=false;
+            }
+            tr.lastElementChild.lastElementChild.value="确定";
+
+
+        }
+        function orderConfirm(order_id) {
+            var tr = document.getElementById(order_id);
+            for(var i=0;i<3;i++){
+                if(i==2){
+                    tr.children[i].firstElementChild.innerHTML = "￥"+tr.children[i].lastElementChild.value;
+                }
+                else{
+                    tr.children[i].firstElementChild.innerHTML = tr.children[i].lastElementChild.value;
+                }
+                tr.children[i].firstElementChild.hidden=false;
+                tr.children[i].lastElementChild.hidden=true;
+            }
+            tr.lastElementChild.lastElementChild.value="修改";
+        }
+        function orderDel(order_id) {
+            var tr = document.getElementById(order_id);
+            console.log(tr);
+            if(confirm("确定删除?")){
+                tbody.removeChild(tr);
+            }
+        }
+        function orderAdd() {
+            orders++;
+            var newOrder = document.createElement('tr');
+            var td1 = document.createElement('td');
+            var td2 = document.createElement('td');
+            var td3 = document.createElement('td');
+            var td4 = document.createElement('td');
+            td1.innerHTML = "<span hidden></span><input type='text' value=''>";
+            td2.innerHTML = "<span hidden></span><input type='text' value=''>";
+            td3.innerHTML = "<span hidden></span><input type='text' value=''>";
+            td4.innerHTML = '<input type="button" value="删除" onclick="orderDel(\'order'+orders+'\')"><input type="button" value="确认" onclick="orderReviseOrConfirm(\'order'+orders+'\')" id="order_confirm">';
+            newOrder.appendChild(td1);
+            newOrder.appendChild(td2);
+            newOrder.appendChild(td3);
+            newOrder.appendChild(td4);
+            newOrder.setAttribute("id","order"+orders);
+            tbody.insertBefore(newOrder,tbody.lastElementChild);
+        }
+    </script>
+</head>
+<body>
+    <table border="1" cellspacing="0" id="order_table">
+        <tr>
+            <th width="250">商品名称</th>
+            <th width="50">数量</th>
+            <th width="50">单价</th>
+            <th width="200">操作</th>
+        </tr>
+        <tr id="order1">
+            <td><span>玫瑰保湿睡眠面膜</span><input type="text" value="玫瑰保湿睡眠面膜" hidden></td>
+            <td><span>5</span><input type="text" value="5" hidden></td>
+            <td><span>￥45</span><input type="text" value="45" hidden></td>
+            <td>
+                <input type="button" value="删除" onclick="orderDel('order1')" >
+                <input type="button" value="修改" onclick="orderReviseOrConfirm('order1')">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4"><input type="button" value="增加订单" onclick="orderAdd()"></td>
+        </tr>
+    </table>
+</body>
+</html>

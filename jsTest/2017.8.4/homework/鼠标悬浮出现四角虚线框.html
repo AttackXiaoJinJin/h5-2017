@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标悬浮出现四角虚线框</title>
+    <style>
+        div{
+            margin: 100px 0;
+
+        }
+        #div01{
+            margin-left: 400px; ;
+            float: left;
+            width: 200px;
+            height: 200px;
+            background:url('images/img1.jpg') no-repeat center;
+            border: 2px solid red;
+        }
+        #div01::before{
+            content: "nihao";
+            border: solid 2px blue;
+            width:500px;
+            height:500px;
+            position:absolute;
+            left:399;
+            top:100;
+
+        }
+        #div02{
+            float: left;
+            width: 200px;
+            height: 200px;
+            background:url('images/img2.jpg') no-repeat center;
+        }
+        #div03{
+            float: left;
+            width: 200px;
+            height: 200px;
+            background:url('images/img3.jpg') no-repeat center;
+        }
+        #div04{
+            float: left;
+            width: 200px;
+            height: 200px;
+            background:url('images/img4.jpg') no-repeat center;
+        }
+    </style>
+    <script>
+
+    </script>
+</head>
+<body>
+    <div id="div01">aaa</div>
+    <div id="div02"></div>
+    <div id="div03"></div>
+    <div id="div04"></div>
+</body>
+</html>

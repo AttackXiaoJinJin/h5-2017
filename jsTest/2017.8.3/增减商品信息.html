@@ -11,8 +11,12 @@
         $(function () {
             var table= $("<table id='table01' cellspacing='0'/>").css("margin","50px auto").css("width","600px").appendTo($("body"));
             $("#table01")[0].innerHTML="<tr><td><input type='checkbox' name='checkbox' id='checkedAllBtn' >全选/全不选</td><td>商品信息</td><td>价格</td><td>数量</td><td>操作</td></tr>"+
-                "<tr><td><input type='checkbox' name='checkbox'></td><td>伞</td><td>5000</td><td><input name='deleteOne' type='button' value='-' style='float: left'><input id='num01' name='number' type='text' value='1' size='1' style='float:left'><input type='button' name='addOne' value='+' style='float:left'></td><td><input type='button' value='delete'></td></tr>"+
-                "<tr><td><input type='checkbox' name='checkbox'></td><td>手机</td><td>3000</td><td><input name='deleteOne' type='button' value='-' style='float: left'><input name='number' type='text' value='1' size='1' style='float: left'><input type='button' name='addOne' value='+' style='float: left'></td><td><input type='button' value='delete'></td></tr>"
+                "<tr><td><input type='checkbox' name='product'></td><td>伞</td><td>5000</td><td><input name='deleteOne' type='button' value='-' style='float: left'><input id='num01' name='number' type='text' value='1' size='1' style='float:left'><input type='button' name='addOne' value='+' style='float:left'></td><td><input type='button' name='delete' value='delete'></td></tr>"+
+                "<tr><td><input type='checkbox' name='product'></td><td>手机</td><td>3000</td>" +
+                "<td><input name='deleteOne' type='button' value='-' style='float: left'>" +
+                "<input name='number' type='text' value='1' size='1' style='float: left'>" +
+                "<input type='button' name='addOne' value='+' style='float: left'></td>" +
+                "<td><input type='button' name='delete' value='delete'></td></tr>"
             ;
             $("table").css("width","600px");
             $("tr").css("width","600px").css("color","black");
@@ -20,37 +24,75 @@
                 .css("text-align","center").css("border","1px solid black");
 
             var divBtn= $("<div id='div01'/>").css("margin","20px auto").css("width","200px").height("30px").css("border","1px solid black").appendTo($("body"));
-            $("#div01")[0].innerHTML="<input type='button' value='add'><input type='button' value='delete'>";
+            $("#div01")[0].innerHTML="<input id='addTr' type='button' value='add'><input id='deleteTr' type='button' value='delete'>";
 
 
             //全选按钮
             $("#checkedAllBtn").on("click",function () {
-
-                if($("#checkedAllBtn").attr("checked"))
-                {
-                    $("input[name='checkbox']").removeAttr("checked");
-                }
-                else
-                {
-                    $("input[name='checkbox']").attr("checked","true");
-                }
-
+                var flag=this.checked;
+                $(":checkbox[name='product']").attr("checked",flag);
+            });
+            //判断只要有一个没选中，就取消全选
+            $(":checkbox[name='product']").click(function () {
+               $("#checkedAllBtn").attr("checked", $(":checkbox[name='product']").length == $(":checkbox[name='product']:checked").length);
+               console.log($(":checkbox[name='product']").length == $(":checkbox[name='product']:checked").length);
             });
 
             //增加一个的按钮
-            $("input[name='addOne']").on("click",function () {
-//                $("#num01").val(+$("#num01").val()+1)
-                $("input[name='number']").val(+$("#num01").val()+1);
-                    if($("input[name='number']").val()>5){
-                        event.returnValue=false;
-                    }
-            });
+            $("input[name='addOne']").on("click",addOne);
 
             //删除一个的按钮
-            $("input[name='deleteOne']").on("click",function () {
-                $("input[name='number']").val(+$("#num01").val()-1);
+            $("input[name='deleteOne']").on("click",deleteOne);
+
+            //删除一行
+            $("input[name='delete']").click(deleteTr);
+
+            $("#addTr").click(function () {
+                var $newTr= $("<tr/>").css("width","600px").css("color","red");
+                $newTr[0].innerHTML="<td><input type='checkbox' name='product'></td><td>手机</td><td>3000</td>"+
+                    " <td><input name='deleteOne' type='button' value='-' style='float: left'>"+
+                    " <input name='number' type='text' value='1' size='1' style='float: left'>"+
+                    " <input type='button' name='addOne' value='+' style='float: left'></td>"+
+                    " <td><input type='button' name='delete' value='delete'></td>";
+
+                $newTr.appendTo($("table"));
+                $("td").css("width","110px").css("height","30px").css("line-height","30px")
+                    .css("text-align","center").css("border","1px solid black");
+
+                //增加一个的按钮
+                $("input[name='addOne']").on("click",addOne);
+
+                //删除一个的按钮
+                $("input[name='deleteOne']").on("click",deleteOne);
+
+                //删除一行
+                $("input[name='delete']").click(deleteTr);
 
             });
+
+
+            //增加一个
+            function addOne() {
+                $(this).prev().val(+$(this).prev().val()+1);
+                if($(this).prev().val()>5){
+                    alert("单个商品最多购买5件！");
+                    $(this).prev().val(+$(this).prev().val()-1);
+                }
+            }
+
+            //删除一个
+            function deleteOne() {
+                $(this).next().val(+$(this).next().val()-1);
+                if($(this).next().val()<0){
+                    $(this).next().val(+$(this).next().val()+1);
+                }
+            }
+
+            //删除一行
+            function deleteTr() {
+                //$(this)代表所按的删除键
+                $(this).parent().parent().remove();
+            }
 
 
         });//===================================================================

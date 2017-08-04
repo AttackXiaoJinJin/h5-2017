@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>右侧方向动画</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            width: 744px;
+            margin-left: 280px;
+            margin-top: 200px;
+            position: relative;
+            border: 1px red solid;
+            height: 600px;
+        }
+
+        .da-thumbs {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+            height: 118px;
+            position: relative;
+            margin: 0 0 25px;
+            padding: 0;
+        }
+        .da-thumbs li {
+            width: 113px;
+            height: 113px;
+            /*background: #1eb9ef;*/
+            position: absolute;
+            border: 1px solid #fa9a4b;
+            z-index: 300;
+        }
+        .content .animation_bottom{
+            width: 113px;
+            height: 113px;
+            border: 1px red solid;
+            background-color: #14b9ac;
+            position: absolute;
+            z-index: 400;
+            top: 113px;
+            left: 0;
+            opacity: 0.7;
+        }
+
+        .content .animation_bottom_hover{
+            width: 113px;
+            height: 113px;
+            border: 1px red solid;
+            background-color: #14b9ac;
+            position: absolute;
+            top: -141px;
+            left: 1px;
+            opacity: 0.7;
+            z-index: 400;
+        }
+
+
+        .content .animation_bottom .txt {
+            font-size: 12px;
+        }
+    </style>
+    <script>
+
+        window.onload=function () {
+            var daThumbs_li01=document.getElementById("daThumbs_li01");
+            var animation_bottom=document.getElementsByClassName("animation_bottom")[0];
+            daThumbs_li01.onmouseover=function () {
+                toTop(4);
+            };
+            daThumbs_li01.onmouseout=function () {
+                toBottom(113);
+            };
+
+
+
+
+
+        }; //window.onload======================================================================================================
+        function toTop(direction) {
+            var timer = null;
+            var speed= 0;
+            clearInterval(timer);
+            timer=setInterval(function () {
+                var animation_bottom=document.getElementsByClassName("animation_bottom")[0];
+
+                if(speed>0){
+                    speed=Math.ceil((200-animation_bottom.offsetTop)/15);
+                    console.log("大于0+++++++"+animation_bottom.offsetTop);
+                }else {
+                    speed=Math.floor((200-animation_bottom.offsetTop)/15);
+                    console.log("小于0-------"+animation_bottom.offsetTop);
+                }
+                if (animation_bottom.offsetTop==direction)
+                {
+                    clearInterval(timer);
+                    animation_bottom.style.top=animation_bottom.offsetTop-4+"px" ;
+                }
+                else
+                {
+                    animation_bottom.style.top = animation_bottom.offsetTop-speed+"px" ;
+//                    console.log(animation_bottom.offsetTop);
+                }
+            },20);
+        }
+
+        function toBottom(direction) {
+            var timer = null;
+            var speed= 0;
+            clearInterval(timer);
+            timer=setInterval(function () {
+                var animation_bottom=document.getElementsByClassName("animation_bottom")[0];
+
+                if(speed>0){
+                    speed=Math.ceil((200-animation_bottom.offsetTop)/15);
+                    console.log("大于0+++++++"+animation_bottom.offsetTop);
+                }else {
+                    speed=Math.floor((200-animation_bottom.offsetTop)/15);
+                    console.log("小于0-------"+animation_bottom.offsetTop);
+                }
+                if (animation_bottom.offsetTop==(direction-1))
+                {
+                    clearInterval(timer);
+//                    animation_bottom.style.top=animation_bottom.offsetTop+"px" ;
+                }
+                else
+                {
+                    animation_bottom.style.top = animation_bottom.offsetTop+speed+"px" ;
+//                    console.log(animation_bottom.offsetTop);
+                }
+            },20);
+        }
+
+
+
+
+
+    </script>
+</head>
+<body>
+<div class="content">
+    <ul class="da-thumbs">
+        <li id="daThumbs_li01"><a href=""><img src="images/index/adv1.jpg" alt="" height="113" width="113"></a></li>
+
+    </ul>
+
+    <div class="animation_bottom">
+        <h3>小鸡科技</h3>
+        <span class="kuai"></span>
+        <div class="txt">专于互联网及移动互联网软件定制开发为服务内容</div>
+    </div>
+
+</div>
+
+</body>
+</html>

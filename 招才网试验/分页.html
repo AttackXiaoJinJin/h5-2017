@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>分页</title>
+    <script>
+        var bookAll=['9本书'];
+
+        window.onload=function () {
+
+        var nowBook=[];
+        var pageIndex=1;
+        //一个窗口显示的页数
+        var pageContainer=3;
+        var pageAccount=Math.ceil(bookAll.length/pageContainer);
+        //显示页码
+        showPageIndex(pageAccount);
+        //显示第一页
+            //截断
+        now_books=bookAll.slice(0,pageContainer);
+        showBooks(now_books);
+
+        var foot=document.getElementById("foot");
+        var as=foot.getElementsByTagName("a");
+
+        for(var i=0;i<as.length;i++){
+            as[i].onclick=function (event) {
+                //获取页码
+                var j=parseInt(event.target.innerText);
+
+                now_books=bookAll.slice((j-1)*pageContainer,j*pageContainer);
+                showBooks(now_books);
+            }
+        }
+
+        //搜索
+        inputSearch;
+        btnSearch;
+        btnSearch.onclick=function () {
+           for(var i=0;i<bookAll.length;i++){
+               //去掉左右空格
+               var txt=document.getElementById("txt").value.trim();
+               now_books=[];
+               if(txt.length==0){
+
+               }else {
+                   if(bookAll[i].name.indexOf(txt)!=-1  ){
+                       now_books.push(bookAll[i]);
+                   }
+               }
+               var pageAccount=Math.ceil(now_books.length/pageContainer);
+               //显示新的页数
+               showPageIndex(pageAccount);
+               }
+            showBooks(now_books);
+            };
+
+        };
+
+        //windowonload
+
+
+
+
+        function showPageIndex(account) {
+           var foot=document.getElementById("foot");
+           for(var i=1;i<=account;i++){
+               foot.innerHTML +='<a href="javascript:void 0">'+i+'</a>';
+
+
+           }
+
+       }
+
+       function showBooks(array) {
+            var container=document.getElementById("bookcontainer")
+           container.innerHTML='';
+           for(var i=0;i<array.length;i++){
+                container.innerHTML='<div class="">'+array[i].name+'</div>'
+            }
+
+
+       }
+
+
+
+
+    </script>
+</head>
+<body>
+    <div class="book_container" id="bookContainer">
+        <div class="book_css">
+
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>测试</title>
+    <style>
+        html,body{
+            margin: 0;padding: 0;
+        }
+        header{
+            display: flex;
+        }
+        header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1;
+        }
+        header a{
+            flex: 1;
+            text-align: center;
+        }
+        .current{
+            background: #FFDA44;
+            color: #000;
+        }
+        .container{
+            padding-top: 20px;
+        }
+        .container #div1{
+            height: 200px;
+            background: red;
+        }
+        .container #div2{
+            height: 200px;background: #000;
+        }
+        .scroller{
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -moz-box;
+            display: flex;
+        }
+        .scroller .page{
+            min-width: 100%;
+            max-width: 100%;
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+<header>
+    <a href="javascript:void(0)" class="nav1 current" data-flag="0">导航1</a>
+    <a href="javascript:void(0)" class="nav2" data-flag="1">导航2</a>
+</header>
+<div class="container">
+    <div class="scroller"
+         style="transition-property:transform;
+         transition-timing-function: cubic-bezier(0, 0, 0.25, 1);
+         transition-duration: 350ms;
+         transform: translate3d(0px, 0px, 0px);
+    ">
+        <div id="div1" class="page"></div>
+        <div id="div2" class="page"></div>
+    </div>
+</div>
+<script src="jquery-3.2.1.js"></script>
+<script type="text/javascript">
+    var nav1=document.getElementsByClassName("nav1")[0];
+    var nav2=document.getElementsByClassName("nav2")[0];
+    var width = $(window).width();//屏幕的宽度，用于切换时位置的定位
+    var currentFlag = 0;
+    nav2.onmouseover=function() {
+        var flag = $(this).attr('data-flag');
+        if(flag != currentFlag) {
+            if(flag == 0) {
+                $('.scroller').css('transform', 'translate3d(0px, 0px, 0px)');
+                $('header a').removeClass('current');
+                $(this).addClass('current');
+            } else {
+                $('.scroller').css('transform', 'translate3d('+-width+'px, 0px, 0px)');
+                $('header a').removeClass('current');
+                $(this).addClass('current');
+
+            }
+        }
+        currentFlag = flag;
+    }; //=======================================================================click
+
+    nav1.onmouseover=function() {
+        var flag = $(this).attr('data-flag');
+        if(flag != currentFlag) {
+            if(flag == 0) {
+                $('.scroller').css('transform', 'translate3d(0px, 0px, 0px)');
+                $('header a').removeClass('current');
+                $(this).addClass('current');
+            } else {
+                $('.scroller').css('transform', 'translate3d('+-width+'px, 0px, 0px)');
+                $('header a').removeClass('current');
+                $(this).addClass('current');
+
+            }
+        }
+        currentFlag = flag;
+    };
+
+
+
+
+</script>
+</body>
+</html>

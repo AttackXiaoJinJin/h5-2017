@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>鼠标移动实现放大</title>
+	<script src="../../jquery-3.2.1.js"></script>
+	<style type="text/css">
+	* {
+		margin: 0;padding: 0;
+	}
+		.container{
+			width: 1000px;
+			height: 800px;
+			background: #f5f5f5;
+		}
+		.small{
+			width: 200px;height: 300px;float: left;
+			
+			position: relative;
+			background-image: url('img01.jpg');
+			background-size: cover;
+
+		}
+		.big{
+			height: 600px;
+			width: 400px;
+			float: left;
+			overflow: hidden;
+		}
+		.showBox{
+			border: 2px solid #FFF;
+			width: 100px;
+			height: 150px;
+			box-sizing: border-box;
+			position: absolute;
+		}
+		.big img{
+			position: relative;
+			left: 200px;
+			top: 300px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="small">
+		<span class="showBox"></span>
+	</div>
+	<div class="big">
+		<img id="detail" src="img01.jpg" height="1200" width="800">
+	</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		$('.small').mousemove(function(event){
+				if(event.pageX>50 && event.pageX<=150 && event.pageY>50	 && event.pageY<210){
+					$('.showBox').stop(true,true).css({left:event.pageX-50,top:event.pageY- 60});
+					$('#detail').css({left:-(event.pageX-50)*4,top:-(event.pageY-75)*4});
+
+				}
+		})
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aaaa</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #div01{
+            float: left;
+            width: 100px;
+            height: 100px;
+            background-color: #00b38a;
+            margin-top: 30px;
+            overflow: auto;
+            position: absolute;
+            left: 45%;
+        }
+        #div02{
+            float: left;
+            width: 250px;
+            height: 100px;
+            background-color: yellow;
+            margin-top: 30px;
+            overflow: scroll;
+            position: absolute;
+            left: 50%;
+
+        }
+
+        #xueli{
+            border: 1px red solid;
+        }
+        #bigDiv{
+            text-align: center;
+        }
+        ul{
+          list-style: none;
+        }
+        li{
+             list-style: none;
+             float: left;
+         }
+        li:hover{
+            background-color: #adb330;
+        }
+
+    </style>
+    <script>
+        window.onload=function () {
+            div01=document.getElementById("div01");
+            div01.setAttribute("hidden","true");
+        }
+    </script>
+</head>
+<body>
+<div id="bigDiv">
+<input id="xueli" placeholder="city" >
+<div id="div01">
+    <ul>
+        <li>aaaa</li>
+        <li>aaaa</li>
+        <li>aaaa</li>
+        <li>aaaa</li>
+        <li>aaaa</li>
+        <li>aaaa</li>
+    </ul>
+</div>
+<div id="div02">
+    <ul>
+        <li>bbbbbb&nbsp;&nbsp;</li>
+        <li>bbbbbb &nbsp;&nbsp; </li>
+        <li>bbbbbb&nbsp;&nbsp;  </li>
+        <li>bbbbbb &nbsp;&nbsp; </li>
+        <li>bbbbbb &nbsp;&nbsp; </li>
+        <li>bbbbbb &nbsp;&nbsp; </li>
+        <li>bbbbbb &nbsp;&nbsp; </li>
+    </ul>
+</div>
+</div>
+</body>
+</html>
