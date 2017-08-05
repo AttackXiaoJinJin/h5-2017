@@ -2,26 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/img01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/homework02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/homework鼠标移动实现放大.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/鼠标悬浮出现四角虚线框.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/智能表单.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/选择器.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/aaaa.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/sdfvbdf.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/work2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/分页.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/覆盖动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/首页右侧方向动画.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/首页的左侧栏.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/h5标签书写页面.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.5/jQueryTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/招才网试验/测试.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsTest/2017.8.4/homework/images/img4.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.3/homework/鼠标悬浮部分图片放大.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/homework/鼠标悬浮部分图片放大.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.3/增减商品信息.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.3/增减商品信息.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.4/homework/鼠标悬浮出现四角虚线框.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.4/homework/鼠标悬浮出现四角虚线框.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,49 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="选择器.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.4/选择器.html">
+      <file leaf-file-name="jQueryTest.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.5/jQueryTest.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img1.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/imgs/img1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img2.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/imgs/img2.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img3.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/imgs/img3.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="img4.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/imgs/img4.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="鼠标悬浮出现四角虚线框.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.4/homework/鼠标悬浮出现四角虚线框.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="282">
+              <caret line="42" column="14" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="48" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -109,8 +64,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/键盘事件.html" />
-        <option value="$PROJECT_DIR$/jsTest/div随方向键移动.html" />
         <option value="$PROJECT_DIR$/jsTest/Navigator.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.26/字数控制.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.7.27/下拉列表.html" />
@@ -160,6 +113,8 @@
         <option value="$PROJECT_DIR$/jsTest/2017.8.4/h5标签练习.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.4/选择器.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.4/homework/鼠标悬浮出现四角虚线框.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.4/homework/h5标签书写页面.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.5/jQueryTest.html" />
       </list>
     </option>
   </component>
@@ -176,9 +131,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="545" />
-    <option name="y" value="16" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-8" />
     <option name="width" value="1082" />
     <option name="height" value="1038" />
   </component>
@@ -226,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Default">
           <expand>
@@ -252,37 +207,42 @@
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="招才网试验" type="462c0819:PsiDirectoryNode" />
+              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="2017.8.3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/仿拉勾网" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\招才网试验" />
-      <recent name="F:\h5-gaobo\h5-2017" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.27\拉钩页面" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.24\按钮点击图片轮播" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\homework" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.4\homework\images" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.3" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.3\homework" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\js" />
       <recent name="F:\h5-gaobo\h5-2017" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\招才网试验" />
+      <recent name="F:\h5-gaobo\h5-2017" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.27\拉钩页面" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.24\按钮点击图片轮播" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\homework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -443,12 +403,14 @@
       <workItem from="1501726821651" duration="32857000" />
       <workItem from="1501805049381" duration="11621000" />
       <workItem from="1501824580269" duration="6260000" />
-      <workItem from="1501849467100" duration="983000" />
+      <workItem from="1501849467100" duration="2885000" />
+      <workItem from="1501894784632" duration="9292000" />
+      <workItem from="1501907622315" duration="2605000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="629768000" />
+    <option name="totallyTimeSpent" value="643567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,24 +422,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="545" y="16" width="1082" height="1038" extended-state="0" />
+    <frame x="-8" y="0" width="1082" height="1038" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3339806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27281553" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.297066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29339853" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,41 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.27/拉钩页面/拉钩名企招聘.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="688">
-          <caret line="236" column="9" lean-forward="false" selection-start-line="236" selection-start-column="9" selection-end-line="236" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/CSS/sdmenu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.1/点击增加订单按钮案例/点击增加订单按钮.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1419">
-          <caret line="43" column="82" lean-forward="false" selection-start-line="43" selection-start-column="82" selection-end-line="43" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.1/点击增加订单按钮案例/js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/拖拽提取相同函数.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1386">
@@ -788,13 +716,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/增减商品信息.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="69" column="0" lean-forward="true" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.7.24/images/list1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -804,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,10 +748,75 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/招才网试验/覆盖动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/招才网试验/首页右侧方向动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/招才网试验/首页的左侧栏.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.4/homework/h5标签书写页面.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="114" column="9" lean-forward="false" selection-start-line="114" selection-start-column="9" selection-end-line="114" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#p#1;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#2;n#article#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#aside#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.4/homework/鼠标悬浮出现四角虚线框.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="33">
+          <caret line="180" column="21" lean-forward="false" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/增减商品信息.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-399">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <marker date="1501821769755" expanded="true" signature="662:673" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="745:755" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="809:819" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="1065:1076" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="1158:1169" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="1244:1255" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="3062:3073" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="3159:3170" ph="..." />
+            <marker date="1501821769755" expanded="true" signature="3249:3260" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.5/jQueryTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="42" column="14" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="48" selection-end-column="15" />
           <folding />
         </state>
       </provider>

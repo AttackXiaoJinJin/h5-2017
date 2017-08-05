@@ -9,50 +9,239 @@
 
         }
         #div01{
+            position: relative;
             margin-left: 400px; ;
             float: left;
-            width: 200px;
-            height: 200px;
-            background:url('images/img1.jpg') no-repeat center;
-            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            background:url('images/1.png') no-repeat center;
+
         }
         #div01::before{
-            content: "nihao";
-            border: solid 2px blue;
-            width:500px;
-            height:500px;
+            content: "";
+            border-top: solid 1px rgba(255,255,255,1);
+            border-bottom: solid 1px rgba(255,255,255,1);
+            width:55px;
+            height:110px;
             position:absolute;
-            left:399;
-            top:100;
+            left:50px;
+            top:20px;
+            z-index: 1;
+            /*display: none;*/
 
         }
+        #div01::after{
+            content: "";
+            border-left: solid 1px white;
+            border-right: solid 1px white;
+            width:105px;
+            height:60px;
+            position:absolute;
+            left:25px;
+            top:45px;
+            z-index: 1;
+
+        }
+
+
+
+
+
+        #div01_inner{
+            width: 105px;
+            height: 110px;
+            border: dashed 1px red;
+            left: 25px;
+            top: -80px;
+            position: relative;
+
+        }
+
+
+
         #div02{
             float: left;
-            width: 200px;
-            height: 200px;
-            background:url('images/img2.jpg') no-repeat center;
+            width: 150px;
+            height: 150px;
+            background:url('images/2.png') no-repeat center;
+            position: relative;
+
         }
+
+        #div02::before{
+            content: "";
+            border-top: solid 1px rgba(255,255,255,1);
+            border-bottom: solid 1px rgba(255,255,255,1);
+            width:55px;
+            height:110px;
+            position:absolute;
+            left:50px;
+            top:20px;
+            z-index: 1;
+            /*display: none;*/
+
+        }
+        #div02::after{
+            content: "";
+            border-left: solid 1px white;
+            border-right: solid 1px white;
+            width:105px;
+            height:60px;
+            position:absolute;
+            left:25px;
+            top:45px;
+            z-index: 1;
+        }
+
+        #div02_inner{
+            width: 105px;
+            height: 110px;
+            border: dashed 1px red;
+            left: 25px;
+            top: -80px;
+            position: relative;
+
+        }
+
         #div03{
             float: left;
-            width: 200px;
-            height: 200px;
-            background:url('images/img3.jpg') no-repeat center;
+            width: 150px;
+            height: 150px;
+            background:url('images/3.png') no-repeat center;
+            position: relative;
         }
+
+
+        #div03::before{
+            content: "";
+            border-top: solid 1px rgba(255,255,255,1);
+            border-bottom: solid 1px rgba(255,255,255,1);
+            width:55px;
+            height:110px;
+            position:absolute;
+            left:50px;
+            top:20px;
+            z-index: 1;
+            /*display: none;*/
+
+        }
+        #div03::after{
+            content: "";
+            border-left: solid 1px white;
+            border-right: solid 1px white;
+            width:105px;
+            height:60px;
+            position:absolute;
+            left:25px;
+            top:45px;
+            z-index: 1;
+        }
+
+        #div03_inner{
+            width: 105px;
+            height: 110px;
+            border: dashed 1px red;
+            left: 25px;
+            top: -80px;
+            position: relative;
+
+        }
+
+
+
         #div04{
             float: left;
-            width: 200px;
-            height: 200px;
-            background:url('images/img4.jpg') no-repeat center;
+            width: 150px;
+            height: 150px;
+            background:url('images/4.png') no-repeat center;
+            position: relative;
         }
+
+        #div04::before{
+            content: "";
+            border-top: solid 1px rgba(255,255,255,1);
+            border-bottom: solid 1px rgba(255,255,255,1);
+            width:55px;
+            height:110px;
+            position:absolute;
+            left:50px;
+            top:20px;
+            z-index: 1;
+            /*display: none;*/
+
+        }
+        #div04::after{
+            content: "";
+            border-left: solid 1px white;
+            border-right: solid 1px white;
+            width:105px;
+            height:60px;
+            position:absolute;
+            left:25px;
+            top:45px;
+            z-index: 1;
+        }
+
+        #div04_inner{
+            width: 105px;
+            height: 110px;
+            border: dashed 1px red;
+            left: 25px;
+            top: -80px;
+            position: relative;
+
+        }
+
+
     </style>
+    <script src="../../../jquery-3.2.1.js"></script>
     <script>
+        $(function () {
+            $("#div01").mouseover(function () {
+                $("#div01_inner").show();
+            });
+            $("#div01").mouseout(function () {
+                $("#div01_inner").hide();
+            });
+            $("#div02").mouseover(function () {
+                $("#div02_inner").show();
+            });
+            $("#div02").mouseout(function () {
+                $("#div02_inner").hide();
+            });
+            $("#div03").mouseover(function () {
+                $("#div03_inner").show();
+            });
+            $("#div03").mouseout(function () {
+                $("#div03_inner").hide();
+            });
+            $("#div04").mouseover(function () {
+                $("#div04_inner").show();
+            });
+            $("#div04").mouseout(function () {
+                $("#div04_inner").hide();
+            });
+
+
+        })
 
     </script>
+
 </head>
 <body>
-    <div id="div01">aaa</div>
-    <div id="div02"></div>
-    <div id="div03"></div>
-    <div id="div04"></div>
+    <div id="div01">
+        <div id="div01_inner" hidden>
+        </div>
+    </div>
+    <div id="div02">
+        <div id="div02_inner" hidden>
+        </div>
+    </div>
+    <div id="div03">
+        <div id="div03_inner" hidden></div>
+    </div>
+    <div id="div04">
+        <div id="div04_inner" hidden></div>
+    </div>
 </body>
 </html>

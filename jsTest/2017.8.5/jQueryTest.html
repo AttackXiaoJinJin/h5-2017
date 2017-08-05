@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQueryTest</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+
+    </style>
+    <script>
+        $(function(){
+            function showContent(li) {
+                alert($(li)).text();
+            }
+            //注册li的click事件
+            $("li").click(function () {
+                showContent(this);
+            });
+            $(":submit").click(function(){
+               var $type = $(":radio[name='type']:checked");
+                if($type.length==0){
+                    alert("请选择类型");
+                    return false;
+                }
+                var typeValue=$type.val();
+                var $name=$(":text[name='name']");
+                var name=$name.val();
+                    name=$.trim(name);
+                    $name.val(name);
+                    if(name == ""){
+                        alert("请输入内容");
+                        return false;
+                    }
+                    $("<li>name</li>").appendTo($("#c"+type))
+                        .click(function () {
+                            showContent(this);
+                        });
+                //取消submit的默认行为
+                return false;
+            });
+            //查找第一个td的text值
+            var textContent=$trNode.find("td:first").text();
+            //查找id为aaa的超链接标签a
+            $("#aaa a").click(function () {
+                return
+            });
+            $("#btn").click(function () {
+               $("<tr></tr>").append("<td>"+$("#name").val()+"</td>") ;
+            });
+
+
+        });
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
