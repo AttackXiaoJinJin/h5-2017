@@ -21,8 +21,10 @@
             $("#a01").mouseover(function (event) {
                 $("#a01").removeAttr("title");
                 event=event || window.event;
-                var mouseLeft=event.clientX;
-                var mouseTop=event.clientY;
+//                var mouseLeft=event.clientX;
+                var mouseLeft=event.pageX;
+//                var mouseTop=event.clientY;
+                var mouseTop=event.pageY;
                 var divLeft=(mouseLeft+10)+"";
                 var divTop=(mouseTop+10)+"";
                 $("#div01").css({"top":(divTop+"px"),"left":(divLeft+"px")}).show();

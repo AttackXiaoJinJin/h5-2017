@@ -48,6 +48,43 @@
                $("<tr></tr>").append("<td>"+$("#name").val()+"</td>") ;
             });
 
+//            读取/修改type为text的name为username的属性值
+            $(":text[name='username']").attr("value","nihao");
+
+            //表格添加
+            //为每个新添加的delete添加响应事件
+            $("<tr></tr>").appendTo("#table tbody")
+                .find("a").click(function () {
+                return removeTr(this);
+            });
+
+            function removeTr(aNode) {
+                //获取a节点所在的tr节点，返回的是jQuery对象
+                var $trNode=$(aNode).parent().parent();
+                var textContent=$trNode.find("td:first").text();
+                textContent=$.trim(textContent);
+                var flag=confirm("确定删除"+textContent+"嘛?");
+                if(flag){
+                    $trNode.remove();
+                }
+                return false;
+            }
+
+            //复制clone节点
+            //先clone再去添加属性
+            //在clone中加入true,在clone的同时，clone节点的时事件
+            $("#bj").clone(true).attr("id","bj2").insertAfter($("#rl"));
+
+            //创建一个li节点，替换table里的最后一个li节点
+            $("<li>你好</li>").replaceAll($("#city li:last"));
+
+            //替换table的第二个li子节点
+            $("#table li:eq(1)").replaceWith( $("<li>你好</li>"));
+
+            //互换两个节点
+            var $li1=$("#li1").clone(true);
+            var $li2=$("#li2").replaceWith($li1);
+            $("#li1").replaceWith($li2);
 
         });
 

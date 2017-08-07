@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+
+    </style>
+    <script>
+        function getHTTPObject() {
+        var xhr=false;
+        if(window.XMLHttpRequest){
+            xhr=new XMLHttpRequest();
+        }else if(window.ActiveXObject){
+            xhr=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        return xhr;
+    }
+        $(function () {
+           $("a").click(function () {
+               //创建一个XMLHttpRequest对象
+               var request=new XMLHttpRequest();
+               //准备发送url
+               var url=this.href;
+               var method="GET";
+               //open
+               request.open(method,url);
+               //send
+               request.send(null);
+               //onreadystatechange
+               request.onreadystatechange=function () {
+                   //判断响应是否完成即XMLHttpRequest的readyState=4的时候
+                 if(request.readyState==4){
+                     //再判断相应是否可用,即XMLHttpRequest的status值为200的时候
+                     if(request.status==200 || request.status==304){
+                        //打印结果:responseText
+                         alert(request.responseText);
+                     }
+                 }
+               };
+
+
+
+               return false;
+           });
+
+
+
+        });
+    </script>
+</head>
+<body>
+<a href="hello.txt">Hello!</a>
+</body>
+</html>

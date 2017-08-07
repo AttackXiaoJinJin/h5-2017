@@ -59,14 +59,20 @@
                 //设置div的偏移量
                 box1.style.left = left + sl-50 + "px";
                 box1.style.top = top + st-50 + "px";
-                var mouseLeft=box1.style.left+"px";
-                var mouseTop=box1.style.top+"px";
+                var mouseLeft=box1.style.left;
+                var mouseTop=box1.style.top;
                 var imgLeft=parseInt(mouseLeft)*(-2)+"px";
                 var imgTop=parseInt(mouseTop)*(-2)+"px";
                 document.getElementById('box2').style.backgroundPosition =imgLeft+" "+imgTop;
 
-                if(parseInt(box1.style.left)<1 || parseInt(box1.style.left)>99 || parseInt(box1.style.top)<1 || parseInt(box1.style.top)>99){
-                    $("#box1").stop(true,true);
+                if(parseInt(box1.style.left)<=1 ){
+                   box1.style.left=1+"px";
+                }else if(parseInt(box1.style.left)>=99){
+                    box1.style.left=99+"px";
+                }else if(parseInt(box1.style.top)<=2){
+                    box1.style.top=1+"px";
+                }else if(parseInt(box1.style.top)>=98){
+                    box1.style.top=99+"px";
                 }
 
 

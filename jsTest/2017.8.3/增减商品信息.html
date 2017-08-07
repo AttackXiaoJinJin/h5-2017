@@ -29,13 +29,14 @@
 
             //全选按钮
             $("#checkedAllBtn").on("click",function () {
+//            $("#checkedAllBtn").change(function () {
                 var flag=this.checked;
                 $(":checkbox[name='product']").attr("checked",flag);
             });
             //判断只要有一个没选中，就取消全选
             $(":checkbox[name='product']").click(function () {
                $("#checkedAllBtn").attr("checked", $(":checkbox[name='product']").length == $(":checkbox[name='product']:checked").length);
-               console.log($(":checkbox[name='product']").length == $(":checkbox[name='product']:checked").length);
+//               console.log($(":checkbox[name='product']").length == $(":checkbox[name='product']:checked").length);
             });
 
             //增加一个的按钮
@@ -46,6 +47,9 @@
 
             //删除一行
             $("input[name='delete']").click(deleteTr);
+            //下面按钮的删除选中的checkbox
+            $("button[name='delete']").click(deleteChecked);
+
 
             $("#addTr").click(function () {
                 var $newTr= $("<tr/>").css("width","600px").css("color","red");
@@ -70,6 +74,8 @@
 
             });
 
+            $("#deleteTr").click(deleteChecked);
+
 
             //增加一个
             function addOne() {
@@ -93,6 +99,14 @@
                 //$(this)代表所按的删除键
                 $(this).parent().parent().remove();
             }
+            //删除选中的checkbox
+            function deleteChecked() {
+                //$(this)代表所按的删除键
+                console.log("aaa");
+                $(":checkbox[name='product']:checked").parent().parent().remove();
+            }
+
+
 
 
         });//===================================================================

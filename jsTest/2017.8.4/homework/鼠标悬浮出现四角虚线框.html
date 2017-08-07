@@ -197,12 +197,24 @@
     <script src="../../../jquery-3.2.1.js"></script>
     <script>
         $(function () {
-            $("#div01").mouseover(function () {
-                $("#div01_inner").show();
-            });
-            $("#div01").mouseout(function () {
-                $("#div01_inner").hide();
-            });
+//            $("#div01").on({
+//                mouseover:function () {
+//                $("#div01_inner").show();
+//                },
+//                mouseout:function () {
+//                    $("#div01_inner").hide();
+//                }
+//            });
+
+            $("#div01").hover(function () {
+                $("#div01_inner").show();},
+                function () {
+                $("#div01_inner").hide();});
+
+
+
+
+
             $("#div02").mouseover(function () {
                 $("#div02_inner").show();
             });
