@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>光束水平滑动</title>
+    <style>
+        *{
+            background: white;
+            z-index: 0;
+        }
+        div {
+
+            position: relative;
+            width:500px;
+            margin:0 auto;
+        }
+       div::before {
+            content: "";
+            position: absolute;
+            width:40px;
+           height: 99%;
+            top: 0;
+            left: 80px;
+            overflow: hidden;
+            background:linear-gradient(to right, rgba(205,205,205,0.2) 0%, rgba(255,255,255,0.2) 50%, rgba(205,205,205,0.2) 100%);
+            transform: skewX(-25deg);
+            z-index: -1;
+
+        }
+       div:hover:before {
+            left: 400px;
+            transition: left 3s linear 0s;
+           z-index: 1;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div><img src="image1.jpg" alt=""></div>
+</body>
+</html>

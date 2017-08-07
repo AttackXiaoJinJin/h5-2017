@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面阴影</title>
+    <style>
+        *{
+            background: #cecece;
+            margin: 0;
+            padding: 0;
+        }
+        #div01{
+            margin: 30px auto;
+            background: white;
+            width: 400px;
+            height: 100px;
+            box-shadow:0 2px 0 0 gray;
+            text-align: center;
+            line-height: 100px;
+        }
+        #div02{
+            line-height: 100px;
+            margin: 20px auto;
+            width: 400px;
+            height: 100px;
+            background: white;
+            position: relative;
+            text-align: center;
+        }
+        #div02::before{
+            position: absolute;
+            z-index: -1;
+            bottom: 4px;
+            left: 5px;
+            content:"";
+            width: 50%;
+            height: 20%;
+            box-shadow:0 5px 0 0 gray;
+            transform: rotate(-2deg);
+        }
+        #div02::after{
+            position: absolute;
+            z-index: -1;
+            bottom: 4px;
+            right: 5px;
+            content:"";
+            width: 50%;
+            height: 20%;
+            box-shadow:0 5px 0 0 gray;
+            transform: rotate(2deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="div01">山水之间</div>
+    <div id="div02">摄影艺术</div>
+</body>
+</html>

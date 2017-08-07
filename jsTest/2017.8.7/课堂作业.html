@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>课堂作业</title>
+    <style>
+        #div01{
+            width: 300px;
+            height: 300px;
+            border: 1px red solid;
+            background:repeating-linear-gradient(135deg,black,black 10%,white 10.1%,white 20%);
+        }
+        #div02{
+            width: 300px;
+            height: 300px;
+            border: 1px red solid;
+            background:repeating-radial-gradient(circle,red,red 5%,blue 5.1%,blue 10%);
+        }
+        #div03{
+            width: 100px;
+            height: 100px;
+            /*position: absolute;*/
+            /*left: 0;*/
+            /*top: 0;*/
+            animation: myAnimate 5s linear;
+            background-color: #99ff99;
+        }
+
+        @keyframes myAnimate {
+            0%{
+                /*left: 0;*/
+            }
+            50%{
+                transform: rotate(720deg) translateX(400px) scale(2);
+                /*width: 200px;*/
+                /*height: 200px;*/
+                /*left: 400px;*/
+                box-shadow: 2px 3px 0 0 inset;
+            }
+            100%{
+                left: 0;
+            }
+        }
+
+
+
+    </style>
+    <script>
+        window.onload=function () {
+//            document.getElementsById("div03").style.width="200px";
+//            document.getElementsById("div03").style.height="200px";
+//            document.getElementsById("div03").style.left="400px";
+        }
+    </script>
+</head>
+<body>
+    <!--<div id="div01">aaaaa</div>-->
+    <!--<div id="div02">bbbb</div>-->
+    <div id="div03">
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多列，弹性布局</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*#div01{*/
+            /*!*列宽度200px,分3列*!*/
+            /*columns:200px 3;*/
+            /*!*列间距*!*/
+            /*column-gap: 100px;*/
+            /*!*分隔线*!*/
+            /*column-rule:1px gray dashed;*/
+
+        /*}*/
+
+        body{
+            /*弹性*/
+            display: flex;
+        }
+        #div2{
+            /*大小宽度的比例为1*/
+            flex: 1;
+        }
+        #div21{
+            /*是1的两倍*/
+            flex: 2;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+<div id="div01">
+
+</div>
+<div id="div02">
+
+</div>
+<div id="div03">
+
+</div>
+
+</body>
+</html>
