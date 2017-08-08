@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            var goodsInfo="";
+            $("#add").click(function () {
+
+                var name=$("#select").val();
+                var num=$("#num").val();
+                goodsInfo +=name+", "+num+"__,";
+                sessionStorage.setItem("goodsInfo",goodsInfo);
+
+            });
+            num="";
+
+
+
+        })
+
+
+    </script>
+
+</head>
+<body>
+<form action="">
+    <select name="" id="select">
+        <option value="phone1">phone1</option>
+        <option value="phone2">phone2</option>
+        <option value="phone3">phone3</option>
+    </select>
+    数量：<input type="text" id="num">
+    <input type="button" value="加入购物车" id="add">
+    <input type="button" value="结算"><a href="购物车02.html">PAY</a>
+</form>
+</body>
+</html>

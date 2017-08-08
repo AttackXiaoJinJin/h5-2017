@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选择文件</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            width: 400px;
+            margin: 0 auto;
+
+        }
+        ul li{
+            height: 60px;
+            line-height: 60px;
+            width: 400px;
+            list-style: none;
+        }
+        #chooseFile{
+            height: 60px;
+            line-height: 60px;
+            width: 200px;
+            background-color: #85e1ff;
+        }
+        #file{
+            height: 60px;
+            line-height: 60px;
+            width: 200px;
+            background-color: #85e1ff;
+            display: none;
+        }
+    </style>
+    <script>
+        $(function () {
+            $("#btnfile").click(function () {
+                $("#file").click();
+            });
+            $("#file").change(function () {
+                var files=document.getElementById("file").files;
+                for(var i=0;i<files.length;i++){
+                    var name=files[i].name;
+                    var lastTime=files[i].lastModifiedDate.toLocaleString();
+                    //保留两位小数
+                    var size=(files[i].size/1024).toFixed(2);
+                    console.log(name);
+                    console.log(lastTime);
+                    console.log(size);
+
+                }
+            });
+
+
+
+        })
+    </script>
+</head>
+<body>
+<form action="">
+    <input type="file" id="file" multiple>
+    <input type="button" id="btnfile" value="选择文件">
+</form>
+
+<ul>
+    <li><span id="chooseFile">选择文件</span></li>
+    <li>
+        <h3>name</h3>
+        <p><span>lastModifieTIme</span><span>size</span>KB</p>
+    </li>
+</ul>
+</body>
+</html>

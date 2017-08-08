@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件API</title>
+    <script>
+        window.onload=function () {
+            document.getElementById("textFile").onchange=function () {
+                //获取上传文件
+                var file=document.querySelector("#textFile").files[0];
+                //创建文件读取对象
+                var fileReader=new FileReader();
+                fileReader.onload=function (e) {
+
+                    var img=document.createElement("img");
+                    img.src=e.target.result;
+                    document.getElementById("div01").appendChild(img);
+                };
+                //读取文件
+                fileReader.readAsDataURL(file);
+
+            }
+        }
+
+
+    </script>
+</head>
+<body>
+<form action="">
+    <!--multiple全选-->
+    <input id="textFile" type="file" multiple >
+</form>
+<div id="div01">
+
+</div>
+</body>
+</html>

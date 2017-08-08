@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>h5API</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <style>
+
+    </style>
+    <script>
+        $(function () {
+            $("#phone").change(function () {
+                $("#passwd").val("");
+            }).val(localStorage.getItem("phone"));
+
+            $("#login").click(function () {
+                if ($("#remember").is(':checked')){
+                var phone=$("#phone").val();
+                localStorage.setItem("phone",phone);
+                var passwd=$("#passwd").val();
+                localStorage.setItem("passwd",passwd);
+                }else {
+                    if(localStorage.getItem("phone")){
+                        localStorage.removeItem("phone");
+                        localStorage.removeItem("passwd");
+                    }
+                }
+            });
+            $("#passwd").val(localStorage.getItem("passwd"));
+//                localStorage.clear();
+
+        });
+
+
+    </script>
+
+</head>
+<body>
+<div style="margin: 50px 600px;">
+    <input id="phone" type="text" placeholder="请输入手机号">
+    <br>
+    <input id="passwd" type="password" placeholder="请输入密码">
+    <div>忘记密码？</div>
+    <input type="button" value="login in" id="login">
+    <br>
+    <input type="radio" id="remember">记住密码
+</div>
+</body>
+</html>

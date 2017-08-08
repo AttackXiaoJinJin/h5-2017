@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>地理位置</title>
+    <script>
+        //获取当前用户的位置
+        window.navigator.geolocation.getCurrentPosition(success,error,null)
+
+        function success(){
+            console.log(position);
+        }
+        function error(){
+            consoloe.log(errorcode);
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

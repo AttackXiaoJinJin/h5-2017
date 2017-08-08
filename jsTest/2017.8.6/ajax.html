@@ -19,29 +19,51 @@
     }
         $(function () {
            $("a").click(function () {
-               //创建一个XMLHttpRequest对象
-               var request=new XMLHttpRequest();
-               //准备发送url
+//               //创建一个XMLHttpRequest对象
+//               var request=null;
+//               request=new XMLHttpRequest();
+//               //准备发送url
+//               var url=this.href;
+//               var method="GET";
+//               //open
+//               request.open(method,url);
+//               //send
+//               request.send(null);
+//               //onreadystatechange
+//               request.onreadystatechange=function () {
+//                   //判断响应是否完成即XMLHttpRequest的readyState=4的时候
+//                 if(request.readyState==4){
+//                     //再判断相应是否可用,即XMLHttpRequest的status值为200的时候
+//                     if(request.status==200 || request.status==304){
+//                       //结果为xml格式，使用responseXml获取
+//                         var result=request.responseXML;
+//                         //不能直接使用，先创建对应的节点，再把节点加入到html中
+//                         var name=result.getElementsByTagName("name")[0].firstChild.nodeValue;
+//                         var website=result.getElementsByTagName("website")[0].firstChild.nodeValue;
+//                         var email=result.getElementsByTagName("email")[0].firstChild.nodeValue;
+//
+//                         var aNode=document.createElement("a");
+//                         aNode.appendChild(document.createTextNode(name));
+//                         aNode.href="mailto:"+email;
+//
+//                         var h2Node=document.createElement("h2");
+//                         h2Node.appendChild(aNode);
+//
+//                         var aNode2=document.createElement("a");
+//                         aNode2.appendChild(document.createTextNode(website));
+//                         aNode2.href=website;
+//
+//                         var detailsNode=document.getElementById("details");
+//                         detailsNode.innerHTML="";
+//                         detailsNode.appendChild(h2Node);
+//                         detailsNode.appendChild(aNode2);
+//                     }
+//                 }
+//               };
                var url=this.href;
-               var method="GET";
-               //open
-               request.open(method,url);
-               //send
-               request.send(null);
-               //onreadystatechange
-               request.onreadystatechange=function () {
-                   //判断响应是否完成即XMLHttpRequest的readyState=4的时候
-                 if(request.readyState==4){
-                     //再判断相应是否可用,即XMLHttpRequest的status值为200的时候
-                     if(request.status==200 || request.status==304){
-                        //打印结果:responseText
-                         alert(request.responseText);
-                     }
-                 }
-               };
-
-
-
+               //解决缓存问题
+               var args={"time":new Date()};
+               $("#details").load(url,args);
                return false;
            });
 
@@ -52,5 +74,8 @@
 </head>
 <body>
 <a href="hello.txt">Hello!</a>
+<!--<a href="info.html">Hello!</a>-->
+<!--<a href="java.xml">Hello!</a>-->
+<div id="details"></div>
 </body>
 </html>

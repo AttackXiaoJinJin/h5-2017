@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>通讯录</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        function record() {
+            var user=$("#user").val();
+        var phone=$("#phone").val();
+        var address=$("#address").val();
+        var userInfo={"name":user,"phone":phone,"address":address
+        };
+        var userInfos=[];
+        userInfos.push(userInfo);
+        //将json数据转换成字符串
+        localStorage.setItem("userInfo",JSON.stringify(userInfo));
+            $("#user").val("");
+            $("#phone").val("");
+            $("#address").val("");
+        }
+        function query() {
+         var user=$("#user").val();
+         //将字符串转换为json
+         var userInfo=JSON.parse(localStorage.getItem("userInfo"));
+         if(userInfo.name==user){
+             console.log("find");
+         }else {
+             console.log("no");
+         }
+        }
+
+
+    </script>
+
+</head>
+<body>
+<form action="">
+    用户名：<input id="user" type="text"><br>
+    电话：<input id="phone" type="text"><br>
+    地址：<input id="address" type="text"><br>
+    <input type="button" value="记录" onclick="record()">
+    <input type="button" value="查询" onclick="query()">
+</form>
+</body>
+</html>
