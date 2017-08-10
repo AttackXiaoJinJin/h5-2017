@@ -1,46 +1,35 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>音乐播放器</title>
-    <script src="../../jquery-3.2.1.js"></script>
-    <style>
-
-    </style>
-    <script>
-        $(function () {
-//            var $audio=$("#audio");
-            var $audio=document.getElementById("audio");
-            $("#play").click(function () {
-                $audio.src=$("#selectMusic").val();
-                $audio.play();
-            });
-            $("#pause").click(function () {
-                $audio.src=$("#selectMusic").val();
-                $audio.pause();
-            });
-            $("#stop").click(function () {
-                $audio.pause();
-                $audio.currentTime=0;
-
-            });
-        })
-    </script>
-
 </head>
 <body>
-<audio id="audio"></audio>
-
 <form action="">
-    <select name="" id="selectMusic">
-        <option value="许嵩 - 在那不遥远的地方.mp3">在那不遥远的地方</option>
-        <option value="许嵩 - 想象之中.mp3">想象之中</option>
-        <option value="许嵩 - 早睡身体好.mp3">早睡身体好</option>
+    <audio src="" id="audio" controls="controls"></audio>
+    <select name="" id="selMusic">
+        <option value="谢安琪 - 钟无艳.mp3">钟无艳</option>
     </select>
+    <input type="button" value="播放" onclick="play()">
+    <input type="button" value="暂停" onclick="pause()">
+    <input type="button" value="停止" onclick="stop()">
+    <div class="text" id="musicWord">......</div>
 </form>
-<input type="button" value="play" id="play">
-<input type="button" value="pause" id="pause">
-<input type="button" value="stop" id="stop">
+<script>
+    var audio=document.getElementById('audio');
+    function play(){
+        audio.src=document.getElementById('selMusic').value;
+        audio.play();
+    }
+    function pause(){
+        audio.pause();
+    }
+    function stop(){
+        audio.currentTime = 0;
+        audio.pause();
+    }
 
+</script>
+<script src="js.js"></script>
 </body>
 </html>
