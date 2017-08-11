@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拉</title>
+    <style>
+        #container{
+            width: 200px;
+            height: 200px;
+            /*background-color: #99ff99;*/
+        }
+
+        .selected{
+            border: 2px red solid;
+        }
+        .noselected{
+            border: solid 2px blue;
+        }
+
+
+
+    </style>
+
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        window.onload=function () {
+            var container = document.querySelector('#container');
+            //拖入container时执行事件
+            container.addEventListener('dragenter',function () {
+                container.className = 'selected';
+            });
+            //拖离container时执行事件
+            container.addEventListener('dragleave',function () {
+                container.className = 'noselected';
+            });
+            //拖拉结束,drop之前
+            container.addEventListener('dragover',function (e) {
+                e.preventDefault();//防止系统默认事件
+            });
+            //放入container时执行事件
+            container.addEventListener('drop',function (e) {
+                e.preventDefault();//防止系统默认事件
+                var files=e.dataTransfer.files;
+                if(files.length>0){
+                    var ul=document.createElement("ul");
+
+                    for(var i=0;i<files.length;i++){
+                        var name=files[i].name;
+                        var lastModifieDate=files[i].lastModifiedDate.toLocaleString();
+                        var size=(files[i].size/1024).toFixed(2);
+                        ul.innerHTML +='<li><h3>'+name+'</h3><p><span>'+lastModifieDate+'</span><span>'+size+'</span>KB</p></li>';
+
+                    }
+
+                    container.appendChild(ul);
+                }else {
+                    var content = e.dataTransfer.getData('text/plain');
+                    console.log(content);
+                    var reg=/^http/;
+                    if(reg.test(content)){
+                        var img = document.createElement('img');
+                        img.setAttribute('src',content);
+                        container.appendChild(img);
+                    }else {
+                        container.innerHTML += content;
+                    }
+                }
+
+
+
+            })
+
+        }
+</script>
+</head>
+<body>
+ <p>这是拖拉区域</p>
+
+ <img src="img1.jpg" alt="">
+ <div id="container" class="noselected"></div>
+</body>
+</html>

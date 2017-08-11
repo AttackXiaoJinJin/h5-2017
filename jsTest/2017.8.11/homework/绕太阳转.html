@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绕太阳转</title>
+
+    <script>
+        window.onload=function () {
+            var canvas01=document.getElementById("canvas01");
+            var canvas_context=canvas01.getContext("2d");
+
+
+
+            //1.绘制圆
+            canvas_context.beginPath();
+            canvas_context.arc(250,250,35,0,360*Math.PI/180,false);
+            canvas_context.stroke();
+
+            canvas_context.beginPath();
+            canvas_context.arc(250,250,50,0,360*Math.PI/180,false);
+            canvas_context.stroke();
+
+            //2.设置渐变
+            var gradient = canvas_context.createRadialGradient(250, 250,35, 250, 250, 50);
+
+
+            gradient.addColorStop(0, 'red');
+            gradient.addColorStop(0.8, 'yellow');
+            gradient.addColorStop(1, 'white');
+            //使用经向渐变
+            //3.将其设置在方形画布上
+            canvas_context.fillStyle = gradient;
+            canvas_context.fillRect(199, 199, 102, 102);
+
+
+            // 旋转的角度
+              var angle = 0;
+            // 每帧旋转角度的增加值
+              var speed = 0.05;
+
+            (function drawFrame(){
+                canvas_context.beginPath();
+                canvas_context.arc(250,250,150,0,360*Math.PI/180,false);
+                canvas_context.strokeStyle="red";
+                canvas_context.stroke();
+
+                var   centerX =250+150*Math.cos(angle);
+               var  centerY =250+150*Math.sin(angle);
+               var   clear_centerX =250+150*Math.cos(angle-speed);
+               var  clear_centerY =250+150*Math.sin(angle-speed);
+                window.requestAnimationFrame(drawFrame,canvas01);
+//                canvas_context.clearRect(0,0,canvas01.width, canvas01.height);
+                canvas_context.clearRect(clear_centerX-16,clear_centerY-16,32, 32);
+                //角度增加
+                angle += speed;
+                //绘制地球
+                canvas_context.beginPath();
+                canvas_context.arc(centerX,centerY,15,0,360*Math.PI/180,false);
+                canvas_context.stroke();
+                 //2.设置渐变
+                 var gradient01= canvas_context.createRadialGradient(centerX, centerY,5, centerX, centerY, 15);
+                   gradient01.addColorStop(0, 'white');
+                   gradient01.addColorStop(0.8, 'blue');
+                   gradient01.addColorStop(1, 'white');
+                   //使用经向渐变
+                   //3.将其设置在方形画布上
+                   canvas_context.fillStyle = gradient01;
+                   canvas_context.fillRect(centerX-16,centerY-16, 32, 32);
+
+
+
+            }());
+
+
+
+
+
+        };
+    </script>
+</head>
+<body>
+    <canvas id="canvas01" width="500" height="500" style="border: 1px solid red;background-color: white" ></canvas>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+    <style>
+
+    </style>
+    <script>
+        window.onload = function () {
+            var canvas = document.getElementById("canvas01");
+            //获取上下文对象
+            var canvas_context = canvas.getContext('2d');
+//            //调用上下文对象的方法，绘制图形
+//            canvas_context.moveTo(0, 0);
+////            //画线
+//            canvas_context.lineTo(100, 100);
+////            //绘制
+//            canvas_context.stroke();
+            //设置字体颜色
+//            canvas_context.strokeStyle='red';
+////            canvas_context.fillStyle='red';
+//            //设置字体样式
+//            canvas_context.font="40px Arial";
+//            //绘制文字,内容，x坐标，y坐标
+//            //线条线段,只有线段不填充
+//            canvas_context.strokeText("hello",0,50);
+            //填充
+//            canvas_context.fillText("hello",0,50);
+
+            //绘制图形
+            //width300,height200
+//            canvas_context.rect(0,0,300,200);
+////            canvas_context.stroke();
+//            canvas_context.fill();
+//
+//            //圆,200,200中心点，半径50，起始角度，结束角度,true逆时针。false顺时针
+//            canvas_context.arc(200,200,50,0,90*Math.PI/180,true);
+////            canvas_context.arc(200,200,50,0*Math.PI/180,90*Math.PI/180,true);
+//
+//            //渐变色
+//            //线性,范围
+//            var gradient=canvas_context.createLinearGradient(0,0,100,0);
+//            //放射状
+////            canvas_context.createRadialGradient()
+//            gradient.addColorStop(0,'red');
+//            gradient.addColorStop(0.5,'blue');
+//            gradient.addColorStop(1,'yellow');
+//            //关联颜色
+//            canvas_context.fillStyle=gradient;
+
+//            canvas_context.fillRect(0,0,300,200);
+
+            //折线
+//            canvas_context.beginPath();
+//            canvas_context.moveTo(0,0);
+//            canvas_context.lineTo(100,100);
+//            canvas_context.lineTo(200,150);
+//            //封闭已有的线段，起点终点直接连线
+//            canvas_context.closePath();
+//            canvas_context.moveTo(300,300);
+//            canvas_context.lineTo(300,350);
+//            canvas_context.stroke();
+
+            //变形
+            //用到变形,切记先保存
+            //保存当前坐标
+//            canvas_context.save();
+//            //移动,画布向右移100
+//            canvas_context.translate(300,250);
+//            canvas_context.rotate(90*Math.PI/180);
+//            canvas_context.fillRect(-100,-50,200,100);
+//            //恢复画布
+//            canvas_context.restore();
+//            canvas_context.moveTo(0,0);
+//            canvas_context.lineTo(100,100);
+
+            //阴影设置
+//            canvas_context.shadowOffsetX=10;
+//            canvas_context.shadowOffsetY=10;
+//            canvas_context.shadowColor='red';
+//            //模糊
+//            canvas_context.shadowBlur=10;
+//            canvas_context.fillRect(100,100,200,100);
+
+
+            //画笔
+            canvas.onmousedown=function (e) {
+                var x=e.layerX;
+                var y=e.layerY;
+                canvas_context.moveTo(x,y);
+                canvas.onmousemove=function (e) {
+                    var endX=e.layerX;
+                    var endY=e.layerY;
+                    canvas_context.lineTo(endX,endY);
+                    canvas_context.stroke();
+                };
+
+                canvas.onmouseup=function () {
+                    canvas.onmousemove=null;
+                }
+
+
+            }
+
+
+
+
+
+
+
+
+
+        };
+    </script>
+</head>
+<body>
+<canvas id="canvas01" width="1000" height="500">你好</canvas>
+</body>
+</html>

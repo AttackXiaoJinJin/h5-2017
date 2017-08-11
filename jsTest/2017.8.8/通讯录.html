@@ -15,6 +15,7 @@
         userInfos.push(userInfo);
         //将json数据转换成字符串
         localStorage.setItem("userInfo",JSON.stringify(userInfo));
+        console.log("用户保存成功");
             $("#user").val("");
             $("#phone").val("");
             $("#address").val("");
@@ -28,6 +29,10 @@
          }else {
              console.log("no");
          }
+
+//         for(var index in)
+
+
         }
 
 
