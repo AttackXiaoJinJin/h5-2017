@@ -9,8 +9,6 @@
             var canvas01=document.getElementById("canvas01");
             var canvas_context=canvas01.getContext("2d");
 
-
-
             //1.绘制圆
             canvas_context.beginPath();
             canvas_context.arc(250,250,35,0,360*Math.PI/180,false);
@@ -50,7 +48,7 @@
                var  clear_centerY =250+150*Math.sin(angle-speed);
                 window.requestAnimationFrame(drawFrame,canvas01);
 //                canvas_context.clearRect(0,0,canvas01.width, canvas01.height);
-                canvas_context.clearRect(clear_centerX-16,clear_centerY-16,32, 32);
+                canvas_context.clearRect(clear_centerX-15,clear_centerY-15,30, 30);
                 //角度增加
                 angle += speed;
                 //绘制地球
@@ -66,8 +64,6 @@
                    //3.将其设置在方形画布上
                    canvas_context.fillStyle = gradient01;
                    canvas_context.fillRect(centerX-16,centerY-16, 32, 32);
-
-
 
             }());
 

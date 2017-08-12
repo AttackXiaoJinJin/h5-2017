@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/canvas.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/拖拉.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.8/通讯录.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.8/通讯录.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="canvas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/canvas.html">
+      <file leaf-file-name="li调换.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="51" />
+            <state relative-caret-position="-368">
+              <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -37,11 +34,21 @@
       <file leaf-file-name="绕太阳转.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+            <state relative-caret-position="2310">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="拖拉.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/拖拉.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="752">
+              <caret line="56" column="66" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="70" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/2017.8.3/student.json" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.3/电影选座页面.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.3/jQuery动画练习.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.3/ajax.html" />
@@ -120,6 +126,7 @@
         <option value="$PROJECT_DIR$/jsTest/2017.8.11/拖拉.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.11/canvas.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html" />
       </list>
     </option>
   </component>
@@ -185,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Default">
           <expand>
@@ -230,7 +238,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -430,11 +437,13 @@
       <workItem from="1502415928604" duration="681000" />
       <workItem from="1502430805546" duration="9986000" />
       <workItem from="1502462343621" duration="5313000" />
+      <workItem from="1502467754855" duration="101000" />
+      <workItem from="1502498040627" duration="6392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="757614000" />
+    <option name="totallyTimeSpent" value="764107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -455,7 +464,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29217604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2914634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -480,20 +489,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/homework/超链接快速提示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.3/homework/鼠标悬浮部分图片放大.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="73" column="53" lean-forward="false" selection-start-line="73" selection-start-column="53" selection-end-line="73" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.7/img1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -693,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.6/ajax.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.8/选择文件.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
@@ -777,13 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/拖拉.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.8/通讯录.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -793,16 +774,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/canvas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="0">
           <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.5/jQueryTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="83" column="15" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="86" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.6/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1876">
+          <caret line="75" column="7" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/拖拉.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="56" column="66" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="41" column="43" lean-forward="false" selection-start-line="41" selection-start-column="43" selection-end-line="41" selection-end-column="43" />
+        <state relative-caret-position="2310">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#canvas#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>li调换</title>
+    <style>
+        *{
+            padding:0;
+            margin: 0;
+        }
+        ul{
+            width: 200px;
+            height: 500px;
+
+        }
+        li{
+            line-height: 100px;
+            text-align: center;
+            width: 200px;
+            height: 100px;
+            list-style: none;
+            box-sizing: border-box;
+        }
+
+        .selected{
+            border: 2px red solid;
+        }
+        .noselected{
+            border: solid 2px blue;
+        }
+
+
+    </style>
+    <script>
+        window.onload=function () {
+            var allLi=document.getElementsByTagName("li");
+            var prevLi= null;
+            var currentLi=null;
+            for(var i=0;i<allLi.length;i++){
+
+                allLi[i].addEventListener('dragstart',function (event) {
+                    this.className = 'selected';
+                    currentLi= event.dataTransfer.setData("text/html",this.innerHTML);
+
+                });
+                allLi[i].addEventListener('dragenter',function (event) {
+                    this.className = 'selected';
+
+
+                });
+                allLi[i].addEventListener('dragleave',function (event) {
+                    this.className='noselected';
+                    prevLi=this;
+
+
+                });
+                allLi[i].addEventListener('dragover',function (event) {
+                    event.preventDefault();
+
+                });
+
+                allLi[i].addEventListener('drop',function (event) {
+                    event.preventDefault();
+
+                    if(prevLi!= this){
+                        prevLi.innerHTML = this.innerHTML;
+//                        this.innerHTML=event.dataTransfer.getData("text/html");
+                        this.innerHTML=event.dataTransfer.getData("text/html",currentLi);
+                    }
+
+                })
+                //======================drop
+            }
+            //=============for循环
+
+
+        }
+    </script>
+</head>
+<body>
+<ul>
+  <li class="noselected" draggable="true"><span>1111111111</span></li>
+  <li class="noselected" draggable="true"><span>2222222222</span></li>
+  <li class="noselected" draggable="true"><span>3333333333</span></li>
+  <li class="noselected" draggable="true"><span>4444444444</span></li>
+  <li class="noselected" draggable="true"><span>5555555555</span></li>
+</ul>
+</body>
+</html>
