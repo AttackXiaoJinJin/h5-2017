@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax表单验证</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+           $(":input[name='username']").change(function () {
+               var val=$(this).val();
+               val=$.trim(val);
+               if(val != ""){
+                   //根据java的servlet来使用
+                   var url="userinfos";
+                   var args={"userName":val,"time":new Date()};
+                   $.post(url,args,function (data) {
+                       $("#message").html(data);
+                   })
+               }
+           })
+        });
+    </script>
+
+</head>
+<body>
+<form action="" method="post">
+    Username:<input type="text" name="username" />
+    <br>
+    <div id="message"></div>
+    <br>
+    <input type="submit" value="Submit">
+
+</form>
+</body>
+</html>

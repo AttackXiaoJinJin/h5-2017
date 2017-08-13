@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax购物车验证</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+            var isHasCart="${sessionScope.sc==null}";
+            if(isHasCart=="true"){
+                $("#cartStatus").hide();
+            }else{
+                $("#cartStatus").show();
+                $("#bookName").text("${sessionScope.sc.bookName}");
+                $("#bookNum").text("${sessionScope.sc.bookNum}");
+                $("#bookPrice").text("${sessionScope.sc.bookPrice}");
+            }
+
+            $("a").click(function () {
+                $("#status").show();
+               var url=this.href;
+               var args={"time":new Date()};
+               $.getJSON(url,args,function (data) {
+                   $("#bookName").text(data.bookName);
+                   $("#bookNum").text(data.bookNum);
+                   $("#bookPrice").text(data.bookPrice);
+
+
+               });
+                return false;
+            });
+
+
+
+        })
+    </script>
+</head>
+<body>
+<div id="cartStatus">
+您已经将&nbsp;<span id="bookName"></span>&nbsp;加入到购物车中，
+购物车中的书有&nbsp;<span id="bookNum"></span>&nbsp;本,总价格为&nbsp;<span id="bookPrice"></span>&nbsp;元
+</div>
+Java<a href="addToCart?id=Java&price=50">加入购物车</a>
+<br>
+aaaaa<a href="addToCart?id=aaaaa&price=30">加入购物车</a>
+<br>
+bbbbb<a href="addToCart?id=bbbbb&price=100">加入购物车</a>
+<br>
+
+
+</body>
+</html>

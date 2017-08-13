@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#iconWall{
+    width: 732px;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 1px;
+}
+
+#iconWall li{
+    width: 121px;
+    height: 108px;
+    /*background-color: #FFFFFF;*/
+    float: left;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+/*3d*/
+.img-back{
+    position: absolute;
+    left: 0;
+    top:0;
+    width: 121px;
+    height: 108px;
+    text-align: center;
+    line-height: 108px;
+    transform: rotateY(180deg);
+}
+.img-front{
+    width: 121px;
+    height: 108px;
+    position: absolute;
+    left: 0;
+    top:0;
+    text-align: center;
+    line-height: 108px;
+    background-color: white;
+}
+li img{
+    vertical-align:middle;
+
+    /*border: 1px red solid;*/
+    /*width: 121px;*/
+    /*height: 108px;*/
+}
+
+.img-3d{
+    /*开启3D空间，子元素将保留其 3D 位置*/
+    transform-style: preserve-3d;
+
+}
+
+li:hover .img-3d{
+    /*!*定义沿着 Y 轴的 3D 旋转。*!*/
+    /*transform: rotateY(180deg);*/
+    /*!*增加过渡效果*!*/
+    /*transition: 0.3s linear;*/
+   }
+/*换一批============================*/
+#btnRefresh{
+    text-align: center;
+    transition: 0.3s linear;
+    background-color: #fff;
+}
+#btnRefresh:hover{
+    color: #fff;
+    background-color: #dd2727;
+
+}
+#btnRefresh:hover .iconRefresh{
+    background: url("images/refresh-white.png");
+    transition: 0s;
+}
+.iconRefresh{
+    width: 28px;
+    height: 28px;
+    background: url("images/refresh.png");
+    margin: 32px auto 0;
+
+}
+/*处理浮层mask*/
+.mask{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 121px;
+    height: 108px;
+    background-color: rgba(0,0,0,0.7);
+    opacity: 0;
+}
+.mask img{
+    float:right;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+.mask p{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 45px;
+    text-align: center;
+}
+.mask a{
+    color: #fff;
+    text-decoration: none;
+    background-color: red;
+    font-size: 12px;
+    width: 70px;
+    display: block;
+    margin: 12px auto 0;
+    text-align: center;
+    line-height: 18px;
+    height: 18px;
+    border-radius: 9px;
+
+
+}
+
+
+/*显示延迟浮层*/
+li:hover .mask{
+    opacity: 1;
+    transition: 0.3s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

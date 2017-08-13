@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax</title>
+    <script src="../../jquery-3.2.1.js"></script>
+    <script>
+        $(function () {
+//            $("a").click(function () {
+//                //this指的是dom对象
+//                var url=this.href+" h2 a";
+//                //通过获取系统时间解决缓存问题
+//                var args={"time":new Date()};
+//                //任何一个html节点都可以用来加载ajax，
+//                //结果将直接插入到html节点中
+//                $("#content").load(url,args);
+//
+//                return false;
+//            })
+
+            //get,post
+//            $("a").click(function () {
+//                var url=this.href;
+//                var args={"time":new Date()};
+//               $.get(url,args,function (data) {
+//                   var name=$(data).find("name").text();
+//                   var email=$(data).find("email").text();
+//                   var website=$(data).find("website").text();
+//                   //创建节点
+//                   $("#details").empty()
+//                       .append("<h2><a href='mailto:"+email+"'>"+name+"</a></h2>")
+//                       .append("<a href='"+website+"'>"+website+"</a>");
+//
+//               });
+//                return false;
+//            });
+
+            $("a").click(function () {
+                var url=this.href;
+                var args={"time":new Date()};
+                $.getJSON(url,args,function (data) {
+                    var name=data.person.name;
+                    var email=data.person.email;
+                    var website=data.person.website;
+                    //创建节点
+                    $("#details").empty()
+                        .append("<h2><a href='mailto:"+email+"'>"+name+"</a></h2>")
+                        .append("<a href='"+website+"'>"+website+"</a>");
+
+                });
+                return false;
+            });
+
+
+
+        });
+    </script>
+</head>
+<body>
+<a href="hello.txt">你好ajax</a>
+<div id="content">
+
+</div>
+
+</body>
+</html>
