@@ -32,47 +32,47 @@
 
     </style>
     <script>
+//        "use strict";
         window.onload=function () {
-            var allLi=document.getElementsByTagName("li");
+
+
+            var dragLi=null;
+            var ul=document.querySelector("ul");
+            var allLi=document.querySelectorAll("li");
             var prevLi= null;
             var currentLi=null;
             for(var i=0;i<allLi.length;i++){
-
+//                allLi[i].addEventListener('drag',function (event) {
+//                   dragLi=this;
+//                });
                 allLi[i].addEventListener('dragstart',function (event) {
                     this.className = 'selected';
                     currentLi= event.dataTransfer.setData("text/html",this.innerHTML);
-
                 });
                 allLi[i].addEventListener('dragenter',function (event) {
                     this.className = 'selected';
-
-
                 });
                 allLi[i].addEventListener('dragleave',function (event) {
                     this.className='noselected';
                     prevLi=this;
-
-
                 });
                 allLi[i].addEventListener('dragover',function (event) {
                     event.preventDefault();
 
                 });
-
                 allLi[i].addEventListener('drop',function (event) {
                     event.preventDefault();
-
                     if(prevLi!= this){
                         prevLi.innerHTML = this.innerHTML;
-//                        this.innerHTML=event.dataTransfer.getData("text/html");
                         this.innerHTML=event.dataTransfer.getData("text/html",currentLi);
                     }
-
-                })
+                });
                 //======================drop
+//                allLi[i].addEventListener('drop',function (event) {
+//                    ul.insertBefore(dragLi,this);
+//                });
             }
             //=============for循环
-
 
         }
     </script>

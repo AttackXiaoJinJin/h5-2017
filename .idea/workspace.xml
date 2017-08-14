@@ -2,66 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/heart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon19.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon20.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon21.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon22.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon23.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon24.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon25.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon26.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon27.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon28.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon29.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon30.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon31.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon32.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon33.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon34.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon35.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon36.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon37.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon38.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon39.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon40.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon41.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon42.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon43.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon44.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon45.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon46.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/refresh-white.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/refresh.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/css.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/js.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/h5实战/天猫品牌墙/天猫品牌墙.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.13/ajax.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.13/ajax三级联动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.13/ajax注册姓名验证.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.13/ajax购物车验证.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.13/hello.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.13/java.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.13/userinfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/js/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Bootstrap/test1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsTest/2017.8.15/test1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" afterPath="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -78,31 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="天猫品牌墙.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/天猫品牌墙.html">
+      <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bootstrap/test1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/css.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/js.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="297">
+              <caret line="27" column="128" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="128" />
               <folding />
             </state>
           </provider>
@@ -113,9 +55,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -131,8 +73,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/2017.8.4/homework/h5标签书写页面.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.5/jQueryTest.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.6/wrap.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.6/CSS.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.4/homework/鼠标悬浮出现四角虚线框.html" />
@@ -171,8 +111,6 @@
         <option value="$PROJECT_DIR$/jsTest/2017.8.8/通讯录.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.11/拖拉.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.11/canvas.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.13/hello.txt" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.13/ajax.html" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.13/ajax表单验证.html" />
@@ -182,6 +120,10 @@
         <option value="$PROJECT_DIR$/h5实战/天猫品牌墙/天猫品牌墙.html" />
         <option value="$PROJECT_DIR$/h5实战/天猫品牌墙/js.js" />
         <option value="$PROJECT_DIR$/h5实战/天猫品牌墙/css.css" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.15/test1.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html" />
+        <option value="$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html" />
+        <option value="$PROJECT_DIR$/Bootstrap/test1.html" />
       </list>
     </option>
   </component>
@@ -198,7 +140,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-3" />
     <option name="y" value="10" />
     <option name="width" value="1057" />
@@ -248,6 +190,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Default">
           <expand>
@@ -264,7 +207,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,13 +217,7 @@
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="h5实战" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="h5实战" type="462c0819:PsiDirectoryNode" />
-              <item name="天猫品牌墙" type="462c0819:PsiDirectoryNode" />
+              <item name="Bootstrap" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -298,19 +234,19 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\h5实战\天猫品牌墙\images" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.13" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.11" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.8" />
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.7\homework" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\h5-gaobo\h5-2017\h5实战\天猫品牌墙" />
       <recent name="F:\h5-gaobo\h5-2017\招才网试验" />
       <recent name="F:\h5-gaobo\h5-2017" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.27\拉钩页面" />
       <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.24\按钮点击图片轮播" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\Bootstrap\js" />
+      <recent name="F:\h5-gaobo\h5-2017\Bootstrap" />
+      <recent name="F:\h5-gaobo\h5-2017\h5实战\天猫品牌墙\images" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.13" />
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.8.11" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -490,12 +426,13 @@
       <workItem from="1502498040627" duration="8604000" />
       <workItem from="1502526353276" duration="60000" />
       <workItem from="1502601621392" duration="9560000" />
-      <workItem from="1502620220299" duration="11534000" />
+      <workItem from="1502620220299" duration="11736000" />
+      <workItem from="1502670527755" duration="10107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="787473000" />
+    <option name="totallyTimeSpent" value="797782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -507,16 +444,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="10" width="1057" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.104477614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13149522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998747" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29095355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29084158" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -541,34 +478,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.8/jsa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.8/歌词滚动第一版.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/11.轮播图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.8/通讯录.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsTest/2017.8.5/jQueryTest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -580,20 +489,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="56" column="66" lean-forward="true" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1115">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -643,7 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -651,7 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,7 +559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -674,14 +566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-          <folding>
-            <element signature="e#1100#1106#0" expanded="false" />
-            <element signature="e#1133#1139#0" expanded="false" />
-            <element signature="e#1155#1161#0" expanded="false" />
-            <element signature="e#1187#1193#0" expanded="false" />
-            <element signature="e#1199#1205#0" expanded="false" />
-            <element signature="e#1233#1239#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,7 +573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2574">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -812,11 +693,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon35.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon35.png" />
     <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon37.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -842,17 +719,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/天猫品牌墙.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="495">
           <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding />
         </state>
@@ -860,8 +729,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
+        <state relative-caret-position="33">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.15/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/h5实战/天猫品牌墙/天猫品牌墙.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" lean-forward="false" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/js/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="6757" column="0" lean-forward="true" selection-start-line="6757" selection-start-column="0" selection-end-line="6757" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bootstrap/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="27" column="128" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="128" />
           <folding />
         </state>
       </provider>

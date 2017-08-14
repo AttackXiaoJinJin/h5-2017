@@ -9,6 +9,7 @@
             var canvas01=document.getElementById("canvas01");
             var canvas_context=canvas01.getContext("2d");
 
+//            canvas_context.clearRect(0,0,canvas01.width, canvas01.height);
             //1.绘制圆
             canvas_context.beginPath();
             canvas_context.arc(250,250,35,0,360*Math.PI/180,false);
@@ -37,6 +38,7 @@
               var speed = 0.05;
 
             (function drawFrame(){
+
                 canvas_context.beginPath();
                 canvas_context.arc(250,250,150,0,360*Math.PI/180,false);
                 canvas_context.strokeStyle="red";
