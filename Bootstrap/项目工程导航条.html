@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>项目工程导航条</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header" >
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#thisUl">
+                <!--<span class="sr-only">Toggle navigation</span>-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+
+            </button>
+            <a href=""><img src="images/xiangmugongchang2.png" alt="" style=" margin-top: -15px;
+                            cursor: pointer;"></a>
+        </div>
+
+        <!--ul导航栏-->
+        <div class="collapse navbar-collapse" id="thisUl">
+            <ul class="nav navbar-nav">
+                <li><a href="">我的首页</a></li>
+                <li><a href="">项目库</a></li>
+                <li><a href="">视频库</a></li>
+                <li><a href="">双选会</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" href="">更多<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">产学合作</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">加入班级</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">礼品兑换</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">收藏本站</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">使用帮助</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
+
+                </li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">注册</a></li>
+                <li><a href="">登录</a></li>
+                <li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" ><img src="images/share.png" height="22" width="22" alt=""><span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">QQ消息</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">QQ空间</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">新浪微博</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="">扫一扫</a></li>
+                    </ul>
+
+                </li>
+                <li><a href=""><img src="images/buggray.png" height="32" width="32" alt="" style="margin-top: -5px"></a></li>
+
+            </ul>
+
+        </div>
+
+
+    </div>
+</nav>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
