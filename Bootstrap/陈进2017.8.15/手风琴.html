@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>手风琴</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+    </style>
+
+
+
+</head>
+<body>
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+                <span class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i>
+                    jQuery特效
+                </span>
+            </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+                <a href="">jQuery多窗口轮播焦点图片滚动切换</a><br>
+                jQuery焦点图特效制作影视网站多窗口焦点图片轮播滚动播放，点击索引按钮
+                每个焦点图窗口图片相应的滚动切换，多个窗口图片滚动组成的轮播焦点图片切换。
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+                <span class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i>
+                    js特效
+                </span>
+            </h4>
+        </div>
+        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+                <span class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i>
+                    flash特效
+                </span>
+            </h4>
+        </div>
+        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+                <a href="">flash图片切换左右滚动带序列索引按钮控制flash动画图片特效</a>
+                <br>
+                flash动画图片滚动特效带序列按钮对应索引图片切换左右滚动支持xml文件外调、
+                图片外调等功能
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+                <span class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i>
+                    div+css教程
+                </span>
+            </h4>
+        </div>
+        <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+
+            </div>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+                <span class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                     <i class="fa fa-caret-right fa-lg" aria-hidden="true"></i>
+                    html5教程
+                </span>
+            </h4>
+        </div>
+        <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+                <a href="">制作CSS3和HTML5的一个单页网站模板</a>
+                <br>
+                在这里，我们使用的是新版本的HTML，该网站的基本语言，使web模板，利用所带来的CSS3和
+                jQuery的一些新功能的scrollTo插件。
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="jquery-3.2.1.js"></script>
+<script src="bootstrap.js"></script>
+<script>
+    $(function () {
+        var allcollapsed=document.querySelectorAll(".collapsed");
+        for(var i=0;i<allcollapsed.length;i++){
+            allcollapsed[i].parentNode.parentNode.style.backgroundColor="rgb(245, 245, 245)";
+            allcollapsed[i].style.color="rgb(51,51,51)";
+        }
+        $(".collapsed").click(function () {
+            if($(this).find("i")[0].className=="fa fa-caret-right fa-lg"){
+                $(this).find("i")[0].className="fa fa-caret-down fa-lg" ;
+            }
+            else if($(this).find("i")[0].className=="fa fa-caret-down fa-lg"){
+                $(this).find("i")[0].className="fa fa-caret-right fa-lg";
+            }
+
+            if(this.parentNode.parentNode.style.backgroundColor=="rgb(245, 245, 245)"){
+                this.parentNode.parentNode.style.backgroundColor="rgb(205, 205, 205)";
+            }else if(this.parentNode.parentNode.style.backgroundColor=="rgb(205, 205, 205)"){
+                this.parentNode.parentNode.style.backgroundColor="rgb(245, 245, 245)";
+            }
+
+            if(this.style.color=="rgb(51, 51, 51)"){
+                this.style.color="rgb(255, 255, 255)";
+                this.style.fontWeight="bold";
+            }else if(this.style.color=="rgb(255, 255, 255)"){
+                this.style.color="rgb(51, 51, 51)";
+                this.style.fontWeight="normal";
+            }
+
+
+        });
+    })
+</script>
+</body>
+</html>
