@@ -8,6 +8,71 @@
             margin: 0;
             padding: 0;
         }
+        body{
+            background-color: #666;
+        }
+        .book{
+            /*开启3D*/
+            transform-style: preserve-3d;
+            /*近大远小的效果*/
+            perspective: 1200px;
+            margin: 150px auto;
+            position: relative;
+            width: 200px;
+            height:300px;
+            background-color: rgba(255, 255, 105, 0.5);
+        }
+        .page-front{
+            position: absolute;
+            left: 0;
+            top:0;
+            height: 300px;
+            width: 200px;
+            text-align: center;
+            background-color: aquamarine;
+            font: oblique 36px/300px Arial;
+            border: 10px solid #ff71be;
+            box-sizing: border-box;
+            /*背面是否可见*/
+            backface-visibility: hidden;
+        }
+        .page-back{
+            height: 300px;
+            width: 200px;
+            background-color: #8aff77;
+            position: absolute;
+            left: 0;
+            top:0;
+            border: 10px solid #ff71be;
+            box-sizing: border-box;
+        }
+        #page01,#page02,#page03,#page04{
+
+            /*将页面的旋转中心改成左边缘*/
+            transform-origin: left;
+            transform-style: preserve-3d;
+            position: absolute;
+            left: 0;
+            top:0;
+            height: 300px;
+            width: 200px;
+        }
+        #page01{
+            z-index: 4;
+        }#page02{
+            z-index: 3;
+        }#page03{
+            z-index: 2;
+        }#page04{
+            z-index: 1;
+        }
+
+        /*.book:hover #page01{*/
+            /*transition:3s linear;*/
+            /*transform: rotateY(-145deg);*/
+        /*}*/
+
+
     </style>
 </head>
 <body>
@@ -16,6 +81,42 @@
         <div class="page-back"></div>
         <div class="page-front">你好</div>
     </div>
+    <div id="page02">
+        <div class="page-back"></div>
+        <div class="page-front">今天</div>
+    </div>
+    <div id="page03">
+        <div class="page-back"></div>
+        <div class="page-front">历史</div>
+    </div>
+    <div id="page04">
+        <div class="page-back"></div>
+        <div class="page-front">未来</div>
+    </div>
 </div>
+<script>
+    window.onload=function () {
+        var currentIndex=0;
+
+        var book=document.querySelector(".book");
+        var allPages=document.querySelectorAll("[id^='page']");
+        var pageNum=allPages.length;
+        book.onclick=function (event) {
+            currentIndex++;
+            if(currentIndex>allPages.length-1){
+                for (var i = 0; i < pageNum; i++) {
+                    allPages[i].style.transition='rotateY(0deg)';
+                    
+                }
+            }else {
+                //            单击翻页
+                allPages[currentIndex].style.transform="rotateY(-145deg)";
+                allPages[currentIndex].style.transition="2s linear";
+            }
+
+
+        };
+    }
+</script>
 </body>
 </html>
