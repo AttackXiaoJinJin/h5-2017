@@ -2,21 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/img1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.21/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/aaa.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/imgbase64.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/stream01.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/stream02.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/文件读写.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/缓存01.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/h5-2017.iml" afterPath="$PROJECT_DIR$/.idea/h5-2017.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/cj.com/client/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/cj.com/client/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/book_dao.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/user_dao.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/book_route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/user_route.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/www.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/modules/getMD5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/modules/getModules.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/modules/modules_demo1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/modules/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.22/模块.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/md5.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsHigh/8.22/1503364047112 0.5811138686659432.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsHigh/8.22/1503364248474 0.36363974557858025.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/test1.js" afterPath="$PROJECT_DIR$/jsHigh/8.21/test1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/test2.js" afterPath="$PROJECT_DIR$/jsHigh/8.21/test2.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/test3.html" afterPath="$PROJECT_DIR$/jsHigh/8.21/test3.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/test3.js" afterPath="$PROJECT_DIR$/jsHigh/8.21/test3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.22/缓存01.js" afterPath="$PROJECT_DIR$/jsHigh/8.22/缓存01.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,11 +36,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="缓存01.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jsHigh/8.22/缓存01.js">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/client/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="1373">
+              <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_dao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/user_dao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -49,8 +62,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,22 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsTest/2017.8.8/选择文件.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.8/幻听 - 副本" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.8/音乐播放器.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.8/acousma" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.8/歌词同步.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.8/音乐播放器和歌词滚动.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.8/通讯录.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.11/拖拉.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.11/canvas.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.13/hello.txt" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.13/ajax.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.13/ajax表单验证.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.13/ajax购物车验证.html" />
-        <option value="$PROJECT_DIR$/jsTest/2017.8.13/ajax三级联动.html" />
-        <option value="$PROJECT_DIR$/h5实战/天猫品牌墙.html" />
-        <option value="$PROJECT_DIR$/h5实战/天猫品牌墙/天猫品牌墙.html" />
         <option value="$PROJECT_DIR$/h5实战/天猫品牌墙/js.js" />
         <option value="$PROJECT_DIR$/h5实战/天猫品牌墙/css.css" />
         <option value="$PROJECT_DIR$/jsTest/2017.8.15/test1.html" />
@@ -116,7 +113,23 @@
         <option value="$PROJECT_DIR$/jsHigh/8.22/stream02.js" />
         <option value="$PROJECT_DIR$/jsHigh/8.22/stream03.js" />
         <option value="$PROJECT_DIR$/jsHigh/8.22/文件读写.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/模块.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/modules/MD5.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/modules/getModules.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/modules/getMD5.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/util.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/client/route/user_roote.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/book_dao.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/book_roote.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/client/index.html" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/user_roote.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/client/login.html" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/modules/modules_demo1.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/modules/user.js" />
         <option value="$PROJECT_DIR$/jsHigh/8.22/缓存01.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/www.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/user_dao.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/user_route.js" />
       </list>
     </option>
   </component>
@@ -133,9 +146,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="width" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3" />
+    <option name="width" value="1113" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -203,13 +216,43 @@
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
+              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
+              <item name="8.22" type="462c0819:PsiDirectoryNode" />
+              <item name="cj.com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsTest" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
+              <item name="8.22" type="462c0819:PsiDirectoryNode" />
+              <item name="cj.com" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
+              <item name="8.22" type="462c0819:PsiDirectoryNode" />
+              <item name="cj.com" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
+              <item name="8.22" type="462c0819:PsiDirectoryNode" />
+              <item name="cj.com" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="DAO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
+              <item name="8.22" type="462c0819:PsiDirectoryNode" />
+              <item name="cj.com" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -247,18 +290,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.22" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\bootstrap-3.3.7-dist" />
       <recent name="F:\h5-gaobo\h5-2017\Bootstrap\陈进2017.8.15" />
-      <recent name="F:\h5-gaobo\h5-2017\Bootstrap\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.22\cj.com\server" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.22" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.21" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh" />
       <recent name="F:\h5-gaobo\h5-2017\fontAwesome" />
-      <recent name="F:\h5-gaobo\h5-2017\Bootstrap" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -273,7 +316,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.stream01.js">
+  <component name="RunManager" selected="Node.js.www.js">
+    <configuration name="MD5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/jsHigh/8.22/modules/getMD5.js" working-dir="$PROJECT_DIR$/jsHigh/8.22/modules" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -339,25 +383,24 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="cssTest.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h5-2017/S1-html/unit2/cssTest.html" />
-    <configuration name="stream01.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="stream01.js" working-dir="$PROJECT_DIR$/jsHigh/8.22" />
-    <configuration name="test1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/jsHigh/8.21/test1.js" working-dir="$PROJECT_DIR$/jsHigh" />
-    <configuration name="test2.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/jsHigh/8.21/test2.js" working-dir="$PROJECT_DIR$/jsHigh" />
-    <configuration name="test3.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/jsHigh/8.21/test3.js" working-dir="$PROJECT_DIR$/jsHigh" />
+    <configuration name="modules_demo1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="modules_demo1.js" working-dir="$PROJECT_DIR$/jsHigh/8.22/modules" />
+    <configuration name="user.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="user.js" working-dir="$PROJECT_DIR$/jsHigh/8.22/modules" />
+    <configuration name="util.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="util.js" working-dir="$PROJECT_DIR$/jsHigh/8.22" />
+    <configuration name="www.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www.js" working-dir="$PROJECT_DIR$/jsHigh/8.22/cj.com/server" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.cssTest.html" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.test1.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.test2.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.test3.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.stream01.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.MD5.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.modules_demo1.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.util.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.www.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.user.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.stream01.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.test2.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.test3.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.test1.js" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.cssTest.html" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.www.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.modules_demo1.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.user.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.MD5.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.util.js" />
       </list>
     </recent_temporary>
   </component>
@@ -466,12 +509,12 @@
       <workItem from="1503293533058" duration="752000" />
       <workItem from="1503296108724" duration="4397000" />
       <workItem from="1503311964763" duration="7249000" />
-      <workItem from="1503362017840" duration="4868000" />
+      <workItem from="1503362017840" duration="26834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="884553000" />
+    <option name="totallyTimeSpent" value="906519000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,16 +526,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="0" width="1057" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25373134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16065748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23143564" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6809291" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29095355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23143564" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -516,104 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.15/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/li调换.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/js/jquery-3.2.1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.7/homework/屏幕适配.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="53" column="13" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fontAwesome/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fontAwesome/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/test1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/屏幕适配.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1914">
-          <caret line="58" column="30" lean-forward="false" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fontAwesome/fontAwesomeUse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="25" column="52" lean-forward="false" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fontAwesome/work1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/js/下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/导航条.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139458">
@@ -764,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.21/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsHigh/8.21/test3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
@@ -784,14 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.21/test2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="13" column="19" lean-forward="false" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -835,34 +765,164 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/stream01.js">
+    <entry file="file://$PROJECT_DIR$/md5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="-7098">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/文件读写.js">
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.21/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        <state relative-caret-position="99">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/stream02.js">
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.21/test2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state relative-caret-position="264">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/book_route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/modules/getMD5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/modules/getModules.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/modules/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/modules/modules_demo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="24" lean-forward="false" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsHigh/8.22/缓存01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="363">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/stream01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/stream02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/模块.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/文件读写.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/book_dao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/user_dao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/user_route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/www.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/client/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1373">
+          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
           <folding />
         </state>
       </provider>
