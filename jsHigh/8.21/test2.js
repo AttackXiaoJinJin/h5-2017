@@ -11,5 +11,8 @@ server.on('request',function (request,response) {
    console.log(request.url);
     response.writeHead(200,{"Content-Type":"text/html;charset=utf-8"});
     response.write("hello js,早上好...");
+    response.end();
 });
 server.listen(3000);
+
+
