@@ -105,13 +105,12 @@
             currentIndex++;
             if(currentIndex>allPages.length-1){
                 for (var i = 0; i < pageNum; i++) {
-                    allPages[i].style.transition='rotateY(0deg)';
-                    
+                    allPages[i].style.transform='rotateY(0deg)';
                 }
             }else {
                 //            单击翻页
-                allPages[currentIndex].style.transform="rotateY(-145deg)";
                 allPages[currentIndex].style.transition="2s linear";
+                allPages[currentIndex].style.transform="rotateY(-145deg)";
             }
 
 
