@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>扇形饼图</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            text-align: center;
+            font:bold 36px Arial;
+        }
+        #range{
+            width: 400px;
+        }
+        .circle{
+            margin:100px auto;
+            width: 150px;
+            height: 150px;
+            background-color: greenyellow;
+            /*设置圆形*/
+            border-radius: 50%;
+            /*//线性渐变,一半绿色，一半棕色*/
+            /*to right 让绿色在左边，棕色在右边*/
+            background-image :linear-gradient(to right,transparent 50%,#855 50%);
+            
+        }
+        /*添加伪元素，行内块元素，无法设置宽高,需设置display*/
+        .circle:before{
+            content: "";
+            display: block;
+            background-color:greenyellow;
+            height: 100%;
+            /*半圆*/
+            border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+            margin-left: 50%;
+            /*让半圆沿圆心旋转*/
+            transform-origin:left ;
+            /*设置旋转*/
+            /*当旋转超过180度后，会露馅，故需设置动画去变色*/
+            /*transform: rotate(20deg);*/
+            /*让pie执行3s，线性执行，无限执行*/
+            /*step-end 让渐变立即变色*/
+            animation: pie 50s linear infinite, bg 100s step-end infinite;
+            /*控制动画的状态*/
+            animation-play-state:paused ;
+            /*6/5=1.2s 即20%*/
+            /*延迟是负值，则提前去执行*/
+            /*animation-delay: -20s;*/
+            /*让该属性去继承父元素circle的animation-delay属性*/
+            animation-delay: inherit;
+        }
+        
+        @keyframes pie {
+            to{
+                transform: rotate(180deg);
+            }
+        }
+
+        @keyframes bg{
+            50%{
+                background-color: #855;
+            }
+        }
+
+        
+
+    </style>
+</head>
+<body>
+<div class="circle" style="animation-delay: -20s"></div>
+<input type="range" id="range">
+<p id="percent">50%</p>
+
+<script>
+window.onload=function () {
+    var range=document.querySelector("#range");
+    var circle=document.querySelector(".circle");
+    var percent=document.querySelector("#percent");
+//    调整滑块时，能动态显示饼图的动画
+    range.oninput=function (event) {
+        circle.style.animationDelay= -range.value+"s";
+//        动态显示百分比
+        percent.innerHTML=range.value+"%"
+    }
+    
+};
+    
+    
+
+</script>
+</body>
+</html>
