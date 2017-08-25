@@ -1,6 +1,7 @@
 //DAO数据管理层
 var mysql=require("mysql");
 var dbconfig=require("../dbconfig01");
+//数据库的连接有一定的限制
 var client=mysql.createConnection(dbconfig.options);
 exports.user={
     getPasswdById:function (userName,callback) {

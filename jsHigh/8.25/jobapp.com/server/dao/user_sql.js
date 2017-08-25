@@ -1,0 +1,4 @@
+exports.sql={
+    getPasswdById:"",
+    addUser:""
+}

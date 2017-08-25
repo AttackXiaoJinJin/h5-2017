@@ -48,7 +48,9 @@ var orderPostion=function (condition,flag) {
     var order_rule=flag?'asc':'desc';
     //会异步执行
     //传来的字段,添加[mysql.escapeId(condition)]
-    client.query("select * from posotion order by "+[mysql.escapeId(condition)]+" "+order_rule,function (err,result,fields) {
+    // client.query("select * from posotion order by "+mysql.escapeId(condition)+" "+order_rule,function (err,result,fields) {
+    var sql="select * from posotion order by ?? "+order_rule;
+    client.query(sql+[condition],function (err,result,fields) {
         if(err){
             console.log(err.message);
             return;
