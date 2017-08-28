@@ -1,0 +1,37 @@
+doctype html
+html(lang='en')
+    head
+        meta(charset='UTF-8')
+        title login
+
+    body
+        .container
+            .row
+                h3.col-md-12.col-lg-12.col-lg-offset-5(style='margin-bottom: 50px;') 登录页面
+                .col-md-6.col-lg-6.col-lg-offset-3
+                    form#myForm.form-horizontal
+                        .form-group
+                            label.col-sm-2.control-label(for='user_phone') phone
+                            .col-sm-10
+                                input#user_phone.form-control(type='number', name='userPhone', placeholder='userPhone')
+                        .form-group
+                            label.col-sm-2.control-label(for='err_phone')
+                            #err_phone.col-sm-10.text-danger
+                        .form-group
+                            label.col-sm-2.control-label(for='user_passwd') Password
+                            .col-sm-10
+                                input#user_passwd.form-control(type='password', name='userPasswd', placeholder='Password')
+                        .form-group
+                            label.col-sm-2.control-label(for='err_passwd')
+                            #err_passwd.col-sm-10.text-danger
+                        .form-group
+                            .col-sm-offset-2.col-sm-10
+                                .checkbox.col-lg-6
+                                    label
+                                        input(type='checkbox')
+                                        |  Remember me
+                                .col-lg-6.checkbox
+                                    a(href='regist.html') 注册
+                        .form-group
+                            .col-sm-offset-2.col-sm-10
+                                button#btn_submit.btn.btn-default(type='button') Login

@@ -1,4 +1,4 @@
-var mysql=require("mysql")
+var mysql=require("mysql");
 var options={
     host:"localhost",
     port:"3305",

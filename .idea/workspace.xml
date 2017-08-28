@@ -2,14 +2,169 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/position_dao.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/db_pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.26/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.26/login_regist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.26/事务transtion.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.26/连接池pool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/aaweb/views/login.jade" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/login.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/regist.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/bignumber.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/bignumber.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/bignumber.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/doc/API.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/bignumber.js/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/core-util-is/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/core-util-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/core-util-is/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/core-util-is/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/core-util-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/core-util-is/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/isarray/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/Changes.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/License" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/Connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/ConnectionConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/Pool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/PoolCluster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/PoolConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/PoolConnection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/PoolNamespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/PoolSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/Auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/BufferList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/PacketHeader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/PacketWriter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/Parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/Protocol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/ResultSet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/SqlString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/constants/charsets.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/constants/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/constants/errors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/constants/field_flags.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/constants/server_status.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/constants/ssl_profiles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/constants/types.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ComChangeUserPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ComPingPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ComQueryPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ComQuitPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ComStatisticsPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/EmptyPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/EofPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ErrorPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/Field.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/FieldPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/LocalDataFilePacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/OkPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/OldPasswordPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/ResultSetHeaderPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/RowDataPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/SSLRequestPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/StatisticsPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/UseOldPasswordPacket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/packets/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/ChangeUser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/Handshake.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/Ping.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/Query.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/Quit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/Sequence.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/Statistics.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/protocol/sequences/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/process-nextick-args/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/process-nextick-args/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/process-nextick-args/license.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/process-nextick-args/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/process-nextick-args/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/process-nextick-args/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/GOVERNANCE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/duplex-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/internal/streams/destroy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/internal/streams/stream-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/lib/internal/streams/stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/readable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/writable-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/safe-buffer/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/safe-buffer/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/safe-buffer/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/safe-buffer/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/safe-buffer/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/safe-buffer/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/sqlstring/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/sqlstring/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/sqlstring/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/sqlstring/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/sqlstring/lib/SqlString.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/sqlstring/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/string_decoder/lib/string_decoder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/util-deprecate/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/util-deprecate/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/util-deprecate/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/util-deprecate/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/util-deprecate/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/util-deprecate/package.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/position_dao.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/db_pool.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jsHigh/8.26/login_regist.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aaweb/app.js" afterPath="$PROJECT_DIR$/aaweb/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aaweb/bin/www" afterPath="$PROJECT_DIR$/aaweb/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aaweb/routes/index.js" afterPath="$PROJECT_DIR$/aaweb/routes/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aaweb/routes/users.js" afterPath="$PROJECT_DIR$/aaweb/routes/users.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aaweb/views/index.jade" afterPath="$PROJECT_DIR$/aaweb/views/index.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/index.js" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/index.html" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/login.html" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/regist.html" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/regist.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_dao.js" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_dao.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_sql.js" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_sql.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dbconfig.js" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dbconfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/route/user_user.js" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/route/user_user.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/login_regist.js" afterPath="$PROJECT_DIR$/jsHigh/8.28/login_regist.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/util.js" afterPath="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/utils/util.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/8.26/login.html" afterPath="$PROJECT_DIR$/jsHigh/8.28/login.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/8.26/事务transtion.js" afterPath="$PROJECT_DIR$/jsHigh/8.28/事务transtion.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jsHigh/8.26/连接池pool.js" afterPath="$PROJECT_DIR$/jsHigh/8.28/连接池pool.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,21 +181,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aaweb/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="0">
+              <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jsHigh/8.26/login.html">
+      <file leaf-file-name="login.jade" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aaweb/views/login.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="62" column="79" lean-forward="false" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
+            <state relative-caret-position="368">
+              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/aaweb/routes/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -49,18 +214,48 @@
       <file leaf-file-name="www" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aaweb/bin/www">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/aaweb/app.js">
+      <file leaf-file-name="连接池pool.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsHigh/8.28/连接池pool.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pool.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/Pool.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_dao.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_dao.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -73,6 +268,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Jade File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -89,13 +285,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsHigh/8.23/test1.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.23/www.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.23/www解析方式.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.23/test2.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.23/聚合数据.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.23/www_route.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.23/login.html" />
         <option value="$PROJECT_DIR$/jsHigh/8.23/gobal.js" />
         <option value="$PROJECT_DIR$/jsHigh/8.23/www_exception.js" />
         <option value="$PROJECT_DIR$/h5实战/CSS3实战/翻页效果.html" />
@@ -137,9 +326,16 @@
         <option value="$PROJECT_DIR$/jsHigh/8.26/事务transtion.js" />
         <option value="$PROJECT_DIR$/828web/package.json" />
         <option value="$PROJECT_DIR$/aaweb/package.json" />
-        <option value="$PROJECT_DIR$/aaweb/app.js" />
-        <option value="$PROJECT_DIR$/aaweb/routes/index.js" />
         <option value="$PROJECT_DIR$/jsHigh/8.26/login.html" />
+        <option value="$PROJECT_DIR$/aaweb/bin/www" />
+        <option value="$PROJECT_DIR$/aaweb/routes/index.js" />
+        <option value="$PROJECT_DIR$/aaweb/app.js" />
+        <option value="$PROJECT_DIR$/aaweb/views/index.jade" />
+        <option value="$PROJECT_DIR$/aaweb/views/login.jade" />
+        <option value="$PROJECT_DIR$/aaweb/routes/users.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.28/连接池pool.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/login.js" />
+        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/regist.js" />
       </list>
     </option>
   </component>
@@ -158,11 +354,12 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/aaweb/node_modules" />
+    <handled-path value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1120" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-6" />
+    <option name="width" value="1031" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -209,123 +406,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="aaweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="aaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="bin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="aaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="aaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="aaweb" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-              <item name="jobapp.com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-              <item name="jobapp.com" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-              <item name="jobapp.com" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-              <item name="jobapp.com" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap-3.3.7-dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-              <item name="jobapp.com" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-              <item name="jobapp.com" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.25" type="462c0819:PsiDirectoryNode" />
-              <item name="jobapp.com" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="webs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="jsHigh" type="462c0819:PsiDirectoryNode" />
-              <item name="8.26" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Default">
@@ -338,6 +418,17 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="h5-2017" type="cbb8eebc:String" user="h5-2017" />
               <item name="jsTest" type="cbb8eebc:String" user="jsTest" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -357,19 +448,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.26" />
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\client\js" />
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com" />
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.24\cj.com\client" />
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.24" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\server" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\client\webs" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\client" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.22\cj.com\server" />
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.22" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com" />
+      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.28" />
+      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.26" />
+      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\client\js" />
+      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.24\cj.com\client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -450,26 +541,26 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/aaweb" />
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/aaweb/routes" />
-    <configuration name="连接池pool.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="连接池pool.js" working-dir="$PROJECT_DIR$/jsHigh/8.26" />
+    <configuration name="连接池pool.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="$PROJECT_DIR$/jsHigh/8.28/连接池pool.js" working-dir="$PROJECT_DIR$/jsHigh/8.28" />
+    <configuration name="事务transtion.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="事务transtion.js" working-dir="$PROJECT_DIR$/jsHigh/8.28" />
+    <configuration name="users.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="users.js" working-dir="$PROJECT_DIR$/aaweb/routes" />
     <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/aaweb/bin" />
-    <configuration name="www.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www.js" working-dir="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server" />
-    <configuration name="www.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www.js" working-dir="$PROJECT_DIR$/jsHigh/8.24/cj.com/server" />
-    <configuration name="www解析方式.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www解析方式.js" working-dir="$PROJECT_DIR$/jsHigh/8.23" />
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.www.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.www.js (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.连接池pool.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.www" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.连接池pool.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.www" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.app.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.users.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.index.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.连接池pool.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.www.js (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.www.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.users.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.连接池pool.js" />
       </list>
     </recent_temporary>
   </component>
@@ -594,12 +685,14 @@
       <workItem from="1503880634071" duration="5765000" />
       <workItem from="1503887392862" duration="1059000" />
       <workItem from="1503888506376" duration="627000" />
-      <workItem from="1503889440320" duration="1827000" />
+      <workItem from="1503889440320" duration="3319000" />
+      <workItem from="1503896068243" duration="178000" />
+      <workItem from="1503898370822" duration="14149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1000561000" />
+    <option name="totallyTimeSpent" value="1016380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,14 +704,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1120" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="-6" y="0" width="1031" height="1038" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22565544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2451481" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21039604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20792079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30445546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -645,55 +737,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/DAO/user_dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.24/cj.com/client/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/www.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.22/cj.com/server/route/user_route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.24/cj.com/server/route/book_route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.24/domain显式.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsHigh/8.24/domain隐式.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -841,20 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/login_regist.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="56" column="5" lean-forward="false" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -904,40 +933,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.26/连接池pool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_dao.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1521">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/828web/bin/www" />
     <entry file="file://$PROJECT_DIR$/828web/app.js" />
     <entry file="file://$PROJECT_DIR$/828web/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.26/事务transtion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/828web/package.json" />
     <entry file="file://$PROJECT_DIR$/aaweb/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aaweb/public/stylesheets/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/jobapp.com/client/js/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -947,40 +961,128 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aaweb/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="1650">
+          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/bin/www">
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.26/login_regist.js">
+    <entry file="file://$PROJECT_DIR$/Bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2772">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.26/login.html">
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/login_regist.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="62" column="79" lean-forward="false" selection-start-line="62" selection-start-column="79" selection-end-line="62" selection-end-column="79" />
+        <state relative-caret-position="363">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaweb/views/login.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaweb/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/aaweb/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/事务transtion.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaweb/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aaweb/bin/www">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/regist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/Pool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_dao.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/连接池pool.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="29" column="19" lean-forward="false" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
           <folding />
         </state>
       </provider>

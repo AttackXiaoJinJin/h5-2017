@@ -21,6 +21,30 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+//拦截路由
+// app.all("*",function (request,response,next) {
+//     console.log("this is aaweb ~~");
+//     //写上跨域
+//     response.header("Access-Control-Allow-Origin","http://localhost:6334");
+//     response.header("Access-Control-Allow-Methods","PUT,GET,POST,DELETE,OPTIONS");
+//     response.header("Access-Control-Allow-Headers","X-Requested-With");
+//     response.header("Access-Control-Allow-Origin","Content-Type");
+//     //往下寻找接口
+//     next();
+// });
+//
+// 过滤器,中间件
+app.use("*",function (request,response,next) {
+    console.log("this is aaweb ~~");
+    //写上跨域
+    response.header("Access-Control-Allow-Origin","http://localhost:6334");
+    response.header("Access-Control-Allow-Methods","PUT,GET,POST,DELETE,OPTIONS");
+    response.header("Access-Control-Allow-Headers","X-Requested-With");
+    response.header("Access-Control-Allow-Origin","Content-Type");
+    console.log("this is use");
+    //往下寻找接口
+    next();
+});
 //路径选择 / 进入Index /users 进入users
 app.use('/', index);
 app.use('/users', users);
