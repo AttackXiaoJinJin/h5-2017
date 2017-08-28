@@ -1,7 +1,3 @@
-/**
- * Created by lzhan on 2017/8/22.
- */
-
 
 // exports.createUnique=createUnique;
 var hex_chr = "0123456789abcdef";
@@ -139,43 +135,13 @@ function MD5(str)
     return rhex(a) + rhex(b) + rhex(c) + rhex(d);
 }
 
-
-
-// var util={
-//     "createUnique":function() {
-//         var date=new Date().valueOf();
-//         var random=Math.random();
-//         return date+''+random;
-//     },
-//     "MD5":function(s) {
-//
-//     }
-// };
-
-// exports.util=util;
-
-// exports.util={
-//     "createUnique":function() {
-//         var date=new Date().valueOf();
-//         var random=Math.random();
-//         return date+''+random;
-//     },
-//     "MD5":function(s) {
-//
-//     }
-// };
-
-
-
-
-
-
 exports.createUnique=function () {
     var date=new Date().valueOf();
     var random=Math.random();
     return date+''+random;
 };
-exports.MD5=MD5;
+
+
 
 exports.dateFormat=function (time,fmt) { //author: meizz
     var o = {
@@ -199,4 +165,7 @@ exports.formatLongString=function (str,len) {
     }{
         return str.substring(0,len-3)+'...';
     }
-}
+};
+
+exports.MD5=MD5;
+// exports.add=add;
