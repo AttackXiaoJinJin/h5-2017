@@ -19,7 +19,8 @@ $(function () {
                 type:'post',
                 url:'http://localhost:3001/user/regist',
                 data:$('#registForm').serialize(),
-                dataType:'text',
+                dataType:'json',
+                contentType:"application/x-www-form-urlencoded;charset=utf-8",
                 success:function (data) {
                     if(data=="6"){
                         //跳转
