@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="../../angular-1.6.3/angular.js"></script>
+</head>
+<body ng-app="myapp">
+    <div class="container" >
+        <div class="row"  ng-controller="mycontroller">
+            <div class="col-md-4 col-lg-4">
+                <input type="text" ng-model="good_id">
+              <directive-detail gid="good_id" ></directive-detail>
+            </div>
+            <div class="col-md-8 col-lg-8">
+                <directive-goods goods="goods"></directive-goods>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        var app=angular.module('myapp',[]);
+        app.controller('mycontroller',function ($scope) {
+            $scope.goods=[
+                {
+                    id:'001',
+                    name:'mac pro'
+                },
+                {
+                    id:'002',
+                    name:'mac air'
+                },
+                {
+                    id:'003',
+                    name:'lenovo'
+                },
+                {
+                    id:'004',
+                    name:'dell'
+                }
+                ];
+            $scope.show=function (id) {
+               $scope.good_id=id;
+            }
+        });
+//        指令
+        app.directive("directiveGoods", function() {
+            return {
+                restrict: "ECMA",
+                replace: true,
+                scope:{
+                    'allgoods':'=goods'  //all-goods
+
+                },
+                template: ` <div ng-repeat="item in allgoods">
+                    <span>{{item.id}}</span>
+                    <span>{{item.name}}</span>
+                    <button ng-click="show(item.id)">click</button>
+                    </div>
+                `,
+                controller:function ($scope) {
+                }
+            };
+        });
+        app.directive("directiveDetail", function() {
+            return {
+                restrict: "ECMA",
+                replace: true,
+                scope:{
+                    'goodId':'=gid'
+                },
+                template: ` <h3>你点击的商品详情:{{goodId}}</h3>`,
+                link:function () {
+
+                },
+                controller:function () {
+                }
+            };
+        })
+    </script>
+</body>
+</html>

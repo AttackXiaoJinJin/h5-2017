@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../../Bootstrap/css/bootstrap.css">
+    <script src="../../angular-1.6.3/angular.js"></script>
+
+</head>
+<body ng-app="myapp">
+    <div class="container" >
+        <!--控制器-->
+        <div class="row"  ng-controller="mycontroller">
+            <div class="col-md-6 col-lg-6">
+                <!--定义一个模型叫user.name-->
+                <input type="text" ng-model="user.name">
+                <!--定义一个点击叫show()-->
+                <input  type="button" value="click me ..." ng-click="show()">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <!--显示user.name内容-->
+                <p>{{user.name.substring(0,4)}}</p>
+                <h1>指令中的内容</h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                指令：
+               <a-b link-href="https://www.baidu.com" link-text="百度" ></a-b>
+               <a-b link-href="https://www.163.com" link-text="网易" ></a-b>
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <p></p>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+        //绑定模块myapp
+        var myapp=angular.module('myapp',[]);
+        //绑定myapp中的控制器mycontroller
+        //scope领域
+        myapp.controller('mycontroller',function ($scope) {
+            var id='001';
+            //user.name初始化的值为tom...
+            $scope.user={
+                name:'tom....'
+            };
+            //show()方法定义
+            $scope.show=function () {
+                alert($scope.user.name)
+            }
+        });
+//        指令
+        app.directive("aB", function() {
+            return {
+                restrict: "ECMA",
+                replace: true,
+                scope:{
+                    'linkText':'@',  //link-text
+                    'linkHref':'@'   //link-href
+                },
+                template: `<div>
+                    <a href="{{linkHref}}">{{linkText}}</a>
+                    <button ng-click="show()">click...</button>
+                </div>`,
+                controller:function ($scope) {
+                    $scope.show=function () {
+                        alert('ok');
+                    }
+                }
+            };
+        })
+    </script>
+</body>
+</html>

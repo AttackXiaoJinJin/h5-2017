@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hello</title>
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../../Bootstrap/css/bootstrap-theme.css">
+    <script src="../angular.js-1.6.3/angularFiles.js"></script>
+
+</head>
+<body>
+<div class="container">
+    <div class="row" ng-app="myapp" ng-controller="mycontroller">
+        <div class="col-lg-6 col-md-6">
+            <input type="text" ng-model="user.name">
+            <input class="txtcss" type="button" value="点我" ng-click="show()">
+        </div>
+        <div class="col-md-6 col-lg-6">
+            <p>{{user.name}}</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-6">
+
+               <directive-search></directive-search>
+
+        </div>
+        <div class="col-md-6 col-lg-6">
+            <p></p>
+        </div>
+    </div>
+
+</div>
+<script>
+    var app=angular.module("myapp",[]);
+    //控制器
+    app.controller("mycontroller",function ($scope) {
+//        初始化
+    $scope.user={
+    name:'chenhaha'
+    };
+    $scope.show=function () {
+        alert($scope.user.name);
+    }
+    });
+
+    //定义组件
+    app.directive("directiveSearch",function () {
+        return{
+            restrict:"AEM",
+            replace:true,
+            template:`<div><input type="text"><input type="button" value="搜索"></div>`
+        };
+    })
+
+</script>
+
+</body>
+</html>

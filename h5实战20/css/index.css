@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+header{
+    background-color: rgba(0,0,0,0.5);
+    /*这样写就不用float right了*/
+    /*自由伸缩*/
+    display: flex;
+    /*主轴方向对齐方式,放在两边*/
+    justify-content: space-between;
+    /*侧轴方向对齐方式*/
+    align-items: center;
+    padding:8px 15px;
+    /*脱离文档流*/
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+
+}
+
+#menu{
+    display: flex;
+}
+#menu a{
+    color: #fff;
+    border: 1px solid #fff;
+    width: 86px;
+    height: 36px;
+    display: flex;
+    /*主轴方向对齐方式，居中*/
+    justify-content: center;
+    /*侧轴方向对齐方式，居中*/
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#page0{
+    background:url("../img/bg1.jpg") no-repeat;
+}
+#page1{
+    background:url("../img/bg2.jpg") no-repeat;
+}
+#page2{
+    background:url("../img/bg3.jpg") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
