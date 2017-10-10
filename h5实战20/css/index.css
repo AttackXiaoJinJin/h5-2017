@@ -1,4 +1,7 @@
 @charset "UTF-8";
+body{
+    overflow-y: hidden;
+}
 
 header{
     background-color: rgba(0,0,0,0.5);
@@ -23,7 +26,7 @@ header{
 }
 #menu a{
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid transparent;
     width: 86px;
     height: 36px;
     display: flex;
@@ -34,13 +37,85 @@ header{
     border-radius: 5px;
     margin-left: 15px;
 }
-
+/*因为要给id动态添加，其优先级高，为了生效，添加important*/
+.active{
+    border: 1px solid #fff !important;
+}
+/*===========第一页*/
 #page0{
     background:url("../img/bg1.jpg") no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /*隐藏横向的滚动条*/
+    overflow: hidden;
 }
+#page0 div:first-child{
+    /*向左移动800px*/
+    transform: translateX(-800px);
+}
+
+#page0 div:last-child{
+    /*向右移动*/
+    transform: translateX(800px);
+}
+.page0-show{
+    transition: .3s cubic-bezier(.02,.93,.65,1.26) !important;
+    transform: translateX(0px) !important;
+}
+/*==================第二页*/
 #page1{
     background:url("../img/bg2.jpg") no-repeat;
+
 }
+.wrapper{
+    /*background-color: yellow;*/
+    margin: 0 auto;
+    height: 100%;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+.box{
+    width: 154px;
+    height: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*按列排序*/
+    flex-direction: column;
+}
+/*奇数*/
+.box:nth-child(odd){
+    transform: translateY(-800px);
+}
+
+/*偶数*/
+.box:nth-child(even){
+    transform: translateY(800px);
+}
+
+.box1{background-color: #595CA8;}
+.box2{background-color: #FF9D2E;}
+.box3{background-color: #01A6DE;}
+.box4{background-color: #015E91;}
+.box5{background-color: #1DC128;}
+.box6{background-color: #01A6DE;}
+
+/*#page1:hover .box{*/
+    /*transition: .3s cubic-bezier(.02,.93,.65,1.26) !important;*/
+    /*transform: translateY(0px) !important;*/
+/*}*/
+
+.page1-show{
+    transition: .3s cubic-bezier(.02,.93,.65,1.26) !important;
+    transform: translateY(0px) !important;
+}
+
+/*======================第三页*/
 #page2{
     background:url("../img/bg3.jpg") no-repeat;
 }
