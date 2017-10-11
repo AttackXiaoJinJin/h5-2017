@@ -1,0 +1,13 @@
+@charset "UTF-8";
+$color:red;
+@mixin mybox{
+  width: 200px;
+  height: 200px;
+  background: $color;
+  margin: 0 auto;
+padding: 0;
+  color: #00b38a;
+}
+.box{
+  @include mybox;
+}

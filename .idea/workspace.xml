@@ -2,10 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/25.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/26.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/27.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/28.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/29.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/30.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/31.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/32.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/33.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/34.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/35.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/36.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/37.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/38.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/39.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/40.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/41.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/42.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/43.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/44.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/45.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/46.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/47.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/48.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/49.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/50.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/51.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/52.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/53.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/54.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/55.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/56.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/57.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/58.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/59.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/img/car/9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/360全景图片.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/360全景图19/js/car.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gruntDemo/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gruntDemo/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gruntDemo/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/asdasd.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/packageconfig.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/src/css/asdasd.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/src/css/zzz.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/src/dthth" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/src/users/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/src/users/regist.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpDemo/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/h5实战20/css/index.css" afterPath="$PROJECT_DIR$/h5实战20/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/h5实战20/js/index.js" afterPath="$PROJECT_DIR$/h5实战20/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/h5实战20/number20.html" afterPath="$PROJECT_DIR$/h5实战20/number20.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/CSS3实战/幽灵按钮.html" afterPath="$PROJECT_DIR$/天猫品牌墙/CSS3实战/幽灵按钮.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/CSS3实战/扇形饼图.html" afterPath="$PROJECT_DIR$/天猫品牌墙/CSS3实战/扇形饼图.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/CSS3实战/翻页效果.html" afterPath="$PROJECT_DIR$/天猫品牌墙/CSS3实战/翻页效果.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/css.css" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/css.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/heart.png" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/heart.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon1.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon10.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon11.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon12.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon13.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon14.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon15.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon15.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon16.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon16.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon17.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon17.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon18.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon18.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon19.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon19.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon2.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon20.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon20.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon21.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon21.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon22.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon22.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon23.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon23.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon24.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon24.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon25.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon25.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon26.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon26.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon27.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon27.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon28.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon28.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon29.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon29.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon3.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon30.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon30.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon31.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon31.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon32.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon32.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon33.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon33.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon34.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon34.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon35.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon35.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon36.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon36.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon37.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon37.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon38.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon38.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon39.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon39.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon4.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon40.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon40.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon41.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon41.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon42.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon42.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon43.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon43.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon44.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon44.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon45.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon45.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon46.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon46.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon5.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon6.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon7.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon8.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/icon9.jpg" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/icon9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/refresh-white.png" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/refresh-white.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/images/refresh.png" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/images/refresh.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/js.js" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/js.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战/天猫品牌墙/天猫品牌墙.html" afterPath="$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/天猫品牌墙.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/css/index.css" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/css/index.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/css/reset.css" afterPath="$PROJECT_DIR$/360全景图19/css/reset.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/atguigu-logo.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/atguigu-logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/atguigu.ico" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/atguigu.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/banner1.jpg" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/banner1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/banner2.jpg" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/banner2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/banner3.jpg" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/banner3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/bg1.jpg" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/bg1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/bg2.jpg" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/bg2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/bg3.jpg" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/bg3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/sz_banner.jpg" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/sz_banner.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/yun.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/yun.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/ywfw_1.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/ywfw_1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/ywfw_2.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/ywfw_2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/ywfw_3.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/ywfw_3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/ywfw_4.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/ywfw_4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/ywfw_5.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/ywfw_5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/ywfw_6.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/ywfw_6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/img/ywfw_f.png" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/img/ywfw_f.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/js/index.js" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/js/index.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/h5实战20/number20.html" afterPath="$PROJECT_DIR$/flex和贝塞尔曲线/number20.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,31 +172,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="number20.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h5实战20/number20.html">
+      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulpDemo/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+            <state relative-caret-position="99">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="41" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/h5实战20/css/index.css">
+      <file leaf-file-name="asdasd.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpDemo/asdasd.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+            <state relative-caret-position="264">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/h5实战20/js/index.js">
+      <file leaf-file-name="asdasd.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpDemo/src/css/asdasd.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="297">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zzz.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulpDemo/src/css/zzz.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -58,8 +218,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jade File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+        <option value="package_json" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -76,27 +238,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsHigh/8.22/cj.com/client/login.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/domain隐式.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/dbconfig.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/cj.com/server/dbconfig.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/cj.com/server/www.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/cj.com/client/login.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/cj.com/client/register.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/cj.com/server/route/user_route.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/cj.com/server/DAO/user_dao.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.24/连接数据库.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/regist.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/index.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/login.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/index.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/login.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/route/user_route.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/route/user_position.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/www.js" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/404.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/regist.html" />
-        <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/code_number.txt" />
         <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/route/user_user.js" />
         <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/login_regist.js" />
         <option value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_sql.js" />
@@ -127,6 +268,27 @@
         <option value="$PROJECT_DIR$/h5实战20/number20.html" />
         <option value="$PROJECT_DIR$/h5实战20/css/index.css" />
         <option value="$PROJECT_DIR$/h5实战20/js/index.js" />
+        <option value="$PROJECT_DIR$/h5实战19/h5实战19.html" />
+        <option value="$PROJECT_DIR$/h5实战19/360全景图片.html" />
+        <option value="$PROJECT_DIR$/h5实战19/js/car.js" />
+        <option value="$PROJECT_DIR$/360全景图19/360全景图片.html" />
+        <option value="$PROJECT_DIR$/360全景图19/js/car.js" />
+        <option value="$PROJECT_DIR$/gulp/package.json" />
+        <option value="$PROJECT_DIR$/gulp/index.html" />
+        <option value="$PROJECT_DIR$/gulp/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulpDemo/src/users/login.html" />
+        <option value="$PROJECT_DIR$/gulpDemo/src/users/regist.html" />
+        <option value="$PROJECT_DIR$/gulpDemo/index.html" />
+        <option value="$PROJECT_DIR$/gulpDemo/src/asdasd.scss" />
+        <option value="$PROJECT_DIR$/gulpDemo/asdasd.scss" />
+        <option value="$PROJECT_DIR$/gulpDemo/packageconfig.json" />
+        <option value="$PROJECT_DIR$/gulpDemo/www/index.html" />
+        <option value="$PROJECT_DIR$/gruntDemo/package.json" />
+        <option value="$PROJECT_DIR$/gruntDemo/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/gruntDemo/index.js" />
+        <option value="$PROJECT_DIR$/gulpDemo/src/css/asdasd.scss" />
+        <option value="$PROJECT_DIR$/gulpDemo/gulpfile.js" />
+        <option value="$PROJECT_DIR$/gulpDemo/src/css/zzz.scss" />
       </list>
     </option>
   </component>
@@ -145,13 +307,13 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/aaweb/node_modules" />
+    <handled-path value="$PROJECT_DIR$/gruntDemo/node_modules" />
     <handled-path value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-33" />
-    <option name="y" value="7" />
-    <option name="width" value="1195" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-5" />
+    <option name="width" value="1284" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -209,19 +371,20 @@
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="h5实战20" type="462c0819:PsiDirectoryNode" />
+              <item name="gulpDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="h5实战20" type="462c0819:PsiDirectoryNode" />
+              <item name="gulpDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="gulpDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="h5实战20" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -265,11 +428,11 @@
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.22\cj.com\server" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\gulpDemo\src\css" />
+      <recent name="F:\h5-gaobo\h5-2017\gulpDemo" />
+      <recent name="F:\h5-gaobo\h5-2017\h5实战19\css" />
+      <recent name="F:\h5-gaobo\h5-2017\h5实战19\img\car" />
       <recent name="F:\h5-gaobo\h5-2017\h5实战20\img" />
-      <recent name="F:\h5-gaobo\h5-2017\h5实战20\css" />
-      <recent name="F:\h5-gaobo\h5-2017\AngularJS" />
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.28" />
-      <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,8 +447,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.3.类.js">
+  <component name="RunManager" selected="Node.js.Gruntfile.js">
     <configuration name="3.类.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="3.类.js" working-dir="$PROJECT_DIR$/AngularJS/unit1/code01" />
+    <configuration name="Gruntfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Gruntfile.js" working-dir="$PROJECT_DIR$/gruntDemo" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -351,25 +515,24 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/aaweb" />
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/aaweb/routes" />
     <configuration name="事务transtion.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="事务transtion.js" working-dir="$PROJECT_DIR$/jsHigh/8.28" />
     <configuration name="users.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="users.js" working-dir="$PROJECT_DIR$/aaweb/routes" />
     <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/aaweb/bin" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.app.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.users.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.3.类.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.users.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.3.类.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.3.类.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.www" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.users.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.app.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.3.类.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.www" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.users.js" />
       </list>
     </recent_temporary>
   </component>
@@ -510,12 +673,16 @@
       <workItem from="1507555667177" duration="660000" />
       <workItem from="1507562766842" duration="2223000" />
       <workItem from="1507594255063" duration="1203000" />
-      <workItem from="1507629834319" duration="11473000" />
+      <workItem from="1507629834319" duration="13908000" />
+      <workItem from="1507647788720" duration="2437000" />
+      <workItem from="1507681317262" duration="1210000" />
+      <workItem from="1507683922583" duration="1292000" />
+      <workItem from="1507685269340" duration="9660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1058056000" />
+    <option name="totallyTimeSpent" value="1075090000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -527,24 +694,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-33" y="7" width="1195" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16710411" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14793213" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20792079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20792079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.249742" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29950494" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20537898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -561,146 +728,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/position_dao.js" />
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/db_pool.js" />
-    <entry file="file://$PROJECT_DIR$/828web/bin/www" />
-    <entry file="file://$PROJECT_DIR$/828web/app.js" />
-    <entry file="file://$PROJECT_DIR$/828web/npm-debug.log" />
-    <entry file="file://$PROJECT_DIR$/828web/package.json" />
-    <entry file="file://$PROJECT_DIR$/aaweb/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/public/stylesheets/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/jobapp.com/client/js/util.js" />
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/views/login.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/事务transtion.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules/mysql/lib/Pool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dbconfig.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/bin/www">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="3" lean-forward="false" selection-start-line="41" selection-start-column="3" selection-end-line="41" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.28/连接池pool.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/route/user_user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/route/user_position.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/server/dao/user_sql.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="14" lean-forward="false" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aaweb/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="46" column="3" lean-forward="true" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsHigh/8.25/jobapp.com/client/webs/regist.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-990">
@@ -818,33 +845,221 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5实战20/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5实战20/number20.html">
+    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/number20.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5实战20/css/index.css">
+    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="117" column="29" lean-forward="true" selection-start-line="117" selection-start-column="29" selection-end-line="117" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/360全景图19/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/360全景图19/js/car.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/360全景图19/360全景图片.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/index.html" />
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/gulp/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/h5实战20/js/index.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="-396">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gulp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4711">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/src/users/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/src/users/regist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/src/dthth">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/src/asdasd.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/packageconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruntDemo/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruntDemo/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="8" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruntDemo/dist/index.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gruntDemo/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/asdasd.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/src/css/asdasd.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/src/css/zzz.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpDemo/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="41" selection-end-column="3" />
           <folding />
         </state>
       </provider>
