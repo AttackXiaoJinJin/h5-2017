@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab切换</title>
+    <style>
+        #container .active{
+            background: yellow;
+        }
+        #container div{
+            width: 200px;
+            height: 200px;
+            background: #ccc;
+            display:none;
+        }
+    </style>
+
+</head>
+<body>
+<div id="container">
+    <input type="button" class="active" value="热门新闻">
+    <input type="button"  value="国内新闻">
+    <input type="button"  value="国际新闻">
+    <div style="display:block;">国亲旅游线路爆棚</div>
+    <div>中秋赏月，全民同乐</div>
+    <div>美国赌城血案</div>
+</div>
+
+<script>
+    //既然Main成为对象了，就要new该对象的一个实例，而不是让
+    //window.onload =Main;
+    //考虑到要在其他页面复用这个tab导航，所以要传一个参
+    //这个参即整个组件的ID
+//    window.onload =new Main;
+    //window.onload要等于一个函数，才能去调用
+    //虽然刚刚=new Main也可以，但就不能有其他对象new了（多个）
+    window.onload =function () {
+        new Main('#container');
+    };
+
+
+    function Main(id){
+        //隐性 let this=new Object();
+        let container = document.querySelector(id)
+        //为该函数定义一个属性为buttons
+        this.buttons = container.querySelectorAll('input')
+        //为该函数定义一个属性为divs
+        this.divs = container.querySelectorAll('div')
+        //放进循环中，减少内存
+//        let i = 0;
+        let that=this;
+        for(let i = 0 ; i < this.buttons.length ; i++){
+            //buttons不是该循环的属性，而是父辈函数的属性,故用that
+            that.buttons[i].index = i;
+            //1.既然btnClick成为Main的一个属性，而不是方法了
+            //2.所以不能直接让 方法 = 属性
+            //3.就算加了that.xxx,还是表示为父对象的某一属性，而不是
+            //方法，所以要加一个匿名函数调用该方法
+            //that.buttons[i].onclick =that.btnClick(that.buttons);
+            that.buttons[i].onclick = function () {
+                //这里面的this指的是that.button[i],
+                //可以将其替换为this
+//                that.btnClick(that.buttons);
+                that.btnClick(this);
+            }
+        }
+    }
+
+    //1.将有function的封装成有函数名的方法
+    //因为该函数有用到其他函数的属性，所以需要共享
+    //共享有两种方法
+    //（1）子函数所有属性都是父函数，可以直接让子函数成为父函数的
+    //一个属性
+    //（2）子函数有一些属性是自己特有的，只需继承一部分父函数的属性
+
+    //既然是属性，那就是对象的属性，所以要把函数名首字母大写，成为对象
+    Main.prototype.btnClick=function(button){
+        //这里的this就是指的父函数
+        let that=this;
+        for(let i = 0 ; i < this.buttons.length ;i++){
+            that.buttons[i].className = '';
+            that.divs[i].style.display = 'none';
+        }
+        //原来的this指的是特定的一个button，
+        //这里的this指父函数（对象）
+//        this.className = 'active';
+        button.className = 'active';
+        //this.index指的就是某一个button.index
+        // that.buttons[i].index = i;
+        //既然button传过来了，就用它
+        this.divs[button.index].style.display = 'block';
+//        this.divs[button].style.display = 'block';
+    }
+
+
+</script>
+</body>
+</html>

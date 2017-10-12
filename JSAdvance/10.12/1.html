@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+</head>
+<body>
+<script>
+    window.onload=function () {
+//        f1();
+//        a=1000;
+//        function f1() {
+//            function f2() {
+//                function f3() {
+//                    console.log(a);
+//                }
+//                f3();
+//                var a=50;
+//            }
+//            f2();
+//        }
+
+        function Person(color) {
+            console.log(this);
+            this.color=color;
+            this.getColor=function () {
+                console.log(this);
+                return this.color;
+            };
+
+            this.setColor=function (color) {
+                console.log(this);
+                this.color=color;
+            }
+        }
+
+        //this是谁？
+        //是 window
+        Person("red");
+
+        //this是谁
+        //是 p
+        let p=new Person("yellow");
+
+        //this是谁
+        //是 p
+        p.getColor();
+
+
+        let obj={};
+        //this是谁
+        //是 obj
+        p.setColor.call(obj,"black");
+
+        var test=p.setColor;
+        //this是谁
+        //是 window
+        //因为函数调用了
+        test();
+
+        function fun1() {
+            function fun2() {
+                console.log(this);
+            }
+            //this是谁
+            //window
+            fun2();
+        }
+        fun1();
+
+    };
+
+
+</script>
+</body>
+</html>

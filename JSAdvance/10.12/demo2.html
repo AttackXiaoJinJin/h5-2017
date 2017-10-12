@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拉div</title>
+
+</head>
+<body>
+<div id="d1" style="width: 100px;height: 100px;background: red;position:absolute"></div>
+<div id="d2" style="width: 100px;height: 100px;background: blue;position:absolute"></div>
+<script>
+    //        let div=null;
+    //        let disX=null;
+    //        let disY=null;
+
+    window.onload =function () {
+        new Drag('#d1')
+        new LimitDrag('#d2')
+    };
+
+    //封装js
+
+    function Drag(id){
+        let that=this
+        this.div = document.querySelector(id)
+        this.div.onmousedown =function () {
+            that.fundown();
+        };
+    }
+
+    //下面三块原型的东西没有继承
+
+    Drag.prototype.fundown=function(ev){
+        let objevent = ev || event;
+        let that=this
+        this.disX = objevent.clientX - this.div.offsetLeft;
+        this.disY = objevent.clientY - this.div.offsetTop;
+        this.document.onmousemove =function () {
+            that.funmove(ev);
+        }
+        this.document.onmouseup =function () {
+            that.funup();
+        }
+    }
+
+    Drag.prototype.funmove=function(ev){
+        let oe = ev || event;
+        this.div.style.left = oe.clientX - this.disX +'px';
+        this.div.style.top = oe.clientY - this.disY + 'px';
+    }
+
+    Drag.prototype.funup=function(){
+        this.document.onmousemove = null;
+        this.document.onmouseup = null;
+    }
+
+    //============继承
+    //1.类继承（构造方法继承）
+    function LimitDrag(id) {
+        Drag.call(this,id)
+    }
+    //2.原型继承
+    for(let i in Drag.prototype){
+        LimitDrag.prototype[i]=Drag.prototype[i]
+    }
+
+    LimitDrag.prototype.funmove=function(ev){
+        let oe = ev || event;
+        //添加限制移动范围的代码
+        let a= oe.clientX - this.disX
+        let b=oe.clientY - this.disY
+        if(a<0){a=0}
+        if(b<0){b=0}
+        this.div.style.left = a +'px';
+        this.div.style.top = b + 'px';
+    }
+
+</script>
+</body>
+</html>

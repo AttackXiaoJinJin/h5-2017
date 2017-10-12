@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab切换</title>
+    <style>
+        #container .active{
+            background: yellow;
+        }
+        #container div{
+            width: 200px;
+            height: 200px;
+            background: #ccc;
+            display:none;
+        }
+    </style>
+
+</head>
+<body>
+<div id="container">
+    <input type="button" class="active" value="热门新闻">
+    <input type="button"  value="国内新闻">
+    <input type="button"  value="国际新闻">
+    <div style="display:block;">国亲旅游线路爆棚</div>
+    <div>中秋赏月，全民同乐</div>
+    <div>美国赌城血案</div>
+</div>
+
+<script>
+//    let buttons =null;
+//    let divs = null;
+    window.onload =function () {
+        new TabControll('container');
+    };
+
+    //将下列两个function封装成js文件，从而实现复用
+        function TabControll(id){
+            let container = document.getElementById(id);
+            this.buttons = container.getElementsByTagName('input');
+            this.divs = container.getElementsByTagName('div');
+            let that=this;
+            //let i = 0;
+            for(let i = 0 ; i < this.buttons.length ; i++){
+                this.buttons[i].index = i;
+                this.buttons[i].onclick =function () {
+                    that.showTab(this);
+                };
+            }
+        }
+
+        //混合方式
+    TabControll.prototype.showTab=function(button){
+        for(let i = 0 ; i < this.buttons.length ;i++){
+            this.buttons[i].className = '';
+            this.divs[i].style.display = 'none';
+        }
+        this.className = 'active';
+        this.divs[button.index].style.display = 'block';
+    }
+
+</script>
+
+</body>
+</html>

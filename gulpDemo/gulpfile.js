@@ -43,19 +43,19 @@ gulp.task('sass:watch',function () {
 
 
 
-// webserver = require('gulp-webserver');
-// //web服务器
-// gulp.task('webserver', function() {
-//     gulp.src('./www') // 服务器目录（./代表根目录）
-//         .pipe(webserver({ // 运行gulp-webserver
-//             port: 8000, //端口，默认8000
-//             open: true, // 服务器启动时自动打开网页
-//             directoryListing: {
-//                 enable: true,
-//                 path: './www/index.html'
-//             },
-//         }));
-// });
+webserver = require('gulp-webserver');
+//web服务器
+gulp.task('webserver', function() {
+    gulp.src('./www') // 服务器目录（./代表根目录）
+        .pipe(webserver({ // 运行gulp-webserver
+            port: 8000, //端口，默认8000
+            open: true, // 服务器启动时自动打开网页
+            directoryListing: {
+                enable: true,
+                path: './www/index.html'
+            },
+        }));
+});
 
 
 

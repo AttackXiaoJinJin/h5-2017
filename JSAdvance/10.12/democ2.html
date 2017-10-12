@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拖拉div</title>
+
+</head>
+<body>
+<div id="div01" style="width: 100px;height: 100px;background: red;position:absolute"></div>
+<div id="div02" style="width: 100px;height: 100px;background: blue;position:absolute"></div>
+<script>
+    //Main中包含了div
+    //但Main中不包含document,document中有Main这个对象
+    window.onload =function(){
+       //this指window
+       new Main('#div01');
+       new MinMain('#div02');
+    }
+
+    function Main(id){
+        //this指Main
+        this.div = document.querySelector(id)
+        let that=this;
+        this.div.onmousedown = function(){
+            //是Main
+            that.mousedown();
+//            document.mousedown();
+        }
+    }
+
+    //因为都是对document进行监听，操作的都是document的属性
+    // ，但分开来写的话很难将document传递下去，所以需要继承
+    //注意，document在Main中
+    Main.prototype.mousedown=function (ev){
+        //this指Main
+        this.objevent = ev || event;
+        this.disX = this.objevent.clientX - this.div.offsetLeft;
+        this.disY = this.objevent.clientY - this.div.offsetTop;
+        let that=this;
+        document.onmousemove = function(){
+            //mousemove是Main中的属性,要用that
+//            document.mousemove(ev);
+            //document没有定义方法,我们是在Main中写一个
+            //属性叫mousemove的
+            that.mousemove(ev);
+        }
+        document.onmouseup =function(){
+            that.mouseup();
+        }
+    }
+
+    Main.prototype.mousemove=function (ev){
+        //this指Main
+        this.oe = ev || event;
+        this.div.style.left = this.oe.clientX - this.disX +'px';
+        this.div.style.top = this.oe.clientY - this.disY + 'px';
+    }
+
+    Main.prototype.mouseup=function (){
+        document.onmousemove = null;
+        document.onmouseup = null;
+    }
+
+    //复制一个，也就是继承Main对象的所有属性
+    //1.类继承（构造方法继承）,继承的是显式的属性
+    function MinMain(id) {
+        //固定写法
+        Main.call(this,id)
+    }
+    //2.之后要继承Main原型中的属性
+    for(let j in Main.prototype){
+        MinMain.prototype[j]=Main.prototype[j];
+    }
+
+    //3.复制（继承）了后，可以写属于自己的属性
+//    MinMain.prototype.funmove=function(ev){
+//        let oe = ev || event;
+//        //添加限制移动范围的代码
+//        let a= oe.clientX - this.disX
+//        let b=oe.clientY - this.disY
+//        if(a<=0){
+//           a=0
+//        }else if(b<=0){
+//            b=0
+//        }else if(a>this.offsetWidth){
+//            a=this.offsetWidth
+//        }else if(b>this.offsetHeight){
+//            b=this.offsetHeight
+//        }
+//
+//        this.div.style.left = a +'px';
+//        this.div.style.top = b + 'px';
+//    }
+
+</script>
+</body>
+</html>
+
