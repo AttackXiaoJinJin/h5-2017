@@ -21,16 +21,16 @@
 //        }
 
         function Person(color) {
-            console.log(this);
-            this.color=color;
+            console.log(this)
+            this.color=color
             this.getColor=function () {
-                console.log(this);
-                return this.color;
-            };
+                console.log(this)
+                return this.color
+            }
 
             this.setColor=function (color) {
-                console.log(this);
-                this.color=color;
+                console.log(this)
+                this.color=color
             }
         }
 
@@ -40,37 +40,40 @@
 
         //this是谁
         //是 p
-        let p=new Person("yellow");
+        let p=new Person("yellow")
 
         //this是谁
         //是 p
-        p.getColor();
+        p.getColor()
 
 
-        let obj={};
+        let obj={}
         //this是谁
         //是 obj
         p.setColor.call(obj,"black");
 
-        var test=p.setColor;
+        var test=p.setColor
         //this是谁
         //是 window
         //因为函数调用了
-        test();
+        test()
 
         function fun1() {
             function fun2() {
-                console.log(this);
+                console.log(this)
             }
             //this是谁
             //window
-            fun2();
+            fun2()
         }
-        fun1();
+        fun1()
 
-    };
+    }
+
+
 
 
 </script>
+
 </body>
 </html>

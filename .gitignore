@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.idea/inspectionProfiles/
+AngularJS/angular-1.6.3/i18n/ngLocale/
+S1-html/homework/css/
+S1-html/js/
+S1-html/page/
+S1-html/unit3/CSS/
+aaweb/public/images/
+aaweb/public/javascripts/
+gulpDemo/dist/img/
+gulpDemo/dist/js/
+gulpDemo/src/img/
+gulpDemo/src/js/
+jsHigh/8.25/jobapp.com/client/css/
+jsHigh/8.25/jobapp.com/client/images/
+jsHigh/webChange/
