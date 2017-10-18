@@ -1,5 +1,5 @@
 import { Component,ViewChild } from '@angular/core';
-
+import { NavController, NavParams } from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
@@ -16,11 +16,18 @@ export class TabsPage {
   tab4Root = PersonCenterPage;
   //默认选定页
   @ViewChild('rootTabs') tabRef:any;
-  constructor() {
+  constructor(
+    public navCtrl: NavController,
+    public navParams: NavParams,
+  ) {
 
   }
-  //默认选定页
+  //生命周期，页面一加载
   ionViewDidEnter(){
-    this.tabRef.select(2)
+    //默认选定页
+    this.tabRef.select(0)
+    //获取用户id
+    let id=this.navParams.get('userId'+'userName')
+    console.log(id)
   }
 }

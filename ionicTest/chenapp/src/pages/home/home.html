@@ -1,17 +1,60 @@
+<!--header是不刷新的-->
 <ion-header>
+  <!--导航栏-->
   <ion-navbar>
-    <ion-title>Home</ion-title>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col col-4 align-self-center>苏州</ion-col>
+        <ion-title col-4 text-center>猎聘</ion-title>
+        <ion-col col-4 text-right>
+            <ion-searchbar
+              [(ngModel)]="myInput"
+              [showCancelButton]="shouldShowCancel"
+              (ionInput)="OnInput($event)"
+              (ionCancel)="OnCancel($event)"
+            >
+
+            </ion-searchbar>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </ion-navbar>
+  <!--轮播-->
+  <!--给它取名为#slides-->
+  <ion-slides autoplay="2000" loop="true" (ionSlideDidChange)="slideChanged()" #slides>
+    <!--<ion-slide  *ngFor="let item of list" >-->
+    <ion-slide  *ngFor="let item of imgs" >
+      <img src="assets/img/{{item?.img}}" alt="" (click)="showImg(item?.link)">
+    </ion-slide>
+  </ion-slides>
 </ion-header>
 
-<ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+
+<ion-content>
+
+  <ion-list no-lines>
+    <ion-item-sliding *ngFor="let item of lists" (click)="itemSelected(item)">
+    <!--ion-item-->
+    <ion-item >
+      <ion-avatar item-start>
+        <img src="assets/img/{{item?.head}}">
+      </ion-avatar>
+      <h2>{{item?.post}}</h2>
+      <h3>{{item?.salary}}</h3>
+      <p>{{item?.address}}</p>
+    </ion-item>
+      <!--左滑出现删除按钮-->
+      <ion-item-options side="right">
+        <button ion-button color="danger" (click)="deleteById(item.postId)">
+          <ion-icon name="delete"></ion-icon>
+          删除
+        </button>
+      </ion-item-options>
+
+      </ion-item-sliding>
+  </ion-list>
+
+  <button class="btncss" ion-button color="secondary" round (click)="about()">关于页面</button>
+
 </ion-content>
