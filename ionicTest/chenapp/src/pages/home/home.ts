@@ -53,6 +53,10 @@ export class HomePage {
   itemSelected(item){
      // console.log(item.postId)
     let modalPage=this.modalCtrl.create(AboutPage, { "postId":item.postId })
+    //带数据{newName:juan }过来
+    modalPage.onDidDismiss(data => {
+      console.log(data)
+    })
     //呈现
     modalPage.present()
 
@@ -69,6 +73,61 @@ export class HomePage {
   //跳转
   about(){
     this.navCtrl.push(AboutPage)
+  }
+
+  //上拉刷新
+  doRefresh(refresher) {
+    // console.log('Begin async operation', refresher);
+    setTimeout(() => {
+      let aaa=
+        {"head":'head1.jpg',
+          "salary":'15k',
+          "post":'sffsf工程师',
+          "address":'vvvvv号',
+          "postId":1}
+
+      this.lists.unshift(aaa)
+      // console.log('Async operation has ended');
+      refresher.complete();
+    }, 2000);
+  }
+
+//  下拉加载
+//   doInfinite(infiniteScroll) {
+//     console.log('Begin async operation');
+//     setTimeout(() => {
+//       let aaa=
+//         {"head":'head1.jpg',
+//           "salary":'15k',
+//           "post":'sffsf工程师',
+//           "address":'vvvvv号',
+//           "postId":1}
+//       // for (let i = 0; i < 30; i++) {
+//         this.lists.push(aaa);
+//       // }
+//       console.log('Async operation has ended');
+//       infiniteScroll.complete();
+//     }, 500);
+//   }
+  doInfinite(scroll): Promise<any> {
+    console.log('Begin async operation');
+
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        let aaa=
+        {"head":'head1.jpg',
+          "salary":'15k',
+          "post":'sffsf工程师',
+          "address":'vvvvv号',
+          "postId":1
+        }
+        this.lists.push( aaa )
+        //阻止下拉加载
+        scroll.enable(false)
+        console.log('Async operation has ended')
+        resolve();
+      }, 500);
+    })
   }
 
 

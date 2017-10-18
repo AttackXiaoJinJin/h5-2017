@@ -19,7 +19,7 @@ export class AboutPage {
     this.navCtrl.pop();
   }
   close(){
-    //关闭（销毁）当前页面
+    //关闭（销毁）当前页面,并带回数据
     this.viewCtrl.dismiss({"newName":"juan"})
   }
 

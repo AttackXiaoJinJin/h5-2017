@@ -1,14 +1,16 @@
 import { Component,ViewChild } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import {ModalController, NavController, NavParams} from 'ionic-angular';
 import { AboutPage } from '../about/about';
 import { ContactPage } from '../contact/contact';
 import { HomePage } from '../home/home';
 import {PersonCenterPage} from "../person-center/person-center";
+import {PersonalPage} from "../personal/personal";
 
 @Component({
   templateUrl: 'tabs.html'
 })
 export class TabsPage {
+
 
   tab1Root = HomePage;
   tab2Root = AboutPage;
@@ -19,6 +21,7 @@ export class TabsPage {
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
+    public modalCtrl: ModalController,
   ) {
 
   }
@@ -30,4 +33,16 @@ export class TabsPage {
     let id=this.navParams.get('userId'+'userName')
     console.log(id)
   }
+
+  change(){
+    // this.tabRef.select(0)
+    console.log("this is change")
+  }
+  person(){
+    console.log("这是person")
+    let modalPage=this.modalCtrl.create(PersonalPage)
+    // //呈现
+    modalPage.present()
+  }
+
 }

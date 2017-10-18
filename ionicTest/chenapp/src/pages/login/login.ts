@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 //NavController,NavParams是跳转用的
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { AlertController } from 'ionic-angular';
-import { ToastController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams,AlertController,ToastController } from 'ionic-angular';
 import {TabsPage} from "../tabs/tabs";
 import {App,ViewController} from "ionic-angular";
 import {LoginService} from "../../service/LoginService";
+
+import { Storage } from '@ionic/storage';
 
 @IonicPage()
 @Component({
@@ -14,7 +14,7 @@ import {LoginService} from "../../service/LoginService";
   providers:[LoginService]
 })
 export class LoginPage {
-  isLogin:boolean=false;
+  // isLogin:boolean=false;
   constructor(
     public navCtrl: NavController,
     public navParams: NavParams,
@@ -23,6 +23,7 @@ export class LoginPage {
     public viewCtrl: ViewController,
     public app: App,
     private lg:LoginService,
+    private storage: Storage,
   ) {
   }
 
@@ -35,8 +36,11 @@ export class LoginPage {
     //   duration: 3000
     // });
     // toast.present();
-    this.isLogin=true;
-    this.lg.login = this.isLogin;
+    // this.isLogin=true;
+    // this.lg.login = this.isLogin;
+    this.storage.ready().then(()=> {
+      this.storage.set('isLogin', true);
+    })
     this.navCtrl.push(TabsPage,{userId:'001',userName:'chen'})
     // this.viewCtrl.dismiss()
     // this.app.getRootNav().push(TabsPage)

@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-4 align-self-center>返回</ion-col>
+      <ion-title col-4 text-center>个人中心</ion-title>
+      <ion-col col-4 text-right>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-header>
+
+<ion-content padding>
+  <ion-card>
+    <ion-item>
+      <ion-avatar item-start>
+        <img src="../../assets/img/head1.jpg">
+      </ion-avatar>
+      <h2>chen jin</h2>
+      <p>1995-12-12</p>
+    </ion-item>
+    <ion-card-content>
+      <p>come on!MotherFucker!</p>
+    </ion-card-content>
+    <ion-row>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="thumbs-up"></ion-icon>
+          <div>12 Likes</div>
+        </button>
+      </ion-col>
+      <ion-col>
+        <button ion-button icon-left clear small>
+          <ion-icon name="text"></ion-icon>
+          <div>4 Comments</div>
+        </button>
+      </ion-col>
+      <ion-col center text-center>
+        <ion-note>
+          11h ago
+        </ion-note>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+
+  <ion-list>
+
+    <ion-item>
+    <ion-icon name="albums" item-start></ion-icon>
+    我的简历
+    <ion-icon name="arrow-forward" item-end></ion-icon>
+    </ion-item>
+
+    <ion-item (click)="setting()">
+      <ion-icon name="settings" item-start></ion-icon>
+      设置
+      <ion-icon name="arrow-forward" item-end></ion-icon>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

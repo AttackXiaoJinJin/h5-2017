@@ -14,7 +14,6 @@
               (ionInput)="OnInput($event)"
               (ionCancel)="OnCancel($event)"
             >
-
             </ion-searchbar>
         </ion-col>
       </ion-row>
@@ -32,7 +31,17 @@
 
 
 <ion-content>
+  <!--==刷新=-->
+  <ion-refresher (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content
+      pullingIcon="arrow-dropdown"
+      pullingText="下拉刷新"
+      refreshingSpinner="circles"
+      refreshingText="刷新中。。。">
+    </ion-refresher-content>
+  </ion-refresher>
 
+  <!--===-->
   <ion-list no-lines>
     <ion-item-sliding *ngFor="let item of lists" (click)="itemSelected(item)">
     <!--ion-item-->
@@ -40,9 +49,11 @@
       <ion-avatar item-start>
         <img src="assets/img/{{item?.head}}">
       </ion-avatar>
-      <h2>{{item?.post}}</h2>
-      <h3>{{item?.salary}}</h3>
-      <p>{{item?.address}}</p>
+      <div item-start>
+      <ion-label>{{item?.post}}</ion-label>
+      <ion-note>{{item?.salary}}</ion-note>
+      </div>
+      <ion-note item-end>{{item?.address}}</ion-note>
     </ion-item>
       <!--左滑出现删除按钮-->
       <ion-item-options side="right">
@@ -55,6 +66,16 @@
       </ion-item-sliding>
   </ion-list>
 
+  <!--下拉加载-->
+  <!--<ion-infinite-scroll (ionInfinite)="doInfinite($event)">-->
+    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite($event))">
+      <ion-infinite-scroll-content
+        loadingSpinner="bubbles"
+        loadingText="加载更多...">
+      </ion-infinite-scroll-content>
+  </ion-infinite-scroll>
+
+  <!--=========-->
   <button class="btncss" ion-button color="secondary" round (click)="about()">关于页面</button>
 
 </ion-content>

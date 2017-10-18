@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {IonicPage, ModalController, NavController, NavParams} from 'ionic-angular';
+import {PersonalPage} from "../personal/personal";
 
-/**
- * Generated class for the PersonCenterPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
 
 @IonicPage()
 @Component({
@@ -15,11 +10,23 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class PersonCenterPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(
+              public navCtrl: NavController,
+              public navParams: NavParams,
+              public modalCtrl: ModalController,
+              ) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad PersonCenterPage');
+    console.log('这是个人中心页面');
   }
+
+  ionViewWillEnter(){
+    // this.navCtrl.push(PersonalPage)
+
+
+  }
+
+
 
 }
