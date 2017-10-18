@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>webworkers</title>
+</head>
+<body>
+<input type="text" placeholder="数值" id="number">
+<button id="btn">计算</button>
+<script>
+  window.onload=function () {
+    var input = document.querySelector("#number")
+    document.querySelector("#btn").onclick=function () {
+      var number = input.value
+      //创建一个worker对象
+      var worker = new Worker('worker.js')
+      //绑定接收消息的监听
+      worker.onmessage = function (event) {
+        console.log("主线程接收分线程返回的数据" + event.data)
+        alert(event.data)  
+      }
+      //向分线程发送消息
+      worker.postMessage(number)
+      console.log("主线程向分线程发送数据："+number)
+
+
+    }
+
+
+  }
+</script>
+</body>
+</html>

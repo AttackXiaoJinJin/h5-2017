@@ -23,7 +23,7 @@ export class LoginPage {
     public viewCtrl: ViewController,
     public app: App,
     private lg:LoginService,
-    private storage: Storage,
+    private storage: Storage,cd
   ) {
   }
 
