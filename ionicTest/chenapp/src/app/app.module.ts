@@ -7,16 +7,22 @@ import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
-import {PersonCenterPage} from "../pages/person-center/person-center";
-import {LoginPage} from "../pages/login/login";
-import {PersonalPage} from "../pages/personal/personal";
-
-import { IonicStorageModule } from '@ionic/storage';
-
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import {SettingPage} from "../pages/setting/setting";
+import {MePage} from '../pages/me/me';
+import {LoginPage} from '../pages/login/login';
+import {PostDetailPage} from '../pages/post-detail/post-detail';
+import {PersonalPage} from '../pages/personal/personal';
+import {SettingPage} from '../pages/setting/setting';
+import { IonicStorageModule } from '@ionic/storage';
+
+
+//service
+import {HttpClientModule} from '@angular/common/http';
+import {PositionsService} from '../providers/positions.service';
+import {UsersService} from '../providers/users.service';
+import {PersonCenterPage} from "../pages/person-center/person-center";
 
 @NgModule({
   declarations: [
@@ -25,15 +31,18 @@ import {SettingPage} from "../pages/setting/setting";
     ContactPage,
     HomePage,
     TabsPage,
-    PersonCenterPage,
+    MePage,
     LoginPage,
+    PostDetailPage,
     PersonalPage,
     SettingPage,
+    PersonCenterPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     IonicStorageModule.forRoot(),
+    HttpClientModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,15 +51,19 @@ import {SettingPage} from "../pages/setting/setting";
     ContactPage,
     HomePage,
     TabsPage,
-    PersonCenterPage,
+    MePage,
     LoginPage,
+    PostDetailPage,
     PersonalPage,
     SettingPage,
+    PersonCenterPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    PositionsService,
+    UsersService
   ]
 })
 export class AppModule {}

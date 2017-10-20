@@ -1,9 +1,16 @@
 import { Component } from '@angular/core';
-import {IonicPage, NavController, NavParams, ViewController} from 'ionic-angular';
-import {LoginPage} from "../login/login";
-import {Storage} from "@ionic/storage";
+import { NavController, NavParams,ViewController } from 'ionic-angular';
+import { Storage } from '@ionic/storage';
+import {LoginPage} from '../login/login';
 
-@IonicPage()
+
+/**
+ * Generated class for the SettingPage page.
+ *
+ * See https://ionicframework.com/docs/components/#navigation for more info on
+ * Ionic pages and navigation.
+ */
+
 @Component({
   selector: 'page-setting',
   templateUrl: 'setting.html',
@@ -12,8 +19,10 @@ export class SettingPage {
 
   constructor(
     public navCtrl: NavController,
-    public viewCtrl: ViewController,
-    public storage: Storage,
+    public navParams: NavParams,
+    private viewCtrl: ViewController,
+    private storage:Storage
+
 
   ) {
   }
@@ -21,20 +30,12 @@ export class SettingPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad SettingPage');
   }
-  loginout(){
-    this.storage.ready().then(()=>{
+  login_out(){
+      this.storage.ready().then(()=>{
+        this.storage.remove('isLogin');
+      });
 
-      this.storage.remove('isLogin')
-      //清空所有
-      // this.storage.clear()
-    })
-    this.viewCtrl.dismiss()
-    this.navCtrl.push(LoginPage)
-
+      this.viewCtrl.dismiss();
+      this.navCtrl.push(LoginPage)
   }
-
-
-
 }
-
-

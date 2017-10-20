@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NavController, ViewController} from 'ionic-angular';
+import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-about',
@@ -7,20 +7,8 @@ import {NavController, ViewController} from 'ionic-angular';
 })
 export class AboutPage {
 
-  constructor(
-    public navCtrl: NavController,
-    public viewCtrl: ViewController,
-    ) {
+  constructor(public navCtrl: NavController) {
 
-  }
-
-  back(){
-    //后退，但不销毁
-    this.navCtrl.pop();
-  }
-  close(){
-    //关闭（销毁）当前页面,并带回数据
-    this.viewCtrl.dismiss({"newName":"juan"})
   }
 
 }

@@ -1,3 +1,21 @@
+
+$searchbar-ios-input-search-icon-size:40px;
 page-home {
+  $searchbar-ios-input-search-icon-size:30px;
+
+  .searchbar-input{
+    width: 400px;
+    height: 100px !important;
+  }
+  .searchbar-search-icon svg,.searchbar-clear-icon{
+
+    width: 100px !important;
+    height: 100px !important;
+    background-color: yellow !important;
+  }
+
+
 
 }
+
+

@@ -1,134 +1,146 @@
 import {Component, ViewChild} from '@angular/core';
-import {NavController, Slides, ViewController} from 'ionic-angular';
-import {LoginPage} from "../login/login";
-import {AboutPage} from "../about/about";
-import { ModalController, NavParams } from 'ionic-angular';
+import {NavController, Slides,App, ViewController,ModalController } from 'ionic-angular';
+
+import {PostDetailPage} from '../post-detail/post-detail';
+import {PositionsService} from '../../providers/positions.service';
+
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+  providers:[PositionsService]
 })
 export class HomePage {
-  @ViewChild(Slides) slides:Slides;
-  // list=['img1.jpg','img2.jpg','img3.jpg']
-  lists=[
-    {"head":'head1.jpg',"salary":'15k',"post":'前端工程师',"address":'哈哈哈1号',"postId":1},
-    {"head":'head1.jpg',"salary":'15k',"post":'前端工程师',"address":'哈哈哈1号',"postId":2},
-    {"head":'head1.jpg',"salary":'15k',"post":'前端工程师',"address":'哈哈哈1号',"postId":3},
-    {"head":'head1.jpg',"salary":'15k',"post":'前端工程师',"address":'哈哈哈1号',"postId":4},
-    {"head":'head1.jpg',"salary":'15k',"post":'前端工程师',"address":'哈哈哈1号',"postId":5},
-    ]
-  imgs=[
-    {"img":'img1.jpg',"link":'www.baidu.com'},
-    {"img":'img2.jpg',"link":'www.qq.com'},
-    {"img":'img3.jpg',"link":'www.taobao.com'},
-  ]
+  @ViewChild(Slides) mySlides: Slides;
+
+  imgs = [
+    {
+      'img': '1.jpg',
+      'links': 'www.baidu.com'
+    }
+    ,
+    {
+      'img': '2.jpg',
+      'links': 'www.baidu.com'
+    },
+    {
+      'img': '3.jpg',
+      'links': 'www.baidu.com'
+    },
+    {
+      'img': '4.jpg',
+      'links': 'www.baidu.com'
+    }
+  ];
+
+  items: any;
+  all_items:any;
 
   constructor(
-    public navCtrl: NavController,
+    private navCtrl: NavController,
     public viewCtrl: ViewController,
+    public appCtrl: App,
     public modalCtrl: ModalController,
+    public positionSer:PositionsService
 
-    ) {
-
-  }
-
-  back(){
-    this.navCtrl.pop(LoginPage)
-    //
+  ) {
 
   }
-  slideChanged(){
-    let activeIndex=this.slides.getActiveIndex()
-    if(activeIndex==4){
-      this.imgs[0].link="www.qq.com"
-    }
-    console.log(activeIndex)
-    this.slides.startAutoplay()
-  }
-  showImg(img){
-    console.log(img)
-  }
-  //跳转到详情页面，about页面
-  itemSelected(item){
-     // console.log(item.postId)
-    let modalPage=this.modalCtrl.create(AboutPage, { "postId":item.postId })
-    //带数据{newName:juan }过来
-    modalPage.onDidDismiss(data => {
-      console.log(data)
+
+
+  ionViewDidLoad(){
+    this.positionSer.getallbooks().then(data=>{
+      this.all_items=data;
+      this.items=this.all_items.slice(0,10);
     })
-    //呈现
-    modalPage.present()
+  }
+
+  ionViewWillEnter(){
+    console.log('2222222222');
+
+  }
+
+  ionViewDidEnter(){
+    console.log('33333333333');
+  }
+
+  ionViewWillLeave(){
+    console.log('444444444');
+  }
+  slideChanged() {
+    // let activeIndex=this.mySlides.getActiveIndex();
+    // console.log(activeIndex);
+    this.mySlides.startAutoplay();
+  }
+
+  showImg(img) {
+    console.log(img);
+  }
+  itemSelected(item) {
+    // this.viewCtrl.dismiss();
+    // item && this.navCtrl.push(PostDetailPage,{"post_id":item.postId});
+
+    // this.appCtrl.getRootNav().push(PostDetailPage);
+
+    let modelPage=this.modalCtrl.create(PostDetailPage,{"post_id":item.id});
+    // modelPage.onDidDismiss(data => {
+    //   console.log(data);
+    // });
+
+    modelPage.present();
+
 
 
   }
-  deleteById(id){
-    for (let i = 0; i < this.lists.length; i++) {
-      if(id===this.lists[i].postId){
-        this.lists.splice(i,1)
-      }
 
+  deleteById(id) {
+    for(let i=0;i<this.items.length;i++){
+      if(id===this.items[i].postId){
+        this.items.splice(i,10);
+      }
     }
   }
-  //跳转
-  about(){
-    this.navCtrl.push(AboutPage)
+
+
+  onInput(){
+
   }
 
-  //上拉刷新
-  doRefresh(refresher) {
-    // console.log('Begin async operation', refresher);
-    setTimeout(() => {
-      let aaa=
-        {"head":'head1.jpg',
-          "salary":'15k',
-          "post":'sffsf工程师',
-          "address":'vvvvv号',
-          "postId":1}
 
-      this.lists.unshift(aaa)
-      // console.log('Async operation has ended');
+  doRefresh(refresher) {
+    console.log('Begin async operation', refresher);
+
+    setTimeout(() => {
+      let item= {
+          postId: '0017',
+          icon_url: 'assets/img/smile.png',
+          post: '阿里巴巴总经理',
+          salary: '120-1000',
+          address: '苏州仁爱路7号'
+        }
+      this.items.unshift(item);
       refresher.complete();
     }, 2000);
   }
 
-//  下拉加载
-//   doInfinite(infiniteScroll) {
-//     console.log('Begin async operation');
-//     setTimeout(() => {
-//       let aaa=
-//         {"head":'head1.jpg',
-//           "salary":'15k',
-//           "post":'sffsf工程师',
-//           "address":'vvvvv号',
-//           "postId":1}
-//       // for (let i = 0; i < 30; i++) {
-//         this.lists.push(aaa);
-//       // }
-//       console.log('Async operation has ended');
-//       infiniteScroll.complete();
-//     }, 500);
-//   }
-  doInfinite(scroll): Promise<any> {
-    console.log('Begin async operation');
+  doInfinite(infiniteScroll) {
+
 
     return new Promise((resolve) => {
       setTimeout(() => {
-        let aaa=
-        {"head":'head1.jpg',
-          "salary":'15k',
-          "post":'sffsf工程师',
-          "address":'vvvvv号',
-          "postId":1
-        }
-        this.lists.push( aaa )
-        //阻止下拉加载
-        scroll.enable(false)
-        console.log('Async operation has ended')
+        let item= {
+          postId: '0018',
+          icon_url: 'assets/img/smile.png',
+          post: '华为总经理',
+          salary: '120-1000',
+          address: '苏州仁爱路7号'
+        };
+        this.items.push(item);
+        infiniteScroll.enable(false);
         resolve();
       }, 500);
     })
-  }
 
+  }
 
 }

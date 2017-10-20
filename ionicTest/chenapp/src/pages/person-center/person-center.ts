@@ -3,7 +3,7 @@ import {IonicPage, ModalController, NavController, NavParams} from 'ionic-angula
 import {PersonalPage} from "../personal/personal";
 
 
-@IonicPage()
+// @IonicPage()
 @Component({
   selector: 'page-person-center',
   templateUrl: 'person-center.html',

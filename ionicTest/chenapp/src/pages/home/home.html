@@ -1,81 +1,71 @@
-<!--header是不刷新的-->
 <ion-header>
-  <!--导航栏-->
   <ion-navbar>
-
+    <!--<ion-title>猎聘</ion-title>-->
     <ion-grid>
       <ion-row>
-        <ion-col col-4 align-self-center>苏州</ion-col>
-        <ion-title col-4 text-center>猎聘</ion-title>
-        <ion-col col-4 text-right>
-            <ion-searchbar
-              [(ngModel)]="myInput"
-              [showCancelButton]="shouldShowCancel"
-              (ionInput)="OnInput($event)"
-              (ionCancel)="OnCancel($event)"
-            >
-            </ion-searchbar>
+        <ion-col col-4>苏州</ion-col>
+        <ion-col col-4>猎聘</ion-col>
+        <ion-col col-12 style="text-align: right" >
+
+
         </ion-col>
       </ion-row>
     </ion-grid>
+
+
+    <ion-slides autoplay="2000" loop="true" (ionSlideDidChange)="slideChanged()" #mySlides>
+      <ion-slide *ngFor="let item of imgs" >
+        <img src="assets/img/{{item?.img}}" alt="" (click)="showImg(item?.links)">
+      </ion-slide>
+
+    </ion-slides>
   </ion-navbar>
-  <!--轮播-->
-  <!--给它取名为#slides-->
-  <ion-slides autoplay="2000" loop="true" (ionSlideDidChange)="slideChanged()" #slides>
-    <!--<ion-slide  *ngFor="let item of list" >-->
-    <ion-slide  *ngFor="let item of imgs" >
-      <img src="assets/img/{{item?.img}}" alt="" (click)="showImg(item?.link)">
-    </ion-slide>
-  </ion-slides>
+
+
 </ion-header>
 
-
-<ion-content>
-  <!--==刷新=-->
+<ion-content padding>
+  <!--上拉刷新-->
   <ion-refresher (ionRefresh)="doRefresh($event)">
     <ion-refresher-content
       pullingIcon="arrow-dropdown"
       pullingText="下拉刷新"
       refreshingSpinner="circles"
-      refreshingText="刷新中。。。">
+      refreshingText="正在努力加载中...">
     </ion-refresher-content>
   </ion-refresher>
 
-  <!--===-->
   <ion-list no-lines>
-    <ion-item-sliding *ngFor="let item of lists" (click)="itemSelected(item)">
-    <!--ion-item-->
-    <ion-item >
-      <ion-avatar item-start>
-        <img src="assets/img/{{item?.head}}">
-      </ion-avatar>
-      <div item-start>
-      <ion-label>{{item?.post}}</ion-label>
-      <ion-note>{{item?.salary}}</ion-note>
-      </div>
-      <ion-note item-end>{{item?.address}}</ion-note>
-    </ion-item>
-      <!--左滑出现删除按钮-->
+    <ion-list-header>
+      热门职位
+    </ion-list-header>
+    <ion-item-sliding *ngFor="let item of items">
+      <ion-item  (click)="itemSelected(item)">
+        <ion-avatar item-start>
+          <img src="http://101.132.127.138:3000/bookimages/{{item?.book_img}}">
+        </ion-avatar>
+        <div item-start>
+          <ion-label>{{item?.book_name}}</ion-label>
+          <ion-note>{{item?.writer_name}}</ion-note>
+        </div>
+
+        <ion-note item-end>{{item?.book_year}}</ion-note>
+
+      </ion-item>
+
       <ion-item-options side="right">
         <button ion-button color="danger" (click)="deleteById(item.postId)">
           <ion-icon name="delete"></ion-icon>
-          删除
+          Delete
         </button>
       </ion-item-options>
-
-      </ion-item-sliding>
+    </ion-item-sliding>
   </ion-list>
 
   <!--下拉加载-->
-  <!--<ion-infinite-scroll (ionInfinite)="doInfinite($event)">-->
-    <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite($event))">
-      <ion-infinite-scroll-content
-        loadingSpinner="bubbles"
-        loadingText="加载更多...">
-      </ion-infinite-scroll-content>
+  <ion-infinite-scroll (ionInfinite)="$event.waitFor(doInfinite($event))">
+    <ion-infinite-scroll-content
+      loadingSpinner="bubbles"
+      loadingText="Loading more data...">></ion-infinite-scroll-content>
   </ion-infinite-scroll>
-
-  <!--=========-->
-  <button class="btncss" ion-button color="secondary" round (click)="about()">关于页面</button>
-
 </ion-content>

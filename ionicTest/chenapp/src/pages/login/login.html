@@ -4,18 +4,53 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<!--头部-->
-<!--<ion-header>-->
 
-  <!--<ion-navbar>-->
-    <!--<ion-title>login</ion-title>-->
-  <!--</ion-navbar>-->
-
-<!--</ion-header>-->
 
 
 <ion-content padding>
-  <button class="btncss" ion-button color="secondary" round (click)="login()">登录</button>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-12 class="login-title">
+        猎聘同道
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <form  [formGroup]="loginForm" (ngSubmit)="login(loginForm.value)" novalidate>
+          <ion-item [class.error]="!loginPhone.valid && loginPhone.touched">
+            <ion-input type="tel" placeholder="请输入用户名"  [formControl]="loginPhone" clearInput=true></ion-input>
+          </ion-item>
+          <ion-label *ngIf="loginPhone.hasError('required') && loginPhone.touched" class="error-message">* 请输入用户名</ion-label>
+          <ion-label *ngIf="(loginPhone.hasError('minlength')||loginPhone.hasError('maxlength')||loginPhone.hasError('pattern')) && loginPhone.touched" class="error-message">* 请输入正确的电话号码</ion-label>
+          <ion-item>
+            <ion-input type="password" placeholder="请输入密码"  [formControl]="loginPasswd" clearInput=true></ion-input>
+          </ion-item>
+          <ion-label *ngIf="loginPasswd.hasError('required') && loginPasswd.touched" class="error-message">* 请输入密码</ion-label>
+          <ion-label *ngIf="(loginPasswd.hasError('minlength')) && loginPasswd.touched" class="error-message">* 密码长度最少为六位</ion-label>
+          <button ion-button block color="secondary" type="submit" [disabled]="!loginForm.valid">登录</button>
+        </form>
 
+      </ion-col>
+      <!--end form-->
+      <ion-col col-6>
+        <a href="#">忘记密码 ？</a>
+      </ion-col>
+      <ion-col col-6 style="text-align: right">
+        <a href="#">通过验证码登录</a>
+      </ion-col>
+    </ion-row>
+
+
+  </ion-grid>
+
+  <ion-footer >
+    <ion-toolbar style="background-color: white !important;">
+      <p style="text-align: center;">
+        没有账号 ？ <a href="#">立即注册</a>
+      </p>
+
+    </ion-toolbar>
+  </ion-footer>
 
 </ion-content>
+

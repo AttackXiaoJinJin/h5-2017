@@ -1,27 +1,39 @@
+<!--
+  Generated template for the PersonalPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-header>
+
   <ion-grid>
     <ion-row>
-      <ion-col col-4 align-self-center>返回</ion-col>
-      <ion-title col-4 text-center>个人中心</ion-title>
-      <ion-col col-4 text-right>
-
+      <ion-col col-4>
+        <ion-icon name="arrow-back" (click)="back()" style="font-size: 30px !important; color: red;"></ion-icon>
+      </ion-col>
+      <ion-col col-4>
+        <ion-note>个人中心</ion-note>
+      </ion-col>
+      <ion-col col-4 style="text-align: right" >
+        <ion-icon name="more"></ion-icon>
       </ion-col>
     </ion-row>
   </ion-grid>
 </ion-header>
 
+
 <ion-content padding>
   <ion-card>
+
     <ion-item>
       <ion-avatar item-start>
-        <img src="../../assets/img/head1.jpg">
+        <img src="../../assets/img/default_pic.png">
       </ion-avatar>
-      <h2>chen jin</h2>
-      <p>1995-12-12</p>
+      <h2>Marty McFly</h2>
+      <p>November 5, 1955</p>
     </ion-item>
-    <ion-card-content>
-      <p>come on!MotherFucker!</p>
-    </ion-card-content>
+
+    <img src="img/advance-card-bttf.png">
     <ion-row>
       <ion-col>
         <button ion-button icon-left clear small>
@@ -41,22 +53,24 @@
         </ion-note>
       </ion-col>
     </ion-row>
+
   </ion-card>
 
   <ion-list>
-
     <ion-item>
-    <ion-icon name="albums" item-start></ion-icon>
-    我的简历
-    <ion-icon name="arrow-forward" item-end></ion-icon>
+      <ion-icon name="albums" item-start></ion-icon>
+      我的简历
+      <ion-icon name="arrow-forward" item-end></ion-icon>
     </ion-item>
-
-    <ion-item (click)="setting()">
+    <ion-item (click)="toSetting()">
       <ion-icon name="settings" item-start></ion-icon>
       设置
       <ion-icon name="arrow-forward" item-end></ion-icon>
     </ion-item>
-
+    <ion-item (click)="showAllUsers()">
+      <ion-icon name="settings" item-start></ion-icon>
+      获取所有用户
+      <ion-icon name="arrow-forward" item-end></ion-icon>
+    </ion-item>
   </ion-list>
-
 </ion-content>
