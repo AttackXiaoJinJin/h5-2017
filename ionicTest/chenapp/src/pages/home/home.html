@@ -15,7 +15,7 @@
 
     <ion-slides autoplay="2000" loop="true" (ionSlideDidChange)="slideChanged()" #mySlides>
       <ion-slide *ngFor="let item of imgs" >
-        <img src="assets/img/{{item?.img}}" alt="" (click)="showImg(item?.links)">
+        <img src="assets/img/{{item?.img}}" style="height:300px;width: 100%">
       </ion-slide>
 
     </ion-slides>
