@@ -3,10 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
+  <style>
+
+  </style>
+  <script>
+    function disp_confirm()
+    {
+      var r=confirm("Press a button")
+      if (r==true)
+      {
+        document.write("You pressed OK!")
+      }
+      else
+      {
+        document.write("You pressed Cancel!")
+      }
+    }
+  </script>
 </head>
 <body>
+<input type="button" onclick="disp_confirm()"
+       value="Display a confirm box" />
+<!--<form action=""></form>-->
 <script>
   window.onload=function () {
+    function disp_prompt(){
+    var name=confirm("Please enter your name","")
+      document.write("Hello " + name + "!")
+  }
 //    function fn1(){
 //      var arr =new Array[100000]
 //      function fn2() {
@@ -51,12 +75,12 @@
 //    //chenjin 12
 //    console.log(p.name,p.age)
     //定义一个对象，
-    var a={name:"cj"}
-    var b=[{name:"cj"}]
-    var c=[a]
-    console.log([a])
-    console.log(b[0])
-    console.log(c[0])
+//    var a={name:"cj"}
+//    var b=[{name:"cj"}]
+//    var c=[a]
+//    console.log([a])
+//    console.log(b[0])
+//    console.log(c[0])
 
     //==================
   }

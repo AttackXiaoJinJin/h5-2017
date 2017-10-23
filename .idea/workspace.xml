@@ -117,34 +117,16 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/theme/variables.scss" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tsconfig.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tslint.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/indexDB.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.module.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.module.ts" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/h5-2017.iml" afterPath="$PROJECT_DIR$/.idea/h5-2017.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/mongodb/mongodb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/mongoose/con-mongoose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/mongoose/con-user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/mongoose/model-mongoose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/mongoose/mongoose.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nosql/mongoose/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSAdvance/10.17.html" afterPath="$PROJECT_DIR$/JSAdvance/10.17.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/config.xml" afterPath="$PROJECT_DIR$/ionicTest/chenapp/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/ionic.config.json" afterPath="$PROJECT_DIR$/ionicTest/chenapp/ionic.config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/package.json" afterPath="$PROJECT_DIR$/ionicTest/chenapp/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.component.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.module.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.html" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.html" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.scss" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.html" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.scss" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.html" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.html" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.html" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.ts" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nosql/indexDB.html" afterPath="$PROJECT_DIR$/nosql/indexDB.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -161,59 +143,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/app/app.module.ts">
+      <file leaf-file-name="mongoose.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nosql/mongoose/mongoose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1584">
-              <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-                <element signature="e#874#928#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="10.17.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSAdvance/10.17.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="231">
+              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexDB.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nosql/indexDB.html">
+      <file leaf-file-name="con-mongoose.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nosql/mongoose/con-mongoose.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="198">
+              <caret line="6" column="41" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="6" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="person-center.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.ts">
+      <file leaf-file-name="con-user.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nosql/mongoose/con-user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="99">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="me.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.ts">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nosql/mongoose/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model-mongoose.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nosql/mongoose/model-mongoose.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,9 +202,9 @@
         <option value="CSS File" />
         <option value="tsconfig.json" />
         <option value="package_json" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -239,6 +214,7 @@
       <find>h3</find>
       <find>var</find>
       <find>email</find>
+      <find>@media</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -250,12 +226,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulp/index.html" />
-        <option value="$PROJECT_DIR$/gulp/gulpfile.js" />
-        <option value="$PROJECT_DIR$/gulpDemo/src/users/login.html" />
-        <option value="$PROJECT_DIR$/gulpDemo/src/users/regist.html" />
-        <option value="$PROJECT_DIR$/gulpDemo/index.html" />
-        <option value="$PROJECT_DIR$/gulpDemo/src/asdasd.scss" />
         <option value="$PROJECT_DIR$/gulpDemo/asdasd.scss" />
         <option value="$PROJECT_DIR$/gulpDemo/packageconfig.json" />
         <option value="$PROJECT_DIR$/gulpDemo/www/index.html" />
@@ -299,8 +269,14 @@
         <option value="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.html" />
         <option value="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.ts" />
         <option value="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/JSAdvance/10.17.html" />
         <option value="$PROJECT_DIR$/nosql/indexDB.html" />
+        <option value="$PROJECT_DIR$/nosql/mongodb/mongodb.js" />
+        <option value="$PROJECT_DIR$/JSAdvance/10.17.html" />
+        <option value="$PROJECT_DIR$/nosql/mongoose/mongoose.js" />
+        <option value="$PROJECT_DIR$/nosql/mongoose/con-mongoose.js" />
+        <option value="$PROJECT_DIR$/nosql/mongoose/test.js" />
+        <option value="$PROJECT_DIR$/nosql/mongoose/model-mongoose.js" />
+        <option value="$PROJECT_DIR$/nosql/mongoose/con-user.js" />
       </list>
     </option>
   </component>
@@ -324,10 +300,9 @@
     <handled-path value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="112" />
-    <option name="y" value="4" />
-    <option name="width" value="1057" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-14" />
+    <option name="width" value="1000" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -374,23 +349,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
-              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="nosql" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <expand>
@@ -407,11 +365,34 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="nosql" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="nosql" type="462c0819:PsiDirectoryNode" />
+              <item name="mongoose" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="F:/Ionic3RichText-master" />
+    <property name="last_opened_file_path" value="F:/FriendBook_WebApp" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -455,7 +436,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Gruntfile.js">
+  <component name="RunManager" selected="Node.js.mongodb.js">
     <configuration name="3.类.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="3.类.js" working-dir="$PROJECT_DIR$/AngularJS/unit1/code01" />
     <configuration name="Gruntfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Gruntfile.js" working-dir="$PROJECT_DIR$/gruntDemo" />
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -524,23 +505,23 @@
       <method />
     </configuration>
     <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/aaweb/routes" />
+    <configuration name="mongodb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="mongodb.js" working-dir="$PROJECT_DIR$/nosql/mongodb" />
     <configuration name="事务transtion.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="事务transtion.js" working-dir="$PROJECT_DIR$/jsHigh/8.28" />
-    <configuration name="users.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="users.js" working-dir="$PROJECT_DIR$/aaweb/routes" />
     <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/aaweb/bin" />
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.users.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.3.类.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.3.类.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.mongodb.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.3.类.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.www" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.users.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.mongodb.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.3.类.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.www" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.事务transtion.js" />
       </list>
     </recent_temporary>
   </component>
@@ -705,12 +686,15 @@
       <workItem from="1508418710364" duration="783000" />
       <workItem from="1508419655989" duration="2983000" />
       <workItem from="1508425537003" duration="2628000" />
-      <workItem from="1508459587374" duration="700000" />
+      <workItem from="1508459587374" duration="11730000" />
+      <workItem from="1508546658566" duration="632000" />
+      <workItem from="1508547578135" duration="5661000" />
+      <workItem from="1508719270509" duration="2182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1209015000" />
+    <option name="totallyTimeSpent" value="1228520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,19 +706,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-14" y="0" width="1000" height="1038" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14528102" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28691983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20792079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24875621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6797066" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20544554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -777,38 +761,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-mdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-ldpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-hdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xxhdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xxxhdpi-icon.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-hdpi-screen.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1060,7 +1012,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1070,7 +1022,7 @@
         <state relative-caret-position="264">
           <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#42#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1080,24 +1032,72 @@
         <state relative-caret-position="1584">
           <caret line="68" column="25" lean-forward="false" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
-            <element signature="e#874#928#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="false" />
+            <element signature="e#874#928#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JSAdvance/10.17.html">
+    <entry file="file://$PROJECT_DIR$/nosql/mongodb/mongodb.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="495">
+          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nosql/indexDB.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="3597">
+          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSAdvance/10.17.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-759">
+          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/mongoose/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/mongoose/model-mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/mongoose/mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/mongoose/con-mongoose.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nosql/mongoose/con-user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>

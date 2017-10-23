@@ -5,6 +5,165 @@
   <title>indexDB</title>
 </head>
 <body>
+<div>
+  <div>
+  <input type="text" id="txt">
+  </div>
+  <div>
+  <button id="btninsert">
+    插入数据
+  </button>
+  <button id="btndelete">
+    删除数据
+  </button>
+    <button id="btnclear">
+    清空数据
+  </button>
+    <button id="btnupdate">
+    更新数据
+  </button>
+    <button id="btnsearch">
+    查询数据
+  </button>
+    <button id="btnmore">
+    查询多个数据
+  </button>
+  </div>
+</div>
+<script>
 
+
+
+  window.onload=function () {
+//    设置默认版本
+    let version = 2 
+    let db
+    if(!window.indexedDB){
+      console.log('不支持')
+    }else{
+     
+//      数据库名称、版本号
+      let request = window.indexedDB.open('hunter',version)
+
+      request.onupgradeneeded=function () {
+        db=request.result
+//        若表存在则删除
+        if(db.objectStoreNames.contains("users")){
+          db.deleteObjectStore("users")
+        }
+//        新建user表
+//        request      command
+        let store=db.createObjectStore("users",{keyPath:"userid"})
+//        建立索引
+        let titleIndex=store.createIndex("index_unique_username","username",{unique:true})
+        let authorIndex = store.createIndex("index_address","address")
+
+        store.add(
+          {userid:"001",username:"chen",age:12,address:"苏州"}
+        )
+        store.add(
+          {userid:"002",username:"shi",age:13,address:"南通"}
+        )
+
+
+        console.log("向上（后）刷新，显示信息")
+      }
+
+      request.onerror=function (error) {
+        console.log(`新建或打开数据库失败,${error.target.error.message}`)
+      }
+      request.onsuccess=function () {
+        console.log(`新建或打开数据库成功`)
+      }
+
+
+//      insert()
+//      delete1()
+//      let db=request.result
+
+      /*==================插入数据*/
+//      function insert(){
+
+        document.querySelector("#btninsert").onclick=function () {
+          let user = {userid:'004',username:'juanjuan',age:13,address:"苏州"}
+//      打开的事务  操作
+          let tx=db.transaction("users","readwrite")
+          let store = tx.objectStore("users")
+          let req = store.add(user)
+          req.onsuccess=function () {
+            console.log("插入数据成功")
+          }
+        }
+        //=======================插入数据
+//      }
+
+//      function delete1(){
+        document.querySelector("#btndelete").onclick=function () {
+          let id= document.querySelector("#txt").value
+          if(id.trim().length){
+            let tx=db.transaction("users","readwrite")
+            let store = tx.objectStore("users")
+            let req = store.delete(id)
+            req.onsuccess=function () {
+              console.log("删除成功")
+            }
+
+            req.onerror=function (error) {
+              console.log(`删除失败${error.message}`)
+            }
+          }
+        }
+        //============================================删除
+
+      document.querySelector("#btnsearch").onclick=function () {
+        let name= document.querySelector("#txt").value
+        if(name.trim().length){
+          let tx=db.transaction("users","readwrite")
+          let store = tx.objectStore("users")
+          let req = store.index("index_unique_username").get(name)
+          req.onsuccess=function () {
+            console.log("查询成功")
+          }
+
+        }
+      }
+      //====================================
+
+      document.querySelector("#btnsearch").onclick=function () {
+        let name= document.querySelector("#txt").value
+        if(name.trim().length){
+          let tx=db.transaction("users","readwrite")
+          let store = tx.objectStore("users")
+          let req_cursor = store.openCursor()
+          let s=''
+          req_cursor.onsuccess=function () {
+            let cursor=req_cursor.result
+            if(cursor){
+              var stu=cursor.value
+              var key = cursor.key
+              s=s+JSON.stringify(stu)
+                cursor.continue()
+            }
+          }
+
+        }
+      }
+      //====================================查询
+
+
+
+
+
+      }
+      //=============indexedDB
+//    }
+    
+
+  }
+</script>
+
+<script>
+  
+</script>
 </body>
 </html>
