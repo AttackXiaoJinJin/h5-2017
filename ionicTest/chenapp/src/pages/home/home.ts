@@ -108,24 +108,20 @@ export class HomePage {
 
 
   doRefresh(refresher) {
-    console.log('Begin async operation', refresher);
-
     setTimeout(() => {
       let item= {
-          postId: '0017',
-          icon_url: 'assets/img/smile.png',
-          post: '阿里巴巴总经理',
-          salary: '120-1000',
-          address: '苏州仁爱路7号'
-        }
+        postId: '0017',
+        icon_url: 'assets/img/smile.png',
+        post: '阿里巴巴总经理',
+        salary: '120-1000',
+        address: '苏州仁爱路7号'
+      }
       this.items.unshift(item);
       refresher.complete();
     }, 2000);
   }
 
   doInfinite(infiniteScroll) {
-
-
     return new Promise((resolve) => {
       setTimeout(() => {
         let item= {
@@ -140,7 +136,6 @@ export class HomePage {
         resolve();
       }, 500);
     })
-
   }
 
 }
