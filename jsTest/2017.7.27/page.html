@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function $(id){
+            return document.getElementById(id);
+        }
+        window.onload = function(){
+            for(var i = 1990 ;i <= 2020 ; i++){
+                $('year').options.add(new Option(i,i));
+            }
+            $('year').selectedIndex = 27;
+            for(var i = 1 ;i <= 12 ; i++){
+                $('month').options.add(new Option(i,i));
+            }
+//            $('month').selectedIndex = 6;
+            for(var i = 1 ;i <= 31 ; i++){
+                $('day').options.add(new Option(i,i));
+            }
+        }
+        function isLeap(year){
+            return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
+        }
+        function setDay() {
+            var month = parseInt($('month').value);
+            var day =0;
+          $('day').length=0;
+            switch (month){
+                case 1:day = 31;break;
+                case 2:if(isLeap($('year').value)){
+                    day = 29;
+                }else
+                {
+                    day = 28
+                };break;
+                case 3:day = 31;break;
+                case 4:day = 30;break;
+                case 5:day = 31;break;
+                case 6:day = 30;break;
+                case 7:day = 31;break;
+                case 8:day = 31;break;
+                case 9:day = 30;break;
+                case 10:day = 31;break;
+                case 11:day = 30;break;
+                case 12:day = 31;break;
+                default:day = 0;
+            }
+//            $('day').options.
+            for(var i = 1 ; i <= day ; i++){
+                console.log("00");
+                $('day').options.add(new Option(i,i))
+            }
+        }
+    </script>
+
+</head>
+<body>
+<form action="#">
+    <select name="" id="year" onchange="setDay()"></select>年
+    <select name="" id="month" onchange="setDay()"></select>月
+    <select name="" id="day"></select>日
+</form>
+</body>
+</html>

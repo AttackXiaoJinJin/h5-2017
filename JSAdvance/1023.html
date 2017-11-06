@@ -23,6 +23,8 @@
       background-color: red;
       height: 100px;
     }
+
+
   </style>
 </head>
 <body>
@@ -31,9 +33,22 @@
 <!--<div class="center">center</div>-->
 <!--<div class="right">right</div>-->
 <!--</div>-->
+<!--<div id="a">-->
+  <!--aaaa-->
+  <!--<div>bbbb</div>-->
+<!--</div>-->
+<!--<p>ccc</p>-->
+<div style="width: 100px;height: 100px;background-color: red"></div>
+<div style="width: 100px;height: 100px;background-color: yellow;margin-top: 10px;border: 1px solid red">aaa</div>
+
 <script>
   window.onload=function () {
-//    var bb = 1;
+//    console.log(document.getElementById("a").childNodes);
+//    console.log(document.getElementById("a").children);
+//    console.log(document.getElementsByTagName("p")[0].innerHTML);
+//    console.log(document.getElementsByTagName("p")[0].childNodes[0].nodeValue);
+
+    //    var bb = 1;
 //  function aa() {
 //    bb = 2;
 //    alert(bb);
@@ -172,13 +187,14 @@
 //    loop(len-1)
 //    console.log(aa)
 
-    var str = "dhhafhhheeert",json = {};
-    for (var i = 0, l = str.length; i < l; i++) {
-      json[str[i]] = (json[str[i]] + 1) || 1;
-      console.log(json[str[i]])
-      console.log(str[i])
+//    var str = "dhhafhhheeert",aa = {};
+//    for (var i = 0, l = str.length; i < l; i++) {
+//      aa[str[i]] = (aa[str[i]] + 1) || 1;
 
-    }
+//      console.log(str[i])
+//    }
+//    console.log(aa['d'])
+
 //    var temp_val = 1, temp_key = str[0];
 //    for(var key in json){
 //      if(json[key] > temp_val){
