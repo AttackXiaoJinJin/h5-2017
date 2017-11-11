@@ -66,7 +66,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/pic_default.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/smile.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSAdvance/1109.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSAdvance/1111.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/.editorconfig" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/README.md" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/config.xml" />
@@ -119,7 +119,7 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tsconfig.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tslint.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSAdvance/1106.html" afterPath="$PROJECT_DIR$/JSAdvance/1106.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSAdvance/1109.html" afterPath="$PROJECT_DIR$/JSAdvance/1109.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -136,11 +136,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="1109.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JSAdvance/1109.html">
+      <file leaf-file-name="1111.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JSAdvance/1111.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="472">
+              <caret line="93" column="11" lean-forward="true" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -184,7 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpDemo/src/css/asdasd.scss" />
         <option value="$PROJECT_DIR$/gulpDemo/src/css/zzz.scss" />
         <option value="$PROJECT_DIR$/gulpDemo/gulpfile.js" />
         <option value="$PROJECT_DIR$/JSAdvance/01基础总结深入/aa.js" />
@@ -235,6 +234,7 @@
         <option value="$PROJECT_DIR$/JSAdvance/nodejs.html" />
         <option value="$PROJECT_DIR$/JSAdvance/1106.html" />
         <option value="$PROJECT_DIR$/JSAdvance/1109.html" />
+        <option value="$PROJECT_DIR$/JSAdvance/1111.html" />
       </list>
     </option>
   </component>
@@ -258,7 +258,7 @@
     <handled-path value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
     <option name="width" value="1094" />
     <option name="height" value="1030" />
@@ -670,12 +670,12 @@
       <workItem from="1510211596409" duration="5606000" />
       <workItem from="1510315331255" duration="1033000" />
       <workItem from="1510372222296" duration="591000" />
-      <workItem from="1510394345506" duration="668000" />
+      <workItem from="1510394345506" duration="7568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1311221000" />
+    <option name="totallyTimeSpent" value="1318121000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,17 +687,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1094" height="1030" extended-state="0" />
+    <frame x="-8" y="0" width="1094" height="1030" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.085412666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26007676" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20792079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24875621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.200489" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -742,13 +742,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/service/book.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/app/main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1094,8 +1087,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSAdvance/1109.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        <state relative-caret-position="561">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSAdvance/1111.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="93" column="11" lean-forward="true" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
           <folding />
         </state>
       </provider>

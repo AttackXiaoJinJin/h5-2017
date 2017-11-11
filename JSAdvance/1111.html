@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>1111</title>
+</head>
+<body>
+  <script>
+    window.onload=function () {
+//      function b(x,y,a){
+//        arguments[2]=10
+//        console.log(a)
+//      }
+//      b(1,2,3)
+//      b(1,2)
+
+//      (function(){
+//        var a=b=5
+//      })()
+//      console.log(b)
+//      console.log(a)
+
+//      function fn(a){
+//        console.log(a)
+//        //var a在first输出之后所以相当于没有
+//        var a=2
+//        //函数声明提前
+//        //如果注释掉，first输出1
+//        //未注释则是该函数
+//        function a(){}
+//        console.log(a)
+//      }
+//      fn(1)
+
+//      var fullname = 'aaa'
+//      var obj={
+//        fullname:'bbb',
+//        prop:{
+//          fullname:'ccc',
+//          getFullname:function () {
+//            return this.fullname
+//          }
+//        }
+//      }
+//      console.log(obj.prop.getFullname())
+//      var test = obj.prop.getFullname
+//      console.log(test())
+
+//      var a={n:1}
+//      var b=a
+//      a.x=a={n:2}
+//      console.log(a.x)
+//      console.log(b.x)
+
+      function Foo() {
+        getName=function () {
+          console.log(1)
+        }
+        return this
+      }
+      
+      Foo.getName=function () {
+        console.log(2)        
+      }
+      
+      Foo.prototype.getName=function () {
+        console.log(3)
+      }
+      
+      var getName=function () {
+        console.log(4)
+      }
+      
+      function getName() {
+        console.log(5)
+      }
+      console.log("aaaaaa")
+      //2
+      Foo.getName()
+      //4
+      //因为var 比function优先级高
+      //或者说先定义了getName变量
+      getName()
+      //出错,因为return this终止了
+//      Foo().getName()
+      //2
+      new Foo.getName()
+      //3原型链上去找
+      new Foo().getName()
+      //3
+      new new Foo().getName()
+      
+    }
+  </script>
+</body>
+</html>
