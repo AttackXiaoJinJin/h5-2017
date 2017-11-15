@@ -123,8 +123,75 @@
 //      b.value=2
 //      console.log(a.value)
 
+//        window.val=1
+//      var obj={
+////          val:2,
+//        dbl:function () {
+//          this.val*=2
+////          val*=2
+//          //2
+//          console.log(val+'aa')
+//          //4
+//          console.log(this.val+'bb')
+//        }
+//      }
+//      obj.dbl()
+//      var func=obj.dbl
+//      func()
 
 
+
+//      var Singleton = function(name) {
+//        this.name = name;
+//      };
+//
+//      //利用闭包的特性创建单例,同时符合惰性单例的特性
+//      Singleton.getInstance = (function(name) {
+//        var instance;
+//        return function(name){
+//          if (!instance) {
+//            instance = new Singleton(name);
+//          }
+//        }
+//      })();
+//
+//      var a = Singleton.getInstance('seven1');
+//      var b = Singleton.getInstance('seven2');
+//
+//      console.log(a)
+//      console.log(b)
+//      console.log(a===b);   //true
+
+//      var singleton=function (name) {
+//        this.name=name
+//        this.instance=null
+//      }
+//
+//      singleton.getInstance=function (name) {
+//        //instance存在
+//        if(!this.instance){
+//          this.instance=new singleton(name)
+//        }
+//        return this.instance
+//      }
+//      var a=singleton.getInstance('aaa')
+//      var b=singleton.getInstance('bbb')
+//      console.log(a===b)
+
+
+      var singleton=function (name) {
+        this.name=name
+        this.instance=null
+      }
+      singleton.getinstance=function (name) {
+        if(!this.instance){
+          this.instance=new singleton(name)
+        }
+        return this.instance
+      }
+      var a=singleton.getinstance('aaa')
+      var b=singleton.getinstance('bbb')
+      console.log(a===b)
 
     }
   </script>
