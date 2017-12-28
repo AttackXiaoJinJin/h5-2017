@@ -2,124 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f5681e0-e0ea-432d-89b9-59d0256e5b1d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-hdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-ldpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-mdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xxxhdpi-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-xxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-hdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-ldpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-mdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-xhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-xxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-1024.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-40@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-50@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-72@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-83.5@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-small@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-568h@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-667h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape@~ipadpro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Portrait@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Portrait@~ipadpro.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Portrait~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default@2x~universal~anyany.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/splash.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/icon/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/default_pic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/head1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/pic_default (1).png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/pic_default .png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/pic_default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/smile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSAdvance/1115.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/.editorconfig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/ionic.config.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.component.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.module.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/main.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/contact/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/contact/contact.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/contact/contact.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/post-detail/post-detail.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/post-detail/post-detail.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/post-detail/post-detail.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/providers/positions.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/providers/users.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service-worker.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service/UserService.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service/book.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service/topic.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/theme/variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tsconfig.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tslint.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JSAdvance/1111.html" afterPath="$PROJECT_DIR$/JSAdvance/1111.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebSocket/websocket.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebSocket/websocket.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/.editorconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/config.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/ionic.config.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-hdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-ldpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-mdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xhdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xxhdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/icon/drawable-xxxhdpi-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-hdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-ldpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-mdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-xhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-xxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-land-xxxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-hdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-ldpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-mdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-xhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-xxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/android/splash/drawable-port-xxxhdpi-screen.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-1024.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-40.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-40@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-40@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-50.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-50@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-60.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-60@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-60@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-72.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-72@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-76.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-76@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-83.5@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-small.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-small@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon-small@3x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/icon/icon@2x.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-568h@2x~iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-667h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-736h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape-736h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape@2x~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape@~ipadpro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Landscape~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Portrait@2x~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Portrait@~ipadpro.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default-Portrait~ipad.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default@2x~iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default@2x~universal~anyany.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/ios/splash/Default~iphone.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/resources/splash.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.component.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.module.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/app.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/app/main.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/icon/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/default_pic.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/head1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/pic_default (1).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/pic_default .png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/pic_default.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/smile.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/assets/img/user.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/manifest.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/contact/contact.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/contact/contact.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/contact/contact.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/home/home.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/post-detail/post-detail.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/post-detail/post-detail.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/post-detail/post-detail.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/providers/positions.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/providers/users.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service-worker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service/UserService.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service/book.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/service/topic.service.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/src/theme/variables.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tsconfig.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ionicTest/chenapp/tslint.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/jsTest/二级菜单.html" afterPath="$PROJECT_DIR$/jsTest/二级菜单.html" />
+      <change beforePath="$PROJECT_DIR$/jsTest/拖拽提取相同函数.html" afterPath="$PROJECT_DIR$/jsTest/拖拽提取相同函数.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -136,21 +138,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="1111.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JSAdvance/1111.html">
+      <file leaf-file-name="websocket.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebSocket/websocket.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+            <state relative-caret-position="462">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1115.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JSAdvance/1115.html">
+      <file leaf-file-name="websocket.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebSocket/websocket.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="66" column="3" lean-forward="false" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+            <state relative-caret-position="231">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -180,6 +182,9 @@
       <find>@media</find>
       <find>storage</find>
       <find>banner</find>
+      <find>media</find>
+      <find>table</find>
+      <find>setInterval</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -194,10 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gulpDemo/gulpfile.js" />
-        <option value="$PROJECT_DIR$/JSAdvance/01基础总结深入/aa.js" />
-        <option value="$PROJECT_DIR$/JSAdvance/10.12/demo1.html" />
-        <option value="$PROJECT_DIR$/JSAdvance/10.12/democ1.html" />
         <option value="$PROJECT_DIR$/JSAdvance/10.12/demo2.html" />
         <option value="$PROJECT_DIR$/JSAdvance/10.12/democ2.html" />
         <option value="$PROJECT_DIR$/JSAdvance/10.12/1.html" />
@@ -245,6 +246,10 @@
         <option value="$PROJECT_DIR$/JSAdvance/1109.html" />
         <option value="$PROJECT_DIR$/JSAdvance/1111.html" />
         <option value="$PROJECT_DIR$/JSAdvance/1115.html" />
+        <option value="$PROJECT_DIR$/jsTest/拖拽提取相同函数.html" />
+        <option value="$PROJECT_DIR$/jsTest/二级菜单.html" />
+        <option value="$PROJECT_DIR$/WebSocket/websocket.html" />
+        <option value="$PROJECT_DIR$/WebSocket/websocket.js" />
       </list>
     </option>
   </component>
@@ -268,11 +273,10 @@
     <handled-path value="$PROJECT_DIR$/jsHigh/8.25/jobapp.com/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="y" value="3" />
-    <option name="width" value="945" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
+    <option name="width" value="1039" />
+    <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -318,7 +322,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -329,12 +332,13 @@
             <path>
               <item name="h5-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="h5-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="JSAdvance" type="462c0819:PsiDirectoryNode" />
+              <item name="WebSocket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Default">
           <expand>
@@ -355,13 +359,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="F:/vuejsTest" />
+    <property name="last_opened_file_path" value="E:/BaiduYunDownload/实习/组态Demo/1/无限级菜单超强终极完善" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="typescript-compiler-editor-notification" value="false" />
     <property name="excluded.www.directory" value="true" />
@@ -372,19 +375,19 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.27" />
-      <recent name="F:\h5-gaobo\h5-2017\ionicTest\chenapp" />
-      <recent name="F:\h5-gaobo\h5-2017\ionicTest\chenapp\src\service" />
-      <recent name="F:\h5-gaobo\h5-2017\ionicTest\chenapp\src\assets\img" />
-      <recent name="F:\h5-gaobo\h5-2017\JSAdvance\10.12" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\h5-gaobo\h5-2017" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\server" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\client\webs" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.25\jobapp.com\client" />
       <recent name="F:\h5-gaobo\h5-2017\jsHigh\8.22\cj.com\server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\h5-gaobo\h5-2017\jsTest\2017.7.27" />
+      <recent name="F:\h5-gaobo\h5-2017\ionicTest\chenapp" />
+      <recent name="F:\h5-gaobo\h5-2017\ionicTest\chenapp\src\service" />
+      <recent name="F:\h5-gaobo\h5-2017\ionicTest\chenapp\src\assets\img" />
+      <recent name="F:\h5-gaobo\h5-2017\JSAdvance\10.12" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -399,18 +402,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.1023.html">
+  <component name="RunManager" selected="Node.js.websocket.js">
     <configuration name="1023.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/h5-2017/JSAdvance/1023.html" />
-    <configuration name="3.类.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="3.类.js" working-dir="$PROJECT_DIR$/AngularJS/unit1/code01" />
-    <configuration name="Gruntfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="Gruntfile.js" working-dir="$PROJECT_DIR$/gruntDemo" />
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-    </configuration>
+    <configuration name="3.类.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="3.类.js" working-dir="$PROJECT_DIR$/AngularJS/unit1/code01" />
+    <configuration name="Gruntfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="Gruntfile.js" working-dir="$PROJECT_DIR$/gruntDemo" />
+    <configuration name="mongodb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="mongodb.js" working-dir="$PROJECT_DIR$/nosql/mongodb" />
+    <configuration name="websocket.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="websocket.js" working-dir="$PROJECT_DIR$/WebSocket" />
+    <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="www" working-dir="$PROJECT_DIR$/aaweb/bin" />
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -468,22 +466,27 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/aaweb/routes" />
-    <configuration name="mongodb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="mongodb.js" working-dir="$PROJECT_DIR$/nosql/mongodb" />
-    <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/aaweb/bin" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.3.类.js" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.mongodb.js" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.1023.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.mongodb.js" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.1023.html" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.websocket.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.1023.html" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.mongodb.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.3.类.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.websocket.js" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.1023.html" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.mongodb.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.Gruntfile.js" />
         <item index="4" class="java.lang.String" itemvalue="Node.js.www" />
       </list>
     </recent_temporary>
@@ -687,12 +690,36 @@
       <workItem from="1510531906601" duration="609000" />
       <workItem from="1510580123260" duration="760000" />
       <workItem from="1510620034430" duration="4833000" />
-      <workItem from="1510750105086" duration="3431000" />
+      <workItem from="1510750105086" duration="4430000" />
+      <workItem from="1510843549587" duration="1233000" />
+      <workItem from="1510879018246" duration="67000" />
+      <workItem from="1511075369872" duration="1285000" />
+      <workItem from="1511506831934" duration="1092000" />
+      <workItem from="1511749590729" duration="662000" />
+      <workItem from="1511790109566" duration="20000" />
+      <workItem from="1512436273159" duration="716000" />
+      <workItem from="1512630841585" duration="495000" />
+      <workItem from="1512982542536" duration="88000" />
+      <workItem from="1513044263705" duration="639000" />
+      <workItem from="1513144332177" duration="3387000" />
+      <workItem from="1513212703491" duration="691000" />
+      <workItem from="1513243773962" duration="1356000" />
+      <workItem from="1513249397688" duration="89000" />
+      <workItem from="1513666847389" duration="1075000" />
+      <workItem from="1513668555871" duration="1250000" />
+      <workItem from="1513689247125" duration="597000" />
+      <workItem from="1513749308465" duration="711000" />
+      <workItem from="1513836428497" duration="1277000" />
+      <workItem from="1513838944544" duration="619000" />
+      <workItem from="1514167724886" duration="150000" />
+      <workItem from="1514255117484" duration="167000" />
+      <workItem from="1514255885757" duration="607000" />
+      <workItem from="1514424320023" duration="2585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1332913000" />
+    <option name="totallyTimeSpent" value="1354770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -704,17 +731,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-1" y="0" width="1039" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32955715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.121420994" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13981763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20792079" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24875621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19925742" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19315404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935324" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975247" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -759,132 +787,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/me/me.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/person-center/person-center.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/mongodb/mongodb.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/indexDB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3597">
-          <caret line="109" column="0" lean-forward="false" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/mongoose/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/mongoose/model-mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/mongoose/mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/mongoose/con-mongoose.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="6" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nosql/mongoose/con-user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/login/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/number20.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JSAdvance/10.17.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/contact/contact.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/about/about.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/setting/setting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/tabs/tabs.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="69" column="31" lean-forward="true" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ionicTest/chenapp/src/pages/personal/personal.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -945,13 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -1104,16 +999,151 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JSAdvance/1111.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="6402">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSAdvance/1115.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
-          <caret line="66" column="3" lean-forward="false" selection-start-line="66" selection-start-column="3" selection-end-line="66" selection-end-column="3" />
+          <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/DOM增删改查练习.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="38" column="1" lean-forward="false" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/S1-html/7.21test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="43" column="26" lean-forward="false" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/homework/绕太阳转.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex和贝塞尔曲线/number20.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1325">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.11/canvas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/homework/stars.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/拖拽提取相同函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/homework/浏览器宽度适配.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.8.7/homework/屏幕适配.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/js/tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1820">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/天猫品牌墙/天猫品牌墙/天猫品牌墙.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/二级菜单.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/2017.7.22/商场购物倒计时.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="55" column="28" lean-forward="false" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/prototype.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsTest/拖拽.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSocket/websocket.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebSocket/websocket.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -25,17 +25,15 @@
             var menuSpan = document.querySelectorAll(".menuSpan");
             //openDiv仅仅是元素对象
             var openDiv=menuSpan[0].parentNode;
-
             for(var i=0;i<menuSpan.length;i++){
                 menuSpan[i].onclick=function () {
                     //parentDiv指的是当前对象的父DIV
                     var parentDiv=this.parentNode;
-
                     toggleMenu(parentDiv);
-
                     //让菜单一次只能打开一个
                     //让toggle只保留添加功能
-                    if(openDiv!=parentDiv && !hasClass(openDiv,"collapsed")) {
+                    /*if(openDiv!=parentDiv && !hasClass(openDiv,"collapsed")) {*/
+
 //                    if(!openDiv===parentDiv) {
                     //给首个div的父元素的属性赋值
                         //为统一处理动画过渡效果，我们希望
@@ -44,9 +42,9 @@
                         //此处toggleClass不需要移除的功能
 //                        toggleClass(openDiv, "collapsed");
                         //因为调用的函数里面有toggleClass故注释掉上面的
-                        toggleMenu(openDiv);
 
-                    }
+                      /* toggleMenu(openDiv);
+                     }*/
                     //对象转换为当前打开的div，但属性没有改
                     //仍然抱有疑问
                     openDiv=parentDiv;
@@ -56,11 +54,8 @@
             function toggleMenu(obj) {
                 //在切换类之前，获取元素的高度
                 var begin=obj.offsetHeight;
-
-
                 //给当前对象的DIV的属性复赋值
                 toggleClass(obj, "collapsed");
-
                 //切换类之后，获取元素的高度
                 var end=obj.offsetHeight;
                 //动画效果就是从begin向end过渡
@@ -72,6 +67,7 @@
                     //动画执行完毕，删除内联样式
                     obj.style.height= "";
                 });
+
             }
 
 

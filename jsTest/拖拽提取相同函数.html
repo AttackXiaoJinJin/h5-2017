@@ -36,6 +36,7 @@
                 //求div的偏移量
                 var ol=event.clientX - obj.offsetLeft;
                 var ot=event.clientY - obj.offsetTop;
+                console.log(ol+"这是objectleft")
                 document.onmousemove=function (event) {
                     event=event || window.event;
                     var mouseLeft=event.clientX;
@@ -44,6 +45,8 @@
                     var divTop=mouseTop-ot;
                     obj.style.left=divLeft+"px";
                     obj.style.top=divTop+"px";
+                    console.log(divLeft+"这是divleft")
+
                 };
                 document.onmouseup=function () {
                     document.onmousemove=null;
